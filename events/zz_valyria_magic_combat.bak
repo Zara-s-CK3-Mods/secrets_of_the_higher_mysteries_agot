@@ -4367,7 +4367,7 @@ scripted_effect zz_increment_combat_debuffs_effect = {
 }
 
 # Tier One move effects
-scripted_effect combat_move_wait_and_hope_effect = {
+scripted_effect zz_combat_move_wait_and_hope_effect = {
 	#No special effects.
 
 	#Iterate last move for loc purposes.
@@ -4392,7 +4392,7 @@ scripted_effect combat_move_wait_and_hope_effect = {
 		DUEL_SUCCESS = duel_success_low
 	}
 }
-scripted_effect combat_move_unsure_attack_effect = {
+scripted_effect zz_combat_move_unsure_attack_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4417,7 +4417,7 @@ scripted_effect combat_move_unsure_attack_effect = {
 		DUEL_SUCCESS = duel_success_medium
 	}
 }
-scripted_effect combat_move_enthusiastic_onslaught_effect = {
+scripted_effect zz_combat_move_enthusiastic_onslaught_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4442,7 +4442,7 @@ scripted_effect combat_move_enthusiastic_onslaught_effect = {
 		DUEL_SUCCESS = duel_success_high
 	}
 }
-scripted_effect combat_move_hail_mary_effect = {
+scripted_effect zz_combat_move_hail_mary_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4467,7 +4467,7 @@ scripted_effect combat_move_hail_mary_effect = {
 		DUEL_SUCCESS = duel_success_very_high
 	}
 }
-scripted_effect combat_move_pocket_sand_effect = {
+scripted_effect zz_combat_move_pocket_sand_effect = {
 	# Your opponent gets grit in their eyes!
 	## Scope:sc_attacker first.
 	if = {
@@ -4506,7 +4506,7 @@ scripted_effect combat_move_pocket_sand_effect = {
 		DUEL_SUCCESS = duel_success_none
 	}
 }
-scripted_effect combat_move_nut_em_effect = {
+scripted_effect zz_combat_move_nut_em_effect = {
 	# A headbutt to the face often offends. Both parties, really.
 	scope:sc_attacker = {
 		zz_increment_combat_debuffs_effect = { DEBUFF_INCREMENT = 4 }
@@ -4539,7 +4539,7 @@ scripted_effect combat_move_nut_em_effect = {
 }
 
 # Tier Two move effects
-scripted_effect combat_move_guard_effect = {
+scripted_effect zz_combat_move_guard_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4564,7 +4564,7 @@ scripted_effect combat_move_guard_effect = {
 		DUEL_SUCCESS = duel_success_low
 	}
 }
-scripted_effect combat_move_probing_attack_effect = {
+scripted_effect zz_combat_move_probing_attack_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4589,7 +4589,7 @@ scripted_effect combat_move_probing_attack_effect = {
 		DUEL_SUCCESS = duel_success_medium
 	}
 }
-scripted_effect combat_move_onslaught_effect = {
+scripted_effect zz_combat_move_onslaught_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4614,7 +4614,7 @@ scripted_effect combat_move_onslaught_effect = {
 		DUEL_SUCCESS = duel_success_high
 	}
 }
-scripted_effect combat_move_surprise_attack_effect = {
+scripted_effect zz_combat_move_surprise_attack_effect = {
 	#Special effects taken care of in risk-reward section.
 
 	#Change the last move registered for loc purposes.
@@ -4675,7 +4675,7 @@ scripted_effect combat_move_surprise_attack_effect = {
 		}
 	}
 }
-scripted_effect combat_move_taunt_effect = {
+scripted_effect zz_combat_move_taunt_effect = {
 	#Your AI opponent becomes enraged.
 	if = {
 		limit = { this = scope:sc_attacker }
@@ -4712,7 +4712,7 @@ scripted_effect combat_move_taunt_effect = {
 		DUEL_SUCCESS = duel_success_none
 	}
 }
-scripted_effect combat_move_put_the_boot_in_effect = {
+scripted_effect zz_combat_move_put_the_boot_in_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4739,7 +4739,7 @@ scripted_effect combat_move_put_the_boot_in_effect = {
 }
 
 # Tier Three move effects
-scripted_effect combat_move_strict_guard_effect = {
+scripted_effect zz_combat_move_strict_guard_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4764,7 +4764,7 @@ scripted_effect combat_move_strict_guard_effect = {
 		DUEL_SUCCESS = duel_success_low
 	}
 }
-scripted_effect combat_move_confident_attack_effect = {
+scripted_effect zz_combat_move_confident_attack_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -4789,7 +4789,7 @@ scripted_effect combat_move_confident_attack_effect = {
 		DUEL_SUCCESS = duel_success_medium
 	}
 }
-scripted_effect combat_move_expert_onslaught_effect = {
+scripted_effect zz_combat_move_expert_onslaught_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -5486,7 +5486,7 @@ scripted_effect combat_move_blade_dance_effect = {
 }
 
 # Magic Move Effects
-scripted_effect combat_move_mage_potency_01_effect = {
+scripted_effect zz_combat_move_mage_potency_01_effect = {
 	# Show off your skill with the blade.
 	add_prestige = combat_move_blade_dance_value
 
@@ -5584,7 +5584,7 @@ scripted_effect combat_move_mage_potency_01_effect = {
 		DUEL_SUCCESS = zz_magic_duel_success_medium
 	}
 }
-scripted_effect combat_move_mage_potency_02_effect = {
+scripted_effect zz_combat_move_mage_potency_02_effect = {
 	# Show off your skill with the blade.
 	add_prestige = combat_move_blade_dance_value
 
@@ -5682,7 +5682,7 @@ scripted_effect combat_move_mage_potency_02_effect = {
 		DUEL_SUCCESS = zz_magic_duel_success_high
 	}
 }
-scripted_effect combat_move_mage_potency_03_effect = {
+scripted_effect zz_combat_move_mage_potency_03_effect = {
 	# Show off your skill with the blade.
 	add_prestige = combat_move_blade_dance_value
 
@@ -5782,7 +5782,7 @@ scripted_effect combat_move_mage_potency_03_effect = {
 }
 
 ## Not a separate combat move, just an effect inside the subsequent one.
-scripted_effect combat_move_wrath_of_highgod_piety_reward_effect = {
+scripted_effect zz_combat_move_wrath_of_highgod_piety_reward_effect = {
 	# Non-scripted values used to keep the piety amount low; you might take this option several times in one duel, so we don't really want you to be farming piety from it.
 
 	# Righteous faiths give little piety
@@ -5834,15 +5834,15 @@ scripted_effect combat_move_wrath_of_highgod_piety_reward_effect = {
 		add_piety = 75
 	}
 }
-scripted_effect combat_move_wrath_of_highgod_effect = {
+scripted_effect zz_combat_move_wrath_of_highgod_effect = {
 	#Earn piety scaling with how intolerant you are of your opponent.
 	if = {
 		limit = { this = scope:sc_attacker }
-		combat_move_wrath_of_highgod_piety_reward_effect = { MY_FOE = scope:sc_defender }
+		zz_combat_move_wrath_of_highgod_piety_reward_effect = { MY_FOE = scope:sc_defender }
 	}
 	if = {
 		limit = { this = scope:sc_defender }
-		combat_move_wrath_of_highgod_piety_reward_effect = { MY_FOE = scope:sc_attacker }
+		zz_combat_move_wrath_of_highgod_piety_reward_effect = { MY_FOE = scope:sc_attacker }
 	}
 
 	#Change the last move registered for loc purposes.
@@ -5867,7 +5867,7 @@ scripted_effect combat_move_wrath_of_highgod_effect = {
 		DUEL_SUCCESS = duel_success_low
 	}
 }
-scripted_effect combat_move_hurt_me_better_effect = {
+scripted_effect zz_combat_move_hurt_me_better_effect = {
 	# Deviant characters can cancel out their wound penalties, or gain a moderate buff otherwise.
 	if = {
 		limit = {
@@ -5922,7 +5922,7 @@ scripted_effect combat_move_hurt_me_better_effect = {
 }
 
 # Misc move effects
-scripted_effect combat_move_special_fallback_effect = {
+scripted_effect zz_combat_move_special_fallback_effect = {
 	#No special effects.
 
 	#Change the last move registered for loc purposes.
@@ -5947,7 +5947,7 @@ scripted_effect combat_move_special_fallback_effect = {
 		DUEL_SUCCESS = duel_success_low
 	}
 }
-scripted_effect combat_move_something_to_hide_effect = {
+scripted_effect zz_combat_move_something_to_hide_effect = {
 	# You imply that things might go poorly for your opponent if they don't back down.
 	## Scope:sc_attacker first.
 	if = {
@@ -7372,7 +7372,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_wait_and_hope_effect = yes }
+					show_as_tooltip = { zz_combat_move_wait_and_hope_effect = yes }
 				}
 			}
 			if = {
@@ -7389,7 +7389,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_unsure_attack_effect = yes }
+					show_as_tooltip = { zz_combat_move_unsure_attack_effect = yes }
 				}
 			}
 			if = {
@@ -7406,7 +7406,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_enthusiastic_onslaught_effect = yes }
+					show_as_tooltip = { zz_combat_move_enthusiastic_onslaught_effect = yes }
 				}
 			}
 			if = {
@@ -7423,7 +7423,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_hail_mary_effect = yes }
+					show_as_tooltip = { zz_combat_move_hail_mary_effect = yes }
 				}
 			}
 			if = {
@@ -7440,7 +7440,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_pocket_sand_effect = yes }
+					show_as_tooltip = { zz_combat_move_pocket_sand_effect = yes }
 				}
 			}
 			if = {
@@ -7457,7 +7457,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_nut_em_effect = yes }
+					show_as_tooltip = { zz_combat_move_nut_em_effect = yes }
 				}
 			}
 			if = {
@@ -7474,7 +7474,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_guard_effect = yes }
+					show_as_tooltip = { zz_combat_move_guard_effect = yes }
 				}
 			}
 			if = {
@@ -7491,7 +7491,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_probing_attack_effect = yes }
+					show_as_tooltip = { zz_combat_move_probing_attack_effect = yes }
 				}
 			}
 			if = {
@@ -7508,7 +7508,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_onslaught_effect = yes }
+					show_as_tooltip = { zz_combat_move_onslaught_effect = yes }
 				}
 			}
 			if = {
@@ -7525,7 +7525,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_surprise_attack_effect = yes }
+					show_as_tooltip = { zz_combat_move_surprise_attack_effect = yes }
 				}
 			}
 			if = {
@@ -7542,7 +7542,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_taunt_effect = yes }
+					show_as_tooltip = { zz_combat_move_taunt_effect = yes }
 				}
 			}
 			if = {
@@ -7559,7 +7559,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_put_the_boot_in_effect = yes }
+					show_as_tooltip = { zz_combat_move_put_the_boot_in_effect = yes }
 				}
 			}
 			if = {
@@ -7576,7 +7576,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_strict_guard_effect = yes }
+					show_as_tooltip = { zz_combat_move_strict_guard_effect = yes }
 				}
 			}
 			if = {
@@ -7593,7 +7593,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_confident_attack_effect = yes }
+					show_as_tooltip = { zz_combat_move_confident_attack_effect = yes }
 				}
 			}
 			if = {
@@ -7610,7 +7610,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_expert_onslaught_effect = yes }
+					show_as_tooltip = { zz_combat_move_expert_onslaught_effect = yes }
 				}
 			}
 			if = {
@@ -7984,7 +7984,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8001,7 +8001,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8018,7 +8018,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8035,7 +8035,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8052,7 +8052,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8069,7 +8069,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+					show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 				}
 			}
 			if = {
@@ -8086,7 +8086,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_wrath_of_highgod_effect = yes }
+					show_as_tooltip = { zz_combat_move_wrath_of_highgod_effect = yes }
 				}
 			}
 			if = {
@@ -8103,7 +8103,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_hurt_me_better_effect = yes }
+					show_as_tooltip = { zz_combat_move_hurt_me_better_effect = yes }
 				}
 			}
 			if = {
@@ -8120,7 +8120,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_special_fallback_effect = yes }
+					show_as_tooltip = { zz_combat_move_special_fallback_effect = yes }
 				}
 			}
 			if = {
@@ -8137,7 +8137,7 @@ zz_magic_single_combat.0001 = {
 					}
 				}
 				scope:my_foe = {
-					show_as_tooltip = { combat_move_something_to_hide_effect = yes }
+					show_as_tooltip = { zz_combat_move_something_to_hide_effect = yes }
 				}
 			}
 		}
@@ -8155,13 +8155,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_wait_and_hope_effect = yes }
+		show_as_tooltip = { zz_combat_move_wait_and_hope_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_wait_and_hope_effect = yes }
+			hidden_effect = { zz_combat_move_wait_and_hope_effect = yes }
 		}
 
 		stress_impact = {
@@ -8193,13 +8193,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_unsure_attack_effect = yes }
+		show_as_tooltip = { zz_combat_move_unsure_attack_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_unsure_attack_effect = yes }
+			hidden_effect = { zz_combat_move_unsure_attack_effect = yes }
 		}
 
 		# No stress for middle-ground standard options.
@@ -8240,13 +8240,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_enthusiastic_onslaught_effect = yes }
+		show_as_tooltip = { zz_combat_move_enthusiastic_onslaught_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_enthusiastic_onslaught_effect = yes }
+			hidden_effect = { zz_combat_move_enthusiastic_onslaught_effect = yes }
 		}
 
 		stress_impact = {
@@ -8271,13 +8271,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_hail_mary_effect = yes }
+		show_as_tooltip = { zz_combat_move_hail_mary_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_hail_mary_effect = yes }
+			hidden_effect = { zz_combat_move_hail_mary_effect = yes }
 		}
 
 		stress_impact = {
@@ -8302,13 +8302,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_pocket_sand_effect = yes }
+		show_as_tooltip = { zz_combat_move_pocket_sand_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_pocket_sand_effect = yes }
+			hidden_effect = { zz_combat_move_pocket_sand_effect = yes }
 		}
 
 		stress_impact = {
@@ -8333,13 +8333,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_nut_em_effect = yes }
+		show_as_tooltip = { zz_combat_move_nut_em_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_nut_em_effect = yes }
+			hidden_effect = { zz_combat_move_nut_em_effect = yes }
 		}
 
 		stress_impact = {
@@ -8364,13 +8364,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_guard_effect = yes }
+		show_as_tooltip = { zz_combat_move_guard_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_guard_effect = yes }
+			hidden_effect = { zz_combat_move_guard_effect = yes }
 		}
 
 		stress_impact = {
@@ -8395,13 +8395,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_probing_attack_effect = yes }
+		show_as_tooltip = { zz_combat_move_probing_attack_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_probing_attack_effect = yes }
+			hidden_effect = { zz_combat_move_probing_attack_effect = yes }
 		}
 
 		# No stress for middle-ground standard options.
@@ -8421,13 +8421,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_onslaught_effect = yes }
+		show_as_tooltip = { zz_combat_move_onslaught_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_onslaught_effect = yes }
+			hidden_effect = { zz_combat_move_onslaught_effect = yes }
 		}
 
 		stress_impact = {
@@ -8452,13 +8452,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_surprise_attack_effect = yes }
+		show_as_tooltip = { zz_combat_move_surprise_attack_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_surprise_attack_effect = yes }
+			hidden_effect = { zz_combat_move_surprise_attack_effect = yes }
 		}
 
 		# No need for stress weighting here; fairly standard tactic that anyone would try.
@@ -8478,13 +8478,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_taunt_effect = yes }
+		show_as_tooltip = { zz_combat_move_taunt_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_taunt_effect = yes }
+			hidden_effect = { zz_combat_move_taunt_effect = yes }
 		}
 
 		stress_impact = {
@@ -8508,13 +8508,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_put_the_boot_in_effect = yes }
+		show_as_tooltip = { zz_combat_move_put_the_boot_in_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_put_the_boot_in_effect = yes }
+			hidden_effect = { zz_combat_move_put_the_boot_in_effect = yes }
 		}
 
 		stress_impact = {
@@ -8539,13 +8539,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_strict_guard_effect = yes }
+		show_as_tooltip = { zz_combat_move_strict_guard_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_strict_guard_effect = yes }
+			hidden_effect = { zz_combat_move_strict_guard_effect = yes }
 		}
 
 		stress_impact = {
@@ -8570,13 +8570,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_confident_attack_effect = yes }
+		show_as_tooltip = { zz_combat_move_confident_attack_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_confident_attack_effect = yes }
+			hidden_effect = { zz_combat_move_confident_attack_effect = yes }
 		}
 
 		# No stress for middle-ground standard options.
@@ -8596,13 +8596,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_expert_onslaught_effect = yes }
+		show_as_tooltip = { zz_combat_move_expert_onslaught_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_expert_onslaught_effect = yes }
+			hidden_effect = { zz_combat_move_expert_onslaught_effect = yes }
 		}
 
 		stress_impact = {
@@ -9383,13 +9383,13 @@ zz_magic_single_combat.0001 = {
 		#Move effects
 
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+		show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_mage_potency_01_effect = yes }
+			hidden_effect = { zz_combat_move_mage_potency_01_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
@@ -9444,13 +9444,13 @@ zz_magic_single_combat.0001 = {
 		}
 		
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_mage_potency_02_effect = yes }
+		show_as_tooltip = { zz_combat_move_mage_potency_02_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_mage_potency_02_effect = yes }
+			hidden_effect = { zz_combat_move_mage_potency_02_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
@@ -9505,13 +9505,13 @@ zz_magic_single_combat.0001 = {
 		}
 		zz_valyria_mana_spend = yes
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_mage_potency_03_effect = yes }
+		show_as_tooltip = { zz_combat_move_mage_potency_03_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_mage_potency_03_effect = yes }
+			hidden_effect = { zz_combat_move_mage_potency_03_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
@@ -9534,13 +9534,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_wrath_of_highgod_effect = yes }
+		show_as_tooltip = { zz_combat_move_wrath_of_highgod_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_wrath_of_highgod_effect = yes }
+			hidden_effect = { zz_combat_move_wrath_of_highgod_effect = yes }
 		}
 
 		stress_impact = {
@@ -9567,13 +9567,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_hurt_me_better_effect = yes }
+		show_as_tooltip = { zz_combat_move_hurt_me_better_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_hurt_me_better_effect = yes }
+			hidden_effect = { zz_combat_move_hurt_me_better_effect = yes }
 		}
 
 		# We draw the line at stress loss/gain for lustful/chaste: we're already being a bit mean to deviant characters here, no need to ramp up the Hellraiser vibes *that* much.
@@ -9593,13 +9593,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_special_fallback_effect = yes }
+		show_as_tooltip = { zz_combat_move_special_fallback_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_special_fallback_effect = yes }
+			hidden_effect = { zz_combat_move_special_fallback_effect = yes }
 		}
 
 		# Shins, and the kicking thereof, have no particularly stressful effects on the human psyche.
@@ -9619,13 +9619,13 @@ zz_magic_single_combat.0001 = {
 
 		#Move effects
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { combat_move_something_to_hide_effect = yes }
+		show_as_tooltip = { zz_combat_move_something_to_hide_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { combat_move_something_to_hide_effect = yes }
+			hidden_effect = { zz_combat_move_something_to_hide_effect = yes }
 		}
 
 		stress_impact = {

@@ -177,7 +177,7 @@ zz_configure_start_magic_combat_effect = {
 			set_signature_weapon_effect = yes
 		}
 		# Finally, send the first event.
-		scope:sc_defender = { trigger_event = zz_magic_single_combat.0001 }
+		scope:sc_defender = { trigger_event = single_combat.0001 }
 	}
 	# Otherwise, invalidate the duel immediately.
 	else = {

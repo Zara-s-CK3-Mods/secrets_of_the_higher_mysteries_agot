@@ -25,7 +25,7 @@ types zz_valyria_magic_crafting {
 		#parentanchor = center#
 
 		movable = no
-		size = { 1400 100% }
+		size = { 1500 100% }
 		datacontext = "[GetScriptedGui('zz_valyria_magic_crafting')]"
 		visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 
@@ -176,10 +176,11 @@ types zz_valyria_magic_crafting {
 							}
 							expand = {}
 						}
+						expand = {}
 						vbox = {
 							layoutpolicy_horizontal = expanding 
 							layoutpolicy_vertical = expanding
-							max_width = 400
+							max_width = 300
 							text_single = {
 								raw_text = "Item Selection"
 								fontsize = 24
@@ -249,7 +250,7 @@ types zz_valyria_magic_crafting {
 						vbox = {
 							layoutpolicy_horizontal = expanding 
 							layoutpolicy_vertical = expanding
-							max_width = 400
+							max_width = 300
 							text_single = {
 								raw_text = "Modifier Selection"
 								fontsize = 24
@@ -321,19 +322,15 @@ types zz_valyria_magic_crafting {
 							layoutpolicy_vertical = growing
 							max_width = 500
 							spacer = { size = { 0 30 } }
-							widget = {
-								size = { 400 300}
-							}
-
-							spacer = { size = { 0 30 } }
 							text_single = {
 								Raw_Text = "Magic Regeants"
 								fontsize = 24
 								align = center
 							}							
 							spacer = { size = { 00 10 } }
-							hbox = {
+							vbox = {
 								button_standard = {
+									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_none')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
@@ -348,6 +345,7 @@ types zz_valyria_magic_crafting {
 									}	
 								}
 								button_standard = {
+									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_mages_power')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
@@ -362,6 +360,7 @@ types zz_valyria_magic_crafting {
 									}	
 								}
 								button_standard = {
+									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_dragonfire')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
@@ -376,6 +375,7 @@ types zz_valyria_magic_crafting {
 									}	
 								}
 								button_standard = {
+									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_human_sacrifice')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
@@ -391,7 +391,7 @@ types zz_valyria_magic_crafting {
 								}
 								expand = {}
 							}
-							spacer = { size = { 00 40 } }
+							spacer = { size = { 00 400 } }
 							vbox = {
 								layoutpolicy_horizontal = growing 
 								layoutpolicy_vertical = growing
@@ -402,7 +402,7 @@ types zz_valyria_magic_crafting {
 										text_single = {
 											Raw_Text = "Current Cost"
 											fontsize = 18
-											min_width = 125
+											min_width = 100
 											align = center|nobaseline
 											default_format = "#low"
 										}
@@ -417,6 +417,7 @@ types zz_valyria_magic_crafting {
 											default_format = "#low"
 										}
 									}
+									expand = {}
 								}
 								hbox = {
 									layoutpolicy_horizontal = growing 
@@ -425,7 +426,7 @@ types zz_valyria_magic_crafting {
 										text_single = {
 											Raw_Text = "Availaible Resources"
 											fontsize = 18
-											min_width = 125
+											min_width = 100
 											align = center|nobaseline
 											default_format = "#low"
 										}
@@ -439,6 +440,7 @@ types zz_valyria_magic_crafting {
 											default_format = "#low"
 										}
 									}
+									expand = {}
 								}
 
 							}
