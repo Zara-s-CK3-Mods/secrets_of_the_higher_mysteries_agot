@@ -3088,7 +3088,7 @@ zz_valyria_magic_dream_magic_spells.038 = {
 		is_shown = {
 			is_ai = no
 		}
-		gui = "event_window_province_selection"
+		gui = "event_window_county_selection"
 		container = "custom_widgets_container"
 	}
 	option = {
@@ -3131,7 +3131,7 @@ zz_valyria_magic_dream_magic_spells.039 = {
 		is_shown = {
 			is_ai = no
 		}
-		gui = "event_window_province_selection"
+		gui = "event_window_county_selection"
 		container = "custom_widgets_container"
 	}
 	option = {

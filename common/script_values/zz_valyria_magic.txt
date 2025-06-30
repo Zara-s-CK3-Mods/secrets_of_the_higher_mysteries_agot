@@ -1105,7 +1105,7 @@ zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_value = {
 			min = 1
 		}
 	}
-	multiply = -1
+	multiply = 1
 }
 zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_value = {
 	value = 0
@@ -1116,7 +1116,7 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_value = {
 			min = 1
 		}
 	}
-	multiply = -1
+	multiply = 1
 }
 
 

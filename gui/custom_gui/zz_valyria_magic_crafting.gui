@@ -25,7 +25,7 @@ types zz_valyria_magic_crafting {
 		#parentanchor = center#
 
 		movable = no
-		size = { 1700 100% }
+		size = { 1400 100% }
 		datacontext = "[GetScriptedGui('zz_valyria_magic_crafting')]"
 		visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 
