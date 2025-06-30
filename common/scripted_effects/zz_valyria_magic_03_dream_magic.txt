@@ -1857,3 +1857,94 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_effect = {
 		}
 	}
 }
+
+zz_valyria_magic_dream_magic_40_mysteries_secret_destruction_own_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.t
+		desc = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}
+zz_valyria_magic_dream_magic_41_mysteries_secret_destruction_targeted_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.t
+		desc = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}
+zz_valyria_magic_dream_magic_42_mysteries_secret_destruction_known_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.t
+		desc = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}

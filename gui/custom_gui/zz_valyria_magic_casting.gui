@@ -190,7 +190,6 @@
 										text = "[Character.GetNameNoTooltip]"
 									}
 								}
-								
 								spacer = { size = { 00 5 } }
 								button_standard = {
 									onclick = "[GetVariableSystem.Toggle('zz_magic_window_mages_selection_view')]"
@@ -272,7 +271,9 @@
 											raw_text = "Drops of Power - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_drops_of_power_stat')|0]"
 										}
 									}	
-								}							
+									expand = {}	
+								}	
+								expand = {}						
 							}
 							expand = {}
 						}
@@ -383,7 +384,7 @@
 								{
 									fixedgridbox = {
 										addcolumn = 500
-										addrow =55
+										addrow = 55
 										datacontext = "[GetPlayer.MakeScope]"
 										datamodel = "[Scope.GetList('zz_valyria_spell_list')]"
 										
@@ -794,7 +795,7 @@
 							layoutpolicy_vertical = expanding
 							layoutpolicy_horizontal = expanding
 							spacer = { size = { 0 30 } }
-							max_width = 300
+							max_width = 250
 							text_single = {
 								raw_text = "Item User"
 								fontsize = 24
@@ -951,7 +952,7 @@
 								{
 									fixedgridbox = {
 										addcolumn = 500
-										addrow =55
+										addrow = 55
 										datacontext = "[GetPlayer.MakeScope]"
 										datamodel = "[Scope.GetList('zz_valyria_scroll_list')]"
 										

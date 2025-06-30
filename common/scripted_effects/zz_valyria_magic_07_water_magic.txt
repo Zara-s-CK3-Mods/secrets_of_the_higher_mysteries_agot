@@ -176,20 +176,9 @@ zz_valyria_magic_water_magic_06_mysteries_of_purity_effect = {
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
-		if = { 
-			limit = { 
-				has_variable = epidemic_cooldown_general
-			}
-			change_variable = {
-				name = epidemic_cooldown_general
-				years = zz_valyria_magic_water_magic_06_mysteries_of_purity_value
-			}
-		}
-		else = {
-			set_variable = {
-				name = epidemic_cooldown_general
-				years = zz_valyria_magic_water_magic_06_mysteries_of_purity_value
-			}
+		set_variable = {
+			name = epidemic_cooldown_general
+			years = zz_valyria_magic_water_magic_06_mysteries_of_purity_value
 		}
 	}
 }

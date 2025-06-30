@@ -176,11 +176,10 @@ types zz_valyria_magic_crafting {
 							}
 							expand = {}
 						}
-						expand = {}
 						vbox = {
 							layoutpolicy_horizontal = expanding 
 							layoutpolicy_vertical = expanding
-							max_width = 300
+							max_width = 400
 							text_single = {
 								raw_text = "Item Selection"
 								fontsize = 24
@@ -250,7 +249,7 @@ types zz_valyria_magic_crafting {
 						vbox = {
 							layoutpolicy_horizontal = expanding 
 							layoutpolicy_vertical = expanding
-							max_width = 300
+							max_width = 400
 							text_single = {
 								raw_text = "Modifier Selection"
 								fontsize = 24
@@ -320,7 +319,7 @@ types zz_valyria_magic_crafting {
 						vbox = {
 							layoutpolicy_horizontal = growing 
 							layoutpolicy_vertical = growing
-							max_width = 500
+							max_width = 200
 							spacer = { size = { 0 30 } }
 							text_single = {
 								Raw_Text = "Magic Regeants"
@@ -330,115 +329,114 @@ types zz_valyria_magic_crafting {
 							spacer = { size = { 00 10 } }
 							vbox = {
 								button_standard = {
-									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_none')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-									text_single = {
-										Raw_Text = "None"
-										fontsize = 18
-										resizeparent = yes
-										align = center|nobaseline
-										default_format = "#low"		
-										margin = { 15 15 }
-									}	
+									widget = {
+										size = { 100 50 }
+										text_single = {
+											Raw_Text = "None"
+											fontsize = 18
+											resizeparent = yes
+											align = center|nobaseline
+											default_format = "#low"		
+											margin = { 5 5 }
+										}	
+									}
+									
 								}
 								button_standard = {
-									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_mages_power')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-									text_single = {
-										Raw_Text = "Magic Power"
-										fontsize = 18
-										resizeparent = yes
-										align = center|nobaseline
-										default_format = "#low"		
-										margin = { 15 15 }
-									}	
+									widget = {
+										size = { 100 50 }
+										text_single = {
+											Raw_Text = "Magic Power"
+											fontsize = 18
+											resizeparent = yes
+											align = center|nobaseline
+											default_format = "#low"		
+											margin = { 5 5 }
+										}	
+									}
 								}
 								button_standard = {
-									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_dragonfire')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-									text_single = {
-										Raw_Text = "Dragon Fire"
-										fontsize = 18
-										resizeparent = yes
-										align = center|nobaseline
-										default_format = "#low"		
-										margin = { 15 15 }
-									}	
+									widget = {
+										size = { 100 50 }
+										text_single = {
+											Raw_Text = "Dragon Fire"
+											fontsize = 18
+											resizeparent = yes
+											align = center|nobaseline
+											default_format = "#low"		
+											margin = { 5 5 }
+										}	
+									}
 								}
 								button_standard = {
-									size = { 100 30 }
 									datacontext = "[GetScriptedGui('zz_valyria_magic_item_craft_human_sacrifice')]"
 									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 									onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-									text_single = {
-										Raw_Text = "Human Sacrifice"
-										fontsize = 18
-										resizeparent = yes
-										align = center|nobaseline
-										default_format = "#low"		
-										margin = { 15 15 }
-									}	
+									widget = {
+										size = { 100 50 }
+										text_single = {
+											Raw_Text = "Human Sacrifice"
+											fontsize = 18
+											resizeparent = yes
+											align = center|nobaseline
+											default_format = "#low"		
+											margin = { 5 5 }
+										}	
+									}
 								}
 								expand = {}
 							}
-							spacer = { size = { 00 400 } }
+							spacer = { size = { 00 200 } }
 							vbox = {
-								layoutpolicy_horizontal = growing 
-								layoutpolicy_vertical = growing
-								hbox = {
+								layoutpolicy_horizontal = expanding   layoutpolicy_vertical = expanding
+								vbox = {
 									layoutpolicy_horizontal = growing 
 									layoutpolicy_vertical = growing
-									widget = {
-										text_single = {
-											Raw_Text = "Current Cost"
-											fontsize = 18
-											min_width = 100
-											align = center|nobaseline
-											default_format = "#low"
-										}
-									}								
-									spacer = { size = { 10 0 } }						
-									widget = {
-
-										text_single = {
-											raw_text = "[GetPlayer.MakeScope.ScriptValue('zz_valyria_current_cost')|0] "
-											min_width = 100
-											align = center|nobaseline
-											default_format = "#low"
-										}
+									text_single = {
+										Raw_Text = "Current Cost"
+										fontsize = 18
+										min_width = 100
+										align = center|nobaseline
+										default_format = "#low"
+									}							
+									spacer = { size = { 0 10 } }						
+									text_single = {
+										raw_text = "[GetPlayer.MakeScope.ScriptValue('zz_valyria_current_cost')|0] "
+										min_width = 100
+										align = center|nobaseline
+										default_format = "#low"
 									}
 									expand = {}
 								}
-								hbox = {
-									layoutpolicy_horizontal = growing 
-									layoutpolicy_vertical = growing
-									widget = {
-										text_single = {
-											Raw_Text = "Availaible Resources"
-											fontsize = 18
-											min_width = 100
-											align = center|nobaseline
-											default_format = "#low"
-										}
+								spacer = { size = { 0 50 } }	
+								vbox = {
+									layoutpolicy_horizontal = expanding   layoutpolicy_vertical = expanding
+									text_single = {
+										Raw_Text = "Availaible Resources"
+										fontsize = 18
+										min_width = 100
+										align = center|nobaseline
+										default_format = "#low"
 									}								
-									spacer = { size = { 10 0 } }						
-									widget = {
-										text_single = {
-											raw_text = "[GetPlayer.MakeScope.ScriptValue('zz_valyria_resources_current_spend')|0] "
-											min_width = 100
-											align = center|nobaseline
-											default_format = "#low"
-										}
+									spacer = { size = { 0 10 } }						
+									text_single = {
+										raw_text = "[GetPlayer.MakeScope.ScriptValue('zz_valyria_resources_current_spend')|0] "
+										min_width = 100
+										align = center|nobaseline
+										default_format = "#low"
 									}
 									expand = {}
 								}

@@ -2009,7 +2009,7 @@ scripted_effect select_combat_options_from_pool_effect = {
 }
 
 # Determine whether scope:sc_loser will be unharmed, wounded, or killed at the end of a duel.
-scripted_effect scripted_effect work_out_wounds_or_death_effect = {
+scripted_effect work_out_wounds_or_death_effect = {
 	
 	#Fatality:Practice - no wounds, please
 	if = {
@@ -2035,7 +2035,31 @@ scripted_effect scripted_effect work_out_wounds_or_death_effect = {
 			switch = {
 				trigger = var:magic_type
 				flag:dream = {
-
+					scope:actor = {
+						add_dread = medium_dread_gain
+						
+						scope:recipient = {
+							show_as_tooltip = {
+								agot_increase_wounds_effect = { REASON = dream_magic RANK = 1}
+								add_stress = massive_stress_gain
+							}
+							agot_increase_wounds_effect = { REASON = dream_magic RANK = 1}
+							add_stress = massive_stress_gain
+							scope:actor = {
+								if = {
+									limit = {
+										NOR = {
+											has_imprisonment_reason = scope:recipient
+											has_banish_reason = scope:recipient
+											has_execute_reason = scope:recipient
+										}
+									}
+									add_tyranny = minor_tyranny_gain
+								}
+							}
+							custom_tooltip = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream.tyranny
+						}
+					}	
 				}
 				flag:blood = {
 					scope:actor = {
@@ -2230,7 +2254,96 @@ scripted_effect scripted_effect work_out_wounds_or_death_effect = {
 		switch = {
 			trigger = var:magic_type
 			flag:dream = {
-				
+				scope:actor = { 
+					add_dread = major_dread_gain
+					if = {
+						limit = {
+							has_execute_reason = scope:recipient
+						}
+						custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
+					}
+					else = {
+						add_tyranny = execution_tyranny_gain
+						add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
+						if = {
+							limit = {
+								NOT = {	has_trait = murderer	}
+							}
+							add_trait = murderer
+						}
+						hidden_effect = {
+							if = {
+								limit = {
+									exists = scope:recipient.primary_heir
+									scope:recipient.primary_heir = {
+										any_close_family_member = {
+											this = scope:recipient
+										}
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.primary_heir
+							}
+							else_if = {
+								limit = {
+									scope:recipient.age<16
+									exists = scope:recipient.father
+									scope:recipient.father = {
+										is_alive = yes
+										is_landed = yes
+										is_ruler = yes
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.father
+							}
+						}
+					}
+				}
+				if  = { 
+					limit = {
+						scope:recipient = { 
+							NOT = {
+								is_at_war_with = scope:actor
+							}	
+						}
+					}
+					execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
+				}
+				scope:recipient = {
+					death = {
+						death_reason = death_dream_magic
+						killer = scope:secondary_recipient
+					}
+				}
+				scope:secondary_recipient = {
+					duel = {
+						skill = learning 
+						target = scope:recipient
+						75 = {
+							modifier = {
+								add = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+							}
+							
+							scope:secondary_recipient = {
+								add_random_skill_point_effect = yes
+							}
+						}
+						25 = {
+
+						}
+					}
+				}
 			}
 			flag:blood = {
 				scope:actor = { 
@@ -5644,6 +5757,12 @@ scripted_effect combat_move_mage_potency_01_effect = {
 					value = flag:magic_potency_blood_01
 				}
 			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_dream_01
+				}
+			}
 		}
 		
 	}
@@ -5685,6 +5804,12 @@ scripted_effect combat_move_mage_potency_01_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_blood_01
+				}
+			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_dream_01
 				}
 			}
 			
@@ -5742,6 +5867,12 @@ scripted_effect combat_move_mage_potency_02_effect = {
 					value = flag:magic_potency_blood_01
 				}
 			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_dream_01
+				}
+			}
 		}
 		
 	}
@@ -5783,6 +5914,12 @@ scripted_effect combat_move_mage_potency_02_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_blood_01
+				}
+			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_dream_01
 				}
 			}
 			
@@ -5840,6 +5977,12 @@ scripted_effect combat_move_mage_potency_03_effect = {
 					value = flag:magic_potency_blood_01
 				}
 			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_dream_01
+				}
+			}
 		}
 		
 	}
@@ -5881,6 +6024,12 @@ scripted_effect combat_move_mage_potency_03_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_blood_01
+				}
+			}
+			flag:dream = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_dream_01
 				}
 			}
 			
@@ -9400,6 +9549,10 @@ single_combat.0001 = {
 			text = single_combat.0001.magic_assault_blood_01
 			trigger = { var:magic_type ?= flag:blood }
 		}
+		name = {
+			text = single_combat.0001.magic_assault_dream_01
+			trigger = { var:magic_type ?= flag:dream }
+		}
 		trigger = { exists = local_var:zz_magic_attack_tier_01 }
 
 		#Move clarification
@@ -9411,13 +9564,13 @@ single_combat.0001 = {
 		#Move effects
 
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { zz_combat_move_mage_potency_01_effect = yes }
+		show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { zz_combat_move_mage_potency_01_effect = yes }
+			hidden_effect = { combat_move_mage_potency_01_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
@@ -9452,7 +9605,10 @@ single_combat.0001 = {
 			text = single_combat.0001.magic_assault_blood_02
 			trigger = { var:magic_type ?= flag:blood }
 		}
-			
+		name = {
+			text = single_combat.0001.magic_assault_dream_01
+			trigger = { var:magic_type ?= flag:dream }
+		}	
 		trigger = { 
 			exists = local_var:zz_magic_attack_tier_02 
 			zz_valyria_drops_of_power_stat >= 5
@@ -9472,13 +9628,13 @@ single_combat.0001 = {
 		}
 		
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { zz_combat_move_mage_potency_02_effect = yes }
+		show_as_tooltip = { combat_move_mage_potency_02_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { zz_combat_move_mage_potency_02_effect = yes }
+			hidden_effect = { combat_move_mage_potency_02_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
@@ -9513,7 +9669,10 @@ single_combat.0001 = {
 			text = single_combat.0001.magic_assault_blood_04
 			trigger = { var:magic_type ?= flag:blood }
 		}
-			
+		name = {
+			text = single_combat.0001.magic_assault_dream_01
+			trigger = { var:magic_type ?= flag:dream }
+		}	
 		trigger = { 
 			exists = local_var:zz_magic_attack_tier_03 
 			zz_valyria_drops_of_power_stat >= 10
@@ -9533,13 +9692,13 @@ single_combat.0001 = {
 		}
 		zz_valyria_mana_spend = yes
 		## First, we show the move's effects with no guff.
-		show_as_tooltip = { zz_combat_move_mage_potency_03_effect = yes }
+		show_as_tooltip = { combat_move_mage_potency_03_effect = yes }
 		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
 		if = {
 			limit = {
 				scope:my_foe = { is_alive = yes }
 			}
-			hidden_effect = { zz_combat_move_mage_potency_03_effect = yes }
+			hidden_effect = { combat_move_mage_potency_03_effect = yes }
 		}
 
 		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
