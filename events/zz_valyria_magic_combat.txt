@@ -2041,10 +2041,58 @@ scripted_effect zz_work_out_wounds_or_death_effect = {
 
 				}
 				flag:blood = {
-
+					scope:actor = {
+						add_dread = medium_dread_gain
+						
+						scope:recipient = {
+							show_as_tooltip = {
+								agot_increase_wounds_effect = { REASON = blood_magic RANK = 1}
+								add_stress = massive_stress_gain
+							}
+							agot_increase_wounds_effect = { REASON = blood_magic RANK = 1}
+							add_stress = massive_stress_gain
+							scope:actor = {
+								if = {
+									limit = {
+										NOR = {
+											has_imprisonment_reason = scope:recipient
+											has_banish_reason = scope:recipient
+											has_execute_reason = scope:recipient
+										}
+									}
+									add_tyranny = minor_tyranny_gain
+								}
+							}
+							custom_tooltip = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption.tyranny
+						}
+					}	
 				}
 				flag:alchemy = {
-					
+					scope:actor = {
+						add_dread = medium_dread_gain
+						
+						scope:recipient = {
+							show_as_tooltip = {
+								agot_increase_wounds_effect = { REASON = alchemy_magic RANK = 1}
+								add_stress = massive_stress_gain
+							}
+							agot_increase_wounds_effect = { REASON = alchemy_magic RANK = 1}
+							add_stress = massive_stress_gain
+							scope:actor = {
+								if = {
+									limit = {
+										NOR = {
+											has_imprisonment_reason = scope:recipient
+											has_banish_reason = scope:recipient
+											has_execute_reason = scope:recipient
+										}
+									}
+									add_tyranny = minor_tyranny_gain
+								}
+							}
+							custom_tooltip = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault.tyranny
+						}
+					}					
 				}
 				flag:shadow = {
 					scope:actor = {
@@ -2188,10 +2236,173 @@ scripted_effect zz_work_out_wounds_or_death_effect = {
 				
 			}
 			flag:blood = {
-				
+				scope:actor = { 
+					add_dread = major_dread_gain
+					if = {
+						limit = {
+							has_execute_reason = scope:recipient
+						}
+						custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
+					}
+					else = {
+						add_tyranny = execution_tyranny_gain
+						add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
+						if = {
+							limit = {
+								NOT = {	has_trait = murderer	}
+							}
+							add_trait = murderer
+						}
+						hidden_effect = {
+							if = {
+								limit = {
+									exists = scope:recipient.primary_heir
+									scope:recipient.primary_heir = {
+										any_close_family_member = {
+											this = scope:recipient
+										}
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.primary_heir
+							}
+							else_if = {
+								limit = {
+									scope:recipient.age<16
+									exists = scope:recipient.father
+									scope:recipient.father = {
+										is_alive = yes
+										is_landed = yes
+										is_ruler = yes
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.father
+							}
+						}
+					}
+				}
+				if  = { 
+					limit = {
+						scope:recipient = { 
+							NOT = {
+								is_at_war_with = scope:actor
+							}	
+						}
+					}
+					execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
+				}
+				scope:recipient = {
+					death = {
+						death_reason = death_blood_magic
+						killer = scope:secondary_recipient
+					}
+				}
+				scope:secondary_recipient = {
+					duel = {
+						skill = learning 
+						target = scope:recipient
+						75 = {
+							modifier = {
+								add = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
+							}
+							
+							scope:secondary_recipient = {
+								add_character_modifier = {
+									modifier = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_modifier 
+									years = -1
+								}
+							}
+						}
+						25 = {
+
+						}
+					}
+				}
 			}
 			flag:alchemy = {
-				
+				scope:actor = { 
+					add_dread = major_dread_gain
+					if = {
+						limit = {
+							has_execute_reason = scope:recipient
+						}
+						custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
+					}
+					else = {
+						add_tyranny = execution_tyranny_gain
+						add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
+						if = {
+							limit = {
+								NOT = {	has_trait = murderer	}
+							}
+							add_trait = murderer
+						}
+						hidden_effect = {
+							if = {
+								limit = {
+									exists = scope:recipient.primary_heir
+									scope:recipient.primary_heir = {
+										any_close_family_member = {
+											this = scope:recipient
+										}
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.primary_heir
+							}
+							else_if = {
+								limit = {
+									scope:recipient.age<16
+									exists = scope:recipient.father
+									scope:recipient.father = {
+										is_alive = yes
+										is_landed = yes
+										is_ruler = yes
+										NOR = {
+											has_relation_rival = scope:actor
+											has_relation_nemesis = scope:actor
+											has_trait = craven
+											has_trait = forgiving
+										}
+									}
+								}
+								set_relation_rival = scope:recipient.father
+							}
+						}
+					}
+				}
+				if  = { 
+					limit = {
+						scope:recipient = { 
+							NOT = {
+								is_at_war_with = scope:actor
+							}	
+						}
+					}
+					execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
+				}
+				scope:recipient = {
+					death = {
+						death_reason = death_alchemy_magic
+						killer = scope:secondary_recipient
+					}
+				}
 			}
 			flag:shadow = {
 				scope:actor = { 
@@ -2272,7 +2483,7 @@ scripted_effect zz_work_out_wounds_or_death_effect = {
 				
 				scope:recipient = {
 					death = {
-						death_reason = death_blood_magic
+						death_reason = death_shadow_magic
 						killer = scope:secondary_recipient
 					}
 				}
@@ -5302,6 +5513,24 @@ scripted_effect combat_move_mage_potency_01_effect = {
 					value = flag:magic_potency_water_01
 				}
 			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_blood_01
+				}
+			}
 		}
 		
 	}
@@ -5325,6 +5554,24 @@ scripted_effect combat_move_mage_potency_01_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_water_01
+				}
+			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_blood_01
 				}
 			}
 			
@@ -5364,6 +5611,24 @@ scripted_effect combat_move_mage_potency_02_effect = {
 					value = flag:magic_potency_water_01
 				}
 			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_blood_01
+				}
+			}
 		}
 		
 	}
@@ -5387,6 +5652,24 @@ scripted_effect combat_move_mage_potency_02_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_water_01
+				}
+			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_blood_01
 				}
 			}
 			
@@ -5426,6 +5709,24 @@ scripted_effect combat_move_mage_potency_03_effect = {
 					value = flag:magic_potency_water_01
 				}
 			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_attacker_last_move
+					value = flag:magic_potency_blood_01
+				}
+			}
 		}
 		
 	}
@@ -5449,6 +5750,24 @@ scripted_effect combat_move_mage_potency_03_effect = {
 				save_scope_value_as = {
 					name = sc_defender_last_move
 					value = flag:magic_potency_water_01
+				}
+			}
+			flag:shadow = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_shadow_01
+				}
+			}
+			flag:alchemy = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_alchemy_01
+				}
+			}
+			flag:blood = {
+				save_scope_value_as = {
+					name = sc_defender_last_move
+					value = flag:magic_potency_blood_01
 				}
 			}
 			
@@ -5983,6 +6302,18 @@ zz_magic_single_combat.0001 = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0001.desc.my_feedback.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_akchemy_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_akchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -6197,6 +6528,18 @@ zz_magic_single_combat.0001 = {
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0001.desc.opponent_response.magic_potency_water_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_blood_01
 								}
 							}
 						}
@@ -6533,6 +6876,18 @@ zz_magic_single_combat.0001 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0001.desc.my_feedback.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -6747,6 +7102,18 @@ zz_magic_single_combat.0001 = {
 								triggered_desc = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0001.desc.opponent_response.magic_potency_water_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0001.desc.opponent_response.magic_potency_blood_01
 								}
 								
 							}
@@ -7647,6 +8014,57 @@ zz_magic_single_combat.0001 = {
 						AND = {
 							this = scope:sc_attacker
 							scope:sc_defender_last_move = flag:magic_potency_water_01
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:magic_potency_shadow_01
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:magic_potency_shadow_01
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:magic_potency_alchemy_01
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:magic_potency_alchemy_01
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_mage_potency_01_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:magic_potency_blood_01
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:magic_potency_blood_01
 						}
 					}
 				}
@@ -8942,6 +9360,18 @@ zz_magic_single_combat.0001 = {
 			text = single_combat.0001.magic_assault_water_01
 			trigger = { var:magic_type ?= flag:water }
 		}
+		name = {
+			text = single_combat.0001.magic_assault_shadow_01
+			trigger = { var:magic_type ?= flag:shadow}
+		}
+		name = {
+			text = single_combat.0001.magic_assault_alchemy_01
+			trigger = { var:magic_type ?= flag:alchemy }
+		}
+		name = {
+			text = single_combat.0001.magic_assault_blood_01
+			trigger = { var:magic_type ?= flag:blood }
+		}
 		trigger = { exists = local_var:zz_magic_attack_tier_01 }
 
 		#Move clarification
@@ -8981,6 +9411,18 @@ zz_magic_single_combat.0001 = {
 		name = {
 			text = single_combat.0001.magic_assault_water_02
 			trigger = { var:magic_type ?= flag:water }
+		}
+		name = {
+			text = single_combat.0001.magic_assault_shadow_02
+			trigger = { var:magic_type ?= flag:shadow}
+		}
+		name = {
+			text = single_combat.0001.magic_assault_alchemy_02
+			trigger = { var:magic_type ?= flag:alchemy }
+		}
+		name = {
+			text = single_combat.0001.magic_assault_blood_02
+			trigger = { var:magic_type ?= flag:blood }
 		}
 			
 		trigger = { 
@@ -9030,6 +9472,18 @@ zz_magic_single_combat.0001 = {
 		name = {
 			text = single_combat.0001.magic_assault_water_03
 			trigger = { var:magic_type ?= flag:water }
+		}
+		name = {
+			text = single_combat.0001.magic_assault_shadow_03
+			trigger = { var:magic_type ?= flag:shadow}
+		}
+		name = {
+			text = single_combat.0001.magic_assault_alchemy_03
+			trigger = { var:magic_type ?= flag:alchemy }
+		}
+		name = {
+			text = single_combat.0001.magic_assault_blood_04
+			trigger = { var:magic_type ?= flag:blood }
 		}
 			
 		trigger = { 
@@ -9755,6 +10209,18 @@ zz_magic_single_combat.0031 = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.sc_defender.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -9931,6 +10397,18 @@ zz_magic_single_combat.0031 = {
 								triggered_desc = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.sc_defender.magic_potency_water_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.sc_defender.magic_potency_blood_01
 								}
 							}
 						}
@@ -10122,6 +10600,18 @@ zz_magic_single_combat.0031 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.opponent_response.magic_potency_water_01.injury
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_shadow_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_alchemy_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_blood_01.injury
+								}
 							}
 						}
 					}
@@ -10310,6 +10800,18 @@ zz_magic_single_combat.0031 = {
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.opponent_response.magic_potency_water_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_shadow_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_alchemy_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.opponent_response.magic_potency_blood_01.fatality
 								}
 								# No need for a something_to_hide, as it's never fatal.
 							}
@@ -10519,6 +11021,18 @@ zz_magic_single_combat.0031 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.sc_attacker.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -10709,6 +11223,18 @@ zz_magic_single_combat.0031 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.sc_attacker.magic_potency_water_01.injury
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_shadow_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_alchemy_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_blood_01.injury
+								}
 							}
 						}
 					}
@@ -10897,6 +11423,18 @@ zz_magic_single_combat.0031 = {
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0031.desc.sc_attacker.magic_potency_water_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_shadow_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_alchemy_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0031.desc.sc_attacker.magic_potency_blood_01.fatality
 								}
 								# No need for a something_to_hide, as it's never fatal.
 							}
@@ -11505,6 +12043,18 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.sc_defender.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.sc_defender.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.sc_defender.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.sc_defender.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -11706,6 +12256,18 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.opponent_response.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -11896,6 +12458,18 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.opponent_response.magic_potency_water_01.injury
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_shadow_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_alchemy_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_blood_01.injury
+								}
 							}
 						}
 					}
@@ -12084,6 +12658,18 @@ zz_magic_single_combat.0041 = {
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.opponent_response.magic_potency_water_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_shadow_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_alchemy_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.opponent_response.magic_potency_blood_01.fatality
 								}
 								# No need for a something_to_hide, as it's never fatal.
 							}
@@ -12293,6 +12879,18 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.sc_attacker.magic_potency_water_01
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_shadow_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_alchemy_01
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_blood_01
+								}
 							}
 						}
 					}
@@ -12483,6 +13081,18 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.sc_attacker.magic_potency_water_01.injury
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_shadow_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_alchemy_01.injury
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_blood_01.injury
+								}
 							}
 						}
 					}
@@ -12672,6 +13282,23 @@ zz_magic_single_combat.0041 = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
 									desc = single_combat.0041.desc.sc_attacker.magic_potency_water_01.fatality
 								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_water_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_shadow_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_shadow_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_alchemy_01.fatality
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:magic_potency_blood_01 }
+									desc = single_combat.0041.desc.sc_attacker.magic_potency_blood_01.fatality
+								}
+							}
 								# No need for a something_to_hide, as it's never fatal.
 							}
 						}

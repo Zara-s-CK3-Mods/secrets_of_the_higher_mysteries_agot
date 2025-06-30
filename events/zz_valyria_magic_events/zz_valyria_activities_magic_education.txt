@@ -1342,6 +1342,32 @@ zz_valyria_magic_education.00093 = {
 			SPELL = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county
 		}
 	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.38
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.39
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
+		}
+	}
 }
 
 # Alchemy Magic Education - All Mysteries
@@ -1581,6 +1607,19 @@ zz_valyria_magic_education.00094 = {
 		}
 		zz_magic_education_learn_spell_effect = { 
 			SPELL = zz_valyria_magic_alchemy_magic_16_mysteries_of_arms_title_maa_size
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.alchemy.17
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
 		}
 	}
 }
