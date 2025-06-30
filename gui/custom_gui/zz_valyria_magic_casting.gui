@@ -820,68 +820,84 @@
 									}
 								}
 								spacer = { size = { 00 5 } }
-								flowcontainer = {
+								button_standard = {
+									onclick = "[GetVariableSystem.Toggle('zz_magic_window_scroll_user_selection_view')]"
 									text_single = {
-										align = left
-										raw_text = "Higher Mysteries - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_higher_mysteries_stat_gui')|0]"
-									}
+										raw_text = "Select Scroll Caster"
+										fontsize = 18
+										resizeparent = yes
+										align = center|nobaseline
+										default_format = "#low"		
+										margin = { 15 15 }
+									}	
 								}
 								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Blood Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_blood_magic_stat_gui')|0]"
+								vbox = {
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Higher Mysteries - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_higher_mysteries_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Shadow Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_shadow_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Blood Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_blood_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Dream Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_dream_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Shadow Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_shadow_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Alchemy Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_alchemy_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Dream Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_dream_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Fire Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_fire_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Alchemy Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_alchemy_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Air Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_air_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Fire Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_fire_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 5 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Water Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_water_magic_stat_gui')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Air Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_air_magic_stat_gui')|0]"
+										}
 									}
-								}
-								spacer = { size = { 00 15 } }
-								flowcontainer = {
-									text_single = {
-										align = left
-										raw_text = "Drops of Power - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_drops_of_power_stat')|0]"
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Water Magic - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_water_magic_stat_gui')|0]"
+										}
 									}
+									spacer = { size = { 00 15 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Drops of Power - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_drops_of_power_stat')|0]"
+										}
+									}
+									expand = {}
 								}
+								
 								spacer = { size = { 00 5 } }
 								
 								expand = {}
@@ -1149,7 +1165,7 @@
 						fixedgridbox = {
 							addcolumn = 300
 							addrow = 105
-							datamodel = "[GetPlayer.MakeScope.GetList('mage_list')]"
+							datamodel = "[GetPlayer.MakeScope.GetList('item_caster_list')]"
 							
 							item = {
 								button_standard = {
@@ -1160,8 +1176,8 @@
 									layoutpolicy_vertical = expanding
 									layoutpolicy_horizontal = growing
 									
-									down = "[GetScriptedGui('zz_valyria_magic_caster').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_magic_caster', Character.MakeScope ).End )]"
-									onclick = "[GetScriptedGui('zz_valyria_magic_caster').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_magic_caster', Character.MakeScope ).End )]"
+									down = "[GetScriptedGui('zz_valyria_magic_item_caster').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_item_caster', Character.MakeScope ).End )]"
+									onclick = "[GetScriptedGui('zz_valyria_magic_item_caster').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_item_caster', Character.MakeScope ).End )]"
 									onclick = "[GetVariableSystem.Toggle('zz_magic_window_scroll_user_selection_view')]"
 									hbox = {
 										layoutpolicy_horizontal = expanding

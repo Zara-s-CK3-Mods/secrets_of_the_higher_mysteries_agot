@@ -2094,10 +2094,10 @@ scripted_effect work_out_wounds_or_death_effect = {
 						
 						scope:recipient = {
 							show_as_tooltip = {
-								agot_increase_wounds_effect = { REASON = alchemy_magic RANK = 1}
+								agot_increase_wounds_effect = { REASON = transmutation_magic RANK = 1}
 								add_stress = massive_stress_gain
 							}
-							agot_increase_wounds_effect = { REASON = alchemy_magic RANK = 1}
+							agot_increase_wounds_effect = { REASON = transmutation_magic RANK = 1}
 							add_stress = massive_stress_gain
 							scope:actor = {
 								if = {
@@ -2509,7 +2509,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 				}
 				scope:recipient = {
 					death = {
-						death_reason = death_alchemy_magic
+						death_reason = death_transmutation_magic
 						killer = scope:secondary_recipient
 					}
 				}
@@ -2839,7 +2839,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 	else_if = {
 		limit = { scope:fatality = flag:default }
 		if = {
-			limit = { zz_fatality_default_will_die_trigger = yes }
+			limit = { fatality_default_will_die_trigger = yes }
 			#AGOT Modified
 			# scope:sc_loser = {
 			# 	death = {
@@ -3588,6 +3588,56 @@ scripted_effect adjust_risk_reward_effect = {
 		# Otherwise, we do it from first person.
 		else = { custom_tooltip = single_combat.0001.duel_success.very_high }
 	}
+	if = {
+		limit = { $DUEL_SUCCESS$ = zz_magic_duel_success_none }
+		# If this is a past tense tooltip, refer to scope:my_foe grammatically.
+		if = {
+			limit = { this = scope:my_foe }
+			custom_tooltip = single_combat.0001.duel_success.none.has_happened
+		}
+		# Otherwise, we do it from first person.
+		else = { custom_tooltip = single_combat.0001.duel_success.none }
+	}
+	else_if = {
+		limit = { $DUEL_SUCCESS$ = zz_magic_duel_success_low }
+		# If this is a past tense tooltip, refer to scope:my_foe grammatically.
+		if = {
+			limit = { this = scope:my_foe }
+			custom_tooltip = single_combat.0001.duel_success.low.has_happened
+		}
+		# Otherwise, we do it from first person.
+		else = { custom_tooltip = single_combat.0001.duel_success.low }
+	}
+	else_if = {
+		limit = { $DUEL_SUCCESS$ = zz_magic_duel_success_medium }
+		# If this is a past tense tooltip, refer to scope:my_foe grammatically.
+		if = {
+			limit = { this = scope:my_foe }
+			custom_tooltip = single_combat.0001.duel_success.medium.has_happened
+		}
+		# Otherwise, we do it from first person.
+		else = { custom_tooltip = single_combat.0001.duel_success.medium }
+	}
+	else_if = {
+		limit = { $DUEL_SUCCESS$ = zz_magic_duel_success_high }
+		# If this is a past tense tooltip, refer to scope:my_foe grammatically.
+		if = {
+			limit = { this = scope:my_foe }
+			custom_tooltip = single_combat.0001.duel_success.high.has_happened
+		}
+		# Otherwise, we do it from first person.
+		else = { custom_tooltip = single_combat.0001.duel_success.high }
+	}
+	else_if = {
+		limit = { $DUEL_SUCCESS$ = zz_magic_duel_success_very_high }
+		# If this is a past tense tooltip, refer to scope:my_foe grammatically.
+		if = {
+			limit = { this = scope:my_foe }
+			custom_tooltip = single_combat.0001.duel_success.very_high.has_happened
+		}
+		# Otherwise, we do it from first person.
+		else = { custom_tooltip = single_combat.0001.duel_success.very_high }
+	}
 
 	# Aaaand finally tell current scope how this'll impact injury_risk_score.
 	if = {
@@ -3640,6 +3690,7 @@ scripted_effect adjust_risk_reward_effect = {
 		# Otherwise, we do it from first person.
 		else = { custom_tooltip = single_combat.0001.injury.very_high }
 	}
+	
 }
 
 # Add positive prowess character modifiers from the current move.
@@ -5817,7 +5868,7 @@ scripted_effect combat_move_mage_potency_01_effect = {
 	}
 
 	#And adjust risk-reward scores.
-	zz_adjust_risk_reward_effect = {
+	adjust_risk_reward_effect = {
 		INJURY_RISK = injury_risk_none
 		DUEL_SUCCESS = zz_magic_duel_success_medium
 	}
@@ -5927,7 +5978,7 @@ scripted_effect combat_move_mage_potency_02_effect = {
 	}
 
 	#And adjust risk-reward scores.
-	zz_adjust_risk_reward_effect = {
+	adjust_risk_reward_effect = {
 		INJURY_RISK = injury_risk_none
 		DUEL_SUCCESS = zz_magic_duel_success_high
 	}
@@ -6037,7 +6088,7 @@ scripted_effect combat_move_mage_potency_03_effect = {
 	}
 
 	#And adjust risk-reward scores.
-	zz_adjust_risk_reward_effect = {
+	adjust_risk_reward_effect = {
 		INJURY_RISK = injury_risk_none
 		DUEL_SUCCESS = zz_magic_duel_success_very_high
 	}
@@ -6430,8 +6481,8 @@ single_combat.0001 = {
 									desc = single_combat.0001.desc.my_feedback.magic_potency_shadow_01
 								}
 								triggered_desc = {
-									trigger = { scope:sc_defender_last_move = flag:magic_potency_akchemy_01 }
-									desc = single_combat.0001.desc.my_feedback.magic_potency_akchemy_01
+									trigger = { scope:sc_defender_last_move = flag:magic_potency_alchemy_01 }
+									desc = single_combat.0001.desc.my_feedback.magic_potency_alchemy_01
 								}
 								triggered_desc = {
 									trigger = { scope:sc_defender_last_move = flag:magic_potency_blood_01 }
@@ -9474,23 +9525,15 @@ single_combat.0001 = {
 			text = single_combat.0001.magic_assault
 			trigger = { 
 				is_landed = yes 
-				not = { 
-					has_variable = magic_type
-				}
-			}
-		}
-		name = {
-			text = single_combat.0001.magic_assault_unlanded
-			trigger = { 
-				is_landed = no 
-				not = { 
-					has_variable = magic_type
-				}
+				
 			}
 		}
 		trigger = { 
 			has_trait = zz_magister 
 			zz_valyria_drops_of_power_stat >= 25
+			not = { 
+				has_variable = magic_type
+			}
 		}
 
 		#Move clarification
