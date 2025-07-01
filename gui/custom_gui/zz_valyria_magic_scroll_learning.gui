@@ -230,7 +230,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -749,7 +749,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -853,7 +853,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -940,7 +940,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -1092,7 +1092,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -1300,7 +1300,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}
@@ -1445,7 +1445,7 @@ types magic_scroll_learning {
 							vbox = {
 								layoutpolicy_vertical = expanding
 								layoutpolicy_horizontal = expanding
-								max_width = 300
+								max_width = 250
 								background = {
 									using = Background_Area_Dark
 								}

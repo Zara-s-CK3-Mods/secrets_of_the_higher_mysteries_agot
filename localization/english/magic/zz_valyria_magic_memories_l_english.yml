@@ -448,6 +448,56 @@
   zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_39$ $zz_mem_loc$"
   zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_39$ $zz_mem_loc$"
 
+  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own: "[dream_magic] - $zz_valyria_magic_dream_magic_40$"
+  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_40$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_40$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_40$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted: "[dream_magic] - $zz_valyria_magic_dream_magic_41$"
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_41$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_41$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_41$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known: "[dream_magic] - $zz_valyria_magic_dream_magic_42$"
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_42$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_42$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_42$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county: "[dream_magic] - $zz_valyria_magic_dream_magic_43$"
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_43$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_43$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_43$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county: "[dream_magic] - $zz_valyria_magic_dream_magic_44$"
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_44$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_44$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_44$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county: "[dream_magic] - $zz_valyria_magic_dream_magic_45$"
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_45$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_45$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_45$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county: "[dream_magic] - $zz_valyria_magic_dream_magic_46$"
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_46$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_46$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_46$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm: "[dream_magic] - $zz_valyria_magic_dream_magic_47$"
+  zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_47$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_47$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_47$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection: "[dream_magic] - $zz_valyria_magic_dream_magic_48$"
+  zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_48$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_48$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_48$ $zz_mem_loc$"
+
+  zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection: "[dream_magic] - $zz_valyria_magic_dream_magic_49$"
+  zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_49$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_49$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_49$ $zz_mem_loc$"
+
 
   ### [alchemy_magic] ### 
 

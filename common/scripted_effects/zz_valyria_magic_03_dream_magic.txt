@@ -1858,14 +1858,14 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_40_mysteries_secret_destruction_own_effect = {
+zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.t
-		desc = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.desc
+		title = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.t
+		desc = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.tt
 	}
 	if = {
 		limit = {
@@ -1888,14 +1888,14 @@ zz_valyria_magic_dream_magic_40_mysteries_secret_destruction_own_effect = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_41_mysteries_secret_destruction_targeted_effect = {
+zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.t
-		desc = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.desc
+		title = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.t
+		desc = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.tt
 	}
 	if = {
 		limit = {
@@ -1918,14 +1918,14 @@ zz_valyria_magic_dream_magic_41_mysteries_secret_destruction_targeted_effect = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_42_mysteries_secret_destruction_known_effect = {
+zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.t
-		desc = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.desc
+		title = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.t
+		desc = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.tt
 	}
 	if = {
 		limit = {
@@ -1948,14 +1948,14 @@ zz_valyria_magic_dream_magic_42_mysteries_secret_destruction_known_effect = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_43_mysteries_of_public_order_boost_county_effect = {
+zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t
-		desc = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.desc
+		title = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.t
+		desc = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.tt
 	}
 	if = {
 		limit = {
@@ -1989,14 +1989,14 @@ zz_valyria_magic_dream_magic_43_mysteries_of_public_order_boost_county_effect = 
 		}
 	}
 }
-zz_valyria_magic_dream_magic_44_mysteries_of_public_order_damage_county_effect = {
+zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.t
-		desc = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.desc
+		title = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.t
+		desc = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.tt
 	}
 	if = {
 		limit = {
@@ -2030,14 +2030,14 @@ zz_valyria_magic_dream_magic_44_mysteries_of_public_order_damage_county_effect =
 		}
 	}
 }
-zz_valyria_magic_dream_magic_43_mysteries_of_development_boost_county_effect = {
+zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t
-		desc = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.desc
+		title = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.t
+		desc = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.tt
 	}
 	if = {
 		limit = {
@@ -2071,14 +2071,14 @@ zz_valyria_magic_dream_magic_43_mysteries_of_development_boost_county_effect = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_44_mysteries_of_development_damage_county_effect = {
+zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.t
-		desc = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.desc
+		title = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.t
+		desc = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.tt
 	}
 	if = {
 		limit = {
@@ -2100,6 +2100,116 @@ zz_valyria_magic_dream_magic_44_mysteries_of_development_damage_county_effect = 
 		}
 	}
 	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.t
+		desc = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient					
+		custom_tooltip = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.tt
+	}
+	scope:target = {
+		deplete_army_by_percentage = 1
+		location = {
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.t
+		desc = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_04_story
+			save_scope_as = story
+		}
+	} 
+	scope:recipient = {	
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.t
+		desc = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_04_story
+			save_scope_as = story
+		}
+	} 
+	scope:recipient = {	
 		if = {
 			limit = {
 				NOT = { scope:actor = scope:recipient }
