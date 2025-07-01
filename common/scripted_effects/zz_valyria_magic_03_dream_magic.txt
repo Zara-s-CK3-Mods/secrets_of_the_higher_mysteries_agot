@@ -1948,3 +1948,167 @@ zz_valyria_magic_dream_magic_42_mysteries_secret_destruction_known_effect = {
 		remove_secret = yes
 	}
 }
+zz_valyria_magic_dream_magic_43_mysteries_of_public_order_boost_county_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t
+		desc = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_44_mysteries_of_public_order_damage_county_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.t
+		desc = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_43_mysteries_of_development_boost_county_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t
+		desc = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_44_mysteries_of_development_damage_county_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.t
+		desc = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}

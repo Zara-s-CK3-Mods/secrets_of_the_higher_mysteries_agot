@@ -16,21 +16,22 @@
 	type zz_magic_window = window {
 		name = "zz_magic_window"
 		layer = windows_layer
-		using = Window_Background
+
 		allow_outside = yes
-		#parentanchor = center#
 		parentanchor = top|right
 		size = { 900 100% }
 		datacontext = "[GetScriptedGui('zz_valyria_magic_casting')]"
 		visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+		using = Window_Background
+		using = Window_Decoration
 		movable = no
+		oncreate = "[PdxGuiWidget.StackTop]"
 		state = {
 			name = _show
 			using = Animation_FadeIn_Quick
 			using = Sound_WindowShow_Standard
 			using = Window_Position_MainTab
 			on_start  = "[GetVariableSystem.Set('magic_page','higher_mysteries')]"
-	
 		}
 		state = {
 			name = _hide
@@ -41,16 +42,14 @@
 
 		margin_widget = {
 			size = { 100% 100% }
-			margin_top = 30
-			margin_bottom = 25
+			margin = { 0 30 }
 			margin_right = 13
-			#margin = { 13 13 }
 
 			widget = {
 				size = { 100% 100% }
 				background = {
 					texture = "gfx/interface//illustrations/magic_casting/zz_magic_casting_background.dds"
-					margin = { -5 -5 }
+					margin = { -25 -25 }
 					fittype = centercrop
 					alpha = 1
 								
@@ -903,46 +902,6 @@
 								expand = {}
 							}
 							spacer = { size = { 00 30 } }
-							scrollbox = {
-								name = "mages_scrollarea"
-								layoutpolicy_vertical = expanding
-								layoutpolicy_horizontal = expanding
-								max_width = 250
-								#max_height = 450
-								blockoverride "scrollbox_content"
-								{
-									fixedgridbox = {
-										addcolumn = 200
-										addrow = 125
-										datamodel = "[Scope.GetList('item_caster_list')]"
-									
-										item = {
-											button_standard = {
-												parentanchor = top|left
-												size = { 200 120 }
-												align = left
-												datacontext = "[Scope.GetCharacter]"
-												layoutpolicy_vertical = expanding
-												layoutpolicy_horizontal = growing
-
-												down = "[GetScriptedGui('zz_valyria_magic_item_caster').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_item_caster', Character.MakeScope ).End )]"
-												onclick = "[GetScriptedGui('zz_valyria_magic_item_caster').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_item_caster', Character.MakeScope ).End )]"
-												vbox = {
-													layoutpolicy_horizontal = expanding
-													layoutpolicy_vertical = expanding
-													margin_right = 4
-													spacing = 5
-													portrait_head_small = {}
-													text_single = {
-														text = "[Character.GetNameNoTooltip]"
-													}
-													spacer = { size = { 00 15 } }
-												}
-											}								 
-										}
-									}
-								}
-							}
 							expand = {}
 						}
 						
@@ -1026,6 +985,7 @@
 			}
 		}
 		zz_magic_window_mages_selection_view = {}
+		zz_magic_window_scroll_user_selection_view = {}
 	}
 	type zz_magic_window_mages_selection_view = window {
 		name = "zz_magic_window_mages_selection_view"

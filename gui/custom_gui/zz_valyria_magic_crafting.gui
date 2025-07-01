@@ -21,6 +21,7 @@ types zz_valyria_magic_crafting {
 		name = "zz_valyria_magic_crafting"
 		layer = windows_layer
 		using = Window_Background
+		using = Window_Decoration
 		parentanchor = top|right
 		#parentanchor = center#
 
@@ -46,18 +47,14 @@ types zz_valyria_magic_crafting {
 
 		margin_widget = {
 			size = { 100% 100% }
-			#margin = { 0 26 }
-			#margin_right = 13
-			margin_left = 40
-			margin_right = 53
-			margin_top = 44
-			margin_bottom = 20
+			margin = { 0 30 }
+			margin_right = 13
 
 			widget = {
 				size = { 100% 100% }
 				background = {
 					texture = "gfx/interface//illustrations/magic_casting/zz_magic_item_crafting_base.dds"
-					margin = { -5 -5 }
+					margin = { -25 -25 }
 					fittype = centercrop
 					alpha = 1
 								
