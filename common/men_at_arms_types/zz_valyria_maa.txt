@@ -27,7 +27,6 @@ zz_valyria_ravens = {
 	toughness = 4
 	pursuit = 100
 	screen = 15
-	max = 3	
 	max_sub_regiments = 1
 	stack = 100
 	
@@ -37,7 +36,7 @@ zz_valyria_ravens = {
 		jungle = { damage = 4 toughness = 6 }
 	}
 	can_recruit = {
-		has_trait = zz_magister
+		always = no
 	}
 
 
@@ -60,7 +59,6 @@ zz_valyria_direwolves = {
 	toughness = 65
 	pursuit = 35
 	screen = 10
-	max = 3	
 	max_sub_regiments = 1
 	stack = 50
 
@@ -70,7 +68,7 @@ zz_valyria_direwolves = {
 		jungle = { damage = 4 toughness = 6 }
 	}
 	can_recruit = {
-		has_trait = zz_magister
+		always = no
 	}
 
 	
@@ -94,7 +92,6 @@ zz_valyria_bears = {
 	pursuit = 25
 	screen = 5
 	siege_value = 1
-	max = 3	
 	max_sub_regiments = 1
 	stack = 15
 	
@@ -104,7 +101,7 @@ zz_valyria_bears = {
 		jungle = { damage = 4 toughness = 6 }
 	}
 	can_recruit = {
-		has_trait = zz_magister
+		always = no
 	}
 
 
