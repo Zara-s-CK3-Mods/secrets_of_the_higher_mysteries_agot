@@ -57,10 +57,20 @@ zz_valyria_magic_management = {
 			if = {
 				limit = {
 					zz_valyria_is_mage = yes 
+					var:zz_valyria_magic_learner = exists 
 				}
 				set_variable = {
 					name = learning_type
 					value = flag:apprentice
+				}
+			}
+			else_if = {
+				limit = {
+					zz_valyria_is_mage = yes 
+				}
+				set_variable = {
+					name = learning_type
+					value = flag:mystery
 				}
 			}
 			else = {
@@ -146,6 +156,15 @@ zz_valyria_magic_manangement_window_magic_learning_tab = {
 			set_variable = { 
 				name = zz_magic_ui 
 				value = flag:scroll_learning
+			}
+		}
+		else_if = {
+			limit = {
+				zz_valyria_is_mage = yes 
+			}
+			set_variable = {
+				name = learning_type			
+				value = flag:mystery
 			}
 		}
 		else_if = {

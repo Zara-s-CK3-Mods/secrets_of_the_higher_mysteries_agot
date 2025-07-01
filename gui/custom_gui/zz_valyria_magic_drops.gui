@@ -28,72 +28,67 @@
     type tooltip_widget_sanctum_list_drops_of_power = widget {
         name = "tooltip_widget_sanctum_list_drops_of_power"
         alwaystransparent = no
-        size = { 300 650 }
+        size = { 350 800 }
         using = DefaultTooltipBackground
 
-
-        vbox = {
+        
+        widget = {
             name = "tooltip_container"
+            layoutpolicy_vertical = expanding
+            layoutpolicy_horizontal = expanding
             set_parent_size_to_minimum = yes
+            size = { 350 800 }
             filter_mouse = all
             background = {}
-
-            vbox = { # Maegi Drop Stats
+            vbox = {
+                layoutpolicy_vertical = expanding
                 layoutpolicy_horizontal = expanding
                 hbox = {
-                    spacing = 3
                     text_single = {
-                        raw_text = "Maegi"
-                    }
-                    text_single = {
-                        raw_text = "Drops"
-                    }
-                    text_single = {
-                        raw_text = "Gain"
+                        raw_text = "Maegi Drops Gain"
                     }
                 }
-                vbox = {
-                    name = "mage_list_breakdown"
-                    layoutpolicy_horizontal = expanding
-                    margin = { 15 5}
-                    spacing = 3
-                    scrollbox = {
-                        name = "mages_scrollarea"
-                        layoutpolicy_vertical = expanding
-                        layoutpolicy_horizontal = expanding
-                        parentanchor = top|left
-                        size = { 300 650 }
-                        blockoverride "scrollbox_content"
-                        {
-                            fixedgridbox = {
-                                addcolumn = 300
-                                addrow = 30
-                                datamodel = "[GetPlayer.MakeScope.GetList('mage_list')]"
-
-                                item = {
+                spacer = { 0 10 }
+                scrollbox = {
+                    name = "mages_scrollarea"
+                    layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+                    blockoverride "scrollbox_content"
+                    {
+                        fixedgridbox = {
+                            addcolumn = 350
+                            addrow = 30
+                            spacing = 6
+                            datamodel = "[GetPlayer.MakeScope.GetList('mage_list')]"
+                            
+                            item = {
+                                widget = {
+                                    visible = "[GetScriptedGui('zz_valyria_magic_management').IsShown(GetPlayer.MakeScope)]"
+                                    size = { 350 25 }
+                                    spacing = 10
+                                    datacontext = "[Scope.GetCharacter]"
                                     hbox = {
-                                        visible = "[GetScriptedGui('zz_valyria_magic_management').IsShown(GetPlayer.MakeScope)]"
-                                        layoutpolicy_horizontal = expanding
                                         layoutpolicy_vertical = expanding
-                                        spacing = 10
-                                        margin = { 5 5 }
-                                        datacontext = "[Scope.GetCharacter]"
-
+					                    layoutpolicy_horizontal = expanding
                                         text_single = {
                                             text = "[Character.GetUIName]"
+                                            min_width = 200
+                                            max_width = 200
                                             tooltipwidget = {
                                                 cooltip_type = {}
                                             }
                                         }
                                         text_single = {
                                             text = "[Character.MakeScope.ScriptValue('zz_valyria_drops_of_power_stat')|0]"
-                                            min_width = 25
+                                            min_width = 75
+                                            max_width = 75
                                             align = right
                                             default_format = "#high"
                                         }
                                         text_single = {
                                             text = "[Character.MakeScope.ScriptValue('zz_valyria_drops_power_passive_gain')|+=]"
-                                            min_width = 25
+                                            min_width = 50
+                                            max_width = 50
                                             align = right
                                             default_format = "#positive"
                                             tooltipwidget = {
@@ -102,13 +97,16 @@
                                         }
                                         expand = {}
                                     }
+                                    
                                 }
                             }
                         }
                     }
-                    expand = {}
                 }
+                expand = {}
             }
+            
+
         }
     }
 

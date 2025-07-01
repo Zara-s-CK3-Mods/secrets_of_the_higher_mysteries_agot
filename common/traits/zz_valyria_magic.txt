@@ -891,7 +891,7 @@ disease_resistance_bubonic_plague = {
 	ruler_designer_cost = 80
 	
 	compatibility = {
-		disease_resistance_bubonic = @pos_compat_medium
+		disease_resistance_bubonic_plague = @pos_compat_medium
 	}
 
 	desc = {
@@ -929,7 +929,7 @@ disease_resistance_gout_ridden = {
 	ruler_designer_cost = 80
 	
 	compatibility = {
-		disease_resistance_gout = @pos_compat_medium
+		disease_resistance_gout_ridden = @pos_compat_medium
 	}
 
 	desc = {
