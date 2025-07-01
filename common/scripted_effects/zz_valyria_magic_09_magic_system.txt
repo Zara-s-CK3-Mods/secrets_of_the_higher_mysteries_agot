@@ -2339,6 +2339,7 @@ zz_valyria_mana_spend = {
 		if = { 
 			limit = { 
 				has_trait = starwalker
+				has_variable = zz_drops_of_power
 				var:zz_drops_of_power >= 1
 			}
 			change_variable = {

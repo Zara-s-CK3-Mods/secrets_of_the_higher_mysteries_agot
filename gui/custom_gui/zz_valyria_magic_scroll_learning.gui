@@ -273,6 +273,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -803,6 +806,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -907,6 +913,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -990,6 +999,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1184,6 +1196,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1225,6 +1240,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1266,6 +1284,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1353,6 +1374,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1537,6 +1561,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1578,6 +1605,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1619,6 +1649,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -1699,6 +1732,9 @@ types magic_scroll_learning {
 														portrait_head_small = {}
 														text_single = {
 															text = "[Character.GetNameNoTooltip]"
+															tooltipwidget = {
+																cooltip_type = {}
+															}
 														}
 														spacer = { size = { 00 15 } }
 													}
