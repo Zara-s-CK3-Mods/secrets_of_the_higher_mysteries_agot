@@ -2330,6 +2330,231 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county = {
 	}
 }
 
+zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm = {
+	categories = { positive magic dream_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+
 ### Spells to Add
 
 

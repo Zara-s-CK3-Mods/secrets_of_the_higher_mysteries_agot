@@ -290,6 +290,30 @@ zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_cost = {
 zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_cost = {
 	value = 33
 }
+zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_cost = {
+	value = 25
+}
+zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_cost = {
+	value = 25
+}
+zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_cost = {
+	value = 25
+}
+zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_cost = {
+	value = 10
+}
+zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_cost = {
+	value = 10
+}
+zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_cost = {
+	value = 55
+}
+zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_cost = {
+	value = 55
+}
+zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_cost = {
+	value = 200
+}
 zz_valyria_magic_dream_magic_39_mysteries_of_self_incarnation_cost = {
 	value = 150
 }

@@ -1970,11 +1970,7 @@ zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_effect = {
 		}
 	}		
 	scope:target = {
-		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
-		}
+		change_county_control = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2011,11 +2007,7 @@ zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_effect = {
 		}
 	}		
 	scope:target = {
-		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
-		}
+		change_county_control = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2052,11 +2044,7 @@ zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_effect = 
 		}
 	}		
 	scope:target = {
-		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
-		}
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2093,11 +2081,7 @@ zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effe
 		}
 	}		
 	scope:target = {
-		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
-		}
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2116,11 +2100,11 @@ zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effe
 zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.t
-		desc = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.desc
+		title = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.t
+		desc = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_dream_magic_46_mysteries_of_cataclysm.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.tt
 	}
 	scope:target = {
 		deplete_army_by_percentage = 1

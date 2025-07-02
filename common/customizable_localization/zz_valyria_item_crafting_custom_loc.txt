@@ -542,6 +542,54 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+		}
+		localization_key = zz_valyria_magic_dream_magic_40
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+		}
+		localization_key = zz_valyria_magic_dream_magic_41
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+		}
+		localization_key = zz_valyria_magic_dream_magic_42
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+		}
+		localization_key = zz_valyria_magic_dream_magic_43
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+		}
+		localization_key = zz_valyria_magic_dream_magic_44
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county	
+		}
+		localization_key = zz_valyria_magic_dream_magic_45
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+		}
+		localization_key = zz_valyria_magic_dream_magic_46
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+		}
+		localization_key = zz_valyria_magic_dream_magic_47
+	}
+	text = {
+		trigger = {
 			var:spell = flag:zz_valyria_magic_alchemy_magic_01_mysteries_of_growth
 		}
 		localization_key = zz_valyria_magic_alchemy_magic_01

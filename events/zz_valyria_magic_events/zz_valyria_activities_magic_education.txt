@@ -1368,6 +1368,110 @@ zz_valyria_magic_education.00093 = {
 			SPELL = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
 		}
 	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.40
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.41
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.42
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.43
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.44
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.45
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.46
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.47
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+				}
+			}
+		}
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+		}
+	}
 }
 
 # Alchemy Magic Education - All Mysteries

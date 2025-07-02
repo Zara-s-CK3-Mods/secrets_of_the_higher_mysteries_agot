@@ -1120,6 +1120,95 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_value = {
 }
 
 
+zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+
 
 
 ### Alchemy Magic
