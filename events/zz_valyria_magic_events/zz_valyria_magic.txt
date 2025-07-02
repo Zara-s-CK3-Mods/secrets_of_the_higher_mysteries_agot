@@ -1347,7 +1347,7 @@ zz_valyria_magic.0027 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}

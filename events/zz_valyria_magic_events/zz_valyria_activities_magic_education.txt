@@ -1022,12 +1022,12 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration
+					SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
 				}
 			}
 		}
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration
+			SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
 		}
 	}
 	option = {
@@ -1035,12 +1035,12 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception
+					SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
 				}
 			}
 		}
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception
+			SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
 		}
 	}
 	option = {
@@ -1048,12 +1048,12 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment
+					SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
 				}
 			}
 		}
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment
+			SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
 		}
 	}
 	option = {

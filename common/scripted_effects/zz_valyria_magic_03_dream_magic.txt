@@ -913,14 +913,14 @@ zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_13_mysteries_secret_penetration_effect = {
+zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.t
-		desc = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.desc
+		title = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.t
+		desc = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.tt
 	}
 	if = {
 		limit = {
@@ -944,14 +944,14 @@ zz_valyria_magic_dream_magic_13_mysteries_secret_penetration_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_14_mysteries_secret_perception_effect = {
+zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.t
-		desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.desc
+		title = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.t
+		desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.tt
 	}
 	if = {
 		limit = {
@@ -975,14 +975,14 @@ zz_valyria_magic_dream_magic_14_mysteries_secret_perception_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment_effect = {
+zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.t
-		desc = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.desc
+		title = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.t
+		desc = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.tt
 	}
 	if = {
 		limit = {

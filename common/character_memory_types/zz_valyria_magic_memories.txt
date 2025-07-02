@@ -1567,25 +1567,25 @@ zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted = {
 		years = 100000
 	}
 }
-zz_valyria_magic_dream_magic_13_mysteries_secret_penetration = {
+zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own = {
 	categories = { positive magic dream_magic }
 	icon = "activity_zz_magic_education.dds"
 
 	description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.memory_desc
+			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.memory_desc
 		}
 	}
 
 	second_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.memory_desc_second_perspective
+			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.memory_desc_second_perspective
 		}
 	}
 
 	third_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.memory_desc_third_perspective
+			desc = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.memory_desc_third_perspective
 		}
 	}
 
@@ -1595,25 +1595,25 @@ zz_valyria_magic_dream_magic_13_mysteries_secret_penetration = {
 		years = 100000
 	}
 }
-zz_valyria_magic_dream_magic_14_mysteries_secret_perception = {
+zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted = {
 	categories = { positive magic dream_magic }
 	icon = "activity_zz_magic_education.dds"
 
 	description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.memory_desc
+			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.memory_desc
 		}
 	}
 
 	second_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.memory_desc_second_perspective
+			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.memory_desc_second_perspective
 		}
 	}
 
 	third_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception.memory_desc_third_perspective
+			desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.memory_desc_third_perspective
 		}
 	}
 
@@ -1623,25 +1623,25 @@ zz_valyria_magic_dream_magic_14_mysteries_secret_perception = {
 		years = 100000
 	}
 }
-zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment = {
+zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known = {
 	categories = { positive magic dream_magic }
 	icon = "activity_zz_magic_education.dds"
 
 	description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.memory_desc
+			desc = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.memory_desc
 		}
 	}
 
 	second_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.memory_desc_second_perspective
+			desc = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.memory_desc_second_perspective
 		}
 	}
 
 	third_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.memory_desc_third_perspective
+			desc = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.memory_desc_third_perspective
 		}
 	}
 

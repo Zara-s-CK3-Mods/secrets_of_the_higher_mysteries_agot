@@ -1064,14 +1064,14 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.012.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12$"
   zz_valyria_magic_dream_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] for their inutitions of the plots that target them. Such magic will reveal all that is planned against them, and let you expose this twisted reality to the entire world. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.012.opt.a:0 "Yes, Let us take the knowledge of their plots!"
+  zz_valyria_magic_dream_magic_spells.012.opt.a:0 "Yes, Let us take the knowledge of the plots that target them!"
   zz_valyria_magic_dream_magic_spells.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12$"
   zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one plot that is targeting [recipient.GetName] for all the world to know."
   zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.tt:0 "$zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc$"
 
-  zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp one of their secrets."
+  zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp one of their secrets."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.013.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_13$"
@@ -1079,24 +1079,24 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_spells.013.opt.a:0 "Yes, Let us take their secrets!"
   zz_valyria_magic_dream_magic_spells.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
-  zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_13$"
-  zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ taking the knowledge of one of [recipient.GetName]'s' secrets."
-  zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.tt:0 "$zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.desc$"
+  zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_13$"
+  zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ taking the knowledge of one of [recipient.GetName]'s' secrets."
+  zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.tt:0 "$zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.desc$"
 
 
-  zz_valyria_magic_dream_magic_14_mysteries_secret_perception.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a secret that is targeting them."
+  zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a secret that is targeting them."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.014.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_14$"
   zz_valyria_magic_dream_magic_spells.014.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for things that infest the shadow of their minds. You can pull from this shadow the truth of a secret that targets your chosen victim. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.014.opt.a:0 "Yes, Let us take the knowledge of their plots!"
+  zz_valyria_magic_dream_magic_spells.014.opt.a:0 "Yes, Let us take the secrets that beset them!"
   zz_valyria_magic_dream_magic_spells.014.opt.z:0 "No, do not cast!"
   ## Spell Toast
-  zz_valyria_magic_dream_magic_14_mysteries_secret_perception.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_14$"
-  zz_valyria_magic_dream_magic_14_mysteries_secret_perception.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret that is targeting [recipient.GetName] for yourself to know."
-  zz_valyria_magic_dream_magic_14_mysteries_secret_perception.tt:0 "$zz_valyria_magic_dream_magic_14_mysteries_secret_perception.desc$"
+  zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_14$"
+  zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret that is targeting [recipient.GetName] for yourself to know."
+  zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.tt:0 "$zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.desc$"
 
-  zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and take for yourself a secret they happen to know."
+  zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and take for yourself a secret they happen to know."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.015.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_15$"
@@ -1104,16 +1104,16 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_spells.015.opt.a:0 "Yes, Let us take their knowledge of secrets!"
   zz_valyria_magic_dream_magic_spells.015.opt.z:0 "No, do not cast!"
   ## Spell Toast
-  zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_15$"
-  zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret known by [recipient.GetName] for yourself."
-  zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.tt:0 "$zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment.desc$"
+  zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_15$"
+  zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret known by [recipient.GetName] for yourself."
+  zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.tt:0 "$zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.desc$"
 
   zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and use this as the roots of knowledge, to find the minds of those who know this secret and bind them from spreading them.."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.016.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_16$"
   zz_valyria_magic_dream_magic_spells.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for their secrets.It is then possible to make those who know these secrets forever bound from spreading their knowledge. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.016.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.016.opt.a:0 "Yes, Let us bind this secret!"
   zz_valyria_magic_dream_magic_spells.016.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_16$"
@@ -1126,7 +1126,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.017.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_17$"
   zz_valyria_magic_dream_magic_spells.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for secrets that target them .It is then possible to make those who know these secrets forever bound from spreading their knowledge. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.017.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.017.opt.a:0 "Yes, Let us bind this secret!"
   zz_valyria_magic_dream_magic_spells.017.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_17$"
@@ -1138,7 +1138,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.018.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_18$"
   zz_valyria_magic_dream_magic_spells.018.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the secrets that they know. It is then possible to make those who know these secrets forever bound from spreading their knowledge. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.018.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.018.opt.a:0 "Yes, Let us bind this secret!"
   zz_valyria_magic_dream_magic_spells.018.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_18$"
@@ -1150,7 +1150,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.019.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_19$"
   zz_valyria_magic_dream_magic_spells.019.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the seeds of a scheme that makes them a target. You can take this scheme, and strike against the shadows that cloaks it, making it more likely to be exposed for its perfidy. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.019.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.019.opt.a:0 "Yes, Let us breach this scheme!"
   zz_valyria_magic_dream_magic_spells.019.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_19$"
@@ -1162,7 +1162,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.020.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_20$"
   zz_valyria_magic_dream_magic_spells.020.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the one of their schemes. You can take this scheme, and strike against the shadows that cloaks it, making it more likely to be exposed for its perfidy. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.020.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.020.opt.a:0 "Yes, Let us breach this scheme!"
   zz_valyria_magic_dream_magic_spells.020.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_20_mysteries_breach_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_20$"
@@ -1174,7 +1174,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.021.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_21$"
   zz_valyria_magic_dream_magic_spells.021.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the seeds of a scheme that is targeting them. You can take this scheme, and empower  it, making it more likely to succeed. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.021.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.021.opt.a:0 "Yes, Let us empower this scheme!"
   zz_valyria_magic_dream_magic_spells.021.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_21$"
@@ -1186,7 +1186,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.022.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_22$"
   zz_valyria_magic_dream_magic_spells.022.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for  one of their scehemes. You can take this scheme, and empower  it, making it more likely to succeed. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.022.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.022.opt.a:0 "Yes, Let us empower this scheme!"
   zz_valyria_magic_dream_magic_spells.022.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_22_mysteries_empower_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_22$"
@@ -1198,8 +1198,8 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.023.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_23$"
-  zz_valyria_magic_dream_magic_spells.023.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the seeds of a scheme that is targeting them. You manipulate the participants of this scheme insighting the participants to abandon it, Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.023.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.023.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and look for the seeds of a scheme that is targeting them. You manipulate the participants of this scheme compelling the participants to abandon it, Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.023.opt.a:0 "Yes, Let us make this agent abandon their plot!"
   zz_valyria_magic_dream_magic_spells.023.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_23$"
@@ -1210,8 +1210,8 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.024.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_24$"
-  zz_valyria_magic_dream_magic_spells.024.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. You manipulate the participants of this scheme insighting the participants to abandon it, Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.024.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.024.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. You manipulate the participants of this scheme compelling the participants to abandon it, Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.024.opt.a:0 "Yes, Let us make this agent abandon their plot!"
   zz_valyria_magic_dream_magic_spells.024.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_24$"
@@ -1248,7 +1248,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.027.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_27$"
   zz_valyria_magic_dream_magic_spells.027.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out a scheme targeting them. You can affect an artificial delay upon its completion. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.027.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.027.opt.a:0 "Yes, Let us delay this scheme!"
   zz_valyria_magic_dream_magic_spells.027.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_27$"
@@ -1260,7 +1260,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.028.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_28$"
   zz_valyria_magic_dream_magic_spells.028.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. You can affect an artificial delay upon its completion. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.028.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.028.opt.a:0 "Yes, Let us delay this scheme!"
   zz_valyria_magic_dream_magic_spells.028.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_28_mysteries_delay_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_28$"
@@ -1272,7 +1272,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.029.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_29$"
   zz_valyria_magic_dream_magic_spells.029.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of the schemes that is targeting them. You can weaken the opportunities of this scheme to succed. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.029.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.029.opt.a:0 "Yes, Let us weaken this scheme!"
   zz_valyria_magic_dream_magic_spells.029.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_29$"
@@ -1284,7 +1284,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.030.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_30$"
   zz_valyria_magic_dream_magic_spells.030.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. You can weaken the opportunities of this scheme to succed. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.030.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.030.opt.a:0 "Yes, Let us weaken this scheme!"
   zz_valyria_magic_dream_magic_spells.030.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_30$"
@@ -1296,7 +1296,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.031.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_31$"
   zz_valyria_magic_dream_magic_spells.031.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of theie schemes targeting them. Youn can reset all progress for scuccess of this scheme. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.031.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.031.opt.a:0 "Yes, Let us reset the progress of this scheme!"
   zz_valyria_magic_dream_magic_spells.031.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_31$"
@@ -1309,7 +1309,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.032.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_32$"
   zz_valyria_magic_dream_magic_spells.032.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. Youn can reset all progress for scuccess of this scheme. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.032.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.032.opt.a:0 "Yes, Let us reset the progress of this scheme!"
   zz_valyria_magic_dream_magic_spells.032.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_32$"
@@ -1426,7 +1426,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.040.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_39$"
   zz_valyria_magic_dream_magic_spells.040.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.040.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.040.opt.a:0 "Yes, Let us remove this secret from existance"
   zz_valyria_magic_dream_magic_spells.040.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_40$"
@@ -1450,7 +1450,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
   ## Spell Options
   #event
-  zz_valyria_magic_dream_magic_spells.042.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_39$"
+  zz_valyria_magic_dream_magic_spells.042.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_42$"
   zz_valyria_magic_dream_magic_spells.042.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
   zz_valyria_magic_dream_magic_spells.042.opt.a:0 "Yes, Let us take remake their religious identity"
   zz_valyria_magic_dream_magic_spells.042.opt.z:0 "No, do not cast!"

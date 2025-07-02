@@ -2967,16 +2967,16 @@ zz_gain_dream_magic_spell = {
 			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration}}}
-			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own}}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception}}}
-			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted}}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment}}}
-			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known}}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 		}
 		100 = {
 			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own}}}
@@ -3516,13 +3516,13 @@ zz_random_gain_magic_spell = {
 						SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
 					}
 					zz_valyria_knows_spell = {
-						SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration
+						SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
 					}
 					zz_valyria_knows_spell = {
-						SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception
+						SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
 					}
 					zz_valyria_knows_spell = {
-						SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment
+						SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
 					}
 					zz_valyria_knows_spell = {
 						SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own
@@ -4190,9 +4190,9 @@ zz_gain_dream_magic_scroll = {
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }}
-		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }}
-		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }}
-		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }}
@@ -4412,9 +4412,9 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
-	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
-	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
-	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }

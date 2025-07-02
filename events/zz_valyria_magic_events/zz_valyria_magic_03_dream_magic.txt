@@ -999,7 +999,7 @@ zz_valyria_magic_dream_magic_spells.013 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration
+				SPELL  = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
 			}	
 		}
 	}
@@ -1059,7 +1059,7 @@ zz_valyria_magic_dream_magic_spells.014 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_14_mysteries_secret_perception
+				SPELL  = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
 			}	
 		}
 	}
@@ -1118,7 +1118,7 @@ zz_valyria_magic_dream_magic_spells.015 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment
+				SPELL  = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
 			}	
 		}
 	}

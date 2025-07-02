@@ -143,13 +143,13 @@
 				SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
 			}
 			zz_add_spell = { 
-				SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration
+				SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
 			}
 			zz_add_spell = { 
-				SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception
+				SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
 			}
 			zz_add_spell = { 
-				SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment
+				SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
 			}
 			zz_add_spell = { 
 				SPELL = zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation

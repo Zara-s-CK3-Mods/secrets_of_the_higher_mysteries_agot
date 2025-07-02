@@ -193,9 +193,9 @@ zz_valyria_blood_magic_01 = {
 		zz_valyria_mystery_human_only_mage_trigger = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
 		zz_valyria_mystery_human_only_scheme_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
 		zz_valyria_mystery_human_only_scheme_target_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
-		zz_valyria_mystery_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
-		zz_valyria_mystery_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
-		zz_valyria_mystery_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+		zz_valyria_mystery_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+		zz_valyria_mystery_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
+		zz_valyria_mystery_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 		zz_valyria_mystery_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }
 		zz_valyria_mystery_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }
 		zz_valyria_mystery_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }
@@ -348,9 +348,9 @@ zz_valyria_blood_magic_01 = {
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
-		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
-		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
-		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
+		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }
 		zz_valyria_magic_casting_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }
@@ -505,9 +505,9 @@ zz_valyria_item_scroll_01 = {
 		zz_valyria_scroll_human_only_mage_trigger = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
 		zz_valyria_scroll_human_only_scheme_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
 		zz_valyria_scroll_human_only_scheme_target_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
-		zz_valyria_scroll_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
-		zz_valyria_scroll_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
-		zz_valyria_scroll_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+		zz_valyria_scroll_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+		zz_valyria_scroll_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
+		zz_valyria_scroll_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 		zz_valyria_scroll_human_only_secret_owner_trigger = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }
 		zz_valyria_scroll_human_only_secret_target_trigger = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }
 		zz_valyria_scroll_human_only_secret_knower_trigger = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }
@@ -656,9 +656,9 @@ zz_valyria_item_scroll_01 = {
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
-		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
-		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
-		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
+		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted }
+		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known }
@@ -849,9 +849,9 @@ zz_valyria_magic_cast = {
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power EVENT = zz_valyria_magic_dream_magic_spells.010 }
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own EVENT = zz_valyria_magic_dream_magic_spells.011 }
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted EVENT = zz_valyria_magic_dream_magic_spells.012 }
-		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration EVENT = zz_valyria_magic_dream_magic_spells.013 }
-		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception EVENT = zz_valyria_magic_dream_magic_spells.014 }
-		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment EVENT = zz_valyria_magic_dream_magic_spells.015 }
+		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own EVENT = zz_valyria_magic_dream_magic_spells.013 }
+		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted EVENT = zz_valyria_magic_dream_magic_spells.014 }
+		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known EVENT = zz_valyria_magic_dream_magic_spells.015 }
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own EVENT = zz_valyria_magic_dream_magic_spells.016 }
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted EVENT = zz_valyria_magic_dream_magic_spells.017 }
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known EVENT = zz_valyria_magic_dream_magic_spells.018 }
@@ -1030,9 +1030,9 @@ zz_valyria_magic_scroll_cast = {
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power EVENT = zz_valyria_magic_dream_magic_spells.010 }
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own EVENT = zz_valyria_magic_dream_magic_spells.011 }
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted EVENT = zz_valyria_magic_dream_magic_spells.012 }
-		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration EVENT = zz_valyria_magic_dream_magic_spells.013 }
-		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception EVENT = zz_valyria_magic_dream_magic_spells.014 }
-		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment EVENT = zz_valyria_magic_dream_magic_spells.015 }
+		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own EVENT = zz_valyria_magic_dream_magic_spells.013 }
+		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted EVENT = zz_valyria_magic_dream_magic_spells.014 }
+		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known EVENT = zz_valyria_magic_dream_magic_spells.015 }
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own EVENT = zz_valyria_magic_dream_magic_spells.016 }
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted EVENT = zz_valyria_magic_dream_magic_spells.017 }
 		zz_valyria_magic_casting_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known EVENT = zz_valyria_magic_dream_magic_spells.018 }
