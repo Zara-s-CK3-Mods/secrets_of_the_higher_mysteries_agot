@@ -30,7 +30,7 @@ zz_valyria_doom_sites = {
 
 
 zz_valyria_has_artifact = {
-
+	
 }
 
 zz_valyria_mana_gain_trigger = {
@@ -57,7 +57,7 @@ zz_valyria_has_mana_to_cast = {
 	OR = {
 		has_character_modifier = zz_valyria_magic_drops_power
 		$MANACOST$ <= this.zz_valyria_drops_of_power_stat
-
+		
 	}
 }
 
@@ -236,6 +236,49 @@ zz_valyria_is_mage = {
 		has_trait = zz_magister
 		any_living_mage = {
 			liege_or_court_owner ?= PREV
+		}
+	}
+}
+
+zz_valyria_can_become_apprentice = {
+	OR = {
+		not = {
+			has_trait = zz_magister 
+			has_trait = dragon 
+		}
+		
+		
+		any_spouse = {
+			not = {
+				has_trait = zz_magister
+				has_trait = dragon 
+			}
+		}
+		any_close_or_extended_family_memebr = {
+			not = { 
+				has_trait = zz_magister
+				has_trait = dragon 
+			}
+		}
+		house ?= { 
+			any_house_member = {
+				not = { 
+					has_trait = zz_magister
+					has_trait = dragon 
+				}
+			}
+		}
+		any_courtier_or_guest = { 
+			not = { 
+				has_trait = zz_magister
+				has_trait = dragon 
+			}
+		}
+		any_vassal_or_below = { 
+			not = { 
+				has_trait = zz_magister
+				has_trait = dragon 
+			}
 		}
 	}
 }
@@ -702,7 +745,7 @@ zz_valyria_mystery_dragon_only_trigger = {
 				has_trait = dragon
 			}
 		}
-
+		
 	}
 }
 zz_valyria_mystery_dragon_female_only_trigger = {
@@ -822,7 +865,7 @@ zz_valyria_mystery_has_dead_dragon_egg_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
@@ -853,7 +896,7 @@ zz_valyria_mystery_has_dragon_egg_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
@@ -889,7 +932,7 @@ zz_valyria_mystery_has_dragon_egg_has_seven_dragonbloods_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
@@ -1367,7 +1410,7 @@ zz_valyria_scroll_has_dead_dragon_egg_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
@@ -1395,7 +1438,7 @@ zz_valyria_scroll_has_dragon_egg_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
@@ -1427,7 +1470,7 @@ zz_valyria_scroll_has_dragon_egg_has_seven_dragonbloods_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-
+			
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon

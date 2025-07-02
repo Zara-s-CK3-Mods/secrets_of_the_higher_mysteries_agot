@@ -57,7 +57,8 @@ zz_valyria_magic_management = {
 			if = {
 				limit = {
 					zz_valyria_is_mage = yes 
-					var:zz_valyria_magic_learner = exists 
+					zz_valyria_can_become_apprentice = yes
+					
 				}
 				set_variable = {
 					name = learning_type
@@ -161,10 +162,11 @@ zz_valyria_magic_manangement_window_magic_learning_tab = {
 		else_if = {
 			limit = {
 				zz_valyria_is_mage = yes 
+				zz_valyria_can_become_apprentice = yes
 			}
 			set_variable = {
-				name = learning_type			
-				value = flag:mystery
+				name = learning_type
+				value = flag:apprentice
 			}
 		}
 		else_if = {
@@ -172,10 +174,11 @@ zz_valyria_magic_manangement_window_magic_learning_tab = {
 				zz_valyria_is_mage = yes 
 			}
 			set_variable = {
-				name = learning_type
-				value = flag:apprentice
+				name = learning_type			
+				value = flag:mystery
 			}
 		}
+		
 	}
 }
 
@@ -280,9 +283,12 @@ zz_valyria_magic_learning_type_apprentice = {
 	is_shown = {
 		is_ai = no
 		zz_valyria_is_mage = yes
+		zz_valyria_can_become_apprentice = yes
 	}
 	is_valid = {
 		var:learning_type ?= flag:apprentice
+		
+		
 	}
 	effect = {
 		set_variable = {
@@ -1168,12 +1174,24 @@ zz_valyria_magic_learning_type_scroll_click = {
 			zz_setup_scroll_learning_lists = yes 
 		}
 		else_if = {
-			limit = {
-				zz_valyria_is_mage = yes 
+			else_if = {
+				limit = {
+					zz_valyria_is_mage = yes 
+					zz_valyria_can_become_apprentice = yes
+				}
+				set_variable = {
+					name = learning_type
+					value = flag:apprentice
+				}
 			}
-			set_variable = {
-				name = learning_type
-				value = flag:apprentice
+			else_if = {
+				limit = {
+					zz_valyria_is_mage = yes 
+				}
+				set_variable = {
+					name = learning_type			
+					value = flag:mystery
+				}
 			}
 		}
 		set_variable = {

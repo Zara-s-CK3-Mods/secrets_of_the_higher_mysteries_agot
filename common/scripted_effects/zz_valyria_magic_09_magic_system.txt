@@ -203,16 +203,23 @@ zz_valyria_make_mage_list = {
 			}
 		}
 	}
-	ordered_in_list = {
-		variable = mage_list
-		position = 0
-		order_by = learning
-		save_scope_as = zz_magic_caster
+	if = {
+		limit = {
+			not = {
+				has_variable = zz_magic_caster
+			}
+		}
+
+		ordered_in_list = {
+			variable = mage_list
+			position = 0
+			save_scope_as = zz_magic_caster
+		}
+		set_variable = {
+			name = zz_magic_caster
+			value ?= scope:zz_magic_caster
+		}	
 	}
-	set_variable = {
-		name = zz_magic_caster
-		value ?= scope:zz_magic_caster
-	}	
 }
 
 zz_valyria_make_spell_list = {
@@ -373,7 +380,20 @@ zz_valyria_make_spell_list = {
 
 
 zz_valyria_make_item_caster_list = {
-	remove_variable ?= zz_item_caster
+	if = {
+		limit = { 
+			var:zz_item_caster ?= { 
+				NOT = {
+					any_character_artifact = {
+						has_variable = spell
+						var:item_type ?= flag:scroll
+					}
+				}
+			}
+			remove_variable ?= zz_item_caster
+		}
+	}
+	
 	clear_variable_list ?= item_caster_list
 	if = { 
 		limit = {
@@ -417,19 +437,25 @@ zz_valyria_make_item_caster_list = {
 			}
 		}
 	}
-	ordered_in_list = {
-		variable = item_caster_list
-		position = 0
-		order_by = learning
-		save_scope_as = zz_item_caster
-	}
-	if = {
+	if = { 
 		limit = {
-			exists = scope:zz_item_caster
+			NOT = {
+				has_variable = zz_item_caster
+			}
 		}
-		set_variable = {
-			name = zz_item_caster
-			value ?= scope:zz_item_caster
+		ordered_in_list = {
+			variable = item_caster_list
+			position = 0
+			save_scope_as = zz_item_caster
+		}
+		if = {
+			limit = {
+				exists = scope:zz_item_caster
+			}
+			set_variable = {
+				name = zz_item_caster
+				value ?= scope:zz_item_caster
+			}
 		}
 	}
 }
@@ -511,16 +537,23 @@ zz_valyria_make_scroll_learner_list = {
 				}
 			}
 		}
-		ordered_in_list = {
-			variable = zz_valyria_scroll_learner_list
-			position = 0
-			order_by = learning
-			save_scope_as = zz_valyria_scroll_learner
+		if = {
+			limit = { 
+				NOT = {
+					has_variable = zz_valyria_scroll_learner
+				}
+			}
+			ordered_in_list = {
+				variable = zz_valyria_scroll_learner_list
+				position = 0
+				save_scope_as = zz_valyria_scroll_learner
+			}
+			set_variable = {
+				name = zz_valyria_scroll_learner
+				value ?= scope:zz_valyria_scroll_learner
+			}
 		}
-		set_variable = {
-			name = zz_valyria_scroll_learner
-			value ?= scope:zz_valyria_scroll_learner
-		}
+		
 	}
 }
 
@@ -1428,16 +1461,26 @@ zz_valyria_make_scroll_maker_list = {
 			}
 		}
 	}
-	ordered_in_list = {
-		variable = scroll_maker_list
-		position = 0
-		order_by = learning
-		save_scope_as = zz_scroll_maker
+	if = {
+		limit = {
+			NOT = {
+				any_in_list = {
+					list = scroll_maker_list
+					scope:zz_scroll_maker ?= this 
+				}
+			}
+		}
+		ordered_in_list = {
+			variable = scroll_maker_list
+			position = 0
+			save_scope_as = zz_scroll_maker
+		}
+		set_variable = {
+			name = zz_scroll_maker
+			value ?= scope:zz_scroll_maker
+		}	
 	}
-	set_variable = {
-		name = zz_scroll_maker
-		value ?= scope:zz_scroll_maker
-	}	
+	
 }
 
 
@@ -2513,6 +2556,24 @@ zz_valyria_magic_cast_effect = {
 				destroy_artifact = this
 			}
 			$SPELL$_effect = yes
+			if = { 
+				limit = {
+					scope:zz_item_caster ?= {
+						any_character_artifact = {
+							has_variable = spell
+						}
+					}
+				} 
+				root = {
+					zz_valyria_make_scroll_list = {MAGIC_USER = zz_magic_user ITEM_CASTER = zz_item_caster}
+				}
+			}
+			else = {
+				root = {
+					zz_valyria_make_item_caster_list = yes 
+					zz_valyria_make_scroll_list = {MAGIC_USER = zz_magic_user ITEM_CASTER = zz_item_caster}
+				}
+			}
 		}
 	}
 	

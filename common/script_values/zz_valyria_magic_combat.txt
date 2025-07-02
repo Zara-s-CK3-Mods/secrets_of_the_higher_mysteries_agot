@@ -13,113 +13,129 @@ zz_magic_duel_success_low = 25
 
 zz_magic_duel_success_medium = {
 	value = 0 
-	add = {
-		switch = {
-			trigger ?= var:magic_type
-			flag:dream = {
-				value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
-				multiply = 1.75
-			}
-			flag:blood = {
-				value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
-				multiply = 1.2
-			}
-			flag:alchemy = { 
-				value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
-				multiply = 1
-			}
-			flag:shadow = { 
-				value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
-				multiply = 1
-			}
-			flag:fire = {
-				value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
-				multiply = 1.5
-			}
-			flag:water = {
-				value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
-				multiply = 1.25
-			}
-			flag:air = {
-				value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
-				multiply = 2
+	if = {
+		limit = {
+			has_variable = magic_type
+		}
+		add = {
+			switch = {
+				trigger ?= var:magic_type
+				flag:dream = {
+					value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+					multiply = 1.75
+				}
+				flag:blood = {
+					value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
+					multiply = 1.2
+				}
+				flag:alchemy = { 
+					value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
+					multiply = 1
+				}
+				flag:shadow = { 
+					value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
+					multiply = 1
+				}
+				flag:fire = {
+					value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
+					multiply = 1.5
+				}
+				flag:water = {
+					value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
+					multiply = 1.25
+				}
+				flag:air = {
+					value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
+					multiply = 2
+				}
 			}
 		}
 	}
+	
 	min = 50
 }
 
 zz_magic_duel_success_high = {
 	value = 0 
-	
-	add = {
-		switch = {
-			trigger ?= var:magic_type
-			flag:dream = {
-				value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
-				multiply = 2
-			}
-			flag:blood = {
-				value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
-				multiply = 1.8
-			}
-			flag:alchemy = { 
-				value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
-				multiply = 1.3
-			}
-			flag:shadow = { 
-				value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
-				multiply = 1.25
-			}
-			flag:fire = {
-				value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
-				multiply = 2
-			}
-			flag:water = {
-				value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
-				multiply = 1.5
-			}
-			flag:air = {
-				value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
-				multiply = 2.5
+	if = {
+		limit = {
+			has_variable = magic_type
+		}
+		add = {
+			switch = {
+				trigger ?= var:magic_type
+				flag:dream = {
+					value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+					multiply = 2
+				}
+				flag:blood = {
+					value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
+					multiply = 1.8
+				}
+				flag:alchemy = { 
+					value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
+					multiply = 1.3
+				}
+				flag:shadow = { 
+					value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
+					multiply = 1.25
+				}
+				flag:fire = {
+					value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
+					multiply = 2
+				}
+				flag:water = {
+					value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
+					multiply = 1.5
+				}
+				flag:air = {
+					value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
+					multiply = 2.5
+				}
 			}
 		}
 	}
+
 	min = 75
 }
 
 zz_magic_duel_success_very_high = {
 	value = 0 
-	add = {
-		switch = {
-			trigger ?= var:magic_type
-			flag:dream = {
-				value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
-				multiply = 2.5
-			}
-			flag:blood = {
-				value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
-				multiply = 2.2
-			}
-			flag:alchemy = { 
-				value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
-				multiply = 1.75
-			}
-			flag:shadow = { 
-				value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
-				multiply = 1.5
-			}
-			flag:fire = {
-				value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
-				multiply = 2.5
-			}
-			flag:water = {
-				value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
-				multiply = 2
-			}
-			flag:air = {
-				value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
-				multiply = 3
+	if = {
+		limit = {
+			has_variable = magic_type
+		}
+		add = {
+			switch = {
+				trigger ?= var:magic_type
+				flag:dream = {
+					value = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+					multiply = 2.5
+				}
+				flag:blood = {
+					value = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
+					multiply = 2.2
+				}
+				flag:alchemy = { 
+					value = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value
+					multiply = 1.75
+				}
+				flag:shadow = { 
+					value = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
+					multiply = 1.5
+				}
+				flag:fire = {
+					value = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
+					multiply = 2.5
+				}
+				flag:water = {
+					value = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value
+					multiply = 2
+				}
+				flag:air = {
+					value = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value
+					multiply = 3
+				}
 			}
 		}
 	}

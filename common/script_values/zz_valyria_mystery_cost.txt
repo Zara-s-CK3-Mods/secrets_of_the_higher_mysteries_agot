@@ -308,7 +308,7 @@ zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_cost = {
 zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_cost = {
 	value = 55
 }
-zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_cost = {
+zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_cost = {
 	value = 55
 }
 zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_cost = {
