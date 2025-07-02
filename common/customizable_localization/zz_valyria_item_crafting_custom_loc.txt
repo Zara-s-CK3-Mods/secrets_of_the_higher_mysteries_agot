@@ -368,13 +368,13 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
-			var:spell = flag:zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight
+			var:spell = flag:zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
 		}
 		localization_key = zz_valyria_magic_dream_magic_11
 	}
 	text = {
 		trigger = {
-			var:spell = flag:zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight
+			var:spell = flag:zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
 		}
 		localization_key = zz_valyria_magic_dream_magic_12
 	}

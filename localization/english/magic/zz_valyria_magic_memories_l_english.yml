@@ -302,15 +302,15 @@
   zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_10$ $zz_mem_loc$"
   zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_10$ $zz_mem_loc$"
 
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight: "[dream_magic] - $zz_valyria_magic_dream_magic_11$"
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own: "[dream_magic] - $zz_valyria_magic_dream_magic_11$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_11$ $zz_mem_loc$"
 
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight: "[dream_magic] - $zz_valyria_magic_dream_magic_12$"
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted: "[dream_magic] - $zz_valyria_magic_dream_magic_12$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc_second_perspective: "$zz_mem_02$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc_third_perspective: "$zz_mem_03$ [dream_magic] - $zz_valyria_magic_dream_magic_12$ $zz_mem_loc$"
 
   zz_valyria_magic_dream_magic_13_mysteries_secret_penetration: "[dream_magic] - $zz_valyria_magic_dream_magic_13$"
   zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.memory_desc: "$zz_mem_01$ [dream_magic] - $zz_valyria_magic_dream_magic_13$ $zz_mem_loc$"

@@ -539,8 +539,8 @@ zz_valyria_magic_learning_type_mystery_mystery = {
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_learn_spell_gui_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -698,8 +698,8 @@ zz_valyria_magic_learning_type_mystery_mystery = {
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_magic_learning_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -864,8 +864,8 @@ zz_valyria_magic_learning_type_mystery_teach = {
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_learn_spell_click_block_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -1032,8 +1032,8 @@ zz_valyria_magic_learning_type_mystery_teach = {
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_magic_learning_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -1283,8 +1283,8 @@ zz_valyria_magic_scroll_learning_seroll = {
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_scroll_learn_trigger = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -1435,8 +1435,8 @@ zz_valyria_magic_scroll_learning_seroll = {
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_magic_casting_scroll_gui_tooltip_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -1623,8 +1623,8 @@ zz_valyria_magic_scroll_learn = {
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }
 		zz_valyria_magic_learning_scroll_gui_effect = { SPELL = zz_valyria_magic_dream_magic_15_mysteries_hidden_discernment }
@@ -2150,8 +2150,8 @@ zz_valyria_scroll_make = {
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream }
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying }
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power }
-		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight }
-		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight }
+		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own }
+		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted }
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration }
 		zz_valyria_scroll_making_gui_effect = { SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception }

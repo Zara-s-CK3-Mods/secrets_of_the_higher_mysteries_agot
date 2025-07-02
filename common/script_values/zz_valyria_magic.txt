@@ -357,7 +357,7 @@ zz_valyria_drops_power_passive_gain = {
 		}
 		if = { 
 			limit = { 
-				dynasty = dynasty:dynn_Setenon
+				has_trait = starwalker
 			}
 			add = 1
 		}
@@ -986,7 +986,7 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_duration = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_01_value = { 
+zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_01_value = { 
 	value = 100
 	subtract = { 
 		scope:secondary_recipient = { 
@@ -994,7 +994,7 @@ zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_01_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_value = {
+zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 

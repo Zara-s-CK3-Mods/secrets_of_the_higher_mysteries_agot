@@ -1,0 +1,8 @@
+﻿l_english:
+  SOTM_VER:0 "1.00.01"
+  sotm_load_game_log:0 "Your current version of Secrets of the Higher Mysteries is $SOTM_VER$"
+  SOTHM_VERSION_NUMBER:0 "\nSecrets of the Higher Mysteries: #color_yellow;bold Version $SOTM_VER$ #!#weak ($AGOT_VERSION$)#!"
+  TOP_BAR_VERSION:2 "Game Version: [GetGameVersionInfo]\nMP Checksum: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo] $AGOT_VERSION_BUILD$ $SOTHM_VERSION_NUMBER$"
+  #AGOT Modified
+  VERSION_SHORT:2 "[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$ $AGOT_VERSION_BUILD$ $SOTHM_VERSION_NUMBER$"
+

@@ -851,14 +851,14 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_effect = {
+zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.t
-		desc = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.desc
+		title = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.t
+		desc = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.tt
 	}
 	if = {
 		limit = {
@@ -874,7 +874,7 @@ zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_01_value
+			base = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_01_value
 		}  
 	}			
 	scope:scheme = {
@@ -882,14 +882,14 @@ zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight_effect = {
+zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.t
-		desc = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.desc
+		title = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.t
+		desc = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.tt
 	}
 	if = {
 		limit = {

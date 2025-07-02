@@ -1511,25 +1511,25 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power = {
 		years = 100000
 	}
 }
-zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight = {
+zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own = {
 	categories = { positive magic dream_magic }
 	icon = "activity_zz_magic_education.dds"
 
 	description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc
+			desc = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc
 		}
 	}
 
 	second_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc_second_perspective
+			desc = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc_second_perspective
 		}
 	}
 
 	third_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.memory_desc_third_perspective
+			desc = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.memory_desc_third_perspective
 		}
 	}
 
@@ -1539,25 +1539,25 @@ zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight = {
 		years = 100000
 	}
 }
-zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight = {
+zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted = {
 	categories = { positive magic dream_magic }
 	icon = "activity_zz_magic_education.dds"
 
 	description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc
+			desc = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc
 		}
 	}
 
 	second_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc_second_perspective
+			desc = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc_second_perspective
 		}
 	}
 
 	third_perspective_description = {
 		random_valid = {
-			desc = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.memory_desc_third_perspective
+			desc = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.memory_desc_third_perspective
 		}
 	}
 

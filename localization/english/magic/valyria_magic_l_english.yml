@@ -87,7 +87,7 @@
 
   zz_magister:0 "Student of the Higher Mysteries"
   trait_zz_magister_desc:0 "This character is a practictioner of magic. The power to change, hurt, and control is at their fingertips."
-  trait_zz_magister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practictioner of magic. The power to change, hurt, and control is at [ROOT.Char.GetHerHis] fingertips... \n\nCurrent [passive_drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_power_passive_gain')].\n\nCurrent [drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_of_power_stat_gui')]. "
+  trait_zz_magister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practictioner of magic. The power to change, hurt, and control is at [ROOT.Char.GetHerHis] fingertips... \n\nCurrent [passive_drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_power_passive_gain')].\n\nCurrent [drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_of_power_stat_gui')|0]. "
   magic_acolyte:0 "Acolyte"
   magic_master:0 "Master"
   trait_lifespan_good_1:0 "Vigorous"
@@ -935,14 +935,14 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.003.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_03$"
   zz_valyria_magic_dream_magic_spells.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. It is possible to induce in [recipient.GetName] dreams of possible fiutures and to gain experience in lifestyles they have not yet achieved. Is this an intrusion into the realm of the God of dreams you wish to make?"
-  zz_valyria_magic_dream_magic_spells.003.opt.a:0 "Yes,  dream of learning!"
-  zz_valyria_magic_dream_magic_spells.003.opt.b:0 "Yes,  dream of diplomacy!"
-  zz_valyria_magic_dream_magic_spells.003.opt.c:0 "Yes,  dream of srewardship!"
-  zz_valyria_magic_dream_magic_spells.003.opt.d:0 "Yes,  dream of intrigue!"
-  zz_valyria_magic_dream_magic_spells.003.opt.e:0 "Yes,  dream of martial!"
-  zz_valyria_magic_dream_magic_spells.003.opt.f:0 "Yes,  dream of wandering!"
-  zz_valyria_magic_dream_magic_spells.003.opt.g:0 "Yes,  dream of prowess!"
-  zz_valyria_magic_dream_magic_spells.003.opt.h:0 "Yes,  dream of leadership!"
+  zz_valyria_magic_dream_magic_spells.003.opt.a:0 "Yes,  dream of Learning!"
+  zz_valyria_magic_dream_magic_spells.003.opt.b:0 "Yes,  dream of Diplomacy!"
+  zz_valyria_magic_dream_magic_spells.003.opt.c:0 "Yes,  dream of Stewardship!"
+  zz_valyria_magic_dream_magic_spells.003.opt.d:0 "Yes,  dream of Intrigue!"
+  zz_valyria_magic_dream_magic_spells.003.opt.e:0 "Yes,  dream of Martial!"
+  zz_valyria_magic_dream_magic_spells.003.opt.f:0 "Yes,  dream of Wandering!"
+  zz_valyria_magic_dream_magic_spells.003.opt.g:0 "Yes,  dream of Prowess!"
+  zz_valyria_magic_dream_magic_spells.003.opt.h:0 "Yes,  dream of Leadership!"
   zz_valyria_magic_dream_magic_spells.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_03_mysteries_of_dreams.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_03$"
@@ -1047,7 +1047,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ drawing forth future potentials to increase [drops_of_power|E] gain in the present."
   zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.tt:0 "$zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.desc$"
 
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, to take from within their mind knowledge of the schemes they are plotting, and to expose these schemes and their accomplices."
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, to take from within their mind knowledge of the schemes they are plotting, and to expose these schemes and their accomplices."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.011.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_11$"
@@ -1055,11 +1055,11 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_spells.011.opt.a:0 "Yes, Let us take the knowledge of their plots!"
   zz_valyria_magic_dream_magic_spells.011.opt.z:0 "No, do not cast!"
   ## Spell Toast
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_11$"
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one of [recipient.GetName]'s' plots for the world to know."
-  zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.tt:0 "$zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight.desc$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_11$"
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one of [recipient.GetName]'s' plots for the world to know."
+  zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.tt:0 "$zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.desc$"
 
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a scheme that is targeting them to reveal it to the world."
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a scheme that is targeting them to reveal it to the world."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.012.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12$"
@@ -1067,9 +1067,9 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_spells.012.opt.a:0 "Yes, Let us take the knowledge of their plots!"
   zz_valyria_magic_dream_magic_spells.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12$"
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one plot that is targeting [recipient.GetName] for all the world to know."
-  zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.tt:0 "$zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight.desc$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12$"
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one plot that is targeting [recipient.GetName] for all the world to know."
+  zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.tt:0 "$zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc$"
 
   zz_valyria_magic_dream_magic_13_mysteries_secret_penetration.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp one of their secrets."
   ## Spell Options
@@ -1223,7 +1223,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.025.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_25$"
   zz_valyria_magic_dream_magic_spells.025.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of the schemes targeting them. You can manipulate the participants of this scheme revealing their insidious behaviour. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.025.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.025.opt.a:0 "Yes, Let us expose this schemer!"
   zz_valyria_magic_dream_magic_spells.025.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_25$"
@@ -1235,7 +1235,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.026.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_26$"
   zz_valyria_magic_dream_magic_spells.026.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the mind of [recipient.GetName] and seek out one of their schemes. You can manipulate the participants of this scheme revealing their insidious behaviour. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.026.opt.a:0 "Yes, Let us take their knowledge of secrets!"
+  zz_valyria_magic_dream_magic_spells.026.opt.a:0 "Yes, Let us expose this schemer!"
   zz_valyria_magic_dream_magic_spells.026.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_26$"
@@ -1399,7 +1399,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   #event
   zz_valyria_magic_dream_magic_spells.038.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_38$"
   zz_valyria_magic_dream_magic_spells.038.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and bind them to their leaders in hope and stability. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.038.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.038.opt.a:0 "Yes, Let us shape them in hope!"
   zz_valyria_magic_dream_magic_spells.038.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_38$"
@@ -1477,7 +1477,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.044.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_44$"
-  zz_valyria_magic_dream_magic_spells.04.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.044.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
   zz_valyria_magic_dream_magic_spells.044.opt.a:0 "Yes, Let us take remake their religious identity"
   zz_valyria_magic_dream_magic_spells.044.opt.z:0 "No, do not cast!"
   ## Spell Toast

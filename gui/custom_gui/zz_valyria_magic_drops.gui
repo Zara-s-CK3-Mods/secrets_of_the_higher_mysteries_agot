@@ -28,7 +28,7 @@
     type tooltip_widget_sanctum_list_drops_of_power = widget {
         name = "tooltip_widget_sanctum_list_drops_of_power"
         alwaystransparent = no
-        size = { 450 800 }
+        size = { 500 800 }
         using = DefaultTooltipBackground
         
         
@@ -36,7 +36,7 @@
             name = "tooltip_container"
             layoutpolicy_vertical = expanding
             layoutpolicy_horizontal = expanding
-            size = { 450 800 }
+            size = { 500 800 }
             filter_mouse = all
             background = {}
             vbox = {
@@ -61,25 +61,26 @@
                     name = "mages_scrollarea"
                     layoutpolicy_vertical = expanding
                     layoutpolicy_horizontal = expanding
-                    block "scrollbox_margins"
+                    
+                    blockoverride "scrollbox_margins"
 					{
 					    using = Scrollbox_Margins
-						margin_right = 10
-                        margin_left = 10
+						margin_right = 5
+                        margin_left = 5
 						margin_top = 5
 					}
                     blockoverride "scrollbox_content"
                     {   
                         spacing = 10
                         fixedgridbox = {
-                            addcolumn = 350
+                            addcolumn = 475
                             addrow = 30
                             datamodel = "[GetPlayer.MakeScope.GetList('mage_list')]"
                             
                             item = {
                                 widget = {
                                     visible = "[GetScriptedGui('zz_valyria_magic_management').IsShown(GetPlayer.MakeScope)]"
-                                    size = { 350 30 }
+                                    size = { 475 30 }
                                     datacontext = "[Scope.GetCharacter]"
                                     hbox = {
                                         
@@ -87,23 +88,29 @@
                                         layoutpolicy_horizontal = expanding
                                         text_single = {
                                             text = "[Character.GetUIName]"
-                                            min_width = 200
-                                            max_width = 200
+                                            min_width = 175
+                                            max_width = 175
                                             tooltipwidget = {
                                                 cooltip_type = {}
                                             }
                                         }
+                                        spacer = {
+                                            size = {10 0}
+                                        }
                                         text_single = {
                                             text = "[Character.MakeScope.ScriptValue('zz_valyria_drops_of_power_stat')|0]"
-                                            min_width = 75
-                                            max_width = 75
+                                            min_width = 200
+                                            max_width = 200
                                             align = right
                                             default_format = "#high"
                                         }
+                                        spacer = {
+                                            size = {10 0}
+                                        }
                                         text_single = {
-                                            text = "[Character.MakeScope.ScriptValue('zz_valyria_drops_power_passive_gain')|+=]"
-                                            min_width = 50
-                                            max_width = 50
+                                            text = "[Character.MakeScope.ScriptValue('zz_valyria_drops_power_passive_gain')|0|+=]"
+                                            min_width = 75
+                                            max_width = 75
                                             align = right
                                             default_format = "#high"
                                             tooltipwidget = {

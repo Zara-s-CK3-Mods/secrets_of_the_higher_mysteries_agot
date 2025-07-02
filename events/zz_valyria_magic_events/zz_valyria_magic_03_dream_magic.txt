@@ -879,7 +879,7 @@ zz_valyria_magic_dream_magic_spells.011 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight
+				SPELL  = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
 			}	
 		}
 
@@ -940,7 +940,7 @@ zz_valyria_magic_dream_magic_spells.012 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight
+				SPELL  = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
 			}	
 		}
 	}

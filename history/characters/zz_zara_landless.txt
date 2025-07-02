@@ -137,10 +137,10 @@
 				SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power
 			}
 			zz_add_spell = { 
-				SPELL = zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight
+				SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
 			}
 			zz_add_spell = { 
-				SPELL = zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight
+				SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
 			}
 			zz_add_spell = { 
 				SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_penetration

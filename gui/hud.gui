@@ -64,6 +64,17 @@ widget = {
 		default_format = "#low"
 		max_width = 300
 	}
+	text_single = {
+		name = "build_version_text"
+		position = { 5 5 }
+		visible = "[And( Not(IsGameViewOpen('barbershop')), Not(ReleaseMode))]"
+
+		tooltip = "[GetBuildVersionDescription]"
+
+		text = "SOTHM_VERSION_NUMBER"
+		default_format = "#low"
+		max_width = 300
+	}
 
 	error_horse = {
 		parentanchor = bottom|left

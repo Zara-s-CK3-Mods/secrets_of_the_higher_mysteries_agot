@@ -188,10 +188,10 @@ zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying_cost = {
 zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_cost = {
 	value = 60
 }
-zz_valyria_magic_dream_magic_11_mysteries_penetrative_insight_cost = {
+zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_cost = {
 	value = 15
 }
-zz_valyria_magic_dream_magic_12_mysteries_perceptive_insight_cost = {
+zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_cost = {
 	value = 15
 }
 zz_valyria_magic_dream_magic_13_mysteries_secret_penetration_cost = {

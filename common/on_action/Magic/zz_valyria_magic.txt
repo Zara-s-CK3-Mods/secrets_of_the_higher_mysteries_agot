@@ -7,6 +7,15 @@
 
 zz_valyria_on_game_start_after_lobby = {
 	effect = { 
+		set_global_variable = {
+			name = zz_SOTHM
+			value = yes 
+		}
+		debug_log = sotm_load_game_log
+		set_global_variable = {
+			name = SOTHM_Ver
+			flag = 1.00.01 
+		}
 		zz_valyria_anogres_setup = yes 
 		character:Setenon_01 = {
 			add_perk = pedagogy_perk
@@ -97,15 +106,6 @@ zz_valyria_on_game_start_after_lobby = {
 
 
 			
-		}
-		set_global_variable = {
-			name = zz_SOTHM
-			value = yes 
-		}
-		debug_log = sotm_load_game_log
-		set_global_variable = {
-			name = SOTHM_Ver_1_00_00
-			value = yes 
 		}
 	}
 	events = {
