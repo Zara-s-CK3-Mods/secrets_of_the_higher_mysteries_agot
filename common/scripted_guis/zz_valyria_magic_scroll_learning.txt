@@ -1174,7 +1174,7 @@ zz_valyria_magic_learning_type_scroll_click = {
 			zz_setup_scroll_learning_lists = yes 
 		}
 		else_if = {
-			else_if = {
+			if = {
 				limit = {
 					zz_valyria_is_mage = yes 
 					zz_valyria_can_become_apprentice = yes

@@ -1,4 +1,4 @@
-zz_valyria_anogres_setup = {
+﻿zz_valyria_anogres_setup = {
 	if = { # Anogres
 		limit = { exists = character:dragon_Anogres }
 		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {

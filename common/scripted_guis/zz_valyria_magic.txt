@@ -748,6 +748,19 @@ zz_valyria_item_scroll_01 = {
 	}
 }
 
+zz_valyria_magic_cast_set_current_character = {
+	scope = character
+	is_valid = {
+
+	}
+	effect = {
+		set_variable = {
+			name = zz_magic_target
+			value = scope:zz_character_window_character
+		}
+	}
+}
+
 zz_valyria_magic_cast = {
 	scope = character
 	is_valid = {
@@ -931,6 +944,9 @@ zz_valyria_magic_cast = {
 		zz_valyria_magic_casting_gui_effect = { SPELL = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity EVENT = zz_valyria_magic_water_magic_spells.011 }
 	}
 }
+
+
+
 
 zz_valyria_magic_scroll_cast = {
 	scope = character

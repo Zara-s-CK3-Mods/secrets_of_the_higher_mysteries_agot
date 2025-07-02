@@ -1,22 +1,4 @@
 types zz_valyria_magic_crafting {
-
-	type zz_valyria_magic_crafting_window_open = window {
-		name = "zz_valyria_magic_crafting_window_open"
-		allow_outside = yes
-		parentanchor = top|right
-		layer = windows_layer
-		#layer = top
-		movable = yes
-
-		size = { 100% 100% }
-		alwaystransparent = yes
-
-		visible = "[And( Not( IsPauseMenuShown ), And(Or(Not(IsObserver), GetPlayer.IsValid), IsDefaultGUIMode))]"
-
-		zz_valyria_magic_crafting = {}
-		
-	}
-
 	type zz_valyria_magic_crafting = window {
 		name = "zz_valyria_magic_crafting"
 		layer = windows_layer
@@ -463,7 +445,6 @@ types zz_valyria_magic_crafting {
 		crafting_window_sword_selection_view = {}
 		crafting_window_ring_selection_view = {}
 	}
-
 	type crafting_window_sword_selection_view = window {
 		name = "crafting_window_sword_selection_view"
 		movable = no
@@ -544,7 +525,6 @@ types zz_valyria_magic_crafting {
 			expand = {}
 		}
 	}
-
 	type crafting_window_ring_selection_view = window {
 		name = "crafting_window_ring_selection_view"
 		movable = no
@@ -702,5 +682,3 @@ types zz_valyria_magic_crafting {
 		}
 	}
 }
-
-zz_valyria_magic_crafting_window_open = {}

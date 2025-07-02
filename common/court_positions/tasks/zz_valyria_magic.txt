@@ -247,12 +247,14 @@ zz_valyria_court_mages_court_position_improve_self = {
 					70 = {
 						trigger = {
 							has_trait_xp = {
-								trait = secrets_of_the_higher_mysteries
+								trait = zz_magister
+								track = secrets_of_the_higher_mysteries
 								value <= 100
 							}
 						}
 						add_trait_xp = {
-							trait = secrets_of_the_higher_mysteries
+							trait = zz_magister
+							track = secrets_of_the_higher_mysteries
 							value = 3
 						}
 					}

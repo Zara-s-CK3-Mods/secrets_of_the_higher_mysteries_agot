@@ -1,19 +1,4 @@
 types magic_scroll_learning {
-	type zz_valyria_magic_scroll_learning_window_open = window {
-		name = "zz_valyria_magic_scroll_learning_window_open"
-		allow_outside = yes
-		parentanchor = top|right
-		layer = windows_layer
-		movable = no
-		#parentanchor = center
-		size = { 100% 100% }
-		alwaystransparent = yes
-		
-		visible = "[And( Not( IsPauseMenuShown ), And(Or(Not(IsObserver), GetPlayer.IsValid), IsDefaultGUIMode))]"
-		
-		zz_valyria_magic_scroll_learning = {}
-		
-	}
 	type zz_valyria_magic_scroll_learning = window {
 		name = "zz_valyria_magic_scroll_learning"
 		layer = windows_layer
@@ -1946,4 +1931,3 @@ types magic_scroll_learning {
 		}
 	}
 }
-zz_valyria_magic_scroll_learning_window_open = {}

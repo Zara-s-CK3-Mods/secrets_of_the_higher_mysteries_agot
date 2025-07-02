@@ -11,6 +11,8 @@
 		visible = "[And( Not( IsPauseMenuShown ), And(Or(Not(IsObserver), GetPlayer.IsValid), IsDefaultGUIMode))]"
 
 		zz_magic_window = {}
+		zz_valyria_magic_scroll_learning = {}
+		zz_valyria_magic_crafting = {}
 	}
 
 	type zz_magic_window = window {
@@ -748,21 +750,26 @@
 								}
 							}
 							spacer = { size = { 00 25 } }
-							
-							button_standard = {
-								text_single = {
-									minimumsize = { 200 38 }
-									margin = { 15 15 }
-									raw_text = "Enact Mystery"
-									resizeparent = yes
-									align = center|nobaseline
-									default_format = "#low"								
+							hbox = {
+								button_standard = {
+									text_single = {
+										minimumsize = { 200 38 }
+										margin = { 15 15 }
+										raw_text = "Enact Mystery"
+										resizeparent = yes
+										align = center|nobaseline
+										default_format = "#low"								
+									}
+									datacontext = "[GetScriptedGui('zz_valyria_magic_cast')]"
+									shortcut = "confirm"
+									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+									onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 								}
-								datacontext = "[GetScriptedGui('zz_valyria_magic_cast')]"
-								shortcut = "confirm"
-								enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								spacer = {
+									size = { 20 0 }
+								}
 							}
+							
 							expand = {}
 						}
 					}

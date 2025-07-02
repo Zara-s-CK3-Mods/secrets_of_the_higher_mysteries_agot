@@ -28,7 +28,7 @@
     type tooltip_widget_sanctum_list_drops_of_power = widget {
         name = "tooltip_widget_sanctum_list_drops_of_power"
         alwaystransparent = no
-        size = { 350 800 }
+        size = { 450 800 }
         using = DefaultTooltipBackground
         
         
@@ -36,7 +36,7 @@
             name = "tooltip_container"
             layoutpolicy_vertical = expanding
             layoutpolicy_horizontal = expanding
-            size = { 350 800 }
+            size = { 450 800 }
             filter_mouse = all
             background = {}
             vbox = {
@@ -61,8 +61,7 @@
                     name = "mages_scrollarea"
                     layoutpolicy_vertical = expanding
                     layoutpolicy_horizontal = expanding
-                    autoresizescrollarea = yes
-                     block "scrollbox_margins"
+                    block "scrollbox_margins"
 					{
 					    using = Scrollbox_Margins
 						margin_right = 10

@@ -11,6 +11,8 @@ zz_valyria_magic_01.interaction = {
 	#icon = fire_magic
 	#icon = air_magic
 	#icon = water_magic
+
+	
 	common_interaction = yes
 	interface_priority = 40000
 	category = interaction_category_religion

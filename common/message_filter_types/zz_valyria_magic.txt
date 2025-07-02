@@ -1,4 +1,4 @@
-spell_outcome_success = {
+﻿spell_outcome_success = {
 	display = feed
 	#always_show = yes
 	group = magic

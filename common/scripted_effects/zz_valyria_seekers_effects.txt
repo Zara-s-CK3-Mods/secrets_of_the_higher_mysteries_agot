@@ -1,4 +1,4 @@
-zz_valyria_seek_bloodmage = {
+﻿zz_valyria_seek_bloodmage = {
     custom_tooltip = seekers.1001.e.t
     hidden_effect = {
         add_character_flag = { flag = seeking_bloodmage days = 30 }
