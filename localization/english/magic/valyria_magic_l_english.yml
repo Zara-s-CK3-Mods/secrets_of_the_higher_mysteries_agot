@@ -320,7 +320,7 @@
   ##Spell Toast
   zz_valyria_magic_blood_magic_01.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_01_name$"
   zz_valyria_magic_blood_magic_01.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ healing [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_01.toast.tt:0 "$zz_valyria_magic_blood_magic_01.desc$"
+  zz_valyria_magic_blood_magic_01.toast.tt:0 "$zz_valyria_magic_blood_magic_01.toast.desc$"
 
   ## Blood Magic - Mysteries of Transmogrification
   ## Intereraction
@@ -336,7 +336,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_02.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_02_name$"
   zz_valyria_magic_blood_magic_02.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ changing the very flesh of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_02.toast.tt:0 "$zz_valyria_magic_blood_magic_02.desc$"
+  zz_valyria_magic_blood_magic_02.toast.tt:0 "$zz_valyria_magic_blood_magic_02.toast.desc$"
 
 
   ## Blood Magic - Mysteries of Regeneration
@@ -349,7 +349,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_03.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_03_name$"
   zz_valyria_magic_blood_magic_03.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ restoring the troop strength of [target.GetFirstName]."
-  zz_valyria_magic_blood_magic_03.toast.tt:0 "$zz_valyria_magic_blood_magic_03.desc$"
+  zz_valyria_magic_blood_magic_03.toast.tt:0 "$zz_valyria_magic_blood_magic_03.toast.desc$"
 
 
   ## Blood Magic - Mysteries of Renewal
@@ -364,7 +364,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_04.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_04_name$"
   zz_valyria_magic_blood_magic_04.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ regenerating the health of the army of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_04.toast.tt:0 "$zz_valyria_magic_blood_magic_04.desc$"
+  zz_valyria_magic_blood_magic_04.toast.tt:0 "$zz_valyria_magic_blood_magic_04.toast.desc$"
 
 
   ## Interaction
@@ -384,7 +384,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_05.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
   zz_valyria_magic_blood_magic_05.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ creating new life in a simulacrum of [target_char.GetFirstName]."
-  zz_valyria_magic_blood_magic_05.toast.tt:0 "$zz_valyria_magic_blood_magic_05.desc$"
+  zz_valyria_magic_blood_magic_05.toast.tt:0 "$zz_valyria_magic_blood_magic_05.toast.desc$"
 
   zz_valyria_magic_blood_magic_05_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
   zz_valyria_magic_blood_magic_05_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -404,7 +404,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_06.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
   zz_valyria_magic_blood_magic_06.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ restoring the life to the dragon egg of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_06.toast.tt:0 "$zz_valyria_magic_blood_magic_06.desc$"
+  zz_valyria_magic_blood_magic_06.toast.tt:0 "$zz_valyria_magic_blood_magic_06.toast.desc$"
 
   zz_valyria_magic_blood_magic_06_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
   zz_valyria_magic_blood_magic_06_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -421,7 +421,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_07.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
   zz_valyria_magic_blood_magic_07.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_07.toast.tt:0 "$zz_valyria_magic_blood_magic_07.desc$"
+  zz_valyria_magic_blood_magic_07.toast.tt:0 "$zz_valyria_magic_blood_magic_07.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_cl$\n\nThe use of the arcane forces of [blood_magic|E] to bring forth life. Your chosen Dragon shall feel the flame made flesh within begin to stir, as a new clutch of dragon eggs are lain."
@@ -434,7 +434,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_08.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
   zz_valyria_magic_blood_magic_08.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ initating a clutch of dragon eggs to be born within [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_08.toast.tt:0 "$zz_valyria_magic_blood_magic_08.desc$"
+  zz_valyria_magic_blood_magic_08.toast.tt:0 "$zz_valyria_magic_blood_magic_08.toast.desc$"
 
   zz_valyria_magic_blood_magic_08_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
   zz_valyria_magic_blood_magic_08_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -451,7 +451,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_09.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_09_name$"
   zz_valyria_magic_blood_magic_09.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the growth of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_09.toast.tt:0 "$zz_valyria_magic_blood_magic_09.desc$"
+  zz_valyria_magic_blood_magic_09.toast.tt:0 "$zz_valyria_magic_blood_magic_09.toast.desc$"
 
   ## Interaction
 
@@ -482,7 +482,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_11.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_11_name$"
   zz_valyria_magic_blood_magic_11.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with extra years of life."
-  zz_valyria_magic_blood_magic_11.toast.tt:0 "$zz_valyria_magic_blood_magic_11.desc$"
+  zz_valyria_magic_blood_magic_11.toast.tt:0 "$zz_valyria_magic_blood_magic_11.toast.desc$"
 
 
 
@@ -497,7 +497,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_12.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_12_name$"
   zz_valyria_magic_blood_magic_12.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vital energies, bolstering their health."
-  zz_valyria_magic_blood_magic_12.toast.tt:0 "$zz_valyria_magic_blood_magic_12.desc$"
+  zz_valyria_magic_blood_magic_12.toast.tt:0 "$zz_valyria_magic_blood_magic_12.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with resilience, defending against disease and pestilence."
@@ -510,7 +510,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_13.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_13_name$"
   zz_valyria_magic_blood_magic_13.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vital energies, bolstering their epidemic resistence."
-  zz_valyria_magic_blood_magic_13.toast.tt:0 "$zz_valyria_magic_blood_magic_13.desc$"
+  zz_valyria_magic_blood_magic_13.toast.tt:0 "$zz_valyria_magic_blood_magic_13.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with fortitude, allowing them to resist negative health penalities."
@@ -523,7 +523,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_14.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_14_name$"
   zz_valyria_magic_blood_magic_14.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with fortitude, enabling the resistence of health penalties"
-  zz_valyria_magic_blood_magic_14.toast.tt:0 "$zz_valyria_magic_blood_magic_14.desc$"
+  zz_valyria_magic_blood_magic_14.toast.tt:0 "$zz_valyria_magic_blood_magic_14.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen with fertility."
@@ -536,7 +536,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_15.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_15_name$"
   zz_valyria_magic_blood_magic_15.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with procreative energies, boosting their fertility."
-  zz_valyria_magic_blood_magic_15.toast.tt:0 "$zz_valyria_magic_blood_magic_15.desc$"
+  zz_valyria_magic_blood_magic_15.toast.tt:0 "$zz_valyria_magic_blood_magic_15.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_md$\n\nThe use of the arcane forces of [blood_magic|E] to strike at the armies of your enemy. Let the blood of the opposing armies become a plague within their veins.."
@@ -548,7 +548,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_16.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_16_name$"
   zz_valyria_magic_blood_magic_16.toast.desc:0 "$zz_toast_01$ [blood_magic|E], $zz_toast_02$ making the blood of the soldiers of [target.GetFirstName] boil within their veins, causing them to die a hideous death."
-  zz_valyria_magic_blood_magic_16.toast.tt:0 "$zz_valyria_magic_blood_magic_16.desc$"
+  zz_valyria_magic_blood_magic_16.toast.tt:0 "$zz_valyria_magic_blood_magic_16.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [blood_magic|E] to strike out a chosen victim, seeking to take from them their very vital energies."
@@ -562,7 +562,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_17.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_17_name$"
   zz_valyria_magic_blood_magic_17.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ striking forth at [recipient.GetFirstName] seeking to consume their very life"
-  zz_valyria_magic_blood_magic_17.toast.tt:0 "$zz_valyria_magic_blood_magic_17.desc$"
+  zz_valyria_magic_blood_magic_17.toast.tt:0 "$zz_valyria_magic_blood_magic_17.toast.desc$"
 
   zz_valyria_magic_blood_magic_17_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
   zz_valyria_magic_blood_magic_17_f.toast.desc:0 "$zz_toast_01$ [blood_magic], but [recipient.GetFirstName] resist's the effect."
@@ -579,7 +579,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_18.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
   zz_valyria_magic_blood_magic_18.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ manipulating the genetics of[recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_18.toast.tt:0 "$zz_valyria_magic_blood_magic_18.desc$"
+  zz_valyria_magic_blood_magic_18.toast.tt:0 "$zz_valyria_magic_blood_magic_18.toast.desc$"
 
   zz_valyria_magic_blood_magic_18_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
   zz_valyria_magic_blood_magic_18_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -597,7 +597,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_19.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
   zz_valyria_magic_blood_magic_19.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ manipulating the sex of the uborn child of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_19.toast.tt:0 "$zz_valyria_magic_blood_magic_19.desc$"
+  zz_valyria_magic_blood_magic_19.toast.tt:0 "$zz_valyria_magic_blood_magic_19.toast.desc$"
 
   zz_valyria_magic_blood_magic_19_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
   zz_valyria_magic_blood_magic_19_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -615,7 +615,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_20.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
   zz_valyria_magic_blood_magic_20.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with a protection against death in child birth."
-  zz_valyria_magic_blood_magic_20.toast.tt:0 "$zz_valyria_magic_blood_magic_20.desc$"
+  zz_valyria_magic_blood_magic_20.toast.tt:0 "$zz_valyria_magic_blood_magic_20.toast.desc$"
 
   zz_valyria_magic_blood_magic_20_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
   zz_valyria_magic_blood_magic_20_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -632,7 +632,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_21.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
   zz_valyria_magic_blood_magic_21.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with a protection for her unborn child."
-  zz_valyria_magic_blood_magic_21.toast.tt:0 "$zz_valyria_magic_blood_magic_21.desc$"
+  zz_valyria_magic_blood_magic_21.toast.tt:0 "$zz_valyria_magic_blood_magic_21.toast.desc$"
 
   zz_valyria_magic_blood_magic_21_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
   zz_valyria_magic_blood_magic_21_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -650,7 +650,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_22.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
   zz_valyria_magic_blood_magic_22.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with eternal life."
-  zz_valyria_magic_blood_magic_22.toast.tt:0 "$zz_valyria_magic_blood_magic_22.desc$"
+  zz_valyria_magic_blood_magic_22.toast.tt:0 "$zz_valyria_magic_blood_magic_22.toast.desc$"
 
   zz_valyria_magic_blood_magic_22_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
   zz_valyria_magic_blood_magic_22_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
@@ -667,7 +667,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_23.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_23_name$"
   zz_valyria_magic_blood_magic_23.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vitaility, stripping the trappings of age."
-  zz_valyria_magic_blood_magic_23.toast.tt:0 "$zz_valyria_magic_blood_magic_23.desc$"
+  zz_valyria_magic_blood_magic_23.toast.tt:0 "$zz_valyria_magic_blood_magic_23.toast.desc$"
 
 
 
@@ -682,7 +682,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_24.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_24_name$"
   zz_valyria_magic_blood_magic_24.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_24.toast.tt:0 "$zz_valyria_magic_blood_magic_24.desc$"
+  zz_valyria_magic_blood_magic_24.toast.tt:0 "$zz_valyria_magic_blood_magic_24.toast.desc$"
 
 
   ## Interaction
@@ -696,7 +696,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_25.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_25_name$"
   zz_valyria_magic_blood_magic_25.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_25.toast.tt:0 "$zz_valyria_magic_blood_magic_25.desc$"
+  zz_valyria_magic_blood_magic_25.toast.tt:0 "$zz_valyria_magic_blood_magic_25.toast.desc$"
 
 
   ## Interaction
@@ -710,7 +710,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_26.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_26_name$"
   zz_valyria_magic_blood_magic_26.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_26.toast.tt:0 "$zz_valyria_magic_blood_magic_26.desc$"
+  zz_valyria_magic_blood_magic_26.toast.tt:0 "$zz_valyria_magic_blood_magic_26.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_27.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
@@ -723,7 +723,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_27.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_27_name$"
   zz_valyria_magic_blood_magic_27.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_27.toast.tt:0 "$zz_valyria_magic_blood_magic_27.desc$"
+  zz_valyria_magic_blood_magic_27.toast.tt:0 "$zz_valyria_magic_blood_magic_27.toast.desc$"
 
 
   ## Interaction
@@ -737,7 +737,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_28.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_28_name$"
   zz_valyria_magic_blood_magic_28.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_28.toast.tt:0 "$zz_valyria_magic_blood_magic_28.desc$"
+  zz_valyria_magic_blood_magic_28.toast.tt:0 "$zz_valyria_magic_blood_magic_28.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_29.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
@@ -750,7 +750,7 @@
   ## Spell Toast
   zz_valyria_magic_blood_magic_29.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_29_name$"
   zz_valyria_magic_blood_magic_29.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
-  zz_valyria_magic_blood_magic_29.toast.tt:0 "$zz_valyria_magic_blood_magic_29.desc$"
+  zz_valyria_magic_blood_magic_29.toast.tt:0 "$zz_valyria_magic_blood_magic_29.toast.desc$"
 
 
   ## Interaction
@@ -770,7 +770,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_01.toast.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_01_name$"
   zz_valyria_magic_shadow_magic_01.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ granting profound mobility to [recipient.GetFirstName]."
-  zz_valyria_magic_shadow_magic_01.toast.tt:0 "$zz_valyria_magic_shadow_magic_01.desc$"
+  zz_valyria_magic_shadow_magic_01.toast.tt:0 "$zz_valyria_magic_shadow_magic_01.toast.desc$"
 
 
   ## Interaction
@@ -783,7 +783,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_02.toast.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_02_name$"
   zz_valyria_magic_shadow_magic_02.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ manipulating the scheme success of [recipient.GetFirstName]."
-  zz_valyria_magic_shadow_magic_02.toast.tt:0 "$zz_valyria_magic_shadow_magic_02.desc$"
+  zz_valyria_magic_shadow_magic_02.toast.tt:0 "$zz_valyria_magic_shadow_magic_02.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_shadow_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing you with a powerful shield against plots and schemes. This shadowy shield clings to you and keeps you ever secure."
@@ -795,7 +795,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_03.toast.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_03_name$"
   zz_valyria_magic_shadow_magic_03.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ manipulating the scheme vulnerabilities of [recipient.GetFirstName]."
-  zz_valyria_magic_shadow_magic_03.toast.tt:0 "$zz_valyria_magic_shadow_magic_03.desc$"
+  zz_valyria_magic_shadow_magic_03.toast.tt:0 "$zz_valyria_magic_shadow_magic_03.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_shadow_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing your realm with a cloak of shadow, extending the time taken for any enemy action to bring about its own success."
@@ -808,7 +808,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_04.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_04_name$"
   zz_valyria_magic_shadow_magic_04.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ changing the vulnerabilities of disease in the country of [target.GetFirstName]"
-  zz_valyria_magic_shadow_magic_04.toast.tt:0 "$zz_valyria_magic_shadow_magic_04.desc$"
+  zz_valyria_magic_shadow_magic_04.toast.tt:0 "$zz_valyria_magic_shadow_magic_04.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_shadow_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's army in grasping hands of shadow, restricting movement, and slowing its progression"
@@ -821,7 +821,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_05.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_05_name$"
   zz_valyria_magic_shadow_magic_05.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ impacting the movement speed of [target.GetFirstName]'s army."
-  zz_valyria_magic_shadow_magic_05.toast.tt:0 "$zz_valyria_magic_shadow_magic_05.desc$"
+  zz_valyria_magic_shadow_magic_05.toast.tt:0 "$zz_valyria_magic_shadow_magic_05.toast.desc$"
 
   zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected."
   ##Spell Options
@@ -833,7 +833,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_06.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_06_name$"
   zz_valyria_magic_shadow_magic_06.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ constraining the plots of [target.GetFirstName]."
-  zz_valyria_magic_shadow_magic_06.toast.tt:0 "$zz_valyria_magic_shadow_magic_06.desc$"
+  zz_valyria_magic_shadow_magic_06.toast.tt:0 "$zz_valyria_magic_shadow_magic_06.toast.desc$"
 
   zz_valyria_magic_shadow_magic_07.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of seeding shadows within the mind and realm of a character. With this [zz_mystery|E] the target's realm will have weakened resistence to plots and schemes."
   ##Spell Options
@@ -845,7 +845,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_07.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_07_name$"
   zz_valyria_magic_shadow_magic_07.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ weakening[target.GetFirstName] against all plots and schemes."
-  zz_valyria_magic_shadow_magic_07.toast.tt:0 "$zz_valyria_magic_shadow_magic_07.desc$"
+  zz_valyria_magic_shadow_magic_07.toast.tt:0 "$zz_valyria_magic_shadow_magic_07.toast.desc$"
 
 
 
@@ -859,7 +859,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_08.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_08_name$"
   zz_valyria_magic_shadow_magic_08.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ weakening all plots and schemes targeting[target.GetFirstName]."
-  zz_valyria_magic_shadow_magic_08.toast.tt:0 "$zz_valyria_magic_shadow_magic_08.desc$"
+  zz_valyria_magic_shadow_magic_08.toast.tt:0 "$zz_valyria_magic_shadow_magic_08.toast.desc$"
 
 
   ## Interaction
@@ -872,7 +872,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_09.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_09_name$"
   zz_valyria_magic_shadow_magic_09.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ striking to kill from the shadows at[recipient.GetFirstName]."
-  zz_valyria_magic_shadow_magic_09.toast.tt:0 "$zz_valyria_magic_shadow_magic_09.desc$"
+  zz_valyria_magic_shadow_magic_09.toast.tt:0 "$zz_valyria_magic_shadow_magic_09.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_shadow_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike an army, seeking their utter ruin."
@@ -884,7 +884,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_10.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_10_name$"
   zz_valyria_magic_shadow_magic_10.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blast of hidden shadow to strike at [target.GetFirstName]."
-  zz_valyria_magic_shadow_magic_10.toast.tt:0 "$zz_valyria_magic_shadow_magic_10.desc$"
+  zz_valyria_magic_shadow_magic_10.toast.tt:0 "$zz_valyria_magic_shadow_magic_10.toast.desc$"
 
 
   ## Interaction
@@ -897,7 +897,7 @@
   ## Spell Toast
   zz_valyria_magic_shadow_magic_11.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_11_name$"
   zz_valyria_magic_shadow_magic_11.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
-  zz_valyria_magic_shadow_magic_11.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.desc$"
+  zz_valyria_magic_shadow_magic_11.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
 
 
   ## Interaction
@@ -918,7 +918,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_01.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_01_name$"
   zz_valyria_magic_dream_magic_01.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ , they have brought [recipient.GetFirstName] under the power of [actor.GetFirstName]."
-  zz_valyria_magic_dream_magic_01.toast.tt:0 "$zz_valyria_magic_dream_magic_01.desc$"
+  zz_valyria_magic_dream_magic_01.toast.tt:0 "$zz_valyria_magic_dream_magic_01.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_glt$\n\nThrough the use of [dream_magic|E], it is possible to anticipate the future yet to come. To gain experince in the fields of study you have yet to undertake."
@@ -931,7 +931,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_02.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_02_name$"
   zz_valyria_magic_dream_magic_02.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ making it possible to acquire the knowledge of arts you are yet to possess."
-  zz_valyria_magic_dream_magic_02.toast.tt:0 "$zz_valyria_magic_dream_magic_02.desc$"
+  zz_valyria_magic_dream_magic_02.toast.tt:0 "$zz_valyria_magic_dream_magic_02.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_glx$\n\nThrough the use of [dream_magic|E], it is possible to take up the experiences of the great masters of the arts of life. Choose a lifestyle, and let the chosen character gain experience in this lifestyle."
@@ -950,7 +950,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_03.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_03_name$"
   zz_valyria_magic_dream_magic_03.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ making it possible to acquire the knowledge experience in the myriad walks of life."
-  zz_valyria_magic_dream_magic_03.toast.tt:0 "$zz_valyria_magic_dream_magic_03.desc$"
+  zz_valyria_magic_dream_magic_03.toast.tt:0 "$zz_valyria_magic_dream_magic_03.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n\nThrough the use of [dream_magic|E], it is possible to learn many things. Secrets, plots, and indeed knowledge of things remote."
@@ -963,7 +963,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_04.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_04_name$"
   zz_valyria_magic_dream_magic_04.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ bringing forth many knowledges of things yet unknown."
-  zz_valyria_magic_dream_magic_04.toast.tt:0 "$zz_valyria_magic_dream_magic_04.desc$"
+  zz_valyria_magic_dream_magic_04.toast.tt:0 "$zz_valyria_magic_dream_magic_04.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_mpt$\n\nThrough the use of [dream_magic|E], it is posisble to implant careful whispers and to change a person at the most fundamental level. To change who and what they are."
@@ -976,7 +976,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_05.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_05_name$"
   zz_valyria_magic_dream_magic_05.toast.desc:0  "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ transforming the personality of  [recipient.GetFirstName]"
-  zz_valyria_magic_dream_magic_05.toast.tt:0 "$zz_valyria_magic_dream_magic_05.desc$"
+  zz_valyria_magic_dream_magic_05.toast.tt:0 "$zz_valyria_magic_dream_magic_05.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_get$\n\nThrough the use of [dream_magic|E], it is possible to anticipate the future that never was. You can change the entire course of a life, remaking an edcuation.."
@@ -990,7 +990,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_06.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_06_name$"
   zz_valyria_magic_dream_magic_06.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ making it possible for [recipient.GetName] to acquire the knowledge of arts they have not choosen not to learn."
-  zz_valyria_magic_dream_magic_06.toast.tt:0 "$zz_valyria_magic_dream_magic_06.desc$"
+  zz_valyria_magic_dream_magic_06.toast.tt:0 "$zz_valyria_magic_dream_magic_06.toast.desc$"
 
 
 
@@ -1004,7 +1004,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_07.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_07_name$"
   zz_valyria_magic_dream_magic_07.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing insights into possible cultural innovations."
-  zz_valyria_magic_dream_magic_07.toast.tt:0 "$zz_valyria_magic_dream_magic_07.desc$"
+  zz_valyria_magic_dream_magic_07.toast.tt:0 "$zz_valyria_magic_dream_magic_07.toast.desc$"
 
 
 
@@ -1020,7 +1020,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_08.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_08_name$"
   zz_valyria_magic_dream_magic_08.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing insights into possible cultural innovations."
-  zz_valyria_magic_dream_magic_08.toast.tt:0 "$zz_valyria_magic_dream_magic_08.desc$"
+  zz_valyria_magic_dream_magic_08.toast.tt:0 "$zz_valyria_magic_dream_magic_08.toast.desc$"
 
 
 
@@ -1035,7 +1035,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_09.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_09_name$"
   zz_valyria_magic_dream_magic_09.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing insights into possible future outcomes."
-  zz_valyria_magic_dream_magic_09.toast.tt:0 "$zz_valyria_magic_dream_magic_09.desc$"
+  zz_valyria_magic_dream_magic_09.toast.tt:0 "$zz_valyria_magic_dream_magic_09.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThrough the use of [dream_magic|E], it is possible to draw upon the power of future dreams, improving [drops_of_power|E] gain in the present.."
@@ -1048,7 +1048,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_10.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_10_name$"
   zz_valyria_magic_dream_magic_10.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ drawing forth future potentials to increase [drops_of_power|E] gain in the present."
-  zz_valyria_magic_dream_magic_10.toast.tt:0 "$zz_valyria_magic_dream_magic_10.desc$"
+  zz_valyria_magic_dream_magic_10.toast.tt:0 "$zz_valyria_magic_dream_magic_10.toast.desc$"
 
   zz_valyria_magic_dream_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, to take from within their mind knowledge of the schemes they are plotting, and to expose these schemes and their accomplices."
   ## Spell Options
@@ -1060,7 +1060,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_11.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_11_name$"
   zz_valyria_magic_dream_magic_11.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one of [recipient.GetName]'s' plots for the world to know."
-  zz_valyria_magic_dream_magic_11.toast.tt:0 "$zz_valyria_magic_dream_magic_11.desc$"
+  zz_valyria_magic_dream_magic_11.toast.tt:0 "$zz_valyria_magic_dream_magic_11.toast.desc$"
 
   zz_valyria_magic_dream_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a scheme that is targeting them to reveal it to the world."
   ## Spell Options
@@ -1072,7 +1072,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_12.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_12_name$"
   zz_valyria_magic_dream_magic_12.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one plot that is targeting [recipient.GetName] for all the world to know."
-  zz_valyria_magic_dream_magic_12.toast.tt:0 "$zz_valyria_magic_dream_magic_12.desc$"
+  zz_valyria_magic_dream_magic_12.toast.tt:0 "$zz_valyria_magic_dream_magic_12.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp one of their secrets."
@@ -1085,7 +1085,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_13.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_13_name$"
   zz_valyria_magic_dream_magic_13.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ taking the knowledge of one of [recipient.GetName]'s' secrets."
-  zz_valyria_magic_dream_magic_13.toast.tt:0 "$zz_valyria_magic_dream_magic_13.desc$"
+  zz_valyria_magic_dream_magic_13.toast.tt:0 "$zz_valyria_magic_dream_magic_13.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and from this rooted tree grasp a secret that is targeting them."
@@ -1098,7 +1098,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_14.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_14_name$"
   zz_valyria_magic_dream_magic_14.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret that is targeting [recipient.GetName] for yourself to know."
-  zz_valyria_magic_dream_magic_14.toast.tt:0 "$zz_valyria_magic_dream_magic_14.desc$"
+  zz_valyria_magic_dream_magic_14.toast.tt:0 "$zz_valyria_magic_dream_magic_14.toast.desc$"
 
   zz_valyria_magic_dream_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and take for yourself a secret they happen to know."
   ## Spell Options
@@ -1110,7 +1110,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_15.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_15_name$"
   zz_valyria_magic_dream_magic_15.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one secret known by [recipient.GetName] for yourself."
-  zz_valyria_magic_dream_magic_15.toast.tt:0 "$zz_valyria_magic_dream_magic_15.desc$"
+  zz_valyria_magic_dream_magic_15.toast.tt:0 "$zz_valyria_magic_dream_magic_15.toast.desc$"
 
 
 
@@ -1124,7 +1124,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_16.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_16_name$"
   zz_valyria_magic_dream_magic_16.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ binding one of the knowers of a secrets of [recipient.GetName] from revealling their knowledge."
-  zz_valyria_magic_dream_magic_16.toast.tt:0 "$zz_valyria_magic_dream_magic_16.desc$"
+  zz_valyria_magic_dream_magic_16.toast.tt:0 "$zz_valyria_magic_dream_magic_16.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and use this as the roots of knowledge, to discover a secret targeting them, and then to find the minds of those who know this secret and bind them from spreading them.."
@@ -1137,7 +1137,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_17.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_17_name$"
   zz_valyria_magic_dream_magic_17.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ binding one of the knowers of the secrets targeting [recipient.GetName] from revealling their knowledge."
-  zz_valyria_magic_dream_magic_17.toast.tt:0 "$zz_valyria_magic_dream_magic_17.desc$"
+  zz_valyria_magic_dream_magic_17.toast.tt:0 "$zz_valyria_magic_dream_magic_17.toast.desc$"
 
   zz_valyria_magic_dream_magic_18.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and use this as the roots of knowledge, to find the minds of those who know this secret and bind them from spreading them.."
   ## Spell Options
@@ -1149,7 +1149,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_18.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_18_name$"
   zz_valyria_magic_dream_magic_18.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ binding one of the knowers of the secrets known by [recipient.GetName] from revealling their knowledge."
-  zz_valyria_magic_dream_magic_18.toast.tt:0 "$zz_valyria_magic_dream_magic_18.desc$"
+  zz_valyria_magic_dream_magic_18.toast.tt:0 "$zz_valyria_magic_dream_magic_18.toast.desc$"
 
   zz_valyria_magic_dream_magic_19.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of the schemes that target's them and strike against the shadows that prevent this scheme from being revealed."
   ## Spell Options
@@ -1161,7 +1161,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_19.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_19_name$"
   zz_valyria_magic_dream_magic_19.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ striking against the secrecy of a scheme targeting [recipient.GetName]."
-  zz_valyria_magic_dream_magic_19.toast.tt:0 "$zz_valyria_magic_dream_magic_19.desc$"
+  zz_valyria_magic_dream_magic_19.toast.tt:0 "$zz_valyria_magic_dream_magic_19.toast.desc$"
 
   zz_valyria_magic_dream_magic_20.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of their schemes and strike against the shadows that prevent this scheme from being revealed."
   ## Spell Options
@@ -1173,7 +1173,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_20.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_20_name$"
   zz_valyria_magic_dream_magic_20.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ striking against the secrecy of a scheme belonging to [recipient.GetName]."
-  zz_valyria_magic_dream_magic_20.toast.tt:0 "$zz_valyria_magic_dream_magic_20.desc$"
+  zz_valyria_magic_dream_magic_20.toast.tt:0 "$zz_valyria_magic_dream_magic_20.toast.desc$"
 
   zz_valyria_magic_dream_magic_21.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover a scheme targeting them, and empower its prospects of success."
   ## Spell Options
@@ -1185,7 +1185,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_21.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_21_name$"
   zz_valyria_magic_dream_magic_21.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ empowering a scheme targeting [recipient.GetName]."
-  zz_valyria_magic_dream_magic_21.toast.tt:0 "$zz_valyria_magic_dream_magic_21.desc$"
+  zz_valyria_magic_dream_magic_21.toast.tt:0 "$zz_valyria_magic_dream_magic_21.toast.desc$"
 
   zz_valyria_magic_dream_magic_22.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of their schemes and empower its prospects of success."
   ## Spell Options
@@ -1197,7 +1197,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_22.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_22_name$"
   zz_valyria_magic_dream_magic_22.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ empowering a scheme targeting [recipient.GetName]."
-  zz_valyria_magic_dream_magic_22.toast.tt:0 "$zz_valyria_magic_dream_magic_22.desc$"
+  zz_valyria_magic_dream_magic_22.toast.tt:0 "$zz_valyria_magic_dream_magic_22.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_23.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover a scheme targeting them, and manipulate its participants."
@@ -1210,7 +1210,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_23.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_23_name$"
   zz_valyria_magic_dream_magic_23.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ manipulating the participants of a scheme targeting[recipient.GetName]."
-  zz_valyria_magic_dream_magic_23.toast.tt:0 "$zz_valyria_magic_dream_magic_23.desc$"
+  zz_valyria_magic_dream_magic_23.toast.tt:0 "$zz_valyria_magic_dream_magic_23.toast.desc$"
 
   zz_valyria_magic_dream_magic_24.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of their schemes, and manipulate its participants."
   ## Spell Options
@@ -1222,7 +1222,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_24.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_24_name$"
   zz_valyria_magic_dream_magic_24.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ manipulating the participants of one of the schemes of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_24.toast.tt:0 "$zz_valyria_magic_dream_magic_24.desc$"
+  zz_valyria_magic_dream_magic_24.toast.tt:0 "$zz_valyria_magic_dream_magic_24.toast.desc$"
 
   zz_valyria_magic_dream_magic_25.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover a scheme targeting them and reveal one of the participants."
   ## Spell Options
@@ -1234,7 +1234,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_25.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_25_name$"
   zz_valyria_magic_dream_magic_25.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ [dream_magic|E], $zz_toast_02$ manipulating the participants of one of the schemes against [recipient.GetName]."
-	zz_valyria_magic_dream_magic_25.toast.tt:0 "$zz_valyria_magic_dream_magic_25.desc$"
+	zz_valyria_magic_dream_magic_25.toast.tt:0 "$zz_valyria_magic_dream_magic_25.toast.desc$"
 
   zz_valyria_magic_dream_magic_26.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of their schemes and reveal one of the participants."
   ## Spell Options
@@ -1246,7 +1246,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_26.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_26_name$"
   zz_valyria_magic_dream_magic_26.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ revealing one of the participants of tone of the schemes of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_26.toast.tt:0 "$zz_valyria_magic_dream_magic_26.desc$"
+  zz_valyria_magic_dream_magic_26.toast.tt:0 "$zz_valyria_magic_dream_magic_26.toast.desc$"
 
 
 
@@ -1261,7 +1261,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_27.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_27_name$"
   zz_valyria_magic_dream_magic_27.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflicting a delay in one of the schemes targeting [recipient.GetName]."
-  zz_valyria_magic_dream_magic_27.toast.tt:0 "$zz_valyria_magic_dream_magic_27.desc$"
+  zz_valyria_magic_dream_magic_27.toast.tt:0 "$zz_valyria_magic_dream_magic_27.toast.desc$"
 
 
 
@@ -1275,7 +1275,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_28.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_28_name$"
   zz_valyria_magic_dream_magic_28.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflicting a delay in one of the schemes of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_28.toast.tt:0 "$zz_valyria_magic_dream_magic_28.desc$"
+  zz_valyria_magic_dream_magic_28.toast.tt:0 "$zz_valyria_magic_dream_magic_28.toast.desc$"
 
   zz_valyria_magic_dream_magic_29.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of the schemes targeting a character and weaken its opporutnities for success."
   ## Spell Options
@@ -1287,7 +1287,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_29.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_29_name$"
   zz_valyria_magic_dream_magic_29.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflicting a weakness  in one of the schemes targeting [recipient.GetName]."
-  zz_valyria_magic_dream_magic_29.toast.tt:0 "$zz_valyria_magic_dream_magic_29.desc$"
+  zz_valyria_magic_dream_magic_29.toast.tt:0 "$zz_valyria_magic_dream_magic_29.toast.desc$"
 
 
   zz_valyria_magic_dream_magic_30.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of the schemes of a character and weaken its opporutnities for success."
@@ -1300,7 +1300,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_30.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_30_name$"
   zz_valyria_magic_dream_magic_30.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflicting a weakness in one of the schemes of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_30.toast.tt:0 "$zz_valyria_magic_dream_magic_30.desc$"
+  zz_valyria_magic_dream_magic_30.toast.tt:0 "$zz_valyria_magic_dream_magic_30.toast.desc$"
 
   zz_valyria_magic_dream_magic_31.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of the schemes targetting a character and resetting all of its progress."
   ## Spell Options
@@ -1312,7 +1312,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_31.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_31_name$"
   zz_valyria_magic_dream_magic_31.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ resetting all progress in one of the schemes targettng [recipient.GetName]."
-  zz_valyria_magic_dream_magic_31.toast.tt:0 "$zz_valyria_magic_dream_magic_31.desc$"
+  zz_valyria_magic_dream_magic_31.toast.tt:0 "$zz_valyria_magic_dream_magic_31.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_32.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and to use this opportunity to uncover one of the schemes of a character and resetting all of its progress."
@@ -1325,7 +1325,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_32.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_32_name$"
   zz_valyria_magic_dream_magic_32.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ resetting all progress of one of the schemes of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_32.toast.tt:0 "$zz_valyria_magic_dream_magic_32.desc$"
+  zz_valyria_magic_dream_magic_32.toast.tt:0 "$zz_valyria_magic_dream_magic_32.toast.desc$"
 
 
   ## Interaction
@@ -1341,7 +1341,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_33.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_33_name$"
   zz_valyria_magic_dream_magic_33.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ binding a host of wild beasts to [recipient.GetName]."
-  zz_valyria_magic_dream_magic_33.toast.tt:0 "$zz_valyria_magic_dream_magic_33.desc$"
+  zz_valyria_magic_dream_magic_33.toast.tt:0 "$zz_valyria_magic_dream_magic_33.toast.desc$"
   ##MAA and Army Names
   zz_valyria_ravens:0 "Ravens"
   zz_valyria_direwolves:0 "Direwolves"
@@ -1361,7 +1361,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_34.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_34_name$"
   zz_valyria_magic_dream_magic_34.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ changing the culture of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_34.toast.tt:0 "$zz_valyria_magic_dream_magic_34.desc$"
+  zz_valyria_magic_dream_magic_34.toast.tt:0 "$zz_valyria_magic_dream_magic_34.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_35.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character, and change their perceptions of their own religion."
@@ -1374,7 +1374,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_35.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_35_name$"
   zz_valyria_magic_dream_magic_35.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ changing the faith of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_35.toast.tt:0 "$zz_valyria_magic_dream_magic_35.desc$"
+  zz_valyria_magic_dream_magic_35.toast.tt:0 "$zz_valyria_magic_dream_magic_35.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_36.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rp$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and change their perceptions of their own culture."
@@ -1387,7 +1387,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_36.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_36_name$"
   zz_valyria_magic_dream_magic_36.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ changing the culture of the inhabitants of one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_36.toast.tt:0 "$zz_valyria_magic_dream_magic_36.desc$"
+  zz_valyria_magic_dream_magic_36.toast.tt:0 "$zz_valyria_magic_dream_magic_36.toast.desc$"
 
 
   ## Interaction
@@ -1401,7 +1401,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_37.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_37_name$"
   zz_valyria_magic_dream_magic_37.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ changing the faith of the inhabitants of one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_37.toast.tt:0 "$zz_valyria_magic_dream_magic_37.desc$"
+  zz_valyria_magic_dream_magic_37.toast.tt:0 "$zz_valyria_magic_dream_magic_37.toast.desc$"
 
 
   ## Interaction
@@ -1415,7 +1415,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_38.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_38_name$"
   zz_valyria_magic_dream_magic_38.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inspiring hope and order in the inhabitants of one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_38.toast.tt:0 "$zz_valyria_magic_dream_magic_38.desc$"
+  zz_valyria_magic_dream_magic_38.toast.tt:0 "$zz_valyria_magic_dream_magic_38.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_39.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
@@ -1428,7 +1428,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_39.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_39_name$"
   zz_valyria_magic_dream_magic_39.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_39.toast.tt:0 "$zz_valyria_magic_dream_magic_39.desc$"
+  zz_valyria_magic_dream_magic_39.toast.tt:0 "$zz_valyria_magic_dream_magic_39.toast.desc$"
 
 
   ## Interaction
@@ -1442,7 +1442,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_40.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_40_name$"
   zz_valyria_magic_dream_magic_40.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ removing from reality one of the secrets of [recipient.GetName]."
-  zz_valyria_magic_dream_magic_40.toast.tt:0 "$zz_valyria_magic_dream_magic_40.desc$"
+  zz_valyria_magic_dream_magic_40.toast.tt:0 "$zz_valyria_magic_dream_magic_40.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_41.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\nzz_dsec\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
@@ -1455,7 +1455,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_41.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_41_name$"
   zz_valyria_magic_dream_magic_41.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ removing a secret that targets [recipient.GetName] from existance."
-  zz_valyria_magic_dream_magic_41.toast.tt:0 "$zz_valyria_magic_dream_magic_41.desc$"
+  zz_valyria_magic_dream_magic_41.toast.tt:0 "$zz_valyria_magic_dream_magic_41.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_42.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\nzz_dsec\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character and remove from existance all knowledge of a secret that they know."
@@ -1468,7 +1468,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_42.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_42_name$"
   zz_valyria_magic_dream_magic_42.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ removing a secret known by [recipient.GetName] from existance."
-  zz_valyria_magic_dream_magic_42.toast.tt:0 "$zz_valyria_magic_dream_magic_42.desc$"
+  zz_valyria_magic_dream_magic_42.toast.tt:0 "$zz_valyria_magic_dream_magic_42.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_43.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_cccon\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and bring forth order and stability, hope and stability."
@@ -1481,7 +1481,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_43.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_43_name$"
   zz_valyria_magic_dream_magic_43.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ bringing unity and co-operation to one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_43.toast.tt:0 "$zz_valyria_magic_dream_magic_43.desc$"
+  zz_valyria_magic_dream_magic_43.toast.tt:0 "$zz_valyria_magic_dream_magic_43.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_44.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_cccon$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, inspire rebellion and chaos."
@@ -1494,7 +1494,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_44.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_44_name$"
   zz_valyria_magic_dream_magic_44.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inciting unrest and bringing disorder to one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_44.toast.tt:0 "$zz_valyria_magic_dream_magic_44.desc$"
+  zz_valyria_magic_dream_magic_44.toast.tt:0 "$zz_valyria_magic_dream_magic_44.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_45.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_ccd$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire progress and development."
@@ -1507,7 +1507,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_45.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_45_name$"
   zz_valyria_magic_dream_magic_45.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ bringing progress and development to one of [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_45.toast.tt:0 "$zz_valyria_magic_dream_magic_45.desc$"
+  zz_valyria_magic_dream_magic_45.toast.tt:0 "$zz_valyria_magic_dream_magic_45.toast.desc$"
 
 
   ## Interaction
@@ -1521,7 +1521,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_46.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_46_name$"
   zz_valyria_magic_dream_magic_46.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ stripping away progress and development from one of  [recipient.GetName]'s counties'."
-  zz_valyria_magic_dream_magic_46.toast.tt:0 "$zz_valyria_magic_dream_magic_46.desc$"
+  zz_valyria_magic_dream_magic_46.toast.tt:0 "$zz_valyria_magic_dream_magic_46.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_47.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_cd$\n\nThrough the use of [dream_magic|E], it is possible to call from nightmares a singular cataclysm and bring ruin to an an army."
@@ -1534,7 +1534,7 @@
   ## Spell Toast
   zz_valyria_magic_dream_magic_47.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_47_name$"
   zz_valyria_magic_dream_magic_47.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ calling forth a cataclysmic singularity upon one of [recipient.GetName]'s armies."
-  zz_valyria_magic_dream_magic_47.toast.tt:0 "$zz_valyria_magic_dream_magic_47.desc$"
+  zz_valyria_magic_dream_magic_47.toast.tt:0 "$zz_valyria_magic_dream_magic_47.toast.desc$"
 
 
   ## Interaction
@@ -1584,7 +1584,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_01.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_01_name$"
   zz_valyria_magic_alchemy_magic_01.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ improving the development rate of [target.GetFirstName]"
-  zz_valyria_magic_alchemy_magic_01.toast.tt:0 "$zz_valyria_magic_alchemy_magic_01.desc$"
+  zz_valyria_magic_alchemy_magic_01.toast.tt:0 "$zz_valyria_magic_alchemy_magic_01.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_alchemy_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to empower the processes of construction. Helping to rapidly advance construction projects."
@@ -1597,7 +1597,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_02.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_02_name$"
   zz_valyria_magic_alchemy_magic_02.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ improving the construction rate of [recipient.GetFirstName]"
-  zz_valyria_magic_alchemy_magic_02.toast.tt:0 "$zz_valyria_magic_alchemy_magic_02.desc$"
+  zz_valyria_magic_alchemy_magic_02.toast.tt:0 "$zz_valyria_magic_alchemy_magic_02.toast.desc$"
 
 
   ## Interaction
@@ -1649,7 +1649,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_05.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_05_name$"
   zz_valyria_magic_alchemy_magic_05.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ improving the realm management of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_05.toast.tt:0 "$zz_valyria_magic_alchemy_magic_05.desc$"
+  zz_valyria_magic_alchemy_magic_05.toast.tt:0 "$zz_valyria_magic_alchemy_magic_05.toast.desc$"
 
 
 
@@ -1664,7 +1664,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_06.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_06_name$"
   zz_valyria_magic_alchemy_magic_06.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ enchanting an item of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_06.toast.tt:0 "$zz_valyria_magic_alchemy_magic_06.desc$"
+  zz_valyria_magic_alchemy_magic_06.toast.tt:0 "$zz_valyria_magic_alchemy_magic_06.toast.desc$"
   zz_mana_gain_extra_cost_400:0 "This Mystery will cost an additional 400 [drops_of_power]."
 
 
@@ -1679,7 +1679,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_07.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_07_name$"
   zz_valyria_magic_alchemy_magic_07.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting resources to [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_07.toast.tt:0 "$zz_valyria_magic_alchemy_magic_07.desc$"
+  zz_valyria_magic_alchemy_magic_07.toast.tt:0 "$zz_valyria_magic_alchemy_magic_07.toast.desc$"
 
 
   ## Interaction
@@ -1693,7 +1693,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_08.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_08_name$"
   zz_valyria_magic_alchemy_magic_08.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting resources to [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_08.toast.tt:0 "$zz_valyria_magic_alchemy_magic_08.desc$"
+  zz_valyria_magic_alchemy_magic_08.toast.tt:0 "$zz_valyria_magic_alchemy_magic_08.toast.desc$"
 
 
   ## Interaction
@@ -1707,7 +1707,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_09.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_09_name$"
   zz_valyria_magic_alchemy_magic_09.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting resources to [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_09.toast.tt:0 "$zz_valyria_magic_alchemy_magic_09.desc$"
+  zz_valyria_magic_alchemy_magic_09.toast.tt:0 "$zz_valyria_magic_alchemy_magic_09.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_alchemy_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cca$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to transmute even concepts. You can make the age of a character run from their face, or indeed add it back again."
@@ -1721,7 +1721,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_10.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_10_name$"
   zz_valyria_magic_alchemy_magic_10.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ restoring youth to [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_10.toast.tt:0 "$zz_valyria_magic_alchemy_magic_10.desc$"
+  zz_valyria_magic_alchemy_magic_10.toast.tt:0 "$zz_valyria_magic_alchemy_magic_10.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_alchemy_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cca$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to transmute even concepts. You can make the age of a character run from their face, or indeed add it back again."
@@ -1735,7 +1735,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_11.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_11_name$"
   zz_valyria_magic_alchemy_magic_11.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ adding age to [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_11.toast.tt:0 "$zz_valyria_magic_alchemy_magic_11.desc$"
+  zz_valyria_magic_alchemy_magic_11.toast.tt:0 "$zz_valyria_magic_alchemy_magic_11.toast.desc$"
 
 
 
@@ -1751,7 +1751,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_12.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_012$"
   zz_valyria_magic_alchemy_magic_12.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_12.toast.tt:0 "$zz_valyria_magic_alchemy_magic_12.desc$"
+  zz_valyria_magic_alchemy_magic_12.toast.tt:0 "$zz_valyria_magic_alchemy_magic_12.toast.desc$"
 
 
 
@@ -1767,7 +1767,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_13.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_13_name$"
   zz_valyria_magic_alchemy_magic_13.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_13.toast.tt:0 "$zz_valyria_magic_alchemy_magic_13.desc$"
+  zz_valyria_magic_alchemy_magic_13.toast.tt:0 "$zz_valyria_magic_alchemy_magic_13.toast.desc$"
 
 
   ## Interaction
@@ -1782,7 +1782,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_14.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_14_name$"
   zz_valyria_magic_alchemy_magic_14.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_14.toast.tt:0 "$zz_valyria_magic_alchemy_magic_14.desc$"
+  zz_valyria_magic_alchemy_magic_14.toast.tt:0 "$zz_valyria_magic_alchemy_magic_14.toast.desc$"
 
 
   ## Interaction
@@ -1797,7 +1797,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_15.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_15_name$"
   zz_valyria_magic_alchemy_magic_15.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_15.toast.tt:0 "$zz_valyria_magic_alchemy_magic_15.desc$"
+  zz_valyria_magic_alchemy_magic_15.toast.tt:0 "$zz_valyria_magic_alchemy_magic_15.toast.desc$"
 
 
   ## Interaction
@@ -1812,7 +1812,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_16.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_16_name$"
   zz_valyria_magic_alchemy_magic_16.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_16.toast.tt:0 "$zz_valyria_magic_alchemy_magic_16.desc$"
+  zz_valyria_magic_alchemy_magic_16.toast.tt:0 "$zz_valyria_magic_alchemy_magic_16.toast.desc$"
 
 
 
@@ -1830,7 +1830,7 @@
   ## Spell Toast
   zz_valyria_magic_alchemy_magic_17.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_17_name$"
   zz_valyria_magic_alchemy_magic_17.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ unleahses an assault of transmutative magics upon [recipient.GetFirstName]."
-  zz_valyria_magic_alchemy_magic_17.toast.tt:0 "$zz_valyria_magic_alchemy_magic_17.desc$"
+  zz_valyria_magic_alchemy_magic_17.toast.tt:0 "$zz_valyria_magic_alchemy_magic_17.toast.desc$"
 
   ## Fire Magic
   ## Interaction
@@ -1845,7 +1845,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_01.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_01_name$"
   zz_valyria_magic_fire_magic_01.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ lashing forth with burning tongues of fire at [recipient.GetFirstName]."
-  zz_valyria_magic_fire_magic_01.toast.tt:0 "$zz_valyria_magic_fire_magic_01.desc$"
+  zz_valyria_magic_fire_magic_01.toast.tt:0 "$zz_valyria_magic_fire_magic_01.toast.desc$"
   zz_valyria_magic_fire_magic_01.toast.tyranny:0 ""
 
   ## Interaction
@@ -1858,7 +1858,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_02.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_02_name$"
   zz_valyria_magic_fire_magic_02.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ striking forth with a blast of flame, consuming troops of [recipient.GetFirstName]."
-  zz_valyria_magic_fire_magic_02.toast.tt:0 "$zz_valyria_magic_fire_magic_02.desc$"
+  zz_valyria_magic_fire_magic_02.toast.tt:0 "$zz_valyria_magic_fire_magic_02.toast.desc$"
 
 
   ## Interaction
@@ -1871,7 +1871,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_03.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_03_name$"
   zz_valyria_magic_fire_magic_03.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ striking forth with a veritable holocaust, consuming an entire region of [recipient.GetFirstName] in flame."
-  zz_valyria_magic_fire_magic_03.toast.tt:0 "$zz_valyria_magic_fire_magic_03.desc$"
+  zz_valyria_magic_fire_magic_03.toast.tt:0 "$zz_valyria_magic_fire_magic_03.toast.desc$"
 
 
   ## Interaction
@@ -1884,7 +1884,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_04.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_04_name$"
   zz_valyria_magic_fire_magic_04.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ purifying[recipient.GetFirstName] in flame."
-  zz_valyria_magic_fire_magic_04.toast.tt:0 "$zz_valyria_magic_fire_magic_04.desc$"
+  zz_valyria_magic_fire_magic_04.toast.tt:0 "$zz_valyria_magic_fire_magic_04.toast.desc$"
 
 
   ## Interaction
@@ -1897,7 +1897,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_05.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_05_name$"
   zz_valyria_magic_fire_magic_05.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ empowering the forces of [recipient.GetFirstName] with blades empowered by flame."
-  zz_valyria_magic_fire_magic_05.toast.tt:0 "$zz_valyria_magic_fire_magic_05.desc$"
+  zz_valyria_magic_fire_magic_05.toast.tt:0 "$zz_valyria_magic_fire_magic_05.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_fire_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the arts of [fire_magic|E] it is possible to seek out secrets in the light of the flames. By staring long into the fires the recipient of the fire's blessing can percieve secrets from those who may wish to hide them from them."
@@ -1910,7 +1910,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_06.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_06_name$"
   zz_valyria_magic_fire_magic_06.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ revealing the secrets of others to [recipient.GetFirstName]."
-  zz_valyria_magic_fire_magic_06.toast.tt:0 "$zz_valyria_magic_fire_magic_06.desc$"
+  zz_valyria_magic_fire_magic_06.toast.tt:0 "$zz_valyria_magic_fire_magic_06.toast.desc$"
 
 
   ## Interaction
@@ -1924,7 +1924,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_07.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_07_name$"
   zz_valyria_magic_fire_magic_07.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ revealing the schemes of others to [recipient.GetFirstName]."
-  zz_valyria_magic_fire_magic_07.toast.tt:0 "$zz_valyria_magic_fire_magic_07.desc$"
+  zz_valyria_magic_fire_magic_07.toast.tt:0 "$zz_valyria_magic_fire_magic_07.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_fire_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to empower the weapons of an army to do more damage when taking part in sieges.
@@ -1937,7 +1937,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_08.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_08_name$"
   zz_valyria_magic_fire_magic_08.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ enchanting the weapons of troops commanded by [recipient.GetFirstName] with flames that increase their effective in waging siege warfare."
-  zz_valyria_magic_fire_magic_08.toast.tt:0 "$zz_valyria_magic_fire_magic_08.desc$"
+  zz_valyria_magic_fire_magic_08.toast.tt:0 "$zz_valyria_magic_fire_magic_08.toast.desc$"
 
 
   ## Interaction
@@ -1951,7 +1951,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_09.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_09_name$"
   zz_valyria_magic_fire_magic_09.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing a vibrant ball of virdant flame upon [target.GetFirstName] reducing men and equipment to only so much ash."
-  zz_valyria_magic_fire_magic_09.toast.tt:0 "$zz_valyria_magic_fire_magic_09.desc$"
+  zz_valyria_magic_fire_magic_09.toast.tt:0 "$zz_valyria_magic_fire_magic_09.toast.desc$"
 
 
 
@@ -1966,7 +1966,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_10.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_10_name$"
   zz_valyria_magic_fire_magic_10.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ empowering the spirit of the forces commanded by[recipient.GetFirstName] with the essence of dragon fire."
-  zz_valyria_magic_fire_magic_10.toast.tt:0 "$zz_valyria_magic_fire_magic_10.desc$"
+  zz_valyria_magic_fire_magic_10.toast.tt:0 "$zz_valyria_magic_fire_magic_10.toast.desc$"
 
 
 
@@ -1981,7 +1981,7 @@
   ## Spell Toast
   zz_valyria_magic_fire_magic_11.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_11_name$"
   zz_valyria_magic_fire_magic_11.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
-  zz_valyria_magic_fire_magic_11.toast.tt:0 "$zz_valyria_magic_fire_magic_11.desc$"
+  zz_valyria_magic_fire_magic_11.toast.tt:0 "$zz_valyria_magic_fire_magic_11.toast.desc$"
 
 
   #actor_secondary_
@@ -2002,7 +2002,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_01.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_01_name$"
   zz_valyria_magic_air_magic_01.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ striking [recipient.GetFirstName] with a crushing strike of wind."
-  zz_valyria_magic_air_magic_01.toast.tt:0 "$zz_valyria_magic_air_magic_01.desc$"
+  zz_valyria_magic_air_magic_01.toast.tt:0 "$zz_valyria_magic_air_magic_01.toast.desc$"
   zz_valyria_magic_air_magic_01.toast.tyranny:0 ""
 
 
@@ -2018,7 +2018,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_02.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_02_name$"
   zz_valyria_magic_air_magic_02.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ striking [target.GetName] of [recipient.GetFirstName] with a slicing blade of wind."
-  zz_valyria_magic_air_magic_02.toast.tt:0 "$zz_valyria_magic_air_magic_02.desc$"
+  zz_valyria_magic_air_magic_02.toast.tt:0 "$zz_valyria_magic_air_magic_02.toast.desc$"
 
 
   ## Interaction
@@ -2031,7 +2031,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_03.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_03_name$"
   zz_valyria_magic_air_magic_03.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ protecting the forces of[recipient.GetFirstName] with a barrier of protective wind."
-  zz_valyria_magic_air_magic_03.toast.tt:0 "$zz_valyria_magic_air_magic_03.desc$"
+  zz_valyria_magic_air_magic_03.toast.tt:0 "$zz_valyria_magic_air_magic_03.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_air_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_da$\n$zz_md$\n\nThrough the secret arts of [air_magic|E] it is possible to conjure forth the might of the storm. A ravaging hurricane to consume the world."
@@ -2043,7 +2043,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_04.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_04_name$"
   zz_valyria_magic_air_magic_04.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ conjuring a mighty storm at the location of [recipient.GetFirstName],  [target.GetName]."
-  zz_valyria_magic_air_magic_04.toast.tt:0 "$zz_valyria_magic_air_magic_04.desc$"
+  zz_valyria_magic_air_magic_04.toast.tt:0 "$zz_valyria_magic_air_magic_04.toast.desc$"
 
 
   ## Interaction
@@ -2056,7 +2056,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_05.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_05_name$"
   zz_valyria_magic_air_magic_05.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of[recipient.GetFirstName] with an advantage in their battles."
-  zz_valyria_magic_air_magic_05.toast.tt:0 "$zz_valyria_magic_air_magic_05.desc$"
+  zz_valyria_magic_air_magic_05.toast.tt:0 "$zz_valyria_magic_air_magic_05.toast.desc$"
 
 
   ## Interaction
@@ -2069,7 +2069,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_06.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_06_name$"
   zz_valyria_magic_air_magic_06.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ striking [target.GetName] of [recipient.GetFirstName] with a monstrous blast of lightning."
-  zz_valyria_magic_air_magic_06.toast.tt:0 "$zz_valyria_magic_air_magic_06.desc$"
+  zz_valyria_magic_air_magic_06.toast.tt:0 "$zz_valyria_magic_air_magic_06.toast.desc$"
 
 
   ## Interaction
@@ -2082,7 +2082,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_07.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_07_name$"
   zz_valyria_magic_air_magic_07.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of[recipient.GetFirstName] with greater movement speed."
-  zz_valyria_magic_air_magic_07.toast.tt:0 "$zz_valyria_magic_air_magic_07.desc$"
+  zz_valyria_magic_air_magic_07.toast.tt:0 "$zz_valyria_magic_air_magic_07.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_air_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_sd$\n\nThrough the secret arts of [air_magic|E] it is possible to strike at an enemy army with the terrifying forces of the heavens."
@@ -2094,7 +2094,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_08.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_08_name$"
   zz_valyria_magic_air_magic_08.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ striking every regiment in the army [target.GetName] of [recipient.GetFirstName] with a powerful blast of lightning."
-  zz_valyria_magic_air_magic_08.toast.tt:0 "$zz_valyria_magic_air_magic_08.desc$"
+  zz_valyria_magic_air_magic_08.toast.tt:0 "$zz_valyria_magic_air_magic_08.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_air_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_cd$\n\nThrough the secret arts of [air_magic|E] it is possible to strike at an enemy army with the terrifying forces of the heavens."
@@ -2106,7 +2106,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_09.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_09_name$"
   zz_valyria_magic_air_magic_09.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ striking the province of [target.GetName] with a celestial calamity."
-  zz_valyria_magic_air_magic_09.toast.tt:0 "$zz_valyria_magic_air_magic_09.desc$"
+  zz_valyria_magic_air_magic_09.toast.tt:0 "$zz_valyria_magic_air_magic_09.toast.desc$"
 
 
   ## Interaction
@@ -2119,7 +2119,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_10.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_10_name$"
   zz_valyria_magic_air_magic_10.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ weakening the forces of[recipient.GetFirstName] ability to screen attacks."
-  zz_valyria_magic_air_magic_10.toast.tt:0 "$zz_valyria_magic_air_magic_10.desc$"
+  zz_valyria_magic_air_magic_10.toast.tt:0 "$zz_valyria_magic_air_magic_10.toast.desc$"
 
 
   ## Interaction
@@ -2132,7 +2132,7 @@
   ## Spell Toast
   zz_valyria_magic_air_magic_11.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_11_name$"
   zz_valyria_magic_air_magic_11.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
-  zz_valyria_magic_air_magic_11.toast.tt:0 "$zz_valyria_magic_air_magic_11.desc$"
+  zz_valyria_magic_air_magic_11.toast.tt:0 "$zz_valyria_magic_air_magic_11.toast.desc$"
 
   ## Water Magic
   ## Interaction
@@ -2149,7 +2149,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_01.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_01_name$"
   zz_valyria_magic_water_magic_01.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ striking [recipient.GetFirstName] with a crushing blast of water"
-  zz_valyria_magic_water_magic_01.toast.tt:0 "$zz_valyria_magic_water_magic_01.desc$"
+  zz_valyria_magic_water_magic_01.toast.tt:0 "$zz_valyria_magic_water_magic_01.toast.desc$"
   zz_valyria_magic_water_magic_01.toast.tyranny:0 ""
 
   ## Interaction
@@ -2163,7 +2163,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_02.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_02_name$"
   zz_valyria_magic_water_magic_02.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ striking the forces of [recipient.GetFirstName] with a crushing torrent of water"
-  zz_valyria_magic_water_magic_02.toast.tt:0 "$zz_valyria_magic_water_magic_02.desc$"
+  zz_valyria_magic_water_magic_02.toast.tt:0 "$zz_valyria_magic_water_magic_02.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_water_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_as$\n\nThe arts of [water_magic|E] allows for a most beneficial power, the rejuvenation of your forces. With this simple spell, you are able to restore your armies supplies to facilitate their march into battle."
@@ -2175,7 +2175,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_03.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_03_name$"
   zz_valyria_magic_water_magic_03.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ restoring the supplies of the army of [recipient.GetFirstName]"
-  zz_valyria_magic_water_magic_03.toast.tt:0 "$zz_valyria_magic_water_magic_03.desc$"
+  zz_valyria_magic_water_magic_03.toast.tt:0 "$zz_valyria_magic_water_magic_03.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_water_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_ve$\n$zz_se$\n\nThe arts of [water_magic|E] allows for a most terrifying power. Through the corruption of the humours, it is possible to turn health into sickness, to manifest forth a wave of unspeakable pestilence. Such a power does not distinguish friend from fore and strikes all down."
@@ -2190,7 +2190,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_04.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_04_name$"
   zz_valyria_magic_water_magic_04.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ unleashing a virtulent pestilence in the province of [recipient.GetFirstName], [target.GetName]."
-  zz_valyria_magic_water_magic_04.toast.tt:0 "$zz_valyria_magic_water_magic_04.desc$"
+  zz_valyria_magic_water_magic_04.toast.tt:0 "$zz_valyria_magic_water_magic_04.toast.desc$"
 
 
   ## Interaction
@@ -2203,7 +2203,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_05.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_05_name$"
   zz_valyria_magic_water_magic_05.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$  empowering the armies of [recipient.GetFirstName] in the seasons of the winter."
-  zz_valyria_magic_water_magic_05.toast.tt:0 "$zz_valyria_magic_water_magic_05.desc$"
+  zz_valyria_magic_water_magic_05.toast.tt:0 "$zz_valyria_magic_water_magic_05.toast.desc$"
 
 
   ## Interaction
@@ -2216,7 +2216,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_06.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_06_name$"
   zz_valyria_magic_water_magic_06.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$  empowering one of the provinces of [recipient.GetFirstName]."
-  zz_valyria_magic_water_magic_06.toast.tt:0 "$zz_valyria_magic_water_magic_06.desc$"
+  zz_valyria_magic_water_magic_06.toast.tt:0 "$zz_valyria_magic_water_magic_06.toast.desc$"
 
 
   ## Interaction
@@ -2229,7 +2229,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_07.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_07_name$"
   zz_valyria_magic_water_magic_07.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ empowering one of the provinces of [recipient.GetFirstName]."
-  zz_valyria_magic_water_magic_07.toast.tt:0 "$zz_valyria_magic_water_magic_07.desc$"
+  zz_valyria_magic_water_magic_07.toast.tt:0 "$zz_valyria_magic_water_magic_07.toast.desc$"
 
 
   ## Interaction
@@ -2242,7 +2242,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_08.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_08_name$"
   zz_valyria_magic_water_magic_08.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ reducing the resistance against flanking attacks of armies belonging to [recipient.GetFirstName]."
-  zz_valyria_magic_water_magic_08.toast.tt:0 "$zz_valyria_magic_water_magic_08.desc$"
+  zz_valyria_magic_water_magic_08.toast.tt:0 "$zz_valyria_magic_water_magic_08.toast.desc$"
 
 
   ## Interaction
@@ -2255,7 +2255,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_09.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_09_name$"
   zz_valyria_magic_water_magic_09.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ reducing the resistance against flanking attacks of armies belonging to [recipient.GetFirstName]."
-  zz_valyria_magic_water_magic_09.toast.tt:0 "$zz_valyria_magic_water_magic_09.desc$"
+  zz_valyria_magic_water_magic_09.toast.tt:0 "$zz_valyria_magic_water_magic_09.toast.desc$"
 
 
   ## Interaction
@@ -2268,7 +2268,7 @@
   ## Spell Toast
   zz_valyria_magic_water_magic_10.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_10_name$"
   zz_valyria_magic_water_magic_10.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$  empowering the armies of [recipient.GetFirstName] in the seasons of the winter."
-  zz_valyria_magic_water_magic_10.toast.tt:0 "$zz_valyria_magic_water_magic_10.desc$"
+  zz_valyria_magic_water_magic_10.toast.tt:0 "$zz_valyria_magic_water_magic_10.toast.desc$"
 
 
     ## Interaction
@@ -2281,7 +2281,7 @@
     ## Spell Toast
     zz_valyria_magic_water_magic_11.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_11_name$"
     zz_valyria_magic_water_magic_11.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
-    zz_valyria_magic_water_magic_11.toast.tt:0 "$zz_valyria_magic_water_magic_11.desc$"
+    zz_valyria_magic_water_magic_11.toast.tt:0 "$zz_valyria_magic_water_magic_11.toast.desc$"
 
   ### Modifiers
 
