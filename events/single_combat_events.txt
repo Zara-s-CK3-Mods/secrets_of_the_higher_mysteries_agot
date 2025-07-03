@@ -2057,7 +2057,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream.tyranny
+							custom_tooltip = zz_valyria_magic_dream_magic_08.tyranny
 						}
 					}	
 				}
@@ -2084,7 +2084,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption.tyranny
+							custom_tooltip = zz_valyria_magic_blood_magic_17.tyranny
 						}
 					}	
 				}
@@ -2111,7 +2111,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault.tyranny
+							custom_tooltip = zz_valyria_magic_alchemy_magic_17.tyranny
 						}
 					}					
 				}
@@ -2136,7 +2136,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									random_list = {
 										50 = {
 											modifier = {
-												add = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
+												add = zz_valyria_magic_shadow_magic_09_value
 											}
 										}
 										50 = { 
@@ -2146,7 +2146,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									
 								}
 							}
-							custom_tooltip = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.tyranny
+							custom_tooltip = zz_valyria_magic_water_magic_01.tyranny
 						}
 					}
 				}
@@ -2182,7 +2182,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame.tyranny
+							custom_tooltip = zz_valyria_magic_fire_magic_01.tyranny
 						}
 					}
 				}
@@ -2208,7 +2208,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.tyranny
+							custom_tooltip = zz_valyria_magic_water_magic_01.tyranny
 						}
 					}
 				}
@@ -2235,7 +2235,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind.tyranny
+							custom_tooltip = zz_valyria_magic_air_magic_01.tyranny
 						}
 					}
 				}
@@ -2332,7 +2332,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 						target = scope:recipient
 						75 = {
 							modifier = {
-								add = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+								add = zzz_valyria_magic_dream_magic_08_value
 							}
 							
 							scope:secondary_recipient = {
@@ -2424,12 +2424,12 @@ scripted_effect work_out_wounds_or_death_effect = {
 						target = scope:recipient
 						75 = {
 							modifier = {
-								add = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value
+								add = zz_valyria_magic_blood_magic_17_value
 							}
 							
 							scope:secondary_recipient = {
 								add_character_modifier = {
-									modifier = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_modifier 
+									modifier = zz_valyria_magic_blood_magic_17_modifier 
 									years = -1
 								}
 							}
@@ -2527,7 +2527,7 @@ scripted_effect work_out_wounds_or_death_effect = {
 						random_list = { 
 							50 = {
 								modifier = {
-									add = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value
+									add = zz_valyria_magic_shadow_magic_09_value
 								}
 							}
 							50 = { 
@@ -9709,7 +9709,7 @@ single_combat.0001 = {
 			trigger = { var:magic_type ?= flag:alchemy }
 		}
 		name = {
-			text = single_combat.0001.magic_assault_blood_04
+			text = single_combat.0001.magic_assault_blood_03
 			trigger = { var:magic_type ?= flag:blood }
 		}
 		name = {
@@ -12884,7 +12884,7 @@ single_combat.0041 = {
 								}
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_air_01 }
-									desc = single_combat.0041.desc.opponent_response.magic_potency_air_01s.fatality
+									desc = single_combat.0041.desc.opponent_response.magic_potency_air_01.fatality
 								}
 								triggered_desc = {
 									trigger = { scope:sc_attacker_last_move = flag:magic_potency_water_01 }

@@ -34,7 +34,7 @@ zz_valyria_magic_alchemy_magic_spells.001 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_01_mysteries_of_growth
+				SPELL  = zz_valyria_magic_alchemy_magic_01
 			}
 		}
 	}
@@ -76,7 +76,7 @@ zz_valyria_magic_alchemy_magic_spells.002 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_02_mysteries_of_construction
+				SPELL  = zz_valyria_magic_alchemy_magic_02
 			}
 		}
 	}
@@ -104,7 +104,7 @@ zz_valyria_magic_alchemy_magic_spells.003 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation
+				SPELL  = zz_valyria_magic_alchemy_magic_03
 			}
 		}
 	}
@@ -132,7 +132,7 @@ zz_valyria_magic_alchemy_magic_spells.004 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_04_mysteries_of_arms
+				SPELL  = zz_valyria_magic_alchemy_magic_04
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -170,7 +170,7 @@ zz_valyria_magic_alchemy_magic_spells.005 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification
+				SPELL  = zz_valyria_magic_alchemy_magic_05
 			}
 		}
 	}
@@ -183,7 +183,7 @@ zz_valyria_magic_alchemy_magic_spells.005 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification
+				SPELL  = zz_valyria_magic_alchemy_magic_05
 			}
 		}
 	}
@@ -309,7 +309,7 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_06_mysteries_of_enchantment
+				SPELL  = zz_valyria_magic_alchemy_magic_06
 			}
 		}
 	}
@@ -336,7 +336,7 @@ zz_valyria_magic_alchemy_magic_spells.007 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_07_mysteries_of_pious_transmutation
+				SPELL  = zz_valyria_magic_alchemy_magic_07
 			}
 		}
 	}
@@ -361,7 +361,7 @@ zz_valyria_magic_alchemy_magic_spells.008 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_08_mysteries_of_prestige_transmutation
+				SPELL  = zz_valyria_magic_alchemy_magic_08
 			}
 		}
 	}
@@ -389,7 +389,7 @@ zz_valyria_magic_alchemy_magic_spells.009 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_09_mysteries_of_renown_transmutation
+				SPELL  = zz_valyria_magic_alchemy_magic_09
 			}
 		}
 	}
@@ -423,7 +423,7 @@ zz_valyria_magic_alchemy_magic_spells.010 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction
+				SPELL  = zz_valyria_magic_alchemy_magic_10
 			}
 		}
 	}
@@ -432,7 +432,7 @@ zz_valyria_magic_alchemy_magic_spells.010 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction
+				SPELL  = zz_valyria_magic_alchemy_magic_10
 			}
 		}
 	}
@@ -465,7 +465,7 @@ zz_valyria_magic_alchemy_magic_spells.011 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition
+				SPELL  = zz_valyria_magic_alchemy_magic_11
 			}
 		}
 	}
@@ -474,7 +474,7 @@ zz_valyria_magic_alchemy_magic_spells.011 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition
+				SPELL  = zz_valyria_magic_alchemy_magic_11
 			}
 		}
 	
@@ -505,7 +505,7 @@ zz_valyria_magic_alchemy_magic_spells.012 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_12_mysteries_of_arms_efficiency
+				SPELL  = zz_valyria_magic_alchemy_magic_12
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -538,7 +538,7 @@ zz_valyria_magic_alchemy_magic_spells.013 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_13_mysteries_of_arms_additional_maa
+				SPELL  = zz_valyria_magic_alchemy_magic_13
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -571,7 +571,7 @@ zz_valyria_magic_alchemy_magic_spells.014 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_14_mysteries_of_arms_maa_size
+				SPELL  = zz_valyria_magic_alchemy_magic_14
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -605,7 +605,7 @@ zz_valyria_magic_alchemy_magic_spells.015 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_15_mysteries_of_arms_additional_title_maa
+				SPELL  = zz_valyria_magic_alchemy_magic_15
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -639,7 +639,7 @@ zz_valyria_magic_alchemy_magic_spells.016 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_16_mysteries_of_arms_title_maa_size
+				SPELL  = zz_valyria_magic_alchemy_magic_16
 			}
 			remove_short_term_gold = {
 				gold = {
@@ -678,7 +678,7 @@ zz_valyria_magic_alchemy_magic_spells.017 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
+				SPELL  = zz_valyria_magic_alchemy_magic_17
 			}
 		}
 	}
@@ -691,7 +691,7 @@ zz_valyria_magic_alchemy_magic_spells.017 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = alchemy_magic
-				SPELL  = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
+				SPELL  = zz_valyria_magic_alchemy_magic_17
 			}
 		}
 	}

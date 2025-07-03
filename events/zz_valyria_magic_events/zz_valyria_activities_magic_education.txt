@@ -289,12 +289,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_01_mysteries_of_restoration
+					SPELL = zz_valyria_magic_blood_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_01_mysteries_of_restoration
+			SPELL = zz_valyria_magic_blood_magic_01
 		}
 	}
 	## Learn Genetic Manipulation Spell
@@ -303,12 +304,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification
+					SPELL = zz_valyria_magic_blood_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification
+			SPELL = zz_valyria_magic_blood_magic_02
 		}
 	}
 	## Restore MAA
@@ -317,12 +319,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration
+					SPELL = zz_valyria_magic_blood_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration
+			SPELL = zz_valyria_magic_blood_magic_03
 		}
 	}
 	## Restore Army
@@ -331,12 +334,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_04_mysteries_of_renewal
+					SPELL = zz_valyria_magic_blood_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_04_mysteries_of_renewal
+			SPELL = zz_valyria_magic_blood_magic_04
 		}
 	}
 	option = {
@@ -344,12 +348,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_05_mysteries_of_replication
+					SPELL = zz_valyria_magic_blood_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_05_mysteries_of_replication
+			SPELL = zz_valyria_magic_blood_magic_05
 		}
 	}
 	option = {
@@ -357,12 +362,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation
+					SPELL = zz_valyria_magic_blood_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation
+			SPELL = zz_valyria_magic_blood_magic_06
 		}
 	}
 	option = {
@@ -370,12 +376,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood
+					SPELL = zz_valyria_magic_blood_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood
+			SPELL = zz_valyria_magic_blood_magic_07
 		}
 	}
 	option = {
@@ -383,12 +390,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying
+					SPELL = zz_valyria_magic_blood_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying
+			SPELL = zz_valyria_magic_blood_magic_08
 		}
 	}
 	option = {
@@ -396,12 +404,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement
+					SPELL = zz_valyria_magic_blood_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement
+			SPELL = zz_valyria_magic_blood_magic_09
 		}
 	}
 	option = {
@@ -409,12 +418,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood
+					SPELL = zz_valyria_magic_blood_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood
+			SPELL = zz_valyria_magic_blood_magic_10
 		}
 	}
 	option = {
@@ -422,12 +432,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_11_mysteries_of_longevity
+					SPELL = zz_valyria_magic_blood_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_11_mysteries_of_longevity
+			SPELL = zz_valyria_magic_blood_magic_11
 		}
 	}
 	option = {
@@ -435,12 +446,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_12_mysteries_of_vitality
+					SPELL = zz_valyria_magic_blood_magic_12
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_12.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_12_mysteries_of_vitality
+			SPELL = zz_valyria_magic_blood_magic_12
 		}
 	}
 	option = {
@@ -448,12 +460,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_13_mysteries_of_resilience
+					SPELL = zz_valyria_magic_blood_magic_13
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_13.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_13_mysteries_of_resilience
+			SPELL = zz_valyria_magic_blood_magic_13
 		}
 	}
 	option = {
@@ -461,12 +474,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude
+					SPELL = zz_valyria_magic_blood_magic_14
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_14.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude
+			SPELL = zz_valyria_magic_blood_magic_14
 		}
 	}
 	option = {
@@ -474,12 +488,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_15_mysteries_of_fertility
+					SPELL = zz_valyria_magic_blood_magic_15
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_15.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_15_mysteries_of_fertility
+			SPELL = zz_valyria_magic_blood_magic_15
 		}
 	}
 	option = {
@@ -487,12 +502,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control
+					SPELL = zz_valyria_magic_blood_magic_16
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_16.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control
+			SPELL = zz_valyria_magic_blood_magic_16
 		}
 	}
 	option = {
@@ -500,12 +516,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption
+					SPELL = zz_valyria_magic_blood_magic_17
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_17.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption
+			SPELL = zz_valyria_magic_blood_magic_17
 		}
 	}
 	option = {
@@ -513,12 +530,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics
+					SPELL = zz_valyria_magic_blood_magic_18
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_18.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics
+			SPELL = zz_valyria_magic_blood_magic_18
 		}
 	}
 	option = {
@@ -526,12 +544,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection
+					SPELL = zz_valyria_magic_blood_magic_19
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_19.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection
+			SPELL = zz_valyria_magic_blood_magic_19
 		}
 	}
 	option = {
@@ -539,12 +558,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection
+					SPELL = zz_valyria_magic_blood_magic_20
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_20.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection
+			SPELL = zz_valyria_magic_blood_magic_20
 		}
 	}
 	option = {
@@ -552,12 +572,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection
+					SPELL = zz_valyria_magic_blood_magic_21
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_21.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection
+			SPELL = zz_valyria_magic_blood_magic_21
 		}
 	}
 	option = {
@@ -565,12 +586,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption
+					SPELL = zz_valyria_magic_blood_magic_22
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_22.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption
+			SPELL = zz_valyria_magic_blood_magic_22
 		}
 	}
 	option = {
@@ -578,12 +600,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_23_mysteries_of_prowess
+					SPELL = zz_valyria_magic_blood_magic_23
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_23.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_23_mysteries_of_prowess
+			SPELL = zz_valyria_magic_blood_magic_23
 		}
 	}
 	option = {
@@ -591,12 +614,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning
+					SPELL = zz_valyria_magic_blood_magic_24
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_24.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning
+			SPELL = zz_valyria_magic_blood_magic_24
 		}
 	}
 	option = {
@@ -604,12 +628,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy
+					SPELL = zz_valyria_magic_blood_magic_25
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_25.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy
+			SPELL = zz_valyria_magic_blood_magic_25
 		}
 	}
 	option = {
@@ -617,12 +642,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship
+					SPELL = zz_valyria_magic_blood_magic_26
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_26.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship
+			SPELL = zz_valyria_magic_blood_magic_26
 		}
 	}
 	option = {
@@ -630,12 +656,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue
+					SPELL = zz_valyria_magic_blood_magic_27
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_27.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue
+			SPELL = zz_valyria_magic_blood_magic_27
 		}
 	}
 	option = {
@@ -643,12 +670,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial
+					SPELL = zz_valyria_magic_blood_magic_28
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_28.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial
+			SPELL = zz_valyria_magic_blood_magic_28
 		}
 	}
 	option = {
@@ -656,12 +684,13 @@ zz_valyria_magic_education.00091 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess
+					SPELL = zz_valyria_magic_blood_magic_29
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_blood_magic_29.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess
+			SPELL = zz_valyria_magic_blood_magic_29
 		}
 	}
 }
@@ -702,12 +731,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds
+					SPELL = zz_valyria_magic_shadow_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds
+			SPELL = zz_valyria_magic_shadow_magic_01
 		}
 	}
 	option = {
@@ -715,12 +745,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers
+					SPELL = zz_valyria_magic_shadow_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers
+			SPELL = zz_valyria_magic_shadow_magic_02
 		}
 	}
 	option = {
@@ -728,12 +759,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield
+					SPELL = zz_valyria_magic_shadow_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield
+			SPELL = zz_valyria_magic_shadow_magic_03
 		}
 	}
 	option = {
@@ -741,12 +773,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak
+					SPELL = zz_valyria_magic_shadow_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak
+			SPELL = zz_valyria_magic_shadow_magic_04
 		}
 	}
 	option = {
@@ -754,12 +787,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow
+					SPELL = zz_valyria_magic_shadow_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow
+			SPELL = zz_valyria_magic_shadow_magic_05
 		}
 	}
 	option = {
@@ -767,12 +801,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers
+					SPELL = zz_valyria_magic_shadow_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers
+			SPELL = zz_valyria_magic_shadow_magic_06
 		}
 	}
 	option = {
@@ -780,12 +815,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience
+					SPELL = zz_valyria_magic_shadow_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience
+			SPELL = zz_valyria_magic_shadow_magic_07
 		}
 	}
 	option = {
@@ -793,12 +829,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows
+					SPELL = zz_valyria_magic_shadow_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows
+			SPELL = zz_valyria_magic_shadow_magic_08
 		}
 	}
 	option = {
@@ -806,12 +843,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow
+					SPELL = zz_valyria_magic_shadow_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow
+			SPELL = zz_valyria_magic_shadow_magic_09
 		}
 	}
 	option = {
@@ -819,12 +857,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast
+					SPELL = zz_valyria_magic_shadow_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast
+			SPELL = zz_valyria_magic_shadow_magic_10
 		}
 	}
 	option = {
@@ -832,12 +871,13 @@ zz_valyria_magic_education.00092 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike
+					SPELL = zz_valyria_magic_shadow_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike
+			SPELL = zz_valyria_magic_shadow_magic_11
 		}
 	}
 }
@@ -878,12 +918,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_01_mysteries_mental_domination
+					SPELL = zz_valyria_magic_dream_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_01_mysteries_mental_domination
+			SPELL = zz_valyria_magic_dream_magic_01
 		}
 	}	
 	option = {
@@ -891,12 +932,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies
+					SPELL = zz_valyria_magic_dream_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies
+			SPELL = zz_valyria_magic_dream_magic_02
 		}
 	}
 	option = {
@@ -904,12 +946,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+					SPELL = zz_valyria_magic_dream_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+			SPELL = zz_valyria_magic_dream_magic_03
 		}
 	}
 	option = {
@@ -917,12 +960,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_04_mysteries_of_secrets
+					SPELL = zz_valyria_magic_dream_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_04_mysteries_of_secrets
+			SPELL = zz_valyria_magic_dream_magic_04
 		}
 	}
 	option = {
@@ -930,12 +974,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion
+					SPELL = zz_valyria_magic_dream_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion
+			SPELL = zz_valyria_magic_dream_magic_05
 		}
 	}	
 	option = {
@@ -943,12 +988,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation
+					SPELL = zz_valyria_magic_dream_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation
+			SPELL = zz_valyria_magic_dream_magic_06
 		}
 	}	
 	option = {
@@ -956,12 +1002,27 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination
+					SPELL = zz_valyria_magic_dream_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination
+			SPELL = zz_valyria_magic_dream_magic_07
+		}
+	}	
+	option = {
+		name = zz_valyria_magic_education.0009.dream.08
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_08
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_dream_magic_08.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_08
 		}
 	}	
 	option = {
@@ -969,12 +1030,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying
+					SPELL = zz_valyria_magic_dream_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying
+			SPELL = zz_valyria_magic_dream_magic_09
 		}
 	}	
 	option = {
@@ -982,12 +1044,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power
+					SPELL = zz_valyria_magic_dream_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power
+			SPELL = zz_valyria_magic_dream_magic_10
 		}
 	}
 	
@@ -996,12 +1059,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
+					SPELL = zz_valyria_magic_dream_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
+			SPELL = zz_valyria_magic_dream_magic_11
 		}
 	}
 	option = {
@@ -1009,12 +1073,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
+					SPELL = zz_valyria_magic_dream_magic_12
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_12.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
+			SPELL = zz_valyria_magic_dream_magic_12
 		}
 	}
 	option = {
@@ -1022,12 +1087,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
+					SPELL = zz_valyria_magic_dream_magic_13
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_13.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
+			SPELL = zz_valyria_magic_dream_magic_13
 		}
 	}
 	option = {
@@ -1035,12 +1101,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
+					SPELL = zz_valyria_magic_dream_magic_14
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_14.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
+			SPELL = zz_valyria_magic_dream_magic_14
 		}
 	}
 	option = {
@@ -1048,12 +1115,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
+					SPELL = zz_valyria_magic_dream_magic_15
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_15.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
+			SPELL = zz_valyria_magic_dream_magic_15
 		}
 	}
 	option = {
@@ -1061,12 +1129,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own
+					SPELL = zz_valyria_magic_dream_magic_16
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_16.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own
+			SPELL = zz_valyria_magic_dream_magic_16
 		}
 	}
 	option = {
@@ -1074,12 +1143,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted
+					SPELL = zz_valyria_magic_dream_magic_17
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_17.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted
+			SPELL = zz_valyria_magic_dream_magic_17
 		}
 	}
 	option = {
@@ -1087,12 +1157,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known
+					SPELL = zz_valyria_magic_dream_magic_18
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_18.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known
+			SPELL = zz_valyria_magic_dream_magic_18
 		}
 	}
 	option = {
@@ -1100,12 +1171,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_19
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_19.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_19
 		}
 	}
 	option = {
@@ -1113,12 +1185,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes
+					SPELL = zz_valyria_magic_dream_magic_20
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_20.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes
+			SPELL = zz_valyria_magic_dream_magic_20
 		}
 	}
 	option = {
@@ -1126,12 +1199,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_21
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_21.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_21
 		}
 	}
 	option = {
@@ -1139,12 +1213,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes
+					SPELL = zz_valyria_magic_dream_magic_22
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_22.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes
+			SPELL = zz_valyria_magic_dream_magic_22
 		}
 	}
 	option = {
@@ -1152,12 +1227,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_23
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_23.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_23
 		}
 	}
 	option = {
@@ -1165,12 +1241,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes
+					SPELL = zz_valyria_magic_dream_magic_24
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_24.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes
+			SPELL = zz_valyria_magic_dream_magic_24
 		}
 	}
 	option = {
@@ -1178,12 +1255,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_25
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_25.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_25
 		}
 	}
 	option = {
@@ -1191,12 +1269,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes
+					SPELL = zz_valyria_magic_dream_magic_26
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_27.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes
+			SPELL = zz_valyria_magic_dream_magic_26
 		}
 	}
 	option = {
@@ -1204,12 +1283,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_27
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_27.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_27
 		}
 	}
 	option = {
@@ -1217,12 +1297,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes
+					SPELL = zz_valyria_magic_dream_magic_28
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_28.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes
+			SPELL = zz_valyria_magic_dream_magic_28
 		}
 	}
 	option = {
@@ -1230,12 +1311,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_29
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_29.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_29
 		}
 	}
 	option = {
@@ -1243,12 +1325,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes
+					SPELL = zz_valyria_magic_dream_magic_30
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_30.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes
+			SPELL = zz_valyria_magic_dream_magic_30
 		}
 	}
 	option = {
@@ -1256,12 +1339,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes
+					SPELL = zz_valyria_magic_dream_magic_31
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_31.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes
+			SPELL = zz_valyria_magic_dream_magic_31
 		}
 	}
 	option = {
@@ -1269,12 +1353,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes
+					SPELL = zz_valyria_magic_dream_magic_32
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_32.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes
+			SPELL = zz_valyria_magic_dream_magic_32
 		}
 	}
 	option = {
@@ -1282,12 +1367,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging
+					SPELL = zz_valyria_magic_dream_magic_33
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_33.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging
+			SPELL = zz_valyria_magic_dream_magic_33
 		}
 	}
 	option = {
@@ -1295,12 +1381,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation
+					SPELL = zz_valyria_magic_dream_magic_34
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_34.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation
+			SPELL = zz_valyria_magic_dream_magic_34
 		}
 	}
 	option = {
@@ -1308,12 +1395,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation
+					SPELL = zz_valyria_magic_dream_magic_35
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_35.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation
+			SPELL = zz_valyria_magic_dream_magic_35
 		}
 	}
 	option = {
@@ -1321,12 +1409,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county
+					SPELL = zz_valyria_magic_dream_magic_36
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_36.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county
+			SPELL = zz_valyria_magic_dream_magic_36
 		}
 	}
 	option = {
@@ -1334,12 +1423,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county
+					SPELL = zz_valyria_magic_dream_magic_37
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_37.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county
+			SPELL = zz_valyria_magic_dream_magic_37
 		}
 	}
 	option = {
@@ -1347,12 +1437,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county
+					SPELL = zz_valyria_magic_dream_magic_38
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_38.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county
+			SPELL = zz_valyria_magic_dream_magic_38
 		}
 	}
 	option = {
@@ -1360,12 +1451,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
+					SPELL = zz_valyria_magic_dream_magic_39
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_39.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
+			SPELL = zz_valyria_magic_dream_magic_39
 		}
 	}
 	option = {
@@ -1373,12 +1465,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+					SPELL = zz_valyria_magic_dream_magic_40
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_40.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+			SPELL = zz_valyria_magic_dream_magic_40
 		}
 	}
 	option = {
@@ -1386,12 +1479,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+					SPELL = zz_valyria_magic_dream_magic_41
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_41.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+			SPELL = zz_valyria_magic_dream_magic_41
 		}
 	}
 	option = {
@@ -1399,12 +1493,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+					SPELL = zz_valyria_magic_dream_magic_42
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_42.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+			SPELL = zz_valyria_magic_dream_magic_42
 		}
 	}
 	option = {
@@ -1412,12 +1507,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+					SPELL = zz_valyria_magic_dream_magic_43
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_43.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+			SPELL = zz_valyria_magic_dream_magic_43
 		}
 	}
 	option = {
@@ -1425,12 +1521,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+					SPELL = zz_valyria_magic_dream_magic_44
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_44.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+			SPELL = zz_valyria_magic_dream_magic_44
 		}
 	}
 	option = {
@@ -1438,12 +1535,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county
+					SPELL = zz_valyria_magic_dream_magic_45
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_45.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county
+			SPELL = zz_valyria_magic_dream_magic_45
 		}
 	}
 	option = {
@@ -1451,12 +1549,13 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+					SPELL = zz_valyria_magic_dream_magic_46
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_46.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+			SPELL = zz_valyria_magic_dream_magic_46
 		}
 	}
 	option = {
@@ -1464,12 +1563,41 @@ zz_valyria_magic_education.00093 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+					SPELL = zz_valyria_magic_dream_magic_47
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_dream_magic_47.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+			SPELL = zz_valyria_magic_dream_magic_47
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.48
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_48
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_dream_magic_48.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_48
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.dream.49
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_dream_magic_49
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_dream_magic_49.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_dream_magic_49
 		}
 	}
 }
@@ -1510,12 +1638,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_01_mysteries_of_growth
+					SPELL = zz_valyria_magic_alchemy_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_01_mysteries_of_growth
+			SPELL = zz_valyria_magic_alchemy_magic_01
 		}
 	}	
 	option = {
@@ -1523,12 +1652,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_02_mysteries_of_construction
+					SPELL = zz_valyria_magic_alchemy_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_02_mysteries_of_construction
+			SPELL = zz_valyria_magic_alchemy_magic_02
 		}
 	}	
 	option = {
@@ -1536,12 +1666,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation
+					SPELL = zz_valyria_magic_alchemy_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation
+			SPELL = zz_valyria_magic_alchemy_magic_03
 		}
 	}	
 	option = {
@@ -1549,12 +1680,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_04_mysteries_of_arms
+					SPELL = zz_valyria_magic_alchemy_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_04_mysteries_of_arms
+			SPELL = zz_valyria_magic_alchemy_magic_04
 		}
 	}	
 	option = {
@@ -1562,12 +1694,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification
+					SPELL = zz_valyria_magic_alchemy_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification
+			SPELL = zz_valyria_magic_alchemy_magic_05
 		}
 	}	
 	option = {
@@ -1575,12 +1708,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_06_mysteries_of_enchantment
+					SPELL = zz_valyria_magic_alchemy_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_06_mysteries_of_enchantment
+			SPELL = zz_valyria_magic_alchemy_magic_06
 		}
 	}	
 	option = {
@@ -1588,12 +1722,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_07_mysteries_of_pious_transmutation
+					SPELL = zz_valyria_magic_alchemy_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_07_mysteries_of_pious_transmutation
+			SPELL = zz_valyria_magic_alchemy_magic_07
 		}
 	}	
 	option = {
@@ -1601,12 +1736,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_08_mysteries_of_prestige_transmutation
+					SPELL = zz_valyria_magic_alchemy_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_08_mysteries_of_prestige_transmutation
+			SPELL = zz_valyria_magic_alchemy_magic_08
 		}
 	}	
 	option = {
@@ -1614,12 +1750,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_09_mysteries_of_renown_transmutation
+					SPELL = zz_valyria_magic_alchemy_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_09_mysteries_of_renown_transmutation
+			SPELL = zz_valyria_magic_alchemy_magic_09
 		}
 	}	
 	option = {
@@ -1627,12 +1764,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction
+					SPELL = zz_valyria_magic_alchemy_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction
+			SPELL = zz_valyria_magic_alchemy_magic_10
 		}
 	}	
 	option = {
@@ -1640,12 +1778,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition
+					SPELL = zz_valyria_magic_alchemy_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition
+			SPELL = zz_valyria_magic_alchemy_magic_11
 		}
 	}
 	option = {
@@ -1653,12 +1792,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_12_mysteries_of_arms_efficiency
+					SPELL = zz_valyria_magic_alchemy_magic_12
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_12.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_12_mysteries_of_arms_efficiency
+			SPELL = zz_valyria_magic_alchemy_magic_12
 		}
 	}
 	option = {
@@ -1666,12 +1806,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_13_mysteries_of_arms_additional_maa
+					SPELL = zz_valyria_magic_alchemy_magic_13
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_13.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_13_mysteries_of_arms_additional_maa
+			SPELL = zz_valyria_magic_alchemy_magic_13
 		}
 	}
 	option = {
@@ -1679,12 +1820,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_14_mysteries_of_arms_maa_size
+					SPELL = zz_valyria_magic_alchemy_magic_14
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_14.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_14_mysteries_of_arms_maa_size
+			SPELL = zz_valyria_magic_alchemy_magic_14
 		}
 	}
 	option = {
@@ -1692,12 +1834,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_15_mysteries_of_arms_additional_title_maa
+					SPELL = zz_valyria_magic_alchemy_magic_15
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_15.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_15_mysteries_of_arms_additional_title_maa
+			SPELL = zz_valyria_magic_alchemy_magic_15
 		}
 	}
 	option = {
@@ -1705,12 +1848,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_16_mysteries_of_arms_title_maa_size
+					SPELL = zz_valyria_magic_alchemy_magic_16
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_16.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_16_mysteries_of_arms_title_maa_size
+			SPELL = zz_valyria_magic_alchemy_magic_16
 		}
 	}
 	option = {
@@ -1718,12 +1862,13 @@ zz_valyria_magic_education.00094 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
+					SPELL = zz_valyria_magic_alchemy_magic_17
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_alchemy_magic_17.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault
+			SPELL = zz_valyria_magic_alchemy_magic_17
 		}
 	}
 }
@@ -1764,12 +1909,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame
+					SPELL = zz_valyria_magic_fire_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame
+			SPELL = zz_valyria_magic_fire_magic_01
 		}
 	}	
 	option = {
@@ -1777,12 +1923,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame
+					SPELL = zz_valyria_magic_fire_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame
+			SPELL = zz_valyria_magic_fire_magic_02
 		}
 	}	
 	option = {
@@ -1790,12 +1937,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire
+					SPELL = zz_valyria_magic_fire_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire
+			SPELL = zz_valyria_magic_fire_magic_03
 		}
 	}	
 	option = {
@@ -1803,12 +1951,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification
+					SPELL = zz_valyria_magic_fire_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification
+			SPELL = zz_valyria_magic_fire_magic_04
 		}
 	}	
 	option = {
@@ -1816,12 +1965,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades
+					SPELL = zz_valyria_magic_fire_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades
+			SPELL = zz_valyria_magic_fire_magic_05
 		}
 	}
 	option = {
@@ -1829,12 +1979,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire
+					SPELL = zz_valyria_magic_fire_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire
+			SPELL = zz_valyria_magic_fire_magic_06
 		}
 	}
 	option = {
@@ -1842,12 +1993,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire
+					SPELL = zz_valyria_magic_fire_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire
+			SPELL = zz_valyria_magic_fire_magic_07
 		}
 	}
 	option = {
@@ -1855,12 +2007,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_08_mysteries_of_siege
+					SPELL = zz_valyria_magic_fire_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_08_mysteries_of_siege
+			SPELL = zz_valyria_magic_fire_magic_08
 		}
 	}
 	option = {
@@ -1868,12 +2021,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_09_mysteries_of_fireball
+					SPELL = zz_valyria_magic_fire_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_09_mysteries_of_fireball
+			SPELL = zz_valyria_magic_fire_magic_09
 		}
 	}
 	option = {
@@ -1881,12 +2035,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath
+					SPELL = zz_valyria_magic_fire_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath
+			SPELL = zz_valyria_magic_fire_magic_10
 		}
 	}
 	option = {
@@ -1894,12 +2049,13 @@ zz_valyria_magic_education.00095 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley
+					SPELL = zz_valyria_magic_fire_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_fire_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley
+			SPELL = zz_valyria_magic_fire_magic_11
 		}
 	}
 }
@@ -1940,12 +2096,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind
+					SPELL = zz_valyria_magic_air_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind
+			SPELL = zz_valyria_magic_air_magic_01
 		}
 	}	
 	option = {
@@ -1953,12 +2110,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds
+					SPELL = zz_valyria_magic_air_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds
+			SPELL = zz_valyria_magic_air_magic_02
 		}
 	}	
 	option = {
@@ -1966,12 +2124,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind
+					SPELL = zz_valyria_magic_air_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind
+			SPELL = zz_valyria_magic_air_magic_03
 		}
 	}	
 	option = {
@@ -1979,12 +2138,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane
+					SPELL = zz_valyria_magic_air_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane
+			SPELL = zz_valyria_magic_air_magic_04
 		}
 	}	
 	option = {
@@ -1992,12 +2152,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_05_mysteries_of_initiative
+					SPELL = zz_valyria_magic_air_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_05_mysteries_of_initiative
+			SPELL = zz_valyria_magic_air_magic_05
 		}
 	}	
 	option = {
@@ -2005,12 +2166,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath
+					SPELL = zz_valyria_magic_air_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath
+			SPELL = zz_valyria_magic_air_magic_06
 		}
 	}	
 	option = {
@@ -2018,12 +2180,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens
+					SPELL = zz_valyria_magic_air_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens
+			SPELL = zz_valyria_magic_air_magic_07
 		}
 	}	
 	option = {
@@ -2031,12 +2194,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike
+					SPELL = zz_valyria_magic_air_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike
+			SPELL = zz_valyria_magic_air_magic_08
 		}
 	}	
 	option = {
@@ -2044,12 +2208,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods
+					SPELL = zz_valyria_magic_air_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods
+			SPELL = zz_valyria_magic_air_magic_09
 		}
 	}	
 	option = {
@@ -2057,12 +2222,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_10_mysteries_of_south_wind
+					SPELL = zz_valyria_magic_air_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_10_mysteries_of_south_wind
+			SPELL = zz_valyria_magic_air_magic_10
 		}
 	}	
 	option = {
@@ -2070,12 +2236,13 @@ zz_valyria_magic_education.00096 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_air_magic_11_mysteries_of_north_wind
+					SPELL = zz_valyria_magic_air_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_air_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_air_magic_11_mysteries_of_north_wind
+			SPELL = zz_valyria_magic_air_magic_11
 		}
 	}	
 }
@@ -2116,12 +2283,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters
+					SPELL = zz_valyria_magic_water_magic_01
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_01.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters
+			SPELL = zz_valyria_magic_water_magic_01
 		}
 	}	
 	option = {
@@ -2129,12 +2297,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent
+					SPELL = zz_valyria_magic_water_magic_02
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_02.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent
+			SPELL = zz_valyria_magic_water_magic_02
 		}
 	}	
 	option = {
@@ -2142,12 +2311,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_03_mysteries_of_endurance
+					SPELL = zz_valyria_magic_water_magic_03
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_03.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_03_mysteries_of_endurance
+			SPELL = zz_valyria_magic_water_magic_03
 		}
 	}	
 	option = {
@@ -2155,12 +2325,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_04_mysteries_of_rhoyne
+					SPELL = zz_valyria_magic_water_magic_04
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_04.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_04_mysteries_of_rhoyne
+			SPELL = zz_valyria_magic_water_magic_04
 		}
 	}	
 	option = {
@@ -2168,12 +2339,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_05_mysteries_of_winter
+					SPELL = zz_valyria_magic_water_magic_05
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_05.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_05_mysteries_of_winter
+			SPELL = zz_valyria_magic_water_magic_05
 		}
 	}	
 	option = {
@@ -2181,12 +2353,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_06_mysteries_of_purity
+					SPELL = zz_valyria_magic_water_magic_06
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_06.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_06_mysteries_of_purity
+			SPELL = zz_valyria_magic_water_magic_06
 		}
 	}	
 	option = {
@@ -2194,12 +2367,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth
+					SPELL = zz_valyria_magic_water_magic_07
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_07.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth
+			SPELL = zz_valyria_magic_water_magic_07
 		}
 	}	
 	option = {
@@ -2207,12 +2381,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_08_mysteries_of_the_mists
+					SPELL = zz_valyria_magic_water_magic_08
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_08.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_08_mysteries_of_the_mists
+			SPELL = zz_valyria_magic_water_magic_08
 		}
 	}	
 	option = {
@@ -2220,12 +2395,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground
+					SPELL = zz_valyria_magic_water_magic_09
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_09.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground
+			SPELL = zz_valyria_magic_water_magic_09
 		}
 	}	
 	option = {
@@ -2233,12 +2409,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience
+					SPELL = zz_valyria_magic_water_magic_10
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_10.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience
+			SPELL = zz_valyria_magic_water_magic_10
 		}
 	}	
 	option = {
@@ -2246,12 +2423,13 @@ zz_valyria_magic_education.00097 = {
 		trigger = {
 			NOT = { 
 				zz_valyria_knows_spell  = {
-					SPELL = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity
+					SPELL = zz_valyria_magic_water_magic_11
 				}
 			}
 		}
+		custom_tooltip = zz_valyria_magic_water_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
-			SPELL = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity
+			SPELL = zz_valyria_magic_water_magic_11
 		}
 	}	
 }

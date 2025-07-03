@@ -4,14 +4,14 @@ zz_magic_combat_effect = {
 	
 }
 
-zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_effect = { 
+zz_valyria_magic_fire_magic_01_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame.t
-		desc = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame.desc
+		title = zz_valyria_magic_fire_magic_01.toast.t
+		desc = zz_valyria_magic_fire_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_01.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	scope:recipient = {
@@ -143,7 +143,7 @@ zz_removed_magic_effect = {
 				target = scope:recipient
 				75 = {
 					modifier = {
-						add = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value
+						add = zz_valyria_magic_fire_magic_01_value
 					}
 					add_dread = medium_dread_gain
 					scope:recipient = {
@@ -175,7 +175,7 @@ zz_removed_magic_effect = {
 								add_tyranny = minor_tyranny_gain
 							}
 						}
-						custom_tooltip = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame.tyranny
+						custom_tooltip = zz_valyria_magic_fire_magic_01.toast.tyranny
 					}
 				}
 				25 = {
@@ -185,31 +185,31 @@ zz_removed_magic_effect = {
 		}
 }
 
-zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame_effect = { 
+zz_valyria_magic_fire_magic_02_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame.t
-		desc = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame.desc
+		title = zz_valyria_magic_fire_magic_02.toast.t
+		desc = zz_valyria_magic_fire_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_02.toast.tt
 	}
 	scope:target = {
-		deplete_army_by_percentage = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame_value
+		deplete_army_by_percentage = zz_valyria_magic_fire_magic_02_value
 	}
 }
 
-zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire_effect = { 
+zz_valyria_magic_fire_magic_03_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire.t
-		desc = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire.desc
+		title = zz_valyria_magic_fire_magic_03.toast.t
+		desc = zz_valyria_magic_fire_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_03.toast.tt
 	}
 	scope:target = {
-		deplete_army_by_percentage = zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire_value
+		deplete_army_by_percentage = zz_valyria_magic_fire_magic_03_value
 		location = {
 			random = {
 				chance = 25
@@ -226,14 +226,14 @@ zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire_effect = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_effect = { 
+zz_valyria_magic_fire_magic_04_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification.t
-		desc = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification.desc
+		title = zz_valyria_magic_fire_magic_04.toast.t
+		desc = zz_valyria_magic_fire_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_04.toast.tt
 	}	
 	if = {
 		limit = {
@@ -251,7 +251,7 @@ zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_effect = {
 	}
 	scope:secondary_recipient = { 
 		while = {
-			count = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value 
+			count = zz_valyria_magic_fire_magic_04_value 
 			scope:recipient = { 
 				if = { 
 					limit = { 
@@ -380,7 +380,7 @@ zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_effect = {
 random_list = {
 	50 = {
 		modifier = {
-			add = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value_02
+			add = zz_valyria_magic_fire_magic_04_value_02
 		}
 	}
 	50 = {
@@ -407,14 +407,14 @@ scope:recipient = {
 	}
 }
 }
-zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_effect = {
+zz_valyria_magic_fire_magic_05_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades.t
-		desc = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades.desc
+		title = zz_valyria_magic_fire_magic_05.toast.t
+		desc = zz_valyria_magic_fire_magic_05.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_05.toast.tt
 	}
 	if = {
 		limit = {
@@ -430,7 +430,7 @@ zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_modifier
+			MODIFIER = zz_valyria_magic_fire_magic_05_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}
@@ -448,14 +448,14 @@ zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_effect = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire_effect = {
+zz_valyria_magic_fire_magic_06_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire.t
-		desc = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire.desc
+		title = zz_valyria_magic_fire_magic_06.toast.t
+		desc = zz_valyria_magic_fire_magic_06.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_06.toast.tt
 	}
 	if = {
 		limit = {
@@ -603,14 +603,14 @@ zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire_effect = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire_effect = {
+zz_valyria_magic_fire_magic_07_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire.t
-		desc = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire.desc
+		title = zz_valyria_magic_fire_magic_07.toast.t
+		desc = zz_valyria_magic_fire_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_07.toast.tt
 	}
 	if = {
 		limit = {
@@ -759,14 +759,14 @@ zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire_effect = {
 	}
 }
 
-zz_valyria_magic_fire_magic_08_mysteries_of_siege_effect = {
+zz_valyria_magic_fire_magic_08_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_08_mysteries_of_siege.t
-		desc = zz_valyria_magic_fire_magic_08_mysteries_of_siege.desc
+		title = zz_valyria_magic_fire_magic_08.toast.t
+		desc = zz_valyria_magic_fire_magic_08.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_08_mysteries_of_siege.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_08.toast.tt
 	}
 	if = {
 		limit = {
@@ -782,7 +782,7 @@ zz_valyria_magic_fire_magic_08_mysteries_of_siege_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_fire_magic_08_mysteries_of_siege_modifier
+			MODIFIER = zz_valyria_magic_fire_magic_08_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -802,28 +802,28 @@ zz_valyria_magic_fire_magic_08_mysteries_of_siege_effect = {
 }
 
 
-zz_valyria_magic_fire_magic_09_mysteries_of_fireball_effect = { 
+zz_valyria_magic_fire_magic_09_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_09_mysteries_of_fireball.tt 
-		desc = zz_valyria_magic_fire_magic_09_mysteries_of_fireball.desc
+		title = zz_valyria_magic_fire_magic_09.toast.tt 
+		desc = zz_valyria_magic_fire_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_fire_magic_09_mysteries_of_fireball.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_09.toast.tt
 	}
 	scope:target = {
-		change_maa_troops_count = zz_valyria_magic_fire_magic_09_mysteries_of_fireball_value 
+		change_maa_troops_count = zz_valyria_magic_fire_magic_09_value 
 	}
 }
 
-zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_effect = {
+zz_valyria_magic_fire_magic_10_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath.t
-		desc = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath.desc
+		title = zz_valyria_magic_fire_magic_10.toast.t
+		desc = zz_valyria_magic_fire_magic_10.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_10.toast.tt
 	}
 	if = {
 		limit = {
@@ -839,7 +839,7 @@ zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_modifier
+			MODIFIER = zz_valyria_magic_fire_magic_10_modifier
 			DURATION = 0.5
 			BOOSTED_DURATION = 1
 		}
@@ -858,22 +858,22 @@ zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_effect = {
 	}
 }
 
-zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_effect = { 
+zz_valyria_magic_fire_magic_11_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley.tt 
-		desc = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley.desc
+		title = zz_valyria_magic_fire_magic_11.toast.tt 
+		desc = zz_valyria_magic_fire_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley.tt
+		custom_tooltip = zz_valyria_magic_fire_magic_11.toast.tt
 	}
 	scope:target_01 = {
-		change_maa_troops_count =zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_value 
+		change_maa_troops_count =zz_valyria_magic_fire_magic_11_value 
 	}
 	scope:target_02 = {
-		change_maa_troops_count =zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_value 
+		change_maa_troops_count =zz_valyria_magic_fire_magic_11_value 
 	}
 	scope:target_03 = {
-		change_maa_troops_count =zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_value 
+		change_maa_troops_count =zz_valyria_magic_fire_magic_11_value 
 	}
 }

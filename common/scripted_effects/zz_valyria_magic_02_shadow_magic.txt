@@ -1,11 +1,11 @@
-﻿zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds_effect = {
+﻿zz_valyria_magic_shadow_magic_01_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds.t
-		desc = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds.desc
+		title = zz_valyria_magic_shadow_magic_01.toast.t
+		desc = zz_valyria_magic_shadow_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_01.toast.tt
 	}
 	if = {
 		limit = {
@@ -21,7 +21,7 @@
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_01_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}
@@ -39,14 +39,14 @@
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_effect = {
+zz_valyria_magic_shadow_magic_02_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers.tt
-		desc = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers.desc
+		title = zz_valyria_magic_shadow_magic_02.toast.tt
+		desc = zz_valyria_magic_shadow_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_02.toast.tt
 	}
 	if = {
 		limit = {
@@ -62,7 +62,7 @@ zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_02_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -80,14 +80,14 @@ zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_effect = {
+zz_valyria_magic_shadow_magic_03_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield.t
-		desc = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield.desc
+		title = zz_valyria_magic_shadow_magic_03.toast.t
+		desc = zz_valyria_magic_shadow_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_03.toast.tt
 	}
 	if = {
 		limit = {
@@ -103,7 +103,7 @@ zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_03_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}					
@@ -121,14 +121,14 @@ zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_effect = {
+zz_valyria_magic_shadow_magic_04_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak.t
-		desc = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak.desc
+		title = zz_valyria_magic_shadow_magic_04.toast.t
+		desc = zz_valyria_magic_shadow_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_04.toast.tt
 	}
 	if = {
 		limit = {
@@ -144,7 +144,7 @@ zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = {
-			MODIFIER = zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_04_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}		
@@ -162,14 +162,14 @@ zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow_effect = {
+zz_valyria_magic_shadow_magic_05_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow.t
-		desc = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow.desc
+		title = zz_valyria_magic_shadow_magic_05.toast.t
+		desc = zz_valyria_magic_shadow_magic_05.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_05.toast.tt
 	}
 	if = {
 		limit = {
@@ -185,7 +185,7 @@ zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_05_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}
@@ -203,14 +203,14 @@ zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers_effect = {
+zz_valyria_magic_shadow_magic_06_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers.tt
-		desc = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers.desc
+		title = zz_valyria_magic_shadow_magic_06.toast.tt
+		desc = zz_valyria_magic_shadow_magic_06.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_06.toast.tt
 	}
 	if = {
 		limit = {
@@ -226,7 +226,7 @@ zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_06_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -244,14 +244,14 @@ zz_valyria_magic_shadow_magic_06_mysteries_of_feeble_daggers_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience_effect = {
+zz_valyria_magic_shadow_magic_07_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience.t
-		desc = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience.desc
+		title = zz_valyria_magic_shadow_magic_07.toast.t
+		desc = zz_valyria_magic_shadow_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_07.toast.tt
 	}
 	if = {
 		limit = {
@@ -267,7 +267,7 @@ zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_07_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}					
@@ -285,14 +285,14 @@ zz_valyria_magic_shadow_magic_07_mysteries_of_the_weakened_vigilience_effect = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows_effect = {
+zz_valyria_magic_shadow_magic_08_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows.t
-		desc = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows.desc
+		title = zz_valyria_magic_shadow_magic_08.toast.t
+		desc = zz_valyria_magic_shadow_magic_08.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_08.toast.tt
 	}
 	if = {
 		limit = {
@@ -308,7 +308,7 @@ zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = {
-			MODIFIER = zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows_modifier
+			MODIFIER = zz_valyria_magic_shadow_magic_08_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}		
@@ -327,14 +327,14 @@ zz_valyria_magic_shadow_magic_08_mysteries_of_the_revealed_shadows_effect = {
 	}
 }
 
-zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_effect = { 
+zz_valyria_magic_shadow_magic_09_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow.t
-		desc = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow.desc
+		title = zz_valyria_magic_shadow_magic_09.toast.t
+		desc = zz_valyria_magic_shadow_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_09.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	scope:recipient = {
@@ -356,31 +356,31 @@ zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_effect 
 	}	
 }
 
-zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast_effect = { 
+zz_valyria_magic_shadow_magic_10_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast.t
-		desc = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast.desc
+		title = zz_valyria_magic_shadow_magic_10.toast.t
+		desc = zz_valyria_magic_shadow_magic_10.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_10.toast.tt
 	}
 	scope:target = {
-		deplete_army_by_percentage = zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast_value
+		deplete_army_by_percentage = zz_valyria_magic_shadow_magic_10_value
 	}
 }
 
 
-zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike_effect = { 
+zz_valyria_magic_shadow_magic_11_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike.t
-		desc = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike.desc
+		title = zz_valyria_magic_shadow_magic_11.toast.t
+		desc = zz_valyria_magic_shadow_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike.tt
+		custom_tooltip = zz_valyria_magic_shadow_magic_11.toast.tt
 	}
 	scope:target = {
-		change_maa_troops_count = zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike_value 
+		change_maa_troops_count = zz_valyria_magic_shadow_magic_11_value 
 	}
 }

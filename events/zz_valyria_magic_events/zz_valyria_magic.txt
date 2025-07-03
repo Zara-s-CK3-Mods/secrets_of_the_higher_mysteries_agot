@@ -170,7 +170,7 @@ zz_valyria_magic.0010 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_01_mysteries_of_restoration }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -238,23 +238,23 @@ zz_valyria_magic.0011 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_06 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_01
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_08 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_02
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_09 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_03
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_10 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_04
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_18 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_05
 		}
@@ -328,7 +328,7 @@ zz_valyria_magic.0012 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_04_mysteries_of_secrets }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_04 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -397,7 +397,7 @@ zz_valyria_magic.0013 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_33 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -465,7 +465,7 @@ zz_valyria_magic.0014 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_01_mysteries_mental_domination }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -533,7 +533,7 @@ zz_valyria_magic.0015 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_water_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -602,7 +602,7 @@ zz_valyria_magic.0016 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_air_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -669,7 +669,7 @@ zz_valyria_magic.0017 = {
 	}
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_fire_magic_06 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -736,7 +736,7 @@ zz_valyria_magic.0018 = {
 	}
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_fire_magic_07 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -804,7 +804,7 @@ zz_valyria_magic.0019 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_shadow_magic_05_mysteries_cloying_shadow }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_shadow_magic_05 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -872,7 +872,7 @@ zz_valyria_magic.0020 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_alchemy_magic_01_mysteries_of_growth }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_alchemy_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -940,7 +940,7 @@ zz_valyria_magic.0021 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_alchemy_magic_03 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1008,7 +1008,7 @@ zz_valyria_magic.0022 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_water_magic_08_mysteries_of_the_mists }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_water_magic_08 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1076,7 +1076,7 @@ zz_valyria_magic.0023 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_air_magic_05_mysteries_of_initiative }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_air_magic_05 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1144,7 +1144,7 @@ zz_valyria_magic.0024 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_02 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1211,7 +1211,7 @@ zz_valyria_magic.0025 = {
 	}
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_01_mysteries_of_restoration }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1279,7 +1279,7 @@ zz_valyria_magic.0026 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_shadow_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
@@ -1347,7 +1347,7 @@ zz_valyria_magic.0027 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dream_magic_13 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}

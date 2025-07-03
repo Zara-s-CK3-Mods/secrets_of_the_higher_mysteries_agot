@@ -55,7 +55,7 @@ zz_valyria_magic_blood_magic_spells.001 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_01_mysteries_of_restoration
+				SPELL = zz_valyria_magic_blood_magic_01
 			}
 		}
 		
@@ -357,7 +357,7 @@ zz_valyria_magic_blood_magic_spells.002 = {
 	
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification
+				SPELL = zz_valyria_magic_blood_magic_02
 			}
 		}
 	}
@@ -433,7 +433,7 @@ zz_valyria_magic_blood_magic_spells.003 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration
+				SPELL = zz_valyria_magic_blood_magic_03
 			}
 		}
 
@@ -485,7 +485,7 @@ zz_valyria_magic_blood_magic_spells.004 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_04_mysteries_of_renewal
+				SPELL = zz_valyria_magic_blood_magic_04
 			}
 		}
 		
@@ -609,7 +609,7 @@ zz_valyria_magic_blood_magic_spells.00501 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_05_mysteries_of_replication
+				SPELL = zz_valyria_magic_blood_magic_05
 			}
 		}
 	}
@@ -633,7 +633,7 @@ zz_valyria_magic_blood_magic_spells.00501 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_05_mysteries_of_replication
+				SPELL = zz_valyria_magic_blood_magic_05
 			}
 		}
 	}
@@ -656,7 +656,7 @@ zz_valyria_magic_blood_magic_spells.00501 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_05_mysteries_of_replication
+				SPELL = zz_valyria_magic_blood_magic_05
 			}
 		}
 		
@@ -710,7 +710,7 @@ zz_valyria_magic_blood_magic_spells.006 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation
+				SPELL = zz_valyria_magic_blood_magic_06
 			}
 		}
 	}
@@ -745,7 +745,7 @@ zz_valyria_magic_blood_magic_spells.007 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood
+				SPELL = zz_valyria_magic_blood_magic_07
 			}
 		}
 	}
@@ -776,14 +776,14 @@ zz_valyria_magic_blood_magic_spells.008 = {
 				has_trait = dragon
 				is_female = yes
 				NOT = { 
-					has_character_flag = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_effect_flag
+					has_character_flag = zz_valyria_magic_blood_magic_08_effect_flag
 				}
 			}
 		}
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying
+				SPELL = zz_valyria_magic_blood_magic_08
 			}
 		}
 	}
@@ -816,7 +816,7 @@ zz_valyria_magic_blood_magic_spells.009 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement
+				SPELL = zz_valyria_magic_blood_magic_09
 			}
 		}
 	}
@@ -854,7 +854,7 @@ zz_valyria_magic_blood_magic_spells.010 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood
+				SPELL = zz_valyria_magic_blood_magic_10
 			}
 		}
 	}
@@ -883,7 +883,7 @@ zz_valyria_magic_blood_magic_spells.011 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_11_mysteries_of_longevity
+				SPELL = zz_valyria_magic_blood_magic_11
 			}
 		}
 	}
@@ -911,7 +911,7 @@ zz_valyria_magic_blood_magic_spells.012 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_12_mysteries_of_vitality
+				SPELL = zz_valyria_magic_blood_magic_12
 			}
 		}
 	}
@@ -939,7 +939,7 @@ zz_valyria_magic_blood_magic_spells.013 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_13_mysteries_of_resilience
+				SPELL = zz_valyria_magic_blood_magic_13
 			}
 		}
 		
@@ -968,7 +968,7 @@ zz_valyria_magic_blood_magic_spells.014 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude
+				SPELL = zz_valyria_magic_blood_magic_14
 			}
 		}
 	}
@@ -996,7 +996,7 @@ zz_valyria_magic_blood_magic_spells.015 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_15_mysteries_of_fertility
+				SPELL = zz_valyria_magic_blood_magic_15
 			}
 		}
 		
@@ -1057,7 +1057,7 @@ zz_valyria_magic_blood_magic_spells.016 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control
+				SPELL = zz_valyria_magic_blood_magic_16
 			}
 		}
 	}
@@ -1089,7 +1089,7 @@ zz_valyria_magic_blood_magic_spells.017 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption
+				SPELL = zz_valyria_magic_blood_magic_17
 			}
 		}
 	}
@@ -1102,7 +1102,7 @@ zz_valyria_magic_blood_magic_spells.017 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption
+				SPELL = zz_valyria_magic_blood_magic_17
 			}
 		}
 		
@@ -1223,7 +1223,7 @@ zz_valyria_magic_blood_magic_spells.018 = {
 	
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics
+				SPELL = zz_valyria_magic_blood_magic_18
 			}
 		}
 	}
@@ -1255,7 +1255,7 @@ zz_valyria_magic_blood_magic_spells.019 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection
+				SPELL = zz_valyria_magic_blood_magic_19
 			}
 		}		
 	}
@@ -1268,7 +1268,7 @@ zz_valyria_magic_blood_magic_spells.019 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection
+				SPELL = zz_valyria_magic_blood_magic_19
 			}
 		}
 		
@@ -1299,7 +1299,7 @@ zz_valyria_magic_blood_magic_spells.020 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection
+				SPELL = zz_valyria_magic_blood_magic_20
 			}
 		}
 	}
@@ -1328,7 +1328,7 @@ zz_valyria_magic_blood_magic_spells.021 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection
+				SPELL = zz_valyria_magic_blood_magic_21
 			}
 		}
 		
@@ -1677,7 +1677,7 @@ zz_valyria_magic_blood_magic_spells.02207 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption
+				SPELL = zz_valyria_magic_blood_magic_22
 			}
 		}
 		
@@ -1707,7 +1707,7 @@ zz_valyria_magic_blood_magic_spells.023 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_23_mysteries_of_prowess
+				SPELL = zz_valyria_magic_blood_magic_23
 			}
 		}
 		
@@ -1745,7 +1745,7 @@ zz_valyria_magic_blood_magic_spells.024 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning
+				SPELL = zz_valyria_magic_blood_magic_24
 			}
 		}
 	}
@@ -1781,7 +1781,7 @@ zz_valyria_magic_blood_magic_spells.025 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy
+				SPELL = zz_valyria_magic_blood_magic_25
 			}
 		}
 	}
@@ -1817,7 +1817,7 @@ zz_valyria_magic_blood_magic_spells.026 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship
+				SPELL = zz_valyria_magic_blood_magic_26
 			}
 		}
 	}
@@ -1853,7 +1853,7 @@ zz_valyria_magic_blood_magic_spells.027 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue
+				SPELL = zz_valyria_magic_blood_magic_27
 			}
 		}
 	}
@@ -1889,7 +1889,7 @@ zz_valyria_magic_blood_magic_spells.028 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial
+				SPELL = zz_valyria_magic_blood_magic_28
 			}
 		}
 	}
@@ -1925,7 +1925,7 @@ zz_valyria_magic_blood_magic_spells.029 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess
+				SPELL = zz_valyria_magic_blood_magic_29
 			}
 		}
 	}
