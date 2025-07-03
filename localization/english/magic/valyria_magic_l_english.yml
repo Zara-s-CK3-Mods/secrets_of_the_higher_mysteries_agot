@@ -1421,11 +1421,11 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
 
 
   ## Interaction
-  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\nzz_dsec\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character and erase one of their secrets from existance."
   ## Spell Options
   #event
-  zz_valyria_magic_dream_magic_spells.040.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_39$"
-  zz_valyria_magic_dream_magic_spells.040.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.040.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_40$"
+  zz_valyria_magic_dream_magic_spells.040.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can grasp a secret of [recipient.GetName] and erase it entirely from existance. Are you sure you wish to do this?"
   zz_valyria_magic_dream_magic_spells.040.opt.a:0 "Yes, Let us remove this secret from existance"
   zz_valyria_magic_dream_magic_spells.040.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -1434,55 +1434,55 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.tt:0 "$zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\nzz_dsec\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.041.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_41$"
   zz_valyria_magic_dream_magic_spells.041.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.041.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.041.opt.a:0 "Yes, Let us remove this secret from existance"
   zz_valyria_magic_dream_magic_spells.041.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_41$"
-  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ removing a secret that targets [recipient.GetName] from existance."
   zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.tt:0 "$zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_rs$\nzz_dsec\n\nThrough the use of [dream_magic|E], it is possible to enter the mind of a character and remove from existance all knowledge of a secret that they know."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.042.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_42$"
   zz_valyria_magic_dream_magic_spells.042.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.042.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.042.opt.a:0 "Yes, Let us remove this secret from existance"
   zz_valyria_magic_dream_magic_spells.042.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_42$"
-  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ removing a secret known by [recipient.GetName] from existance."
   zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.tt:0 "$zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\nzz_cccon\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and bring forth order and stability, hope and stability."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.043.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_43$"
-  zz_valyria_magic_dream_magic_spells.043.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.043.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.043.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] bring order and unity, inspiring co-operation and public good will. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.043.opt.a:0 "Yes, Let us bring order and stability"
   zz_valyria_magic_dream_magic_spells.043.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_43$"
-  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ bringing unity and co-operation to one of [recipient.GetName]'s counties'."
   zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.tt:0 "$zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_cccon$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, inspire rebellion and chaos."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.044.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_44$"
-  zz_valyria_magic_dream_magic_spells.044.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.044.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.044.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and shatter the central spirit of control that holds the county together. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.044.opt.a:0 "Yes, Let us sow discord and misery"
   zz_valyria_magic_dream_magic_spells.044.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_44$"
-  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inciting unrest and bringing disorder to one of [recipient.GetName]'s counties'."
   zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.tt:0 "$zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc$"
 
   ## Interaction
@@ -1490,8 +1490,8 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.045.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_45$"
-  zz_valyria_magic_dream_magic_spells.045.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.045.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.045.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inspire development and progress. Top bring about a new golden age, and see their lands glisten with golden spires and great works of art. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.045.opt.a:0 "Yes, Let us bring about a golden age!"
   zz_valyria_magic_dream_magic_spells.045.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_45$"

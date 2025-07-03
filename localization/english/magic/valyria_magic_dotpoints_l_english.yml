@@ -8,6 +8,8 @@
   zz_td:0 "$EFFECT_LIST_BULLET$Target's Dragon"
   zz_tcc:0 "$EFFECT_LIST_BULLET$Target's County"
   zz_rs:0 "$EFFECT_LIST_BULLET$Manipulates Secrets"
+  zz_esec:0 "$EFFECT_LIST_BULLET$Expose Secrets"
+  zz_dsec:0 "$EFFECT_LIST_BULLET$Destroy Secrets"
   zz_rp:0 "$EFFECT_LIST_BULLET$Manipulates Schemes"
   zz_hc:0 "$EFFECT_LIST_BULLET$Heal Character"
   zz_da:0 "$EFFECT_LIST_BULLET$Damage's Army"
@@ -32,6 +34,7 @@
   zz_ve:0 "$EFFECT_LIST_BULLET$Variable Effect"
   zz_se:0 "$EFFECT_LIST_BULLET$Start Epidemic"
   zz_ccd:0 "$EFFECT_LIST_BULLET$Effect Development"
+  zz_cccon:0 "$EFFECT_LIST_BULLET$Effect Control"
 
   zz_cca:0 "$EFFECT_LIST_BULLET$Change Character Age"
   zz_cci:0 "$EFFECT_LIST_BULLET$Change Character Item"
