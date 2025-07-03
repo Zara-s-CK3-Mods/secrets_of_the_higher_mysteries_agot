@@ -1,0 +1,13 @@
+﻿
+  message_group_type_magic: "Magic"
+
+  message_filter_spell_outcome_success: "Mystery Cast Success"
+  message_filter_spell_outcome_success_desc: "Mystery Cast Successfully"
+  message_filter_spell_learning: "Mystery Learning"
+  message_filter_spell_learning_desc: "Mystery has been acquired"
+  message_filter_spell_outcome_failure: "Mystery Cast Failure"
+  message_filter_spell_outcome_failure_desc: "Mystery Cast Failed"
+  message_filter_spell_outcome_miscast: "Mystery Miscast"
+  message_filter_spell_outcome_miscast_desc: "Mystery Cast Miscast"
+  message_filter_spell_outcome_buff_proc:0 "Mystery Buff Effect"
+  message_filter_spell_outcome_buff_proc_desc:0 "Periodic Event for Mystery Buffs"

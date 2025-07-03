@@ -2725,7 +2725,7 @@ zz_add_spell = {
 			}
 		}
 		send_interface_message = {
-			type = event_generic_neutral
+			type = spell_learning
 			title = zz_valyria_magic_learn_spell_title
 			left_icon = scope:spell_learner
 			right_icon = scope:spell_learner

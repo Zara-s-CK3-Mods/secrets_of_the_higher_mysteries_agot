@@ -1,8 +1,15 @@
-﻿spell_outcome_success = {
+﻿spell_learning = {
 	display = feed
 	#always_show = yes
 	group = magic
 }
+
+spell_outcome_success = {
+	display = feed
+	#always_show = yes
+	group = magic
+}
+
 
 spell_outcome_buff_proc = {
 	display = feed

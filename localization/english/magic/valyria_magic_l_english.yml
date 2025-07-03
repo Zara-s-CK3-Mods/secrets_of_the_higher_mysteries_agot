@@ -1486,7 +1486,7 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.tt:0 "$zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_ccd$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire progress and development."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.045.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_45$"
@@ -1495,21 +1495,21 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_valyria_magic_dream_magic_spells.045.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_45$"
-  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ bringing progress and development to one of [recipient.GetName]'s counties'."
   zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.tt:0 "$zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.desc$"
 
 
   ## Interaction
-  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and inspire terror and disorder."
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.interaction.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_ccd$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and strip away from them their progress and development."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.046.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_46$"
-  zz_valyria_magic_dream_magic_spells.046.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can scour the minds of the subjects of [recipient.GetName] and inflict fear and nightmares, brinding disorder and chaos. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.046.opt.a:0 "Yes, Let us take remake their religious identity"
+  zz_valyria_magic_dream_magic_spells.046.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. Through their dreams you can strike the minds of a subject county of [recipient.GetName] and strip away from them their progress and success. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.046.opt.a:0 "Yes, Let us take their dreams of progress away"
   zz_valyria_magic_dream_magic_spells.046.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_46$"
-  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ inflciting nightmares on the inhabitants of one of [recipient.GetName]'s counties'."
+  zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ stripping away progress and development from one of  [recipient.GetName]'s counties'."
   zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.tt:0 "$zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.desc$"
 
   ## Interaction
@@ -2346,16 +2346,6 @@ zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
   zz_become_ally:0 "Become Ally"
   zz_commit_suicide:0 "Commit Suicide"
 
-  message_group_type_magic: "Magic"
-
-  message_filter_spell_outcome_success: "Mystery Cast Success"
-  message_filter_spell_outcome_success_desc: "Mystery Cast Successfully"
-  message_filter_spell_outcome_failure: "Mystery Cast Failure"
-  message_filter_spell_outcome_failure_desc: "Mystery Cast Failed"
-  message_filter_spell_outcome_miscast: "Mystery Miscast"
-  message_filter_spell_outcome_miscast_desc: "Mystery Cast Miscast"
-  message_filter_spell_outcome_buff_proc:0 "Mystery Buff Effect"
-  message_filter_spell_outcome_buff_proc_desc:0 "Periodic Event for Mystery Buffs"
 
  single_combat.0001.tt.magic_assault_fire_01:0 "#BOL Magic Attack :#! a strike with mage, illustrating the clear art of magic as a weapon"
  single_combat.0001.magic_assault_fire_01:0 "Strike with lips of flame"
