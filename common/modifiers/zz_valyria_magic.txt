@@ -165,6 +165,28 @@ zz_valyria_magic_shadow_magic_08_modifier = {
 	}
 }
 
+zz_valyria_magic_shadow_magic_12_modifier = {
+	icon = magic_positive
+	prowess_no_portrait = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_shadow_magic_12_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
+zz_valyria_magic_shadow_magic_13_modifier = {
+	icon = magic_positive
+	negate_prowess_penalty_add = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_shadow_magic_13_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
 zz_valyria_magic_dream_magic_07_modifier = {
 	icon = magic_positive
 	cultural_head_fascination_add = 1
@@ -364,7 +386,27 @@ zz_valyria_magic_fire_magic_10_modifier = {
 		display_mode = scaled
 	}
 }
+zz_valyria_magic_fire_magic_12_modifier = {
+	icon = magic_positive
+	prowess_no_portrait = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_fire_magic_12_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
 
+zz_valyria_magic_fire_magic_13_modifier = {
+	icon = magic_positive
+	negate_prowess_penalty_add = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_fire_water_magic_13_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
 
 zz_valyria_magic_air_magic_03_modifier = { 
 	icon = magic_positive
@@ -400,12 +442,14 @@ zz_valyria_magic_air_magic_07_modifier = {
 }
 
 
+
+
 zz_valyria_magic_air_magic_10_modifier = { 
 	icon = magic_positive
 	army_screen_mult = -0.01
 	stacking = yes
 	scale = {
-		value =zz_valyria_magic_air_magic_10_value
+		value = zz_valyria_magic_air_magic_10_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
 	}
@@ -417,6 +461,28 @@ zz_valyria_magic_air_magic_11_modifier = {
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_air_magic_11_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
+zz_valyria_magic_air_magic_12_modifier = {
+	icon = magic_positive
+	prowess_no_portrait = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_air_magic_12_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
+zz_valyria_magic_air_magic_13_modifier = {
+	icon = magic_positive
+	negate_prowess_penalty_add = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_air_magic_13_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
 	}
@@ -490,3 +556,27 @@ zz_valyria_magic_water_magic_10_modifier = {
 		display_mode = scaled
 	}
 }
+
+zz_valyria_magic_water_magic_12_modifier = {
+	icon = magic_positive
+	prowess_no_portrait = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_water_magic_12_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
+zz_valyria_magic_water_magic_13_modifier = {
+	icon = magic_positive
+	negate_prowess_penalty_add = 1
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_water_magic_13_value
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
+

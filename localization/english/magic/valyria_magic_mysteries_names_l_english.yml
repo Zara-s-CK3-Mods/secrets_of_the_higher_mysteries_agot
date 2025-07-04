@@ -61,11 +61,12 @@
   zz_valyria_magic_shadow_magic_09_name:0 "[zz_mystery] of the Assasion of the Shadow"
   zz_valyria_magic_shadow_magic_10_name:0 "[zz_mystery] of Umbral Blast"
   zz_valyria_magic_shadow_magic_11_name:0 "[zz_mystery] of Umbral Strike"
+  zz_valyria_magic_shadow_magic_12_name:0 "[zz_mystery] of Shadow Blade"
+  zz_valyria_magic_shadow_magic_13_name:0 "[zz_mystery] of Shadow Shield"
 
 ## not implemented
 
-  zz_valyria_magic_shadow_magic_12_name:0 "[zz_mystery] of "
-  zz_valyria_magic_shadow_magic_13_name:0 "[zz_mystery] of "
+
   zz_valyria_magic_shadow_magic_14_name:0 "[zz_mystery] of "
   zz_valyria_magic_shadow_magic_15_name:0 "[zz_mystery] of "
   zz_valyria_magic_shadow_magic_16_name:0 "[zz_mystery] of "
@@ -192,11 +193,12 @@
   zz_valyria_magic_fire_magic_09_name:0 "[zz_mystery] of Fireball"
   zz_valyria_magic_fire_magic_10_name:0 "[zz_mystery] of Dragon's Breath"
   zz_valyria_magic_fire_magic_11_name:0 "[zz_mystery] of Flame Volley"
+  zz_valyria_magic_fire_magic_12_name:0 "[zz_mystery] of Flaming Edge"
+  zz_valyria_magic_fire_magic_13_name:0 "[zz_mystery] of Ember's Armour"
 
 ## Not Implemented
 
-  zz_valyria_magic_fire_magic_12_name:0 "[zz_mystery] of "
-  zz_valyria_magic_fire_magic_13_name:0 "[zz_mystery] of "
+
   zz_valyria_magic_fire_magic_14_name:0 "[zz_mystery] of "
   zz_valyria_magic_fire_magic_15_name:0 "[zz_mystery] of "
   zz_valyria_magic_fire_magic_16_name:0 "[zz_mystery] of "
@@ -217,11 +219,12 @@
   zz_valyria_magic_air_magic_09_name:0 "[zz_mystery] of God's Hanmer"
   zz_valyria_magic_air_magic_10_name:0 "[zz_mystery] of South Wind"
   zz_valyria_magic_air_magic_11_name:0 "[zz_mystery] of North Wind"
+  zz_valyria_magic_air_magic_12_name:0 "[zz_mystery] of Wind's Endge"
+  zz_valyria_magic_air_magic_13_name:0 "[zz_mystery] of Aether's Barrier"
 ## Not Implemented
 
 
-  zz_valyria_magic_air_magic_12_name:0 "[zz_mystery] of "
-  zz_valyria_magic_air_magic_13_name:0 "[zz_mystery] of "
+
   zz_valyria_magic_air_magic_14_name:0 "[zz_mystery] of "
   zz_valyria_magic_air_magic_15_name:0 "[zz_mystery] of "
   zz_valyria_magic_air_magic_16_name:0 "[zz_mystery] of "
@@ -240,11 +243,12 @@
   zz_valyria_magic_water_magic_09_name:0 "[zz_mystery] of Soggy Ground"
   zz_valyria_magic_water_magic_10_name:0 "[zz_mystery] of Water's Resilience"
   zz_valyria_magic_water_magic_11_name:0 "[zz_mystery] of Purity"
+  zz_valyria_magic_water_magic_12_name:0 "[zz_mystery] of Water's Edge"
+  zz_valyria_magic_water_magic_13_name:0 "[zz_mystery] of Condensed Barrier"
 
 ### Not Implemented
 
-  zz_valyria_magic_water_magic_12_name:0 "[zz_mystery] of "
-  zz_valyria_magic_water_magic_13_name:0 "[zz_mystery] of "
+
   zz_valyria_magic_water_magic_14_name:0 "[zz_mystery] of "
   zz_valyria_magic_water_magic_15_name:0 "[zz_mystery] of "
   zz_valyria_magic_water_magic_16_name:0 "[zz_mystery] of "
