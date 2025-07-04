@@ -90,6 +90,7 @@
   trait_zz_magister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practictioner of magic. The power to change, hurt, and control is at [ROOT.Char.GetHerHis] fingertips... \n\nCurrent [passive_drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_power_passive_gain')].\n\nCurrent [drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_of_power_stat_gui')|0]. "
   magic_acolyte:0 "Acolyte"
   magic_master:0 "Master"
+  trait_lifespan_good:0 "Lifespan (Beneficial)"
   trait_lifespan_good_1:0 "Vigorous"
   trait_lifespan_good_1_desc:0 "This character seems fated to outlast others."
   trait_lifespan_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] seems fated to outlast others."
@@ -100,6 +101,7 @@
   trait_lifespan_good_3_character_desc:0 "Time does not seem to pass for  [ROOT.GetCharacter.GetFirstNameNoTooltip], they look immune to the passage of years."
   trait_lifespan_good_3_desc:0 "Time does not seem to pass for this character, they look immune to the passage of years."
 
+  trait_lifespan_bad:0 Lifespan (Detriment)
   trait_lifespan_bad_1:0 "Impaired Vitality"
   trait_lifespan_bad_1_desc:0 "Your vital energies are impaired. A consequence of a magical backlash, such a weakeness contaminates your very bloodline."
   trait_lifespan_bad_1_character_desc:0 "$trait_lifespan_bad_1_desc$"
@@ -155,6 +157,7 @@
 
   trait_track_drops_of_power_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'drops_of_power' ).GetName] [trait_level_track_xp|E] Gain"
 
+  trait_magic_blood_bad:0 "Magic Blood (Detriment)"
   trait_magic_blood_bad_1:0 "Magic Inept"
   trait_magic_blood_bad_1_desc:0 ""
   trait_magic_blood_bad_2:0 "Magic Wastrel"
@@ -162,6 +165,7 @@
   trait_magic_blood_bad_3:0 "Magic Dullard"
   trait_magic_blood_bad_3_desc:0 ""
 
+  trait_magic_blood_good:0 "Magic Blood (Beneficial)"
   trait_magic_blood_good_1:0 "Magic Adept"
   trait_magic_blood_good_1_desc:0 ""
   trait_magic_blood_good_2:0 "Magic Prodigy"
@@ -1542,27 +1546,34 @@
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.048.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_48_name$"
-  zz_valyria_magic_dream_magic_spells.048.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. It would be possible to pull forth a very image of a nightmare, a singularity of absolute devestation, centred upon one of [recipient.GetName] armies. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.048.opt.a:0 "Yes, Let us unleash our fury!"
+  zz_valyria_magic_dream_magic_spells.048.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. It would be possible to proclaim a prophecy that would ensure that[recipient.GetName] shall not die in childbirth. Are you sure you wish to do this?"
+  zz_valyria_magic_dream_magic_spells.048.opt.a:0 "Yes, Let us proclaim their fate!"
   zz_valyria_magic_dream_magic_spells.048.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_48.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_48_name$"
-  zz_valyria_magic_dream_magic_48.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ calling forth a cataclysmic singularity upon one of [recipient.GetName]'s armies."
+  zz_valyria_magic_dream_magic_48.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ proclaiming that [recipient.GetName] shall not die in childbirth."
   zz_valyria_magic_dream_magic_48.toast.tt:0 "$zz_valyria_magic_dream_magic_48.toast.desc$"
 
+  zz_valyria_magic_dream_magic_48.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_48_name$"
+  zz_valyria_magic_dream_magic_48.buff.toast.desc:0 ""
+  zz_valyria_magic_dream_magic_48.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_48.buff.toast.desc:0$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_49.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_cd$\n\nThrough the use of [dream_magic|E], it is possible to call from nightmares a singular cataclysm and bring ruin to an an army."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.049.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_49_name$"
-  zz_valyria_magic_dream_magic_spells.049.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe lingering power of dreams is more than a subtle undercurrent of the world, but rather, an subtle and enduring legacy of creation's common origins. It would be possible to pull forth a very image of a nightmare, a singularity of absolute devestation, centred upon one of [recipient.GetName] armies. Are you sure you wish to do this?"
-  zz_valyria_magic_dream_magic_spells.049.opt.a:0 "Yes, Let us unleash our fury!"
+  zz_valyria_magic_dream_magic_spells.049.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nVisions of what are to be are such that that they can take a binding roll upon fate. Such prophecies could ensure a measure of certainty over the fate of children born to [recipient.GetName]. Are you sure you wish to make such a prophecy?"
+  zz_valyria_magic_dream_magic_spells.049.opt.a:0 "Yes, Let destiny be written!"
   zz_valyria_magic_dream_magic_spells.049.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dream_magic_49.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_49_name$"
-  zz_valyria_magic_dream_magic_49.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ calling forth a cataclysmic singularity upon one of [recipient.GetName]'s armies."
+  zz_valyria_magic_dream_magic_49.toast.desc:0 "$zz_toast_01$ [dream_magic|E], $zz_toast_02$ proclaiming a prophecy that the children born to [recipient.GetName]'s shall not be malformed."
   zz_valyria_magic_dream_magic_49.toast.tt:0 "$zz_valyria_magic_dream_magic_49.toast.desc$"
+
+  zz_valyria_magic_dream_magic_49.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_49_name$"
+  zz_valyria_magic_dream_magic_49.buff.toast.desc:0 ""
+  zz_valyria_magic_dream_magic_49.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_49.buff.toast.desc:0$"
 
   ## Interaction
   #actor_secondary_

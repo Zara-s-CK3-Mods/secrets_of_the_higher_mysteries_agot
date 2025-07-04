@@ -938,9 +938,9 @@ disease_resistance_gout_ridden = {
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_disease_resistance_gout_desc
+				desc = trait_disease_resistance_gout_ridden_desc
 			}
-			desc = trait_disease_resistance_gout_desc
+			desc = trait_disease_resistance_gout_ridden_desc
 		}
 	}
 }
@@ -1317,7 +1317,7 @@ lifespan_bad_1  = {
 				}
 				desc = trait_lifespan_bad_1_desc
 			}
-			desc = trait_lifespan_bad_1_character_desc
+			desc = trait_lifespan_bad_1_desc
 		}
 	}
 }
@@ -1360,7 +1360,7 @@ lifespan_bad_2 = {
 				}
 				desc = trait_lifespan_bad_2_desc
 			}
-			desc = trait_lifespan_bad_2_character_desc
+			desc = trait_lifespan_bad_2_desc
 		}
 	}
 }
@@ -1403,7 +1403,7 @@ lifespan_bad_3 = {
 				}
 				desc = trait_lifespan_bad_3_desc
 			}
-			desc = trait_lifespan_bad_3_character_desc
+			desc = trait_lifespan_bad_3_desc
 		}
 	}
 }
@@ -1449,7 +1449,7 @@ lifespan_good_1 = {
 				}
 				desc = trait_lifespan_good_1_desc
 			}
-			desc = trait_lifespan_good_1_character_desc
+			desc = trait_lifespan_good_1_desc
 		}
 	}
 }
@@ -1494,7 +1494,7 @@ lifespan_good_2 = {
 				}
 				desc = trait_lifespan_good_2_desc
 			}
-			desc = trait_lifespan_good_2_character_desc
+			desc = trait_lifespan_good_2_desc
 		}
 	}
 }
@@ -1539,7 +1539,7 @@ lifespan_good_3 = {
 				}
 				desc = trait_lifespan_good_3_desc
 			}
-			desc = trait_lifespan_good_3_character_desc
+			desc = trait_lifespan_good_3_desc
 		}
 	}
 }
@@ -1607,7 +1607,7 @@ magic_blood_bad_1 = {
 				}
 				desc = trait_magic_blood_bad_1_desc
 			}
-			desc = trait_magic_blood_bad_1_character_desc
+			desc = trait_magic_blood_bad_1_desc
 		}
 	}
 }
@@ -1670,7 +1670,7 @@ magic_blood_bad_2 = {
 				}
 				desc = trait_magic_blood_bad_2_desc
 			}
-			desc = trait_magic_blood_bad_2_character_desc
+			desc = trait_magic_blood_bad_2_desc
 		}
 	}
 }
@@ -1733,7 +1733,7 @@ magic_blood_bad_3 = {
 				}
 				desc = trait_magic_blood_bad_3_desc
 			}
-			desc = trait_magic_blood_bad_3_character_desc
+			desc = trait_magic_blood_bad_3_desc
 		}
 	}
 }
@@ -1786,7 +1786,7 @@ magic_blood_good_1 = {
 				}
 				desc = trait_magic_blood_good_1_desc
 			}
-			desc = trait_magic_blood_good_1_character_desc
+			desc = trait_magic_blood_good_1_desc
 		}
 	}
 }
@@ -1882,7 +1882,7 @@ magic_blood_good_2 = {
 				}
 				desc = trait_magic_blood_good_2_desc
 			}
-			desc = trait_magic_blood_good_2_character_desc
+			desc = trait_magic_blood_good_2_desc
 		}
 	}
 }
@@ -2023,7 +2023,7 @@ magic_blood_good_3 = {
 				}
 				desc = trait_magic_blood_good_3_desc
 			}
-			desc = trait_magic_blood_good_3_character_desc
+			desc = trait_magic_blood_good_3_desc
 		}
 	}
 }

@@ -65,7 +65,7 @@ widget = {
 		max_width = 300
 	}
 	text_single = {
-		name = "build_version_text"
+		name = "build_version_text_sothm"
 		position = { 5 5 }
 		visible = "[And( Not(IsGameViewOpen('barbershop')), Not(ReleaseMode))]"
 

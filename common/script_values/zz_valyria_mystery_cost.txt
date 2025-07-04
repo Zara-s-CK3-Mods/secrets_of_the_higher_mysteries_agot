@@ -158,6 +158,12 @@ zz_valyria_magic_shadow_magic_10_cost = {
 zz_valyria_magic_shadow_magic_11_cost = {
 	value = 11
 }
+zz_valyria_magic_shadow_magic_12_cost = {
+	value = 1
+}
+zz_valyria_magic_shadow_magic_13_cost = {
+	value = 1
+}
 zz_valyria_magic_dream_magic_01_cost = {
 	value = 10
 }
@@ -417,6 +423,12 @@ zz_valyria_magic_fire_magic_10_cost = {
 zz_valyria_magic_fire_magic_11_cost = {
 	value = 45
 }
+zz_valyria_magic_fire_magic_12_cost = {
+	value = 1
+}
+zz_valyria_magic_fire_magic_13_cost = {
+	value = 1
+}
 
 zz_valyria_magic_air_magic_01_cost = {
 	value = 2
@@ -453,6 +465,13 @@ zz_valyria_magic_air_magic_10_cost = {
 zz_valyria_magic_air_magic_11_cost = {
 	value = 8
 }
+zz_valyria_magic_air_magic_12_cost = {
+	value = 1
+}
+zz_valyria_magic_air_magic_13_cost = {
+	value = 1
+}
+
 zz_valyria_magic_water_magic_01_cost = {
 	value = 2
 }
@@ -488,5 +507,11 @@ zz_valyria_magic_water_magic_10_cost = {
 }
 
 zz_valyria_magic_water_magic_11_cost = {
+	value = 1
+}
+zz_valyria_magic_water_magic_12_cost = {
+	value = 1
+}
+zz_valyria_magic_water_magic_13_cost = {
 	value = 1
 }

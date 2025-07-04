@@ -1526,10 +1526,13 @@ zz_magic_any_targeting_scheme = {
 zz_random_targeting_scheme = {
 	is_scheme_exposed = no
 	is_hostile = yes 
+	prev = { 
+		save_temporary_scope_as = opinion_target
+	}
 	scope:dreamer = {
 		save_temporary_opinion_value_as = {
 			name = opinion_of_target
-			target = PREVPREV
+			target = scope:opinion_target
 		}
 	}
 	scope:opinion_of_target >= 0
