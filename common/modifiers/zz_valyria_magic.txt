@@ -402,7 +402,7 @@ zz_valyria_magic_fire_magic_13_modifier = {
 	negate_prowess_penalty_add = 1
 	stacking = yes
 	scale = {
-		value = zz_valyria_fire_water_magic_13_value
+		value = zz_valyria_magic_fire_magic_13_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
 	}

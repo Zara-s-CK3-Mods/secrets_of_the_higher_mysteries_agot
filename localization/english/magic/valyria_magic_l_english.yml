@@ -101,7 +101,7 @@
   trait_lifespan_good_3_character_desc:0 "Time does not seem to pass for  [ROOT.GetCharacter.GetFirstNameNoTooltip], they look immune to the passage of years."
   trait_lifespan_good_3_desc:0 "Time does not seem to pass for this character, they look immune to the passage of years."
 
-  trait_lifespan_bad:0 Lifespan (Detriment)
+  trait_lifespan_bad:0 "Lifespan (Detriment)"
   trait_lifespan_bad_1:0 "Impaired Vitality"
   trait_lifespan_bad_1_desc:0 "Your vital energies are impaired. A consequence of a magical backlash, such a weakeness contaminates your very bloodline."
   trait_lifespan_bad_1_character_desc:0 "$trait_lifespan_bad_1_desc$"
