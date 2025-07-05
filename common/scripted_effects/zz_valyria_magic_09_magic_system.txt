@@ -3145,44 +3145,52 @@ zz_gain_magic_11_spell = {
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_01 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_02}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_02 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_02 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_03}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_03 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_03 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_04}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_04 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_04 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_05}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_05 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_05 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_06}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_06 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_06 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_07}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_07 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_07 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_08}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_08 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_08 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_09}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_09 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_09 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_10}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_10 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_10 }
 		}
 		100 = {
-			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_11}}}
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_11 }}}
 			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_11 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_12 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_12 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_13 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_13 }
 		}
 	}
 }
@@ -3366,6 +3374,12 @@ zz_random_gain_magic_spell = {
 					}
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_shadow_magic_11
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_shadow_magic_12
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_shadow_magic_13
 					}
 				}
 			}
@@ -3627,6 +3641,12 @@ zz_random_gain_magic_spell = {
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_fire_magic_11
 					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_fire_magic_12
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_fire_magic_13
+					}
 				}
 			}
 			modifier = { 
@@ -3671,6 +3691,13 @@ zz_random_gain_magic_spell = {
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_water_magic_11
 					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_water_magic_12
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_water_magic_13
+					}
+
 				}
 			}
 			modifier = { 
@@ -3712,6 +3739,12 @@ zz_random_gain_magic_spell = {
 					}
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_air_magic_11
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_air_magic_12
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_air_magic_13
 					}
 				}
 			}
@@ -4039,6 +4072,8 @@ zz_scroll_11_effect = {
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_09 }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_10 }}
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_11 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_12 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_13 }}
 	}
 }
 zz_scroll_17_effect = {
@@ -4288,6 +4323,8 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_09 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_10 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_11 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_12 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_01 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -4315,7 +4352,7 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_24 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_25 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_26 }
-	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_27 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_27 }zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_11 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_28 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_29 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_30 }
@@ -4369,6 +4406,8 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_fire_magic_09 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_fire_magic_10 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_fire_magic_11 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_fire_magic_12 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_fire_magic_13 }
 	
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_01 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_02 }
@@ -4381,6 +4420,8 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_09 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_10 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_11 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_12 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_air_magic_13 }
 	
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_01 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_02 }
@@ -4393,6 +4434,8 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_09 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_10 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_11 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_12 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_water_magic_13 }
 }
 
 
@@ -4453,6 +4496,8 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_09 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_10 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_11 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_12 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_01 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -4533,6 +4578,8 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_09 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_10 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_11 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_12 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_13 }
 	
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_01 }
@@ -4546,6 +4593,9 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_09 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_10 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_11 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_12 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_13 }
+	
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_01 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_02  }
@@ -4558,6 +4608,8 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_09 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_10 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_11 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_12 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_13 }
 }
 
 zz_magic_list_cast_effect = {
@@ -4603,6 +4655,8 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_09 EVENT = zz_valyria_magic_shadow_magic_spells.009 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_10 EVENT = zz_valyria_magic_shadow_magic_spells.010 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_11 EVENT = zz_valyria_magic_shadow_magic_spells.011 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_12 EVENT = zz_valyria_magic_shadow_magic_spells.012 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_13 EVENT = zz_valyria_magic_shadow_magic_spells.013 }
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_01 EVENT = zz_valyria_magic_dream_magic_spells.001 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_02 EVENT = zz_valyria_magic_dream_magic_spells.002 }
@@ -4682,7 +4736,9 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_08 EVENT = zz_valyria_magic_fire_magic_spells.008 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_09 EVENT = zz_valyria_magic_fire_magic_spells.009 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_10 EVENT = zz_valyria_magic_fire_magic_spells.010 }
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_11 EVENT = zz_valyria_magic_fire_magic_spells.011}
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_11 EVENT = zz_valyria_magic_fire_magic_spells.011 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_12 EVENT = zz_valyria_magic_fire_magic_spells.012 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_fire_magic_13 EVENT = zz_valyria_magic_fire_magic_spells.013 }
 	
 	
 	
@@ -4699,6 +4755,8 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_09 EVENT = zz_valyria_magic_air_magic_spells.009 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_10 EVENT = zz_valyria_magic_air_magic_spells.010 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_11 EVENT = zz_valyria_magic_air_magic_spells.011 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_12 EVENT = zz_valyria_magic_air_magic_spells.012 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_air_magic_13 EVENT = zz_valyria_magic_air_magic_spells.013 }
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_01 EVENT = zz_valyria_magic_water_magic_spells.001 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_02 EVENT = zz_valyria_magic_water_magic_spells.002 }
@@ -4711,4 +4769,6 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_09 EVENT = zz_valyria_magic_water_magic_spells.009 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_10 EVENT = zz_valyria_magic_water_magic_spells.010 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_11 EVENT = zz_valyria_magic_water_magic_spells.011 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_12 EVENT = zz_valyria_magic_water_magic_spells.012 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_13 EVENT = zz_valyria_magic_water_magic_spells.013 }
 }

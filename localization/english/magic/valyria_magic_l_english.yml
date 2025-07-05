@@ -903,6 +903,32 @@
   zz_valyria_magic_shadow_magic_11.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
   zz_valyria_magic_shadow_magic_11.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
 
+  ## Interaction
+  zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  ## event
+  zz_valyria_magic_shadow_magic_spells.012.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
+  zz_valyria_magic_shadow_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic_spells.012.opt.a:0 "Yes, Kill them!"
+  zz_valyria_magic_shadow_magic_spells.012.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_shadow_magic_12.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
+  zz_valyria_magic_shadow_magic_12.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_12.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  ## event
+  zz_valyria_magic_shadow_magic_spells.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
+  zz_valyria_magic_shadow_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic_spells.013.opt.a:0 "Yes, Kill them!"
+  zz_valyria_magic_shadow_magic_spells.013.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_shadow_magic_13.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
+  zz_valyria_magic_shadow_magic_13.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_13.toast.tt:0 "$zz_valyria_magic_shadow_magic_13.toast.desc$"
+
+
 
   ## Interaction
   #recipient_secondary_
@@ -1995,6 +2021,34 @@
   zz_valyria_magic_fire_magic_11.toast.tt:0 "$zz_valyria_magic_fire_magic_11.toast.desc$"
 
 
+  ## Interaction
+  zz_valyria_magic_fire_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy..
+
+  ##event
+  zz_valyria_magic_fire_magic_spells.012.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_12_name$"
+  zz_valyria_magic_fire_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic_spells.012.opt.a:0 "Yes, reveal the secrets!"
+  zz_valyria_magic_fire_magic_spells.012.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_fire_magic_12.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_12_name$"
+  zz_valyria_magic_fire_magic_12.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_12.toast.tt:0 "$zz_valyria_magic_fire_magic_12.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_fire_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy..
+
+  ##event
+  zz_valyria_magic_fire_magic_spells.013.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_13_name$"
+  zz_valyria_magic_fire_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic_spells.013.opt.a:0 "Yes, reveal the secrets!"
+  zz_valyria_magic_fire_magic_spells.013.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_fire_magic_13.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_13_name$"
+  zz_valyria_magic_fire_magic_13.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_13.toast.tt:0 "$zz_valyria_magic_fire_magic_13.toast.desc$"
+
+
   #actor_secondary_
   #recipient_
 
@@ -2144,6 +2198,31 @@
   zz_valyria_magic_air_magic_11.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_11_name$"
   zz_valyria_magic_air_magic_11.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
   zz_valyria_magic_air_magic_11.toast.tt:0 "$zz_valyria_magic_air_magic_11.toast.desc$"
+
+
+## Interaction
+  zz_valyria_magic_air_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the secret arts of [air_magic|E] it is possible to use the winds to improve the ability of a character's army to screen itself."
+  ##event
+  zz_valyria_magic_air_magic_spells.012.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_12_name$"
+  zz_valyria_magic_air_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. You can improve the screening ability of the troops that are commanded by [recipient.GetName]. This will make them less likely to take damage from flanking attacks."
+  zz_valyria_magic_air_magic_spells.012.opt.a:0 "Yes, for those troops are mine."
+  zz_valyria_magic_air_magic_spells.012.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_air_magic_12.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_12_name$"
+  zz_valyria_magic_air_magic_12.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_12.toast.tt:0 "$zz_valyria_magic_air_magic_12.toast.desc$"
+
+## Interaction
+  zz_valyria_magic_air_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the secret arts of [air_magic|E] it is possible to use the winds to improve the ability of a character's army to screen itself."
+  ##event
+  zz_valyria_magic_air_magic_spells.013.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_13_name$"
+  zz_valyria_magic_air_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. You can improve the screening ability of the troops that are commanded by [recipient.GetName]. This will make them less likely to take damage from flanking attacks."
+  zz_valyria_magic_air_magic_spells.013.opt.a:0 "Yes, for those troops are mine."
+  zz_valyria_magic_air_magic_spells.013.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_air_magic_13.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_13_name$"
+  zz_valyria_magic_air_magic_13.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_13.toast.tt:0 "$zz_valyria_magic_air_magic_13.toast.desc$"
 
   ## Water Magic
   ## Interaction
@@ -2296,7 +2375,31 @@
 
   
 
+    ## Interaction
+    zz_valyria_magic_water_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n\nThe arts of [water_magic|E] allows for a power over life and death. By calling forth the power of water to heal and clean it is possible to wash away disease and infection, and provide a lasting immunity to such forces.."
+    ##event
+    zz_valyria_magic_water_magic_spells.012.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_12_name$"
+    zz_valyria_magic_water_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe inhabitants of the Rhoyne were masters of binding the source of life to their purposes. They could remove rot, and strike dragons down from the air with spouts of furious water. It is possible to call forth the purifying properties of water, and to have all disease and infection purged from the body of [recipient.GetName]. Sucha  power will leave a lingering immunity to disease. "
+    zz_valyria_magic_water_magic_spells.012.opt.a:0 "Yes, let them be purified!"
+    zz_valyria_magic_water_magic_spells.012.opt.z:0 "No, do not cast!"
+    ## Spell Toast
+    zz_valyria_magic_water_magic_12.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_12_name$"
+    zz_valyria_magic_water_magic_12.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
+    zz_valyria_magic_water_magic_12.toast.tt:0 "$zz_valyria_magic_water_magic_12.toast.desc$"
 
+  ## Interaction
+  zz_valyria_magic_water_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n\nThe arts of [water_magic|E] allows for a power over life and death. By calling forth the power of water to heal and clean it is possible to wash away disease and infection, and provide a lasting immunity to such forces.."
+  ##event
+  zz_valyria_magic_water_magic_spells.013.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
+  zz_valyria_magic_water_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe inhabitants of the Rhoyne were masters of binding the source of life to their purposes. They could remove rot, and strike dragons down from the air with spouts of furious water. It is possible to call forth the purifying properties of water, and to have all disease and infection purged from the body of [recipient.GetName]. Sucha  power will leave a lingering immunity to disease. "
+  zz_valyria_magic_water_magic_spells.013.opt.a:0 "Yes, let them be purified!"
+  zz_valyria_magic_water_magic_spells.013.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_water_magic_13.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
+  zz_valyria_magic_water_magic_13.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
+  zz_valyria_magic_water_magic_13.toast.tt:0 "$zz_valyria_magic_water_magic_13.toast.desc$"
+
+  
 
 
   ### Council Positions

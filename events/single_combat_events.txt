@@ -8314,6 +8314,80 @@ single_combat.0001 = {
 				}
 			}
 		}
+
+		# magic Enchants, ticking buffs 
+		if = { 
+			limit = {
+				has_character_modifier = zz_valyria_magic_shadow_magic_12_modifier
+			}
+			increment_combat_buffs_effect = { BUFF_INCREMENT = 1 }
+			remove_character_modifier = zz_valyria_magic_shadow_magic_12_modifier
+			
+			this = scope:myself 
+		}
+		if = {
+			limit = {
+				has_character_modifier = zz_valyria_magic_shadow_magic_13_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_shadow_magic_13_modifier
+			scope:my_foe = {
+				increment_combat_debuffs_effect = { DEBUFF_INCREMENT = 4 }
+			}
+		}
+		if = { 
+			limit = {
+				has_character_modifier = zz_valyria_magic_air_magic_12_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_air_magic_12_modifier
+			increment_combat_buffs_effect = { BUFF_INCREMENT = 3 }
+			
+			this = scope:myself 
+		}
+		if = {
+			limit = {
+				has_character_modifier = zz_valyria_magic_air_magic_13_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_air_magic_13_modifier
+			scope:my_foe = {
+				increment_combat_debuffs_effect = { DEBUFF_INCREMENT = 1 }
+			}
+		}
+		if = { 
+			limit = {
+				has_character_modifier = zz_valyria_magic_fire_magic_12_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_fire_magic_12_modifier
+			increment_combat_buffs_effect = { BUFF_INCREMENT = 2 }
+			
+			this = scope:myself 
+		}
+		if = {
+			limit = {
+				has_character_modifier = zz_valyria_magic_fire_magic_13_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_fire_magic_13_modifier
+			scope:my_foe = {
+				increment_combat_debuffs_effect = { DEBUFF_INCREMENT = 2 }
+			}
+		}
+		if = { 
+			limit = {
+				has_character_modifier = zz_valyria_magic_water_magic_12_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_water_magic_12_modifier
+			increment_combat_buffs_effect = { BUFF_INCREMENT = 1 }
+			
+			this = scope:myself 
+		}
+		if = {
+			limit = {
+				has_character_modifier = zz_valyria_magic_water_magic_13_modifier
+			}
+			remove_character_modifier = zz_valyria_magic_water_magic_13_modifier
+			scope:my_foe = {
+				increment_combat_debuffs_effect = { DEBUFF_INCREMENT = 3 }
+			}
+		}
 	}
 
 	# Stress_impact in the options is deliberately left out of the ai_chance weightings. It's not a huge amount for anyone (typically miniscule for standard moves, minor for special ones), since many of these options can repeat within one combat, and it's no bad thing to have characters come out of duels increasingly stressed.

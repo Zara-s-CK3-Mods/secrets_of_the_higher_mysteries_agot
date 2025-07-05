@@ -448,3 +448,61 @@ zz_valyria_magic_air_magic_spells.011 = {
 		name = zz_valyria_magic_air_magic_spells.011.opt.z
 	}
 }
+
+zz_valyria_magic_air_magic_spells.012 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_air_magic_spells.012.t
+	desc = zz_valyria_magic_air_magic_spells.012.desc
+	theme = university 
+	override_background = {
+		reference = zz_air_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_air_magic_spells.012.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = air_magic
+				SPELL  = zz_valyria_magic_air_magic_12
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_air_magic_spells.012.opt.z
+	}
+}
+
+zz_valyria_magic_air_magic_spells.013 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_air_magic_spells.013.t
+	desc = zz_valyria_magic_air_magic_spells.013.desc
+	theme = university 
+	override_background = {
+		reference = zz_air_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_air_magic_spells.013.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = air_magic
+				SPELL  = zz_valyria_magic_air_magic_13
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_air_magic_spells.013.opt.z
+	}
+}
