@@ -3554,7 +3554,7 @@ zz_valyria_magic_dream_magic_spells.047 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dream_magic_47.opt.z
+		name =   zz_valyria_magic_dream_magic_spells.047.opt.z
 	}
 }
 

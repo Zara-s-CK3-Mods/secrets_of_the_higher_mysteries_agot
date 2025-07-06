@@ -1,4 +1,21 @@
-﻿zz_valyria_magic_open = {
+﻿zz_valyria_cast_click = {
+	scope = character
+	is_shown = {
+		zz_valyria_is_mage = yes 
+	}
+	is_valid = {
+
+	}
+	effect = {
+		save_scope_as = actor 
+		scope:opened_character = {
+			save_scope_as = recipient
+		}
+		zz_ui_setup_effect = yes 
+	}
+}
+
+zz_valyria_magic_open = {
 	scope = character
 	is_valid = {
 		zz_open_mage_window = yes

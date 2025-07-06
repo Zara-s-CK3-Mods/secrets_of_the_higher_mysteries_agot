@@ -1166,5 +1166,17 @@
 			expand = {}
 		}
 	}
+
+	type zz_magic_cast_button = button_zz_cast_magic
+	{
+		name = "knight_tree_button"
+		visible = "[GetScriptedGui('zz_valyria_cast_click').IsShown(GetPlayer.MakeScope)]"
+		size = { 25 25 }
+
+		#onclick = "[GetVariableSystem.Toggle('knight_tree_visible')]"
+		onclick = "[GetScriptedGui('zz_valyria_cast_click').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('opened_character', Character.MakeScope).End)]"
+		using = tooltip_ne
+		tooltip = "ZZ_CAST_MYSTERY_TT"
+	}
 }
 magic_casting_window_open = {}

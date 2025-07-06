@@ -308,6 +308,18 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
+			var:spell = flag:zz_valyria_magic_shadow_magic_12
+		}
+		localization_key = zz_valyria_magic_shadow_magic_12
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_shadow_magic_13
+		}
+		localization_key = zz_valyria_magic_shadow_magic_13
+	}
+	text = {
+		trigger = {
 			var:spell = flag:zz_valyria_magic_dream_magic_01
 		}
 		localization_key = zz_valyria_magic_dream_magic_01
@@ -771,6 +783,18 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
+			var:spell = flag:zz_valyria_magic_fire_magic_12
+		}
+		localization_key = zz_valyria_magic_fire_magic_12
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_fire_magic_13
+		}
+		localization_key = zz_valyria_magic_fire_magic_13
+	}
+	text = {
+		trigger = {
 			var:spell = flag:zz_valyria_magic_air_magic_01
 		}
 		localization_key = zz_valyria_magic_air_magic_01
@@ -837,6 +861,18 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
+			var:spell = flag:zz_valyria_magic_air_magic_12
+		}
+		localization_key = zz_valyria_magic_air_magic_12
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_air_magic_13
+		}
+		localization_key = zz_valyria_magic_air_magic_13
+	}
+	text = {
+		trigger = {
 			var:spell = flag:zz_valyria_magic_water_magic_01
 		}
 		localization_key = zz_valyria_magic_water_magic_01
@@ -900,5 +936,17 @@ zzSpellScroll = {
 			var:spell = flag:zz_valyria_magic_water_magic_11
 		}
 		localization_key = zz_valyria_magic_water_magic_11
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_water_magic_12
+		}
+		localization_key = zz_valyria_magic_water_magic_12
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_water_magic_13
+		}
+		localization_key = zz_valyria_magic_water_magic_13
 	}
 }

@@ -8,7 +8,84 @@ widget = {
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
 		position = { 0 4 } # Pushes the box around
+		window_character_filter = {
+			datamodel = "[GetPlayer.MakeScope.GetList('zz_valyria_possible_characters')]"
+			blockoverride "addition_filter" {
+				vbox_filter_group = {
+					layoutpolicy_horizontal = expanding
+					datacontext = "[CharacterSelectionList.GetCategory('age_filter_category')]"
+					blockoverride "filters" {
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('age_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('age_diff_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('adult_filter')]"
+						}
+					}
+				}
 
+				vbox_filter_group = {
+					layoutpolicy_horizontal = expanding
+					datacontext = "[CharacterSelectionList.GetCategory('personal_filter_category')]"
+					blockoverride "filters" {
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('fertility_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('health_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('religion_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('culture_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('trait_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('sexuality_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('gender_filter')]"
+						}
+					}
+				}
+
+				vbox_filter_group = {
+					layoutpolicy_horizontal = expanding
+					datacontext = "[CharacterSelectionList.GetCategory('politics_filter_category')]"
+
+					blockoverride "filters" {
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('ruler_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('dynasty_filter')]"
+						}
+						filter_item = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[CharacterSelectionList.GetFilter('claim_filter')]"
+						}
+					}
+				}
+			}
+		}
 		scrollbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding

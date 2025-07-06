@@ -2057,7 +2057,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_dream_magic_08.tyranny
 						}
 					}	
 				}
@@ -2084,7 +2083,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_blood_magic_17.tyranny
 						}
 					}	
 				}
@@ -2111,7 +2109,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_alchemy_magic_17.tyranny
 						}
 					}					
 				}
@@ -2146,7 +2143,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									
 								}
 							}
-							custom_tooltip = zz_valyria_magic_water_magic_01.tyranny
 						}
 					}
 				}
@@ -2182,7 +2178,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_fire_magic_01.tyranny
 						}
 					}
 				}
@@ -2208,7 +2203,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_water_magic_01.tyranny
 						}
 					}
 				}
@@ -2235,7 +2229,6 @@ scripted_effect work_out_wounds_or_death_effect = {
 									add_tyranny = minor_tyranny_gain
 								}
 							}
-							custom_tooltip = zz_valyria_magic_air_magic_01.tyranny
 						}
 					}
 				}
@@ -8323,7 +8316,6 @@ single_combat.0001 = {
 			increment_combat_buffs_effect = { BUFF_INCREMENT = 1 }
 			remove_character_modifier = zz_valyria_magic_shadow_magic_12_modifier
 			
-			this = scope:myself 
 		}
 		if = {
 			limit = {
@@ -8341,7 +8333,6 @@ single_combat.0001 = {
 			remove_character_modifier = zz_valyria_magic_air_magic_12_modifier
 			increment_combat_buffs_effect = { BUFF_INCREMENT = 3 }
 			
-			this = scope:myself 
 		}
 		if = {
 			limit = {
@@ -8359,7 +8350,6 @@ single_combat.0001 = {
 			remove_character_modifier = zz_valyria_magic_fire_magic_12_modifier
 			increment_combat_buffs_effect = { BUFF_INCREMENT = 2 }
 			
-			this = scope:myself 
 		}
 		if = {
 			limit = {
@@ -8377,7 +8367,6 @@ single_combat.0001 = {
 			remove_character_modifier = zz_valyria_magic_water_magic_12_modifier
 			increment_combat_buffs_effect = { BUFF_INCREMENT = 1 }
 			
-			this = scope:myself 
 		}
 		if = {
 			limit = {

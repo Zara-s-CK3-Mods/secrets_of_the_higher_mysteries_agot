@@ -70,7 +70,7 @@ zz_valyria_on_game_start_after_lobby = {
 					agot_dudify_egg = yes
 				}
 			}
-			cultue = {
+			culture = {
 				join_era = culture_era_late_medieval
 			}
 		}

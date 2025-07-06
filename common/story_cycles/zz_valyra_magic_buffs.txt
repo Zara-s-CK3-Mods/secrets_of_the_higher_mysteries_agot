@@ -1064,7 +1064,7 @@ zz_valyria_magic_dream_magic_48_story = { #Used for the Scholarship progress eve
         triggered_effect = {
             trigger = {
                 scope:story.var:mystery_duration > 0
-				scope:story_owner = {
+				story_owner = {
 					is_pregnant = yes 
 					NOT = {
 						has_character_flag = zz_valyria_magic_blood_magic_20_flag
@@ -1079,8 +1079,10 @@ zz_valyria_magic_dream_magic_48_story = { #Used for the Scholarship progress eve
                 story_owner = {
 					add_character_flag = {flag = zz_valyria_magic_blood_magic_20_flag years = 2}
 					remove_character_flag = birth_mother_will_die
-					var:mystery_caster = {
+					scope:story.var:mystery_caster = {
 						save_scope_as = caster
+					}
+					scope:caster = {
 						send_interface_message = {
 							type = send_interface_message_as_feed_spell_buff_proc
 							title = zz_valyria_magic_dream_magic_48.buff.toast.t
@@ -1142,7 +1144,7 @@ zz_valyria_magic_dream_magic_49_story = { #Used for the Scholarship progress eve
         triggered_effect = {
             trigger = {
                 scope:story.var:mystery_duration > 0
-				scope:story_owner = {
+				story_owner = {
 					is_pregnant = yes 
 					NOT = {
 						has_character_flag = zz_valyria_magic_blood_magic_21_flag
@@ -1154,13 +1156,16 @@ zz_valyria_magic_dream_magic_49_story = { #Used for the Scholarship progress eve
                     name = mystery_duration
                     subtract = 1
                 }
+				var:mystery_caster ?= {
+					save_scope_as = caster
+				}
                 story_owner = {
-				add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 2}
-				remove_character_flag = agot_birth_child_will_be_stillborn
-				remove_character_flag = birth_will_be_scaly
+					add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 2}
+					remove_character_flag = agot_birth_child_will_be_stillborn
+					remove_character_flag = birth_will_be_scaly
 					remove_character_flag = birth_mother_will_die
-					var:mystery_caster = {
-						save_scope_as = caster
+					
+					scope:caster = {
 						send_interface_message = {
 							type = send_interface_message_as_feed_spell_buff_proc
 							title = zz_valyria_magic_dream_magic_49.buff.toast.t

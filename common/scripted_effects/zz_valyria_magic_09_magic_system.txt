@@ -1,4 +1,9 @@
-﻿zz_valyria_make_zz_valyria_make_mages_list = {
+﻿zz_valyria_cast_setup = {
+	
+}
+
+
+zz_valyria_make_zz_valyria_make_mages_list = {
 	remove_variable ?= zz_mage
 	clear_variable_list ?= mages_list
 	if = { 
@@ -1964,162 +1969,6 @@ zz_valyria_spell_failure_effect = {
 	}
 }
 
-
-zz_vayria_magic_duel_contest_effect = {
-	zz_valyria_magic_duel_stress_effect = yes 
-	if = {
-		limit = {
-			#scope:weaken_spell_flag = yes
-		}
-		scope:secondary_recipient = {
-			duel = {
-				skill = learning 
-				target = scope:recipient
-				75 = {
-					modifier = {
-						add = zz_fire_damage_scaling_value
-					}
-					add_dread = medium_dread_gain
-					scope:recipient = {
-						if = {
-							limit = {
-								#scope:strike_imprison_flag = yes
-							}
-							increase_wounds_effect = { REASON = fire_magic }
-							add_trait = burned
-							add_trait_xp = {
-								trait = burned
-								value = { 5 200 }
-							}
-							add_stress = massive_stress_gain
-							imprison_character_effect = {
-								TARGET = scope:recipient
-								IMPRISONER = scope:actor
-							}
-						}
-						else = {
-							show_as_tooltip = {
-								add_trait = wounded_3
-								add_stress = massive_stress_gain
-							}
-							scope:actor = {
-								if = {
-									limit = {
-										NOR = {
-											has_imprisonment_reason = scope:recipient
-											has_banish_reason = scope:recipient
-											has_execute_reason = scope:recipient
-										}
-									}
-									add_tyranny = minor_tyranny_gain
-								}
-							}
-							custom_tooltip = zz_valyria_magic_fire_magic_01.tyranny
-						}
-					}
-				}
-				25 = {
-					
-				}
-			}
-		}
-	}	
-	if = {
-		limit = {
-			#scope:weaken_spell_flag = no
-		}
-		scope:secondary_recipient = {
-			duel = {
-				skill = learning 
-				target = scope:recipient
-				75 = {
-					modifier = {
-						add = zz_fire_damage_scaling_value
-					}
-					scope:actor = { 
-						add_dread = major_dread_gain
-						if = {
-							limit = {
-								has_execute_reason = scope:recipient
-							}
-							custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
-						}
-						else = {
-							add_tyranny = execution_tyranny_gain
-							add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
-							if = {
-								limit = {
-									NOT = {	has_trait = murderer	}
-								}
-								add_trait = murderer
-							}
-							hidden_effect = {
-								if = {
-									limit = {
-										exists = scope:recipient.primary_heir
-										scope:recipient.primary_heir = {
-											any_close_family_member = {
-												this = scope:recipient
-											}
-											NOR = {
-												has_relation_rival = scope:actor
-												has_relation_nemesis = scope:actor
-												has_trait = craven
-												has_trait = forgiving
-											}
-										}
-									}
-									set_relation_rival = scope:recipient.primary_heir
-								}
-								else_if = {
-									limit = {
-										scope:recipient.age<16
-										exists = scope:recipient.father
-										scope:recipient.father = {
-											is_alive = yes
-											is_landed = yes
-											is_ruler = yes
-											NOR = {
-												has_relation_rival = scope:actor
-												has_relation_nemesis = scope:actor
-												has_trait = craven
-												has_trait = forgiving
-											}
-										}
-									}
-									set_relation_rival = scope:recipient.father
-								}
-							}
-						}
-					}
-					if  = { 
-						limit = {
-							scope:recipient = { 
-								NOT = {
-									is_at_war_with = scope:actor
-								}	
-							}
-						}
-						execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
-					}
-					scope:recipient = {
-						add_trait_xp = {
-							trait = burned
-							value = { 5 200 }
-						}
-						death = {
-							death_reason = death_fire_magic
-							killer = scope:secondary_recipient
-						}
-					}
-				}
-				25 = {
-					
-				}
-			}
-		}
-	}	
-}
 zz_valyria_magic_apply_province_modifier_effect = {
 	if = { 
 		limit = { 
@@ -2533,10 +2382,10 @@ zz_valyria_magic_cast_effect = {
 	if = {
 		limit = {
 			OR = {
-				var:cast_type = flag:mystery
 				NOT = {
 					exists = var:cast_type
 				}
+				var:cast_type = flag:mystery
 			}
 			
 		}

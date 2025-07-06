@@ -1,18 +1,5 @@
 ﻿l_english:
-  ## POI
-  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_magic:0 "Cache of Magical Lore"
-  poi_valyria_magic.visit:0 "A Site of Magical Providence"
-  poi_magic.visit:0 "A Site of Magical Providence"
-  poi_valyria_magic.effect:0 "May rediscover the lost secrets of magic"
 
-  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_blackstone_secrets:0 "Ancient Blackstone"
-  poi_valyria_blackstone_secrets.visit:0 "Secrets of Blackstone"
-  poi_blackstone.visit:0 "Secrets of Blackstone"
-  poi_valyria_blackstone_secrets.effect:0 "May unearth the lost knowledge of constructing with Blackstone"
-
-  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_magic_volcano:0 "One of the Fourteen Flames"
-  poi_valyria_magic_volcano.visit:0 "A Legacy of a Diabolic Flame"
-  poi_valyria_magic_volcano.effect:0 "May uncover the mystery surrounding the Doom of Valyria"
 
   dynn_Setenon:0 "Setenonys"
   dynn_Setenon_motto:0 "Through Spells of Word and Feats of Mind"
@@ -46,200 +33,7 @@
 
   ### Game Concepts
 
-  ## Traits
-
-  trait_zz_draconic_longevity:0 "Draconic Longevity"
-  trait_zz_draconic_longevity_desc:0 "Nourished by the magical energies of the Volcanoes of Valyria, this Dragon shall not weaken with time, but instead only ever grow in power and size."
-  trait_zz_valyrian_longevity:0 "Valyrian Longevity"
-  trait_zz_valyrian_longevity_desc:0 "From an unspeakable act of magic, it has been possible to enfuse [ROOT.GetCharacter.GetFirstNameNoTooltip] with crackling magics, that ensure they stand unmoved, be it by time or by disease, for they are truly enduring."
-
-
-  trait_disease_resistance_alchemical: "Genetic Alteration: Disease Immunity"
-  trait_disease_resistance_alchemical_desc:""
-  trait_disease_resistance_ill: "Genetic Alteration: $trait_ill$ Immunity"
-  trait_disease_resistance_ill_desc:""
-  trait_disease_resistance_pneumonic: "Genetic Alteration: $trait_pneumonic$ Immunity"
-  trait_disease_resistance_pneumonic_desc:""
-  trait_disease_resistance_measles: "Genetic Alteration: $trait_measles$ Immunity"
-  trait_disease_resistance_measles_desc:""
-  trait_disease_resistance_bubonic_plague: "Genetic Alteration: $trait_bubonic_plague$ Immunity"
-  trait_disease_resistance_bubonic_desc:""
-  trait_disease_resistance_gout_ridden: "Genetic Alteration: $trait_gout_ridden$ Immunity"
-  trait_disease_resistance_gout_ridden_desc:""
-  trait_disease_resistance_consumption: "Genetic Alteration: $trait_consumption$ Immunity"
-  trait_disease_resistance_consumption_desc:""
-  trait_disease_resistance_cancer: "Genetic Alteration: $trait_cancer$ Immunity"
-  trait_disease_resistance_cancer_desc:""
-  trait_disease_resistance_typhus: "Genetic Alteration: $trait_typhus$"
-  trait_disease_resistance_typhus_desc:""
-  trait_disease_resistance_smallpox: "Genetic Alteration: $trait_smallpox$"
-  trait_disease_resistance_smallpox_desc:""
-  trait_disease_resistance_dysentery: "Genetic Alteration: $trait_dysentery$"
-  trait_disease_resistance_dysentery_desc:""
-  trait_disease_resistance_ergotism: "Genetic Alteration: $epidemic_ergotism$"
-  trait_disease_resistance_ergotism_desc:""
-  trait_disease_resistance_leper: "Genetic Alteration: $trait_leper$"
-  trait_disease_resistance_leper_desc:""
-  trait_disease_resistance_lovers_pox: "Genetic Alteration: $trait_lovers_pox$"
-  trait_disease_resistance_lovers_pox_desc:""
-  trait_disease_resistance_great_pox: "Genetic Alteration: $trait_great_pox$"
-  trait_disease_resistance_great_pox_desc:""
-
-  zz_magister:0 "Student of the Higher Mysteries"
-  trait_zz_magister_desc:0 "This character is a practictioner of magic. The power to change, hurt, and control is at their fingertips."
-  trait_zz_magister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practictioner of magic. The power to change, hurt, and control is at [ROOT.Char.GetHerHis] fingertips... \n\nCurrent [passive_drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_power_passive_gain')].\n\nCurrent [drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_of_power_stat_gui')|0]. "
-  magic_acolyte:0 "Acolyte"
-  magic_master:0 "Master"
-  trait_lifespan_good:0 "Lifespan (Beneficial)"
-  trait_lifespan_good_1:0 "Vigorous"
-  trait_lifespan_good_1_desc:0 "This character seems fated to outlast others."
-  trait_lifespan_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] seems fated to outlast others."
-  trait_lifespan_good_2:0 "Resilient"
-  trait_lifespan_good_2_character_desc:0 "The years pass like water, leaving [ROOT.GetCharacter.GetFirstNameNoTooltip] untouched, unwavering."
-  trait_lifespan_good_2_desc:0 "The years pass like the water, leaving this character untouched, unwavering."
-  trait_lifespan_good_3:0 "Enduring"
-  trait_lifespan_good_3_character_desc:0 "Time does not seem to pass for  [ROOT.GetCharacter.GetFirstNameNoTooltip], they look immune to the passage of years."
-  trait_lifespan_good_3_desc:0 "Time does not seem to pass for this character, they look immune to the passage of years."
-
-  trait_lifespan_bad:0 "Lifespan (Detriment)"
-  trait_lifespan_bad_1:0 "Impaired Vitality"
-  trait_lifespan_bad_1_desc:0 "Your vital energies are impaired. A consequence of a magical backlash, such a weakeness contaminates your very bloodline."
-  trait_lifespan_bad_1_character_desc:0 "$trait_lifespan_bad_1_desc$"
-  trait_lifespan_bad_2:0 "Crippled Vitality"
-  trait_lifespan_bad_2_desc:0 "Your lifespan has been crippled. A consequence of a moderate magical backlash. Such a weakeness contaminates your very bloodline."
-  trait_lifespan_bad_2_character_desc:0 "$trait_lifespan_bad_2_desc$"
-  trait_lifespan_bad_3:0 "Shattered Vitality"
-  trait_lifespan_bad_3_desc:0 "Your lifespan has been drastically reduced. A consequence of severe magical backlash. Such a weakness contaminates your very bloodline."
-  trait_lifespan_bad_3_character_desc:0 "$trait_lifespan_bad_3_desc$"
-
-  trait_track_secrets_of_the_higher_mysteries:0 "Secrets of the [higher_mysteries|E]"
-  trait_track_secrets_of_the_higher_mysteries_desc:0 "The Valyrians of old had many magical practices since lost to time. From creating Valyrian steel to blackstone walls, and all that is in between."
-
-  trait_track_secrets_of_the_higher_mysteries_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'secrets_of_the_higher_mysteries' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_blood_magic:0 "Secrets of [blood_magic|E]"
-  trait_track_blood_magic_desc:0 "Arguably the most nefarious and powerful magic art, blood magic requires the sacrifice of the blood of another in order to work. From hatching dragon eggs to creating unholy hybrids, this magical art can grant a person the power to make kingdoms rise and fall."
-
-  trait_track_blood_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'blood_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_shadow_magic:0 "Secrets of [shadow_magic|E]"
-  trait_track_shadow_magic_desc:0 "Where there is light there are shadows. and those who can use them for their own purposes will be very powerful indeed. Spying, assassinating, casting a shadow on an area, all these are very powerful [zz_mystery_plural] for a nefarious individual."
-
-  trait_track_shadow_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'shadow_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_dream_magic:0 "Secrets of [dream_magic|E]"
-  trait_track_dream_magic_desc:0 "To enter the mind, to discern the future, to know what is unknown. This is the realm of dreams, to bind and to twist the very perceptions of reality, to make the waking hour subject entirely to the promises of the illusionary realm of the slumbering mind. "
-
-  trait_track_dream_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'dream_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_alchemy_magic:0 "Secrets of [alchemy_magic|E]"
-  trait_track_alchemy_magic_desc:0 "The combination of the correct herbs can create powerful potions. Boosting one's health or abilities. Creating cures and even powerful poisons. All of this can be learned by a powerful Alchemist."
-
-  trait_track_alchemy_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'alchemy_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_fire_magic:0 "Secrets of [fire_magic|E]"
-  trait_track_fire_magic_desc:0 "A simple yet very destructive element. Fire has a multitude of uses to hurt people. it synergizes excellently with blood magic and is an element that is reqiured in hatching dragons. Those who wield such destructive power are very feared on any battlefield or duel."
-
-  trait_track_fire_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'fire_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_air_magic:0 "Secrets of the [air_magic|E]"
-  trait_track_air_magic_desc:0 "Air is an element that is present everywhere and it's use is therefore ubiquitous. From blasting someone with a wave of air, to moving heavy materials."
-
-  trait_track_air_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'air_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_water_magic:0 "Secrets of [water_magic|E]"
-  trait_track_water_magic_desc:0 "The Rhoynar of old were blessed with the power to use water for various means. Fertilizing their land, as an offensive weapon against their enemies, and against the Dragonlords to protect themselves from the dragonfire. Water is life, and those who can manipulate life can manipulate plenty."
-
-  trait_track_water_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'water_magic' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_drops_of_power:0 "[drops_of_power|E]"
-  trait_track_drops_of_power_desc:0 "The [drops_of_power|E] of this character."
-
-  trait_track_drops_of_power_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'drops_of_power' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_magic_blood_bad:0 "Magic Blood (Detriment)"
-  trait_magic_blood_bad_1:0 "Magic Inept"
-  trait_magic_blood_bad_1_desc:0 ""
-  trait_magic_blood_bad_2:0 "Magic Wastrel"
-  trait_magic_blood_bad_2_desc:0 ""
-  trait_magic_blood_bad_3:0 "Magic Dullard"
-  trait_magic_blood_bad_3_desc:0 ""
-
-  trait_magic_blood_good:0 "Magic Blood (Beneficial)"
-  trait_magic_blood_good_1:0 "Magic Adept"
-  trait_magic_blood_good_1_desc:0 ""
-  trait_magic_blood_good_2:0 "Magic Prodigy"
-  trait_magic_blood_good_2_desc:0 "You possess a prodigious ability for the magical arts. With time you should become a mighty mage like those of lost ages."
-  trait_magic_blood_good_3:0 "Magic Titan"
-  trait_magic_blood_good_3_desc:0 "You are a titan of magical capability."
-
-  trait_born_beneath_the_comet:0 "Born Under a Red Comet"
-  trait_born_beneath_the_comet_desc:0 "Born beneath a fiery omen, magic flows through this character's veins like a raging torrent."
-  trait_born_beneath_the_comet_character_desc:0 "Born beneath a fiery omen, magic flows through [ROOT.GetCharacter.GetFirstNameNoTooltip]'s veins like a raging torrent."
-
-  starwalker:0 "Touched by the Stars"
-  he_who_walks_between_worlds:0 "Star Walker"
-  trait_starwalker_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been transformed by a cosmic occurence. Burning with a new magical light, they can be said to have been born anew under the light of the Red Comet. The ability to use magic swells within them, and [ROOT.Char.GetHerHis] potential to use the arts of magic are likewise increased. [ROOT.GetCharacter.GetFirstNameNoTooltip] has the ability to become one of the greatest Magisters of all time."
-  trait_track_chosen_of_the_heavens:0 "Chosen of the Celestial Bodies"
-  trait_track_chosen_of_the_heavens_desc:0 "This person is chosen by beings that are beyond the comprehension of simple men. Endowed with powers and blessings that even the wisest of magic practitioners don't know, They're a true enigma. And in this world, this means quite a bit"
-
-  trait_track_stores_of_power_01:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_01_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_01_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_01' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_stores_of_power_02:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_02_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_02_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_02' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_stores_of_power_03:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_03_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_03_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_03' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_stores_of_power_04:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_04_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_04_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_04' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_stores_of_power_05:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_05_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_05_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_05' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_stores_of_power_06:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_06_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_06_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_06' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_stores_of_power_07:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_07_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_07_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_07' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_stores_of_power_08:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_08_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_08_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_08' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_stores_of_power_09:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_09_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_09_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_09' ).GetName] [trait_level_track_xp|E] Gain"
-
-  trait_track_stores_of_power_10:0 "[drops_of_power|E] Store"
-  trait_track_stores_of_power_10_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_stores_of_power_10_xp_gain_mult:0 "[GetTrait('starwalker').GetTraitTrackByKey( 'stores_of_power_10' ).GetName] [trait_level_track_xp|E] Gain"
-
-
-  trait_track_magic_blood_good_2_stores_of_power_01:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_2_stores_of_power_01_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_2_stores_of_power_01_xp_gain_mult:0 "[GetTrait('magic_blood_good_2').GetTraitTrackByKey( 'magic_blood_good_2_stores_of_power_01' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_magic_blood_good_2_stores_of_power_02:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_2_stores_of_power_02_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_2_stores_of_power_02_xp_gain_mult:0 "[GetTrait('magic_blood_good_2').GetTraitTrackByKey( 'magic_blood_good_2_stores_of_power_02' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_magic_blood_good_2_stores_of_power_03:0 "[drops_of_power|E] Store"
-
-
-  trait_track_magic_blood_good_3_stores_of_power_01:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_3_stores_of_power_01_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_3_stores_of_power_01_xp_gain_mult:0 "[GetTrait('magic_blood_good_3').GetTraitTrackByKey( 'magic_blood_good_3_stores_of_power_01' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_magic_blood_good_3_stores_of_power_02:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_3_stores_of_power_02_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_3_stores_of_power_02_xp_gain_mult:0 "[GetTrait('magic_blood_good_3').GetTraitTrackByKey( 'magic_blood_good_3_stores_of_power_02' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_magic_blood_good_3_stores_of_power_03:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_3_stores_of_power_03_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_3_stores_of_power_03_xp_gain_mult:0 "[GetTrait('magic_blood_good_3').GetTraitTrackByKey( 'magic_blood_good_3_stores_of_power_03' ).GetName] [trait_level_track_xp|E] Gain"
-  trait_track_magic_blood_good_3_stores_of_power_04:0 "[drops_of_power|E] Store"
-  trait_track_magic_blood_good_3_stores_of_power_04_desc:0 "An extra store of [drops_of_power|E] of this character. Practicers of magic use [drops_of_power|E] for all their [zz_mystery_plural]."
-  trait_track_magic_blood_good_3_stores_of_power_04_xp_gain_mult:0 "[GetTrait('magic_blood_good_3').GetTraitTrackByKey( 'magic_blood_good_3_stores_of_power_04' ).GetName] [trait_level_track_xp|E] Gain"
+  
 
   #Character Interactions
 
@@ -572,6 +366,9 @@
   zz_valyria_magic_blood_magic_17_f.toast.desc:0 "$zz_toast_01$ [blood_magic], but [recipient.GetFirstName] resist's the effect."
   zz_valyria_magic_blood_magic_17_f.toast.tt:0 "$zz_valyria_magic_blood_magic_17_f.desc$"
 
+  # Tyranny 
+  zz_valyria_magic_blood_magic_17.tyranny:0 "Blood Magic increases Tyranny"
+
   ## Interaction
   zz_valyria_magic_blood_magic_18.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_cpt$\n\nThe use of the arcane forces of [blood_magic|E] to restructure a Dragon's genetics."
   ##Spell Options
@@ -582,7 +379,7 @@
   zz_valyria_magic_blood_magic_spells.018.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_blood_magic_18.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
-  zz_valyria_magic_blood_magic_18.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ manipulating the genetics of[recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_18.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ manipulating the genetics of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_18.toast.tt:0 "$zz_valyria_magic_blood_magic_18.toast.desc$"
 
   zz_valyria_magic_blood_magic_18_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
@@ -904,16 +701,16 @@
   zz_valyria_magic_shadow_magic_11.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to enfuse a blade with the magics of shadow, ensuring greater success in the use of weapons. ."
   ## event
   zz_valyria_magic_shadow_magic_spells.012.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
-  zz_valyria_magic_shadow_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetName]."
-  zz_valyria_magic_shadow_magic_spells.012.opt.a:0 "Yes, Kill them!"
+  zz_valyria_magic_shadow_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. By pulling forth the shadows, it is possible to distill the shadowy essence and let it rest within the weapon of [recipient.GetName]. This will ensure in their next single battle that their blade will not fail them."
+  zz_valyria_magic_shadow_magic_spells.012.opt.a:0 "Yes, empower this weapon!"
   zz_valyria_magic_shadow_magic_spells.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_shadow_magic_12.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
-  zz_valyria_magic_shadow_magic_12.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
-  zz_valyria_magic_shadow_magic_12.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
+  zz_valyria_magic_shadow_magic_12.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ calling forth a spine of shadow, that settles within the blade of [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_12.toast.tt:0 "$zz_valyria_magic_shadow_magic_12.toast.desc$"
 
 
   ## Interaction
@@ -2095,7 +1892,7 @@
   zz_valyria_magic_air_magic_spells.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_03.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_03_name$"
-  zz_valyria_magic_air_magic_03.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ protecting the forces of[recipient.GetFirstName] with a barrier of protective wind."
+  zz_valyria_magic_air_magic_03.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ protecting the forces of [recipient.GetFirstName] with a barrier of protective wind."
   zz_valyria_magic_air_magic_03.toast.tt:0 "$zz_valyria_magic_air_magic_03.toast.desc$"
 
   ## Interaction
@@ -2120,7 +1917,7 @@
   zz_valyria_magic_air_magic_spells.005.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_05.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_05_name$"
-  zz_valyria_magic_air_magic_05.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of[recipient.GetFirstName] with an advantage in their battles."
+  zz_valyria_magic_air_magic_05.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of [recipient.GetFirstName] with an advantage in their battles."
   zz_valyria_magic_air_magic_05.toast.tt:0 "$zz_valyria_magic_air_magic_05.toast.desc$"
 
 
@@ -2146,7 +1943,7 @@
   zz_valyria_magic_air_magic_spells.007.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_07.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_07_name$"
-  zz_valyria_magic_air_magic_07.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of[recipient.GetFirstName] with greater movement speed."
+  zz_valyria_magic_air_magic_07.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ providing the forces of [recipient.GetFirstName] with greater movement speed."
   zz_valyria_magic_air_magic_07.toast.tt:0 "$zz_valyria_magic_air_magic_07.toast.desc$"
 
   ## Interaction
@@ -2183,7 +1980,7 @@
   zz_valyria_magic_air_magic_spells.010.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_10.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_10_name$"
-  zz_valyria_magic_air_magic_10.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ weakening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_10.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ weakening the forces of [recipient.GetFirstName] ability to screen attacks."
   zz_valyria_magic_air_magic_10.toast.tt:0 "$zz_valyria_magic_air_magic_10.toast.desc$"
 
 
@@ -2196,7 +1993,7 @@
   zz_valyria_magic_air_magic_spells.011.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_11.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_11_name$"
-  zz_valyria_magic_air_magic_11.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_11.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of [recipient.GetFirstName] ability to screen attacks."
   zz_valyria_magic_air_magic_11.toast.tt:0 "$zz_valyria_magic_air_magic_11.toast.desc$"
 
 
@@ -2209,7 +2006,7 @@
   zz_valyria_magic_air_magic_spells.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_12.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_12_name$"
-  zz_valyria_magic_air_magic_12.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_12.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of [recipient.GetFirstName] ability to screen attacks."
   zz_valyria_magic_air_magic_12.toast.tt:0 "$zz_valyria_magic_air_magic_12.toast.desc$"
 
 ## Interaction
@@ -2221,7 +2018,7 @@
   zz_valyria_magic_air_magic_spells.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_air_magic_13.toast.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_13_name$"
-  zz_valyria_magic_air_magic_13.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of[recipient.GetFirstName] ability to screen attacks."
+  zz_valyria_magic_air_magic_13.toast.desc:0 "$zz_toast_01$ [air_magic|E], $zz_toast_02$ strengthening the forces of [recipient.GetFirstName] ability to screen attacks."
   zz_valyria_magic_air_magic_13.toast.tt:0 "$zz_valyria_magic_air_magic_13.toast.desc$"
 
   ## Water Magic
@@ -2453,3 +2250,4 @@
   zz_become_ally:0 "Become Ally"
   zz_commit_suicide:0 "Commit Suicide"
 
+ ZZ_CAST_MYSTERY_TT:0 "Enact a Mystery against this character."

@@ -880,6 +880,34 @@ zz_valyria_magic_education.00092 = {
 			SPELL = zz_valyria_magic_shadow_magic_11
 		}
 	}
+	option = {
+		name = zz_valyria_magic_education.0009.shadow.12
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_shadow_magic_12
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_12.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_shadow_magic_12
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.shadow.13
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_shadow_magic_13
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_13.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_shadow_magic_13
+		}
+	}
 }
 
 # Dream Magic Education - All Mysteries
@@ -2058,6 +2086,34 @@ zz_valyria_magic_education.00095 = {
 			SPELL = zz_valyria_magic_fire_magic_11
 		}
 	}
+	option = {
+		name = zz_valyria_magic_education.0009.fire_magic.12
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_fire_magic_12
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_fire_magic_12.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_fire_magic_12
+		}
+	}
+	option = {
+		name = zz_valyria_magic_education.0009.fire_magic.13
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_fire_magic_13
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_fire_magic_13.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_fire_magic_13
+		}
+	}
 }
 
 # Air Magic Education - All Mysteries
@@ -2245,6 +2301,34 @@ zz_valyria_magic_education.00096 = {
 			SPELL = zz_valyria_magic_air_magic_11
 		}
 	}	
+	option = {
+		name = zz_valyria_magic_education.0009.air_magic.12
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_air_magic_12
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_air_magic_12.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_air_magic_12
+		}
+	}	
+	option = {
+		name = zz_valyria_magic_education.0009.air_magic.13
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_air_magic_13
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_air_magic_13.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_air_magic_13
+		}
+	}	
 }
 
 # Water Magic Education - All Mysteries
@@ -2430,6 +2514,34 @@ zz_valyria_magic_education.00097 = {
 		custom_tooltip = zz_valyria_magic_water_magic_11.tooltip.desc
 		zz_magic_education_learn_spell_effect = { 
 			SPELL = zz_valyria_magic_water_magic_11
+		}
+	}	
+	option = {
+		name = zz_valyria_magic_education.0009.water_magic.12
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_water_magic_12
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_water_magic_12.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_water_magic_12
+		}
+	}	
+	option = {
+		name = zz_valyria_magic_education.0009.water_magic.13
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_water_magic_13
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_water_magic_13.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_water_magic_13
 		}
 	}	
 }

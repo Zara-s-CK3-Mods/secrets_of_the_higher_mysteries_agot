@@ -1192,7 +1192,7 @@ zz_valyria_magic_dream_magic_44_value = {
 			min = 1
 		}
 	}
-	multiply = 1
+	multiply = -1
 }
 zz_valyria_magic_dream_magic_45_value = {
 	value = 0
@@ -1214,7 +1214,7 @@ zz_valyria_magic_dream_magic_46_value = {
 			min = 1
 		}
 	}
-	multiply = 1
+	multiply = -1
 }
 zz_valyria_magic_dream_magic_47_value = {
 	value = 0
