@@ -48,6 +48,8 @@ zz_valyria_magic_casting_close = {
 		remove_variable = zz_magic_ui
 		remove_variable = cast_type
 		remove_variable = zz_magic_caster
+		remove_variable = zz_selected_mystery_province
+		remove_variable = zz_selected_mystery_county
 		clear_variable_list = zz_valyria_spell_list
 	}
 }
@@ -94,6 +96,7 @@ zz_valyria_magic_casting_scroll_casting = {
 			name = cast_type
 			value = flag:scroll
 		}
+		
 	}
 }
 zz_valyria_magic_casting_scroll_casting_click = {
@@ -103,6 +106,8 @@ zz_valyria_magic_casting_scroll_casting_click = {
 			name = cast_type
 			value = flag:scroll
 		}
+		zz_valyria_make_item_caster_list = {MAGIC_USER = zz_magic_user}
+		zz_valyria_make_scroll_list = {MAGIC_USER = zz_magic_user ITEM_CASTER = zz_item_caster}
 	}
 }
 

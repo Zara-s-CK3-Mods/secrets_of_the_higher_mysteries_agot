@@ -7,18 +7,18 @@
 		parentanchor = top|right
 		alwaystransparent = yes
 		size = { 100% 100% }
-
+		
 		visible = "[And( Not( IsPauseMenuShown ), And(Or(Not(IsObserver), GetPlayer.IsValid), IsDefaultGUIMode))]"
-
+		
 		zz_magic_window = {}
 		zz_valyria_magic_scroll_learning = {}
 		zz_valyria_magic_crafting = {}
 	}
-
+	
 	type zz_magic_window = window {
 		name = "zz_magic_window"
 		layer = windows_layer
-
+		
 		allow_outside = yes
 		parentanchor = top|right
 		size = { 900 100% }
@@ -41,12 +41,12 @@
 			using = Sound_WindowHide_Standard
 			using = Window_Position_MainTab_Hide
 		}
-
+		
 		margin_widget = {
 			size = { 100% 100% }
 			margin = { 0 30 }
 			margin_right = 13
-
+			
 			widget = {
 				size = { 100% 100% }
 				background = {
@@ -54,9 +54,9 @@
 					margin = { -25 -25 }
 					fittype = centercrop
 					alpha = 1
-								
+					
 					using = Mask_Rough_Edges
-		
+					
 					modify_texture = {
 						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 						blend_mode = alphamultiply
@@ -65,15 +65,15 @@
 				}
 				vbox = {
 					using = Window_Margins
-
+					
 					header_pattern = {
 						layoutpolicy_horizontal = expanding
-
+						
 						blockoverride "header_text"
 						{
 							raw_text = "Magic Casting"
 						}
-
+						
 						blockoverride "button_close"
 						{
 							onclick = "[GetScriptedGui('zz_valyria_magic_casting_close').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
@@ -83,7 +83,7 @@
 					hbox = {
 						margin_right = 13
 						margin_left = 13
-
+						
 						layoutpolicy_horizontal = expanding
 						expand = {}
 						button_tab = { 
@@ -125,7 +125,7 @@
 									raw_text = "Scroll Casting"
 									alwaystransparent = yes
 								}
-
+								
 							}
 							
 							datacontext = "[GetScriptedGui('zz_valyria_magic_casting_scroll_casting')]"
@@ -136,7 +136,7 @@
 							shortcut = "royal_court_next_screenshot_camera"
 							onclick = "[GetScriptedGui('zz_valyria_magic_casting_scroll_casting_click').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 						}
-
+						
 						expand = {}
 					}
 					expand = {}
@@ -147,15 +147,15 @@
 						visible = "[GetScriptedGui('zz_valyria_magic_casting_mystery').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 						
 						datacontext = "[GetPlayer.MakeScope]"
-	
+						
 						background = {
 							texture = "[Illustration.GetTexture( GetPlayer.MakeScope )]"
 							margin = { -5 0 }
 							fittype = centercrop
 							alpha = 1
-										
+							
 							using = Mask_Rough_Edges
-			
+							
 							modify_texture = {
 								texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 								blend_mode = alphamultiply
@@ -373,7 +373,7 @@
 									expand = {}
 								}
 							}
-
+							
 							scrollbox = {
 								name = "spell_scrollarea"
 								visible = "[GetVariableSystem.HasValue( 'magic_page','higher_mysteries')]"
@@ -779,15 +779,15 @@
 						visible = "[GetScriptedGui('zz_valyria_magic_casting_scroll_casting').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 						
 						datacontext = "[GetPlayer.MakeScope]"
-
+						
 						background = {
 							texture = "[Illustration.GetTexture( GetPlayer.MakeScope )]"
 							margin = { -5 0 }
 							fittype = centercrop
 							alpha = 1
-										
+							
 							using = Mask_Rough_Edges
-			
+							
 							modify_texture = {
 								texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 								blend_mode = alphamultiply
@@ -1002,7 +1002,7 @@
 		position = { -600 20 }
 		
 		size = { 400 95% }
-
+		
 		using = Animation_ShowHide_Quick
 		
 		using = Window_Background_Subwindow
@@ -1013,15 +1013,15 @@
 			margin_bottom = 15
 			margin_top = 15
 			spacing = 15
-
+			
 			header_pattern = {
 				layoutpolicy_horizontal = expanding
-
+				
 				blockoverride "header_text"
 				{
 					raw_text = "Select Mages"
 				}
-
+				
 				blockoverride "button_close"
 				{
 					onclick = "[GetVariableSystem.Toggle('zz_magic_window_mages_selection_view')]"
@@ -1088,7 +1088,7 @@
 		position = { -600 20 }
 		
 		size = { 400 95% }
-
+		
 		using = Animation_ShowHide_Quick
 		
 		using = Window_Background_Subwindow
@@ -1099,15 +1099,15 @@
 			margin_bottom = 15
 			margin_top = 15
 			spacing = 15
-
+			
 			header_pattern = {
 				layoutpolicy_horizontal = expanding
-
+				
 				blockoverride "header_text"
 				{
 					raw_text = "Select Mages"
 				}
-
+				
 				blockoverride "button_close"
 				{
 					onclick = "[GetVariableSystem.Toggle('zz_magic_window_scroll_user_selection_view')]"
@@ -1166,14 +1166,29 @@
 			expand = {}
 		}
 	}
-
+	
 	type zz_magic_cast_button = button_zz_cast_magic
 	{
 		name = "knight_tree_button"
 		visible = "[GetScriptedGui('zz_valyria_cast_click').IsShown(GetPlayer.MakeScope)]"
 		size = { 25 25 }
-
+		
 		#onclick = "[GetVariableSystem.Toggle('knight_tree_visible')]"
+		onclick = "[CloseGameView( 'my_realm' )]"
+		onclick = "[CloseGameView( 'military' )]"
+		onclick = "[CloseGameView( 'council_window' )]"
+		onclick = "[CloseGameView( 'court_window' )]"
+		onclick = "[CloseGameView( 'intrigue_window' )]"
+		onclick = "[CloseGameView( 'factions_window' )]"
+		onclick = "[CloseGameView( 'decisions' )]"
+		onclick = "[CloseGameView( 'activity_list_window' )]"
+		onclick = "[CloseGameView( 'manage_tax_slots' )]"
+		onclick = "[CloseGameView( 'government_administration' )]"
+		onclick = "[CloseGameView( 'government_administration' )]"		
+		
+		onclick = "[GetScriptedGui('zz_valyria_magic_crafting_close').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+		onclick = "[GetScriptedGui('zz_valyria_magic_scroll_learning_close').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+
 		onclick = "[GetScriptedGui('zz_valyria_cast_click').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('opened_character', Character.MakeScope).End)]"
 		using = tooltip_ne
 		tooltip = "ZZ_CAST_MYSTERY_TT"
