@@ -227,7 +227,7 @@ dragon_Anogres = {
 
 
 Dummy_Setenon_01 = {
-	name = Rhaegar
+	name = Zaret
 	dna = Setenon_01
 	religion = valyrian_pan_freehold
 	culture = high_valyrian
@@ -279,6 +279,30 @@ Dummy_Setenon_04 = {
 Dummy_Setenon_05 = {
 	name = Jaehaerys
 	dna = Setenon_05
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+	father = Ruin_Empress
+	118.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	118.1.2 = { death = yes }
+}
+Dummy_Setenon_06 = {
+	name = Aemon
+	dna = Setenon_06
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+	father = Ruin_Empress
+	118.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	118.1.2 = { death = yes }
+}
+Dummy_Setenon_07 = {
+	name = Viserys
+	dna = Setenon_07
 	religion = valyrian_pan_freehold
 	culture = high_valyrian
 	father = Ruin_Empress

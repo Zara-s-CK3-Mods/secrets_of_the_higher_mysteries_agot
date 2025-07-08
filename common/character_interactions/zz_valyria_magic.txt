@@ -1623,6 +1623,18 @@ zz_valyria_magic_03.interaction = {
 				}
 				copy_inheritable_appearance_from = character:Dummy_Setenon_05
 			}
+			if = {
+				limit = {
+					scope:take_face_06 = yes
+				}
+				copy_inheritable_appearance_from = character:Dummy_Setenon_06
+			}
+			if = {
+				limit = {
+					scope:take_face_07 = yes
+				}
+				copy_inheritable_appearance_from = character:Dummy_Setenon_07
+			}
 
 		}
 	}
@@ -1656,6 +1668,14 @@ zz_valyria_magic_03.interaction = {
 	send_option = {
 		flag = take_face_05
 		localization = take_face_05
+	}
+	send_option = {
+		flag = take_face_06
+		localization = take_face_06
+	}
+	send_option = {
+		flag = take_face_07
+		localization = take_face_07
 	}
 	
 	
