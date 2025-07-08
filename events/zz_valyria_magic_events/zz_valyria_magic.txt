@@ -21,6 +21,7 @@ zz_valyria_magic.9000 = {
 		NOT = { 
 			has_character_flag = no_magic
 		}
+		
 	}
 
 	option = {
@@ -67,6 +68,10 @@ zz_valyria_magic.9000 = {
 		name = zz_valyria_magic.9000.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -224,6 +229,10 @@ zz_valyria_magic.0010 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0011 = {
@@ -312,6 +321,14 @@ zz_valyria_magic.0011 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll_01
+			destroy_artifact = scope:magic_scroll_02
+			destroy_artifact = scope:magic_scroll_03
+			destroy_artifact = scope:magic_scroll_04
+			destroy_artifact = scope:magic_scroll_05
+		}
 	}
 }
 zz_valyria_magic.0012 = {
@@ -382,6 +399,10 @@ zz_valyria_magic.0012 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0013 = {
@@ -451,6 +472,10 @@ zz_valyria_magic.0013 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0014 = {
@@ -519,6 +544,10 @@ zz_valyria_magic.0014 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0015 = {
@@ -586,6 +615,10 @@ zz_valyria_magic.0015 = {
 		name = zz_valyria_magic.0015.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -656,6 +689,10 @@ zz_valyria_magic.0016 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0017 = {
@@ -723,6 +760,10 @@ zz_valyria_magic.0017 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0018 = {
@@ -789,6 +830,10 @@ zz_valyria_magic.0018 = {
 		name = zz_valyria_magic.0018.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -858,6 +903,10 @@ zz_valyria_magic.0019 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0020 = {
@@ -925,6 +974,10 @@ zz_valyria_magic.0020 = {
 		name = zz_valyria_magic.0020.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -994,6 +1047,10 @@ zz_valyria_magic.0021 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0022 = {
@@ -1061,6 +1118,10 @@ zz_valyria_magic.0022 = {
 		name = zz_valyria_magic.0022.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -1130,6 +1191,10 @@ zz_valyria_magic.0023 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0024 = {
@@ -1198,6 +1263,10 @@ zz_valyria_magic.0024 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0025 = {
@@ -1264,6 +1333,10 @@ zz_valyria_magic.0025 = {
 		name = zz_valyria_magic.0025.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
@@ -1333,6 +1406,10 @@ zz_valyria_magic.0026 = {
 		trigger = {
 			is_ai = yes 
 		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
+		}
 	}
 }
 zz_valyria_magic.0027 = {
@@ -1400,6 +1477,10 @@ zz_valyria_magic.0027 = {
 		name = zz_valyria_magic.0027.zz
 		trigger = {
 			is_ai = yes 
+		}
+		random = {
+			chance = 75 
+			destroy_artifact = scope:magic_scroll
 		}
 	}
 }
