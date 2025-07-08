@@ -1,11 +1,11 @@
-﻿zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_effect = { 
+﻿zz_valyria_magic_water_magic_01_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.t
-		desc = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.desc
+		title = zz_valyria_magic_water_magic_01.toast.t
+		desc = zz_valyria_magic_water_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.tt
+		custom_tooltip = zz_valyria_magic_water_magic_01.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	scope:recipient = {
@@ -26,44 +26,44 @@
 		MAGIC = water
 	}
 }
-zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent_effect = { 
+zz_valyria_magic_water_magic_02_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent.t
-		desc = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent.desc
+		title = zz_valyria_magic_water_magic_02.toast.t
+		desc = zz_valyria_magic_water_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent.tt
+		custom_tooltip = zz_valyria_magic_water_magic_02.toast.tt
 	}
 	scope:target = {
-		deplete_army_by_percentage = zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent_value
+		deplete_army_by_percentage = zz_valyria_magic_water_magic_02_value
 	}
 }
 
-zz_valyria_magic_water_magic_03_mysteries_of_endurance_effect = {
+zz_valyria_magic_water_magic_03_effect = {
 	
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_03_mysteries_of_endurance.t
-		desc = zz_valyria_magic_water_magic_03_mysteries_of_endurance.desc
+		title = zz_valyria_magic_water_magic_03.toast.t
+		desc = zz_valyria_magic_water_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_water_magic_03_mysteries_of_endurance.tt
+		custom_tooltip = zz_valyria_magic_water_magic_03.toast.tt
 	}
 	scope:target = {
-		add_supply = zz_valyria_magic_water_magic_03_mysteries_of_endurance_value 
+		add_supply = zz_valyria_magic_water_magic_03_value 
 	}
 }
 
-zz_valyria_magic_water_magic_04_mysteries_of_rhoyne_effect = {
+zz_valyria_magic_water_magic_04_effect = {
 	
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_04_mysteries_of_rhoyne.t
-		desc = zz_valyria_magic_water_magic_04_mysteries_of_rhoyne.desc
+		title = zz_valyria_magic_water_magic_04.toast.t
+		desc = zz_valyria_magic_water_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_water_magic_04_mysteries_of_rhoyne.tt
+		custom_tooltip = zz_valyria_magic_water_magic_04.toast.tt
 	}
 	if = {
 		limit = {
@@ -118,14 +118,14 @@ zz_valyria_magic_water_magic_04_mysteries_of_rhoyne_effect = {
 	}
 }
 
-zz_valyria_magic_water_magic_05_mysteries_of_winter_effect = {
+zz_valyria_magic_water_magic_05_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_05_mysteries_of_winter.t
-		desc = zz_valyria_magic_water_magic_05_mysteries_of_winter.desc
+		title = zz_valyria_magic_water_magic_05.toast.t
+		desc = zz_valyria_magic_water_magic_05.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_water_magic_05_mysteries_of_winter.tt
+		custom_tooltip = zz_valyria_magic_water_magic_05.toast.tt
 	}
 	if = {
 		limit = {
@@ -142,7 +142,7 @@ zz_valyria_magic_water_magic_05_mysteries_of_winter_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_water_magic_05_mysteries_of_winter_modifier
+			MODIFIER = zz_valyria_magic_water_magic_05_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -161,106 +161,106 @@ zz_valyria_magic_water_magic_05_mysteries_of_winter_effect = {
 	}
 }
 
-zz_valyria_magic_water_magic_06_mysteries_of_purity_effect = {
+zz_valyria_magic_water_magic_06_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_06_mysteries_of_purity.t
-		desc = zz_valyria_magic_water_magic_06_mysteries_of_purity.desc
+		title = zz_valyria_magic_water_magic_06.toast.t
+		desc = zz_valyria_magic_water_magic_06.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:target
-		custom_tooltip = zz_valyria_magic_water_magic_06_mysteries_of_purity.tt
+		custom_tooltip = zz_valyria_magic_water_magic_06.toast.tt
 	}
 	scope:target = {
 		zz_valyria_magic_apply_province_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_water_magic_06_mysteries_of_purity_modifier
+			MODIFIER = zz_valyria_magic_water_magic_06_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
 		set_variable = {
 			name = epidemic_cooldown_general
-			years = zz_valyria_magic_water_magic_06_mysteries_of_purity_value
+			years = zz_valyria_magic_water_magic_06_value
 		}
 	}
 }
 
-zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth_effect = {
+zz_valyria_magic_water_magic_07_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth.t
-		desc = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth.desc
+		title = zz_valyria_magic_water_magic_07.toast.t
+		desc = zz_valyria_magic_water_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth.tt
+		custom_tooltip = zz_valyria_magic_water_magic_07.toast.tt
 	}
 	scope:target = {
 		county = {
-			change_development_level = zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth_value
+			change_development_level = zz_valyria_magic_water_magic_07_value
 		}
 	}
 }
 
-zz_valyria_magic_water_magic_08_mysteries_of_the_mists_effect = {
+zz_valyria_magic_water_magic_08_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_08_mysteries_of_the_mists.t
-		desc = zz_valyria_magic_water_magic_08_mysteries_of_the_mists.desc
+		title = zz_valyria_magic_water_magic_08.toast.t
+		desc = zz_valyria_magic_water_magic_08.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_water_magic_08_mysteries_of_the_mists.tt
+		custom_tooltip = zz_valyria_magic_water_magic_08.toast.tt
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_water_magic_08_mysteries_of_the_mists_modifier
+			MODIFIER = zz_valyria_magic_water_magic_08_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
 	}
 }
 
-zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground_effect = {
+zz_valyria_magic_water_magic_09_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground.t
-		desc = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground.desc
+		title = zz_valyria_magic_water_magic_09.toast.t
+		desc = zz_valyria_magic_water_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground.tt
+		custom_tooltip = zz_valyria_magic_water_magic_09.toast.tt
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground_modifier
+			MODIFIER = zz_valyria_magic_water_magic_09_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
 	}
 }
 
-zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience_effect = {
+zz_valyria_magic_water_magic_10_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title =  zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience.t
-		desc =  zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience.desc
+		title =  zz_valyria_magic_water_magic_10.toast.t
+		desc =  zz_valyria_magic_water_magic_10.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip =  zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience.tt
+		custom_tooltip =  zz_valyria_magic_water_magic_10.toast.tt
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience_modifier
+			MODIFIER = zz_valyria_magic_water_magic_10_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
 	}
 }
 
-zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_effect = { 
+zz_valyria_magic_water_magic_11_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity.t
-		desc = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity.desc
+		title = zz_valyria_magic_water_magic_11.toast.t
+		desc = zz_valyria_magic_water_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity.tt
+		custom_tooltip = zz_valyria_magic_water_magic_11.toast.tt
 	}
 	if = {
 		limit = {
@@ -277,14 +277,14 @@ zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_effect = {
 		}
 	}
 	while = {
-		count = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_value 
+		count = zz_valyria_magic_water_magic_11_value 
 		scope:recipient = { 
 			stress_impact = {
 				base = minor_stress_impact_loss
 			}
 			add_character_flag = {
 				flag = immune_to_disease
-				years = zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_value
+				years = zz_valyria_magic_water_magic_11_value
 			}
 			if = { 
 				limit = { 
@@ -384,4 +384,90 @@ zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_effect = {
 			}
 		}
 	}		
+}
+
+
+zz_valyria_magic_water_magic_12_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_water_magic_12.toast.t
+		desc = zz_valyria_magic_water_magic_12.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_water_magic_12.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+
+	scope:recipient = {
+		zz_valyria_magic_apply_character_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_water_magic_12_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 2
+		}
+			
+
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier  = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_water_magic_13_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_water_magic_13.toast.t
+		desc = zz_valyria_magic_water_magic_13.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_water_magic_13.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+
+	scope:recipient = {
+		zz_valyria_magic_apply_character_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_water_magic_13_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 2
+		}
+			
+
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier  = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
 }

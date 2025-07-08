@@ -55,14 +55,14 @@ zz_valyria_blood_magic_trait_downgrade = {
 }
 
 
-zz_valyria_magic_blood_magic_01_mysteries_of_restoration_effect = { 
+zz_valyria_magic_blood_magic_01_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_01_mysteries_of_restoration.t
-		desc = zz_valyria_magic_blood_magic_01_mysteries_of_restoration.desc
+		title = zz_valyria_magic_blood_magic_01.toast.t
+		desc = zz_valyria_magic_blood_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_01_mysteries_of_restoration.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_01.toast.tt
 	}
 	if = {
 		limit = {
@@ -79,7 +79,7 @@ zz_valyria_magic_blood_magic_01_mysteries_of_restoration_effect = {
 		}
 	}
 	while = {
-		count = zz_valyria_magic_blood_magic_01_mysteries_of_restoration_value 
+		count = zz_valyria_magic_blood_magic_01_value 
 		scope:recipient = { 
 			stress_impact = {
 				base = minor_stress_impact_loss
@@ -249,14 +249,14 @@ zz_valyria_magic_blood_magic_01_mysteries_of_restoration_effect = {
 		}
 	}		
 }
-zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_effect = {
+zz_valyria_magic_blood_magic_02_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification.t
-		desc = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification.desc
+		title = zz_valyria_magic_blood_magic_02.toast.t
+		desc = zz_valyria_magic_blood_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_02.toast.tt
 	}
 	if = {
 		limit = {
@@ -272,7 +272,7 @@ zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_effect = {
 		
 	}
 	while = {
-		count = zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_value 
+		count = zz_valyria_magic_blood_magic_02_value 
 		if = {
 			limit = {
 				scope:trait ?= trait:intellect_good_3
@@ -653,17 +653,17 @@ zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_effect = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_03_mysteries_of_regeneration_effect = { 
+zz_valyria_magic_blood_magic_03_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration.t
-		desc = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration.desc
+		title = zz_valyria_magic_blood_magic_03.toast.t
+		desc = zz_valyria_magic_blood_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_03.toast.tt
 	}
 	scope:target = {
-		change_maa_troops_count = zz_valyria_magic_blood_magic_03_mysteries_of_regeneration_value 
+		change_maa_troops_count = zz_valyria_magic_blood_magic_03_value 
 	}
 	scope:recipient = {		
 		if = {
@@ -678,18 +678,18 @@ zz_valyria_magic_blood_magic_03_mysteries_of_regeneration_effect = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_04_mysteries_of_renewal_effect = { 
+zz_valyria_magic_blood_magic_04_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_04_mysteries_of_renewal.t
-		desc = zz_valyria_magic_blood_magic_04_mysteries_of_renewal.desc
+		title = zz_valyria_magic_blood_magic_04.toast.t
+		desc = zz_valyria_magic_blood_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_04_mysteries_of_renewal.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_04.toast.tt
 	}
 	scope:target = {
 		every_army_maa_regiment = {
-			change_maa_troops_count = zz_valyria_magic_blood_magic_04_mysteries_of_renewal_value 
+			change_maa_troops_count = zz_valyria_magic_blood_magic_04_value 
 		}
 	}
 	scope:recipient = {		
@@ -706,19 +706,19 @@ zz_valyria_magic_blood_magic_04_mysteries_of_renewal_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_05_mysteries_of_replication_effect = { 
+zz_valyria_magic_blood_magic_05_effect = { 
 	random_list = { 
 		50 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_05_mysteries_of_replication_value 
+				add = zz_valyria_magic_blood_magic_05_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_05_mysteries_of_replication.t
-				desc = zz_valyria_magic_blood_magic_05_mysteries_of_replication.desc
+				title = zz_valyria_magic_blood_magic_05.toast.t
+				desc = zz_valyria_magic_blood_magic_05.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:target_char
-				custom_tooltip = zz_valyria_magic_blood_magic_05_mysteries_of_replication.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_05.toast.tt
 			}
 			if = { 
 				limit = {
@@ -858,30 +858,30 @@ zz_valyria_magic_blood_magic_05_mysteries_of_replication_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_05_mysteries_of_replication_f.t
-				desc = zz_valyria_magic_blood_magic_05_mysteries_of_replication_f.desc
+				title = zz_valyria_magic_blood_magic_05_f.toast.t
+				desc = zz_valyria_magic_blood_magic_05_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:target_char
-				custom_tooltip = zz_valyria_magic_blood_magic_05_mysteries_of_replication_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_05_f.toast.tt
 			}
 		}
 	}
 	
 }
 
-zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_effect = { 
+zz_valyria_magic_blood_magic_06_effect = { 
 	random_list = { 
 		50 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_value 
+				add = zz_valyria_magic_blood_magic_06_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation.t
-				desc = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation.desc
+				title = zz_valyria_magic_blood_magic_06.toast.t
+				desc = zz_valyria_magic_blood_magic_06.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_06.toast.tt
 			}
 			scope:target = {
 				if = {
@@ -947,25 +947,25 @@ zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_f.t
-				desc = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_f.desc
+				title = zz_valyria_magic_blood_magic_06_f.toast.t
+				desc = zz_valyria_magic_blood_magic_06_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_06_f.toast.tt
 			}
 		}
 	}
 	
 }
 
-zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_effect = { 
+zz_valyria_magic_blood_magic_07_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood.t
-		desc = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood.desc
+		title = zz_valyria_magic_blood_magic_07.toast.t
+		desc = zz_valyria_magic_blood_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_07.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -991,22 +991,22 @@ zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_effect = { 
+zz_valyria_magic_blood_magic_08_effect = { 
 	random_list = {
 		50 = {
 			modifier = {
-				add = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_value
+				add = zz_valyria_magic_blood_magic_08_value
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying.t
-				desc = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying.desc
+				title = zz_valyria_magic_blood_magic_08.toast.t
+				desc = zz_valyria_magic_blood_magic_08.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_08.toast.tt
 			}
 			scope:recipient = {
-				add_character_flag = { flag = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_effect_flag years = 1 } 
+				add_character_flag = { flag = zz_valyria_magic_blood_magic_08_effect_flag years = 1 } 
 				save_scope_as = dragon_parent
 				set_variable = { name = clutches value = 0 }
 				remove_character_flag = recently_laid_eggs
@@ -1070,25 +1070,25 @@ zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_f.t
-				desc = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_f.desc
+				title = zz_valyria_magic_blood_magic_08_f.toast.t
+				desc = zz_valyria_magic_blood_magic_08_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_08_f.toast.tt
 			}
 		}
 	}
 	
 }
 
-zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement_effect = { 
+zz_valyria_magic_blood_magic_09_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement.t
-		desc = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement.desc
+		title = zz_valyria_magic_blood_magic_09.toast.t
+		desc = zz_valyria_magic_blood_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_09.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -1102,24 +1102,24 @@ zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_effect = { 
+zz_valyria_magic_blood_magic_10_effect = { 
 	
 	random_list = { 
 		50 = { 
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_value
+				add = zz_valyria_magic_blood_magic_10_value
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood.t
-				desc = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood.desc
+				title = zz_valyria_magic_blood_magic_10.toast.t
+				desc = zz_valyria_magic_blood_magic_10.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_10.toast.tt
 			}
 			scope:recipient = {
 				custom_description = {
-					text = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_desc
+					text = zz_valyria_magic_blood_magic_10_desc
 					add_character_flag = { flag = historical_dragonseed } 
 				}
 			}
@@ -1140,11 +1140,11 @@ zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_effect = {
 		25 = { 
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_f.t
-				desc = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_f.desc
+				title = zz_valyria_magic_blood_magic_10_f.toast.t
+				desc = zz_valyria_magic_blood_magic_10_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_10_f.toast.tt
 			}
 			scope:recipient = {
 				add_trait = scaly
@@ -1161,14 +1161,14 @@ zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_effect = {
 }
 
 ## life
-zz_valyria_magic_blood_magic_11_mysteries_of_longevity_effect = {
+zz_valyria_magic_blood_magic_11_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_11_mysteries_of_longevity.t
-		desc = zz_valyria_magic_blood_magic_11_mysteries_of_longevity.desc
+		title = zz_valyria_magic_blood_magic_11.toast.t
+		desc = zz_valyria_magic_blood_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_11_mysteries_of_longevity.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_11.toast.tt
 	}
 	if = {
 		limit = {
@@ -1184,7 +1184,7 @@ zz_valyria_magic_blood_magic_11_mysteries_of_longevity_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_11_mysteries_of_longevity_modifier
+			MODIFIER = zz_valyria_magic_blood_magic_11_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
@@ -1203,14 +1203,14 @@ zz_valyria_magic_blood_magic_11_mysteries_of_longevity_effect = {
 	}
 }
 #health
-zz_valyria_magic_blood_magic_12_mysteries_of_vitality_effect = {
+zz_valyria_magic_blood_magic_12_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_12_mysteries_of_vitality.t
-		desc = zz_valyria_magic_blood_magic_12_mysteries_of_vitality.desc
+		title = zz_valyria_magic_blood_magic_12.toast.t
+		desc = zz_valyria_magic_blood_magic_12.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_12_mysteries_of_vitality.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_12.toast.tt
 	}
 	if = {
 		limit = {
@@ -1226,7 +1226,7 @@ zz_valyria_magic_blood_magic_12_mysteries_of_vitality_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_12_mysteries_of_vitality_modifier
+			MODIFIER = zz_valyria_magic_blood_magic_12_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
@@ -1245,14 +1245,14 @@ zz_valyria_magic_blood_magic_12_mysteries_of_vitality_effect = {
 	}
 }
 ## epidemic
-zz_valyria_magic_blood_magic_13_mysteries_of_resilience_effect = {
+zz_valyria_magic_blood_magic_13_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_13_mysteries_of_resilience.t
-		desc = zz_valyria_magic_blood_magic_13_mysteries_of_resilience.desc
+		title = zz_valyria_magic_blood_magic_13.toast.t
+		desc = zz_valyria_magic_blood_magic_13.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_13_mysteries_of_resilience.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_13.toast.tt
 	}
 	if = {
 		limit = {
@@ -1268,13 +1268,13 @@ zz_valyria_magic_blood_magic_13_mysteries_of_resilience_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_13_mysteries_of_resilience_modifier
+			MODIFIER = zz_valyria_magic_blood_magic_13_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
 		add_character_flag = {
 			flag = immune_to_disease
-			years = zz_valyria_magic_blood_magic_13_mysteries_of_resilience_value
+			years = zz_valyria_magic_blood_magic_13_value
 		}
 	}	
 	scope:recipient = {		
@@ -1291,14 +1291,14 @@ zz_valyria_magic_blood_magic_13_mysteries_of_resilience_effect = {
 	}
 }
 ## health penalties
-zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_effect = {
+zz_valyria_magic_blood_magic_14_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude.t
-		desc = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude.desc
+		title = zz_valyria_magic_blood_magic_14.toast.t
+		desc = zz_valyria_magic_blood_magic_14.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_14.toast.tt
 	}
 	if = {
 		limit = {
@@ -1314,7 +1314,7 @@ zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_modifier
+			MODIFIER = zz_valyria_magic_blood_magic_14_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
@@ -1333,14 +1333,14 @@ zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_15_mysteries_of_fertility_effect = {
+zz_valyria_magic_blood_magic_15_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_15_mysteries_of_fertility.t
-		desc = zz_valyria_magic_blood_magic_15_mysteries_of_fertility.desc
+		title = zz_valyria_magic_blood_magic_15.toast.t
+		desc = zz_valyria_magic_blood_magic_15.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_15_mysteries_of_fertility.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_15.toast.tt
 	}
 	if = {
 		limit = {
@@ -1356,7 +1356,7 @@ zz_valyria_magic_blood_magic_15_mysteries_of_fertility_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_15_mysteries_of_fertility_modifier
+			MODIFIER = zz_valyria_magic_blood_magic_15_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}
@@ -1376,31 +1376,31 @@ zz_valyria_magic_blood_magic_15_mysteries_of_fertility_effect = {
 }
 
 
-zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_effect = { 
+zz_valyria_magic_blood_magic_16_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control.t
-		desc = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control.desc
+		title = zz_valyria_magic_blood_magic_16.toast.t
+		desc = zz_valyria_magic_blood_magic_16.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_16.toast.tt
 	}
 	scope:target = {
 		every_army_maa_regiment = {
-			change_maa_troops_count = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_02 
+			change_maa_troops_count = zz_valyria_magic_blood_magic_16_value_02 
 		}
-		deplete_army_by_percentage = zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_01
+		deplete_army_by_percentage = zz_valyria_magic_blood_magic_16_value_01
 	}
 }
 
-zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_effect = { 
+zz_valyria_magic_blood_magic_17_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption.t
-		desc = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption.desc
+		title = zz_valyria_magic_blood_magic_17.toast.t
+		desc = zz_valyria_magic_blood_magic_17.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_17.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	scope:recipient = {
@@ -1422,19 +1422,19 @@ zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_effect = {
+zz_valyria_magic_blood_magic_18_effect = {
 	random_list = { 
 		50 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_value 
+				add = zz_valyria_magic_blood_magic_18_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics.t
-				desc = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics.desc
+				title = zz_valyria_magic_blood_magic_18.toast.t
+				desc = zz_valyria_magic_blood_magic_18.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_18.toast.tt
 			}
 			if = {
 				limit = {
@@ -1572,30 +1572,30 @@ zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_f.t
-				desc = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_f.desc
+				title = zz_valyria_magic_blood_magic_18_f.toast.t
+				desc = zz_valyria_magic_blood_magic_18_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_18_f.toast.tt
 			}
 		}
 	}
 }
 
-zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_effect = {
+zz_valyria_magic_blood_magic_19_effect = {
 
 	random_list = { 
 		75 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_value 
+				add = zz_valyria_magic_blood_magic_19_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection.t
-				desc = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection.desc
+				title = zz_valyria_magic_blood_magic_19.toast.t
+				desc = zz_valyria_magic_blood_magic_19.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_19.toast.tt
 			}
 			if = {
 				limit = {
@@ -1617,16 +1617,16 @@ zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_f.t
-				desc = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_f.desc
+				title = zz_valyria_magic_blood_magic_19_f.toast.t
+				desc = zz_valyria_magic_blood_magic_19_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_19_f.toast.tt
 			}
 			random_list = { 
 				75 = {
 					modifier = { 
-						add = zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_value 
+						add = zz_valyria_magic_blood_magic_19_value 
 					}
 				}
 				25 = {
@@ -1642,22 +1642,22 @@ zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_effect = {
+zz_valyria_magic_blood_magic_20_effect = {
 	random_list = { 
 		75 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_value 
+				add = zz_valyria_magic_blood_magic_20_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection.t
-				desc = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection.desc
+				title = zz_valyria_magic_blood_magic_20.toast.t
+				desc = zz_valyria_magic_blood_magic_20.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_20.toast.tt
 			}
 			scope:recipient = {
-				add_character_flag = {flag = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_flag years = 5}
+				add_character_flag = {flag = zz_valyria_magic_blood_magic_20_flag years = 5}
 				remove_character_flag = birth_mother_will_die
 			}
 			scope:recipient = {		
@@ -1676,33 +1676,33 @@ zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_f.t
-				desc = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_f.desc
+				title = zz_valyria_magic_blood_magic_20_f.toast.t
+				desc = zz_valyria_magic_blood_magic_20_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_20_f.toast.tt
 			}
 		}
 	}
 }
 
-zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_effect = {
+zz_valyria_magic_blood_magic_21_effect = {
 
 	random_list = { 
 		75 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_value
+				add = zz_valyria_magic_blood_magic_21_value
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection.t
-				desc = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection.desc
+				title = zz_valyria_magic_blood_magic_21.toast.t
+				desc = zz_valyria_magic_blood_magic_21.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_21.toast.tt
 			}
 			scope:recipient = {
-				add_character_flag = {flag = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_flag years = 5}
+				add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 5}
 				remove_character_flag = agot_birth_child_will_be_stillborn
 				remove_character_flag = birth_will_be_scaly
 			}
@@ -1722,16 +1722,16 @@ zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_effect = {
 		25 = {
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_f.t
-				desc = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_f.desc
+				title = zz_valyria_magic_blood_magic_21_f.toast.t
+				desc = zz_valyria_magic_blood_magic_21_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_21_f.toast.tt
 			}
 			random_list = { 
 				75 = {
 					modifier = { 
-						add = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_value 
+						add = zz_valyria_magic_blood_magic_21_value 
 					}
 				}
 				25 = {
@@ -1747,20 +1747,20 @@ zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_effect = { 
+zz_valyria_magic_blood_magic_22_effect = { 
 
 	random_list = { 
 		50 = {
 			modifier = { 
-				add = zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_value 
+				add = zz_valyria_magic_blood_magic_06_value 
 			}
 			send_interface_message = {
 				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption.t
-				desc = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption.desc
+				title = zz_valyria_magic_blood_magic_22.toast.t
+				desc = zz_valyria_magic_blood_magic_22.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_22.toast.tt
 			}
 			scope:target = {
 				agot_dudify_egg = yes
@@ -2189,11 +2189,11 @@ zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_effect = {
 			}
 			send_interface_message = {
 				type = send_interface_message_as_toast_spell_failure
-				title = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_f.t
-				desc = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_f.desc
+				title = zz_valyria_magic_blood_magic_22_f.toast.t
+				desc = zz_valyria_magic_blood_magic_22_f.toast.desc
 				left_icon = scope:secondary_recipient
 				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_f.tt
+				custom_tooltip = zz_valyria_magic_blood_magic_22_f.toast.tt
 			}
 			scope:recipient ?= {
 				scope:actor = {
@@ -2672,14 +2672,14 @@ zz_valyria_magic_blood_magic_22_mysteries_of_draconic_consumption_effect = {
 }
 
 
-zz_valyria_magic_blood_magic_23_mysteries_of_prowess_effect = {
+zz_valyria_magic_blood_magic_23_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_23_mysteries_of_prowess.t
-		desc = zz_valyria_magic_blood_magic_23_mysteries_of_prowess.desc
+		title = zz_valyria_magic_blood_magic_23.toast.t
+		desc = zz_valyria_magic_blood_magic_23.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_23_mysteries_of_prowess.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_23.toast.tt
 	}
 	if = {
 		limit = {
@@ -2695,9 +2695,9 @@ zz_valyria_magic_blood_magic_23_mysteries_of_prowess_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_blood_magic_23_mysteries_of_prowess_modifier
-			DURATION = zz_valyria_magic_blood_magic_23_mysteries_of_prowess_value
-			BOOSTED_DURATION = zz_valyria_magic_blood_magic_23_mysteries_of_prowess_value_2
+			MODIFIER = zz_valyria_magic_blood_magic_23_modifier
+			DURATION = zz_valyria_magic_blood_magic_23_value
+			BOOSTED_DURATION = zz_valyria_magic_blood_magic_23_value_2
 		}
 	}	
 	scope:recipient = {		
@@ -2714,14 +2714,14 @@ zz_valyria_magic_blood_magic_23_mysteries_of_prowess_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_effect = { 
+zz_valyria_magic_blood_magic_24_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning.t
-		desc = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning.desc
+		title = zz_valyria_magic_blood_magic_24.toast.t
+		desc = zz_valyria_magic_blood_magic_24.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_24.toast.tt
 	}
 
 	scope:recipient = {
@@ -2749,14 +2749,14 @@ zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_effect = { 
+zz_valyria_magic_blood_magic_25_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy.t
-		desc = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy.desc
+		title = zz_valyria_magic_blood_magic_25.toast.t
+		desc = zz_valyria_magic_blood_magic_25.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_25.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -2783,14 +2783,14 @@ zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_effect = 
 	}
 }
 
-zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_effect = { 
+zz_valyria_magic_blood_magic_26_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship.t
-		desc = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship.desc
+		title = zz_valyria_magic_blood_magic_26.toast.t
+		desc = zz_valyria_magic_blood_magic_26.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_26.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -2816,14 +2816,14 @@ zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_effect 
 	}
 }
 
-zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_effect = { 
+zz_valyria_magic_blood_magic_27_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue.t
-		desc = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue.desc
+		title = zz_valyria_magic_blood_magic_27.toast.t
+		desc = zz_valyria_magic_blood_magic_27.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_27.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -2850,14 +2850,14 @@ zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_effect = { 
+zz_valyria_magic_blood_magic_28_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial.t
-		desc = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial.desc
+		title = zz_valyria_magic_blood_magic_28.toast.t
+		desc = zz_valyria_magic_blood_magic_28.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_28.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {
@@ -2884,14 +2884,14 @@ zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_effect = {
 	}
 }
 
-zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess_effect = { 
+zz_valyria_magic_blood_magic_29_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess.t
-		desc = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess.desc
+		title = zz_valyria_magic_blood_magic_29.toast.t
+		desc = zz_valyria_magic_blood_magic_29.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess.tt
+		custom_tooltip = zz_valyria_magic_blood_magic_29.toast.tt
 	}
 	scope:recipient = {
 		set_variable = {

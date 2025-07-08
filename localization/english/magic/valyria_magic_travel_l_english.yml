@@ -1,0 +1,15 @@
+﻿l_english:  
+  ## POI
+  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_magic:0 "Cache of Magical Lore"
+  poi_valyria_magic.visit:0 "A Site of Magical Providence"
+  poi_magic.visit:0 "A Site of Magical Providence"
+  poi_valyria_magic.effect:0 "May rediscover the lost secrets of magic"
+
+  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_blackstone_secrets:0 "Ancient Blackstone"
+  poi_valyria_blackstone_secrets.visit:0 "Secrets of Blackstone"
+  poi_blackstone.visit:0 "Secrets of Blackstone"
+  poi_valyria_blackstone_secrets.effect:0 "May unearth the lost knowledge of constructing with Blackstone"
+
+  TRAVEL_POINT_OF_INTEREST_TT_poi_valyria_magic_volcano:0 "One of the Fourteen Flames"
+  poi_valyria_magic_volcano.visit:0 "A Legacy of a Diabolic Flame"
+  poi_valyria_magic_volcano.effect:0 "May uncover the mystery surrounding the Doom of Valyria"

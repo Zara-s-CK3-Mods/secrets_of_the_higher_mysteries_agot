@@ -167,7 +167,7 @@ zz_valyria_magic_intrigue_modifier_01_stacking = {
 }
 
 zz_valyria_magic_prowess_modifier_01_stacking = {
-	prowess  = 1
+	prowess_no_portrait = 1
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_alchemy_magic_crafting_value

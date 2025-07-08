@@ -418,7 +418,7 @@ zz_valyria_magic_blood_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_01_mysteries_of_restoration_value = { 
+zz_valyria_magic_blood_magic_01_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -428,7 +428,7 @@ zz_valyria_magic_blood_magic_01_mysteries_of_restoration_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_value = {
+zz_valyria_magic_blood_magic_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -438,7 +438,7 @@ zz_valyria_magic_blood_magic_02_mysteries_of_transmogrification_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_03_mysteries_of_regeneration_value = {
+zz_valyria_magic_blood_magic_03_value = {
 	value = 0 
 	add = {
 		scope:secondary_recipient = { 
@@ -448,7 +448,7 @@ zz_valyria_magic_blood_magic_03_mysteries_of_regeneration_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_04_mysteries_of_renewal_value = {
+zz_valyria_magic_blood_magic_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -458,7 +458,7 @@ zz_valyria_magic_blood_magic_04_mysteries_of_renewal_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_05_mysteries_of_replication_value = {
+zz_valyria_magic_blood_magic_05_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -467,7 +467,7 @@ zz_valyria_magic_blood_magic_05_mysteries_of_replication_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_value = {
+zz_valyria_magic_blood_magic_06_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -476,7 +476,7 @@ zz_valyria_magic_blood_magic_06_mysteries_of_draconic_rejuvenation_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_value = { 
+zz_valyria_magic_blood_magic_07_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -486,7 +486,7 @@ zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_value = { 
+zz_valyria_magic_blood_magic_08_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -495,7 +495,7 @@ zz_valyria_magic_blood_magic_08_mysteries_of_dragon_laying_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement_value = {
+zz_valyria_magic_blood_magic_09_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -516,7 +516,7 @@ zz_valyria_magic_blood_magic_09_mysteries_of_draconic_duration_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_value = {
+zz_valyria_magic_blood_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -525,7 +525,7 @@ zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_11_mysteries_of_longevity_value = {
+zz_valyria_magic_blood_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -535,7 +535,7 @@ zz_valyria_magic_blood_magic_11_mysteries_of_longevity_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_12_mysteries_of_vitality_value = {
+zz_valyria_magic_blood_magic_12_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -545,7 +545,7 @@ zz_valyria_magic_blood_magic_12_mysteries_of_vitality_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_13_mysteries_of_resilience_value = {
+zz_valyria_magic_blood_magic_13_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -555,7 +555,7 @@ zz_valyria_magic_blood_magic_13_mysteries_of_resilience_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_value = {
+zz_valyria_magic_blood_magic_14_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -565,7 +565,7 @@ zz_valyria_magic_blood_magic_14_mysteries_of_fortitude_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_15_mysteries_of_fertility_value = {
+zz_valyria_magic_blood_magic_15_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -575,7 +575,7 @@ zz_valyria_magic_blood_magic_15_mysteries_of_fertility_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_01 = {
+zz_valyria_magic_blood_magic_16_value_01 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -585,7 +585,7 @@ zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_01 = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_02 = {
+zz_valyria_magic_blood_magic_16_value_02 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -594,7 +594,7 @@ zz_valyria_magic_blood_magic_16_mysteries_of_blood_control_value_02 = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value = { 
+zz_valyria_magic_blood_magic_17_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -603,7 +603,7 @@ zz_valyria_magic_blood_magic_17_mysteries_of_vital_consumption_value = {
 		}
 	}
 } 
-zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_value = {
+zz_valyria_magic_blood_magic_18_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -612,17 +612,7 @@ zz_valyria_magic_blood_magic_18_mysteries_of_draconic_genetics_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_19_mysteries_of_sex_selection_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_blood_magic_base_value
-			min = 1
-		}
-	}
-}
-
-zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_value = {
+zz_valyria_magic_blood_magic_19_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -632,7 +622,7 @@ zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_value = {
 	}
 }
 
-zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_value = {
+zz_valyria_magic_blood_magic_20_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -641,17 +631,8 @@ zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_23_mysteries_of_prowess_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_blood_magic_base_value
-			divide = 2
-			min = 1
-		}
-	}
-}
-zz_valyria_magic_blood_magic_23_mysteries_of_prowess_value_2 = {
+
+zz_valyria_magic_blood_magic_21_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -660,7 +641,7 @@ zz_valyria_magic_blood_magic_23_mysteries_of_prowess_value_2 = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_value = { 
+zz_valyria_magic_blood_magic_23_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -670,7 +651,16 @@ zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_value = { 
+zz_valyria_magic_blood_magic_23_value_2 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_24_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -680,7 +670,7 @@ zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_value = { 
+zz_valyria_magic_blood_magic_25_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -690,7 +680,7 @@ zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_value =
 		}
 	}
 }
-zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_value = { 
+zz_valyria_magic_blood_magic_26_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -700,7 +690,7 @@ zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_value = { 
+zz_valyria_magic_blood_magic_27_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -710,7 +700,17 @@ zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_value = {
 		}
 	}
 }
-zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess_value = { 
+zz_valyria_magic_blood_magic_28_value = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			divide = 2
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_29_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -721,7 +721,7 @@ zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess_value = {
 	}
 }
 
-zz_valyria_magic_blood_magic_10_mysteries_of_draconic_blood_value = {
+zz_valyria_magic_blood_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -758,7 +758,7 @@ zz_valyria_magic_shadow_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds_value = {
+zz_valyria_magic_shadow_magic_01_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -768,7 +768,7 @@ zz_valyria_magic_shadow_magic_01_mysteries_of_shadowy_steeds_value = {
 		}
 	}
 }
-zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_value = {	
+zz_valyria_magic_shadow_magic_02_value = {	
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -778,7 +778,7 @@ zz_valyria_magic_shadow_magic_02_mysteries_of_shadowy_daggers_value = {
 		}
 	}	
 }
-zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_value = {
+zz_valyria_magic_shadow_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -788,7 +788,7 @@ zz_valyria_magic_shadow_magic_03_mysteries_of_the_shadow_shield_value = {
 		}
 	}	
 }
-zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_value = {
+zz_valyria_magic_shadow_magic_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -798,7 +798,7 @@ zz_valyria_magic_shadow_magic_04_mysteries_of_the_shadowy_cloak_value = {
 		}
 	}	
 }
-zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value = { 
+zz_valyria_magic_shadow_magic_09_value = { 
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -807,7 +807,7 @@ zz_valyria_magic_shadow_magic_09_mysteries_of_the_assassin_of_the_shadow_value =
 		}
 	}
 } 
-zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast_value = {
+zz_valyria_magic_shadow_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -817,7 +817,7 @@ zz_valyria_magic_shadow_magic_10_mysteries_of_umbral_blast_value = {
 		}
 	}	
 }
-zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike_value = {
+zz_valyria_magic_shadow_magic_11_value = {
 	value = 0 
 	add = { 
 		scope:secondary_recipient = { 
@@ -827,7 +827,26 @@ zz_valyria_magic_shadow_magic_11_mysteries_of_umbral_strike_value = {
 		}
 	}	
 }
-
+zz_valyria_magic_shadow_magic_12_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_shadow_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}	
+}
+zz_valyria_magic_shadow_magic_13_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_shadow_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}	
+}
 ### Dream Magic!
 zz_valyria_magic_dream_magic_base_value = { 
 	scope:secondary_recipient = { 
@@ -878,7 +897,7 @@ zz_valyria_magic_dream_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value = {
+zz_valyria_magic_dream_magic_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -888,7 +907,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value_02 = {
+zz_valyria_magic_dream_magic_02_value_02 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -898,7 +917,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value_02 = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value = {
+zz_valyria_magic_dream_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -908,7 +927,7 @@ zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_04_mysteries_of_secrets_value = {
+zz_valyria_magic_dream_magic_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -918,7 +937,7 @@ zz_valyria_magic_dream_magic_04_mysteries_of_secrets_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_value = { 
+zz_valyria_magic_dream_magic_05_value = { 
 	value = 100
 	subtract = { 
 		scope:secondary_recipient = { 
@@ -926,7 +945,7 @@ zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value = { 
+zz_valyria_magic_dream_magic_06_value = { 
 	value = 100
 	subtract = { 
 		scope:secondary_recipient = { 
@@ -934,7 +953,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_01_value = {
+zz_valyria_magic_dream_magic_06_01_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -945,7 +964,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_01_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_value = {
+zz_valyria_magic_dream_magic_07_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -956,7 +975,7 @@ zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_value = {
 	}
 }
 
-zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value = {
+zzz_valyria_magic_dream_magic_08_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -966,7 +985,7 @@ zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_value = {
+zz_valyria_magic_dream_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -976,7 +995,7 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_duration = {
+zz_valyria_magic_dream_magic_10_duration = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -986,7 +1005,7 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_duration = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_01_value = { 
+zz_valyria_magic_dream_magic_11_01_value = { 
 	value = 100
 	subtract = { 
 		scope:secondary_recipient = { 
@@ -994,7 +1013,7 @@ zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_01_value = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_value = {
+zz_valyria_magic_dream_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1005,7 +1024,7 @@ zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes_value = {
+zz_valyria_magic_dream_magic_19_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1016,7 +1035,7 @@ zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_20_mysteries_breach_schemes_value = {
+zz_valyria_magic_dream_magic_20_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1027,7 +1046,7 @@ zz_valyria_magic_dream_magic_20_mysteries_breach_schemes_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes_value = {
+zz_valyria_magic_dream_magic_21_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1038,7 +1057,7 @@ zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_22_mysteries_empower_schemes_value = {
+zz_valyria_magic_dream_magic_22_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1049,19 +1068,7 @@ zz_valyria_magic_dream_magic_22_mysteries_empower_schemes_value = {
 	}
 }
 
-zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 10
-			min = 1
-		}
-	}
-	multiply = -1
-}
-
-zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_value = {
+zz_valyria_magic_dream_magic_29_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1073,7 +1080,19 @@ zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_value = {
 	multiply = -1
 }
 
-zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value = {
+zz_valyria_magic_dream_magic_30_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 10
+			min = 1
+		}
+	}
+	multiply = -1
+}
+
+zz_valyria_magic_dream_magic_33_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1085,7 +1104,7 @@ zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value = {
 	multiply = -1
 }
 
-zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_value = {
+zz_valyria_magic_dream_magic_30_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1096,7 +1115,7 @@ zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_value = {
 	}
 	multiply = -1
 }
-zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_value = {
+zz_valyria_magic_dream_magic_38_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1107,97 +1126,7 @@ zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_value = {
 	}
 	multiply = 1
 }
-zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-
-
-zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 1
-			min = 1
-		}
-	}
-	multiply = 1
-}
-zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_value = {
+zz_valyria_magic_dream_magic_39_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1209,6 +1138,117 @@ zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_value = {
 	multiply = 1
 }
 
+
+zz_valyria_magic_dream_magic_40_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_41_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_42_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_43_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_44_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = -1
+}
+zz_valyria_magic_dream_magic_45_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_46_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = -1
+}
+zz_valyria_magic_dream_magic_47_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 1
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_48_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 10
+			min = 1
+		}
+	}
+	multiply = 1
+}
+zz_valyria_magic_dream_magic_49_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dream_magic_base_value
+			divide = 10
+			min = 1
+		}
+	}
+	multiply = 1
+}
 
 
 ### Alchemy Magic
@@ -1240,7 +1280,7 @@ zz_valyria_magic_alchemy_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_01_mysteries_of_growth_value = {
+zz_valyria_magic_alchemy_magic_01_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1250,7 +1290,7 @@ zz_valyria_magic_alchemy_magic_01_mysteries_of_growth_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_02_mysteries_of_construction_value = {
+zz_valyria_magic_alchemy_magic_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1263,7 +1303,7 @@ zz_valyria_magic_alchemy_magic_02_mysteries_of_construction_value = {
 
 
 
-zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation_value = {
+zz_valyria_magic_alchemy_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1273,7 +1313,7 @@ zz_valyria_magic_alchemy_magic_03_mysteries_of_transmutation_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_01_value = {
+zz_valyria_magic_alchemy_magic_04_option_01_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1283,7 +1323,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_01_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_02_value = {
+zz_valyria_magic_alchemy_magic_04_option_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1293,7 +1333,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_02_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_03_value = {
+zz_valyria_magic_alchemy_magic_04_option_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1303,7 +1343,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_03_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_04_value = {
+zz_valyria_magic_alchemy_magic_04_option_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1313,7 +1353,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_04_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_05_value = {
+zz_valyria_magic_alchemy_magic_04_option_05_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1323,7 +1363,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_05_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_06_value = {
+zz_valyria_magic_alchemy_magic_04_option_06_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1333,7 +1373,7 @@ zz_valyria_magic_alchemy_magic_04_mysteries_of_arms_option_06_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification_option_01_value = {
+zz_valyria_magic_alchemy_magic_05_option_01_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1343,7 +1383,7 @@ zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification_option_01_val
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification_option_02_value = {
+zz_valyria_magic_alchemy_magic_05_option_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1354,7 +1394,7 @@ zz_valyria_magic_alchemy_magic_05_mysteries_of_realm_fortification_option_02_val
 	}
 }
 
-zz_valyria_magic_alchemy_magic_06_mysteries_of_enchantment_value = {
+zz_valyria_magic_alchemy_magic_06_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1365,7 +1405,7 @@ zz_valyria_magic_alchemy_magic_06_mysteries_of_enchantment_value = {
 	}
 }
 
-zz_valyria_magic_alchemy_magic_07_mysteries_of_pious_transmutation_value = {
+zz_valyria_magic_alchemy_magic_07_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1376,7 +1416,7 @@ zz_valyria_magic_alchemy_magic_07_mysteries_of_pious_transmutation_value = {
 	}
 }
 
-zz_valyria_magic_alchemy_magic_08_mysteries_of_prestige_transmutation_value = {
+zz_valyria_magic_alchemy_magic_08_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1386,7 +1426,7 @@ zz_valyria_magic_alchemy_magic_08_mysteries_of_prestige_transmutation_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_09_mysteries_of_renown_transmutation_value = {
+zz_valyria_magic_alchemy_magic_09_value = {
 	value = 0
 	add = {
 		scope:secondary_recipient = {  
@@ -1396,7 +1436,7 @@ zz_valyria_magic_alchemy_magic_09_mysteries_of_renown_transmutation_value = {
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction_value = {
+zz_valyria_magic_alchemy_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1406,7 +1446,7 @@ zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction_valu
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction_mortal_value = {
+zz_valyria_magic_alchemy_magic_10_mortal_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1418,7 +1458,7 @@ zz_valyria_magic_alchemy_magic_10_mysteries_of_age_manipulation_subtraction_mort
 	}
 }
 
-zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition_value = {
+zz_valyria_magic_alchemy_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1428,7 +1468,7 @@ zz_valyria_magic_alchemy_magic_11_mysteries_of_age_manipulation_addition_value =
 		}
 	}
 }
-zz_valyria_magic_alchemy_magic_17_mysteries_of_transmutative_assault_value = { 
+zz_valyria_magic_alchemy_magic_17_value = { 
 	value = 1 
 	add = {
 		scope:secondary_recipient = {
@@ -1467,7 +1507,7 @@ zz_valyria_magic_fire_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value = { 
+zz_valyria_magic_fire_magic_01_value = { 
 	value =1 
 	add = {
 		scope:secondary_recipient = {
@@ -1476,7 +1516,7 @@ zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame_value = {
 	}
 }
 
-zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame_value = {
+zz_valyria_magic_fire_magic_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1486,7 +1526,7 @@ zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame_value = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire_value = {
+zz_valyria_magic_fire_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1496,7 +1536,7 @@ zz_valyria_magic_fire_magic_03_mysteries_of_the_storm_of_fire_value = {
 		}
 	}
 }
-zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value = {
+zz_valyria_magic_fire_magic_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1507,7 +1547,7 @@ zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value = {
 	}
 }
 
-zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value_02 = {
+zz_valyria_magic_fire_magic_04_value_02 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1517,7 +1557,7 @@ zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification_value_02 = {
 	}
 }
 
-zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_value = {
+zz_valyria_magic_fire_magic_05_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1528,7 +1568,7 @@ zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades_value = {
 	}
 }
 
-zz_valyria_magic_fire_magic_08_mysteries_of_siege_value = {
+zz_valyria_magic_fire_magic_08_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1539,7 +1579,7 @@ zz_valyria_magic_fire_magic_08_mysteries_of_siege_value = {
 }
 
 
-zz_valyria_magic_fire_magic_09_mysteries_of_fireball_value = {
+zz_valyria_magic_fire_magic_09_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1550,7 +1590,7 @@ zz_valyria_magic_fire_magic_09_mysteries_of_fireball_value = {
 	}
 }
 
-zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_value = {
+zz_valyria_magic_fire_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1561,7 +1601,7 @@ zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath_value = {
 	}
 }
 
-zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_value = {
+zz_valyria_magic_fire_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1571,7 +1611,28 @@ zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley_value = {
 		}
 	}
 }
+zz_valyria_magic_fire_magic_12_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_fire_magic_13_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
+}
 
+	
 ### Air Magic 
 
 zz_valyria_magic_air_magic_base_value = { 
@@ -1601,7 +1662,7 @@ zz_valyria_magic_air_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value = { 
+zz_valyria_magic_air_magic_01_value = { 
 	value =1 
 	add = {
 		scope:secondary_recipient = {
@@ -1609,7 +1670,7 @@ zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_value = {
 		}
 	}
 }
-zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds_value = {
+zz_valyria_magic_air_magic_02_value = {
 	value = 0 
 	add = { 
 		scope:secondary_recipient = { 
@@ -1619,7 +1680,7 @@ zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds_value = {
 		}
 	}	
 }
-zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_value = {
+zz_valyria_magic_air_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1629,7 +1690,7 @@ zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_value = {
 		}
 	}	
 }
-zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane_value = {
+zz_valyria_magic_air_magic_04_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1639,7 +1700,7 @@ zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane_value = {
 		}
 	}	
 }
-zz_valyria_magic_air_magic_05_mysteries_of_initiative_value = {
+zz_valyria_magic_air_magic_05_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1650,7 +1711,7 @@ zz_valyria_magic_air_magic_05_mysteries_of_initiative_value = {
 	}	
 }
 
-zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath_value = {
+zz_valyria_magic_air_magic_06_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1662,7 +1723,7 @@ zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath_value = {
 	}
 }
 
-zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_value = {
+zz_valyria_magic_air_magic_07_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1673,7 +1734,7 @@ zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_value = {
 	}	
 }
 
-zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_01 = {
+zz_valyria_magic_air_magic_08_value_01 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1682,7 +1743,7 @@ zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_01 = {
 		}
 	}	
 }
-zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_02 = {
+zz_valyria_magic_air_magic_08_value_02 = {
 	value = 0 
 	add = { 
 		scope:secondary_recipient = { 
@@ -1692,7 +1753,7 @@ zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_02 = {
 		}
 	}	
 }
-zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods_value = {
+zz_valyria_magic_air_magic_09_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1703,7 +1764,7 @@ zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods_value = {
 	}
 }
 
-zz_valyria_magic_air_magic_10_mysteries_of_south_wind_value = {
+zz_valyria_magic_air_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1714,7 +1775,7 @@ zz_valyria_magic_air_magic_10_mysteries_of_south_wind_value = {
 	}	
 }
 
-zz_valyria_magic_air_magic_11_mysteries_of_north_wind_value = {
+zz_valyria_magic_air_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1723,6 +1784,26 @@ zz_valyria_magic_air_magic_11_mysteries_of_north_wind_value = {
 			min = 1
 		}
 	}	
+}
+zz_valyria_magic_air_magic_12_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_air_magic_13_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
 }
 
 
@@ -1755,7 +1836,7 @@ zz_valyria_magic_water_magic_base_value = {
 		}
 	}
 }
-zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value = { 
+zz_valyria_magic_water_magic_01_value = { 
 	value = 0
 	add = {
 		scope:secondary_recipient = {
@@ -1764,7 +1845,7 @@ zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters_value = {
 		}
 	}
 }
-zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent_value = {
+zz_valyria_magic_water_magic_02_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1774,7 +1855,7 @@ zz_valyria_magic_water_magic_02_mysteries_of_the_surging_torrent_value = {
 		}
 	}
 }
-zz_valyria_magic_water_magic_03_mysteries_of_endurance_value = {
+zz_valyria_magic_water_magic_03_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1783,7 +1864,7 @@ zz_valyria_magic_water_magic_03_mysteries_of_endurance_value = {
 		}
 	}
 }
-zz_valyria_magic_water_magic_05_mysteries_of_winter_value = {
+zz_valyria_magic_water_magic_05_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1794,7 +1875,7 @@ zz_valyria_magic_water_magic_05_mysteries_of_winter_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_06_mysteries_of_purity_value = {
+zz_valyria_magic_water_magic_06_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1805,7 +1886,7 @@ zz_valyria_magic_water_magic_06_mysteries_of_purity_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth_value = {
+zz_valyria_magic_water_magic_07_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1816,7 +1897,7 @@ zz_valyria_magic_water_magic_07_mysteries_of_fertile_growth_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_08_mysteries_of_the_mists_value = {
+zz_valyria_magic_water_magic_08_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1827,7 +1908,7 @@ zz_valyria_magic_water_magic_08_mysteries_of_the_mists_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground_value = {
+zz_valyria_magic_water_magic_09_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1838,7 +1919,7 @@ zz_valyria_magic_water_magic_09_mysteries_of_sodden_ground_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience_value = {
+zz_valyria_magic_water_magic_10_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1849,7 +1930,7 @@ zz_valyria_magic_water_magic_10_mysteries_of_waters_resilience_value = {
 	}	
 }
 
-zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_value = {
+zz_valyria_magic_water_magic_11_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -1858,6 +1939,26 @@ zz_valyria_magic_water_magic_11_mysteries_of_waters_purity_value = {
 			min = 1
 		}
 	}	
+}
+zz_valyria_magic_water_magic_12_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_13_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 7
+			min = 1
+		}
+	}
 }
 
 

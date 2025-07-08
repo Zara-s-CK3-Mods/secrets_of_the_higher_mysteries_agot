@@ -24,7 +24,7 @@ zz_valyria_magic_dream_magic_spells.001 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL = zz_valyria_magic_dream_magic_01_mysteries_mental_domination
+				SPELL = zz_valyria_magic_dream_magic_01
 			}
 		}
 		
@@ -38,7 +38,7 @@ zz_valyria_magic_dream_magic_spells.001 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL = zz_valyria_magic_dream_magic_01_mysteries_mental_domination
+				SPELL = zz_valyria_magic_dream_magic_01
 			}
 		}		
 	}
@@ -150,7 +150,7 @@ zz_valyria_magic_dream_magic_spells.002 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies
+				SPELL  = zz_valyria_magic_dream_magic_02
 			}
 		}
 	
@@ -185,7 +185,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 
@@ -200,7 +200,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -213,7 +213,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -226,7 +226,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -239,7 +239,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -252,7 +252,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -265,7 +265,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -278,7 +278,7 @@ zz_valyria_magic_dream_magic_spells.003 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03_mysteries_of_dreams
+				SPELL  = zz_valyria_magic_dream_magic_03
 			}
 		}
 	}
@@ -306,7 +306,7 @@ zz_valyria_magic_dream_magic_spells.004 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_04_mysteries_of_secrets
+				SPELL  = zz_valyria_magic_dream_magic_04
 			}	
 		}
 
@@ -578,7 +578,7 @@ zz_valyria_magic_dream_magic_spells.005 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion
+				SPELL  = zz_valyria_magic_dream_magic_05
 			}
 		}
 
@@ -685,7 +685,7 @@ zz_valyria_magic_dream_magic_spells.006 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation
+				SPELL  = zz_valyria_magic_dream_magic_06
 			}	
 		}
 
@@ -714,7 +714,7 @@ zz_valyria_magic_dream_magic_spells.007 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination
+				SPELL  = zz_valyria_magic_dream_magic_07
 			}	
 		}
 
@@ -748,7 +748,7 @@ zz_valyria_magic_dream_magic_spells.008 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream
+				SPELL = zz_valyria_magic_dream_magic_08
 			}
 		}
 		
@@ -762,7 +762,7 @@ zz_valyria_magic_dream_magic_spells.008 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = blood_magic
-				SPELL = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream
+				SPELL = zz_valyria_magic_dream_magic_08
 			}
 		}
 	}
@@ -791,7 +791,7 @@ zz_valyria_magic_dream_magic_spells.009 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_04_mysteries_of_secrets
+				SPELL  = zz_valyria_magic_dream_magic_04
 			}	
 		}
 	}
@@ -819,7 +819,7 @@ zz_valyria_magic_dream_magic_spells.010 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power
+				SPELL  = zz_valyria_magic_dream_magic_10
 			}	
 		}
 	}
@@ -879,7 +879,7 @@ zz_valyria_magic_dream_magic_spells.011 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own
+				SPELL  = zz_valyria_magic_dream_magic_11
 			}	
 		}
 
@@ -940,7 +940,7 @@ zz_valyria_magic_dream_magic_spells.012 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted
+				SPELL  = zz_valyria_magic_dream_magic_12
 			}	
 		}
 	}
@@ -999,7 +999,7 @@ zz_valyria_magic_dream_magic_spells.013 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own
+				SPELL  = zz_valyria_magic_dream_magic_13
 			}	
 		}
 	}
@@ -1059,7 +1059,7 @@ zz_valyria_magic_dream_magic_spells.014 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted
+				SPELL  = zz_valyria_magic_dream_magic_14
 			}	
 		}
 	}
@@ -1118,7 +1118,7 @@ zz_valyria_magic_dream_magic_spells.015 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known
+				SPELL  = zz_valyria_magic_dream_magic_15
 			}	
 		}
 	}
@@ -1221,7 +1221,7 @@ zz_valyria_magic_dream_magic_spells.01601 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own
+				SPELL  = zz_valyria_magic_dream_magic_16
 			}	
 		}
 	}
@@ -1341,7 +1341,7 @@ zz_valyria_magic_dream_magic_spells.01701 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted
+				SPELL  = zz_valyria_magic_dream_magic_17
 			}	
 		}
 	}
@@ -1461,7 +1461,7 @@ zz_valyria_magic_dream_magic_spells.01801 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known
+				SPELL  = zz_valyria_magic_dream_magic_18
 			}	
 		}
 	}
@@ -1521,7 +1521,7 @@ zz_valyria_magic_dream_magic_spells.019 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_19
 			}	
 		}
 	}
@@ -1581,7 +1581,7 @@ zz_valyria_magic_dream_magic_spells.020 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes
+				SPELL  = zz_valyria_magic_dream_magic_20
 			}	
 		}
 	}
@@ -1641,7 +1641,7 @@ zz_valyria_magic_dream_magic_spells.021 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_21
 			}	
 		}
 	}
@@ -1701,7 +1701,7 @@ zz_valyria_magic_dream_magic_spells.022 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes
+				SPELL  = zz_valyria_magic_dream_magic_22
 			}	
 		}
 	}
@@ -1837,7 +1837,7 @@ zz_valyria_magic_dream_magic_spells.02301 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_23
 			}	
 		}
 	}
@@ -1972,7 +1972,7 @@ zz_valyria_magic_dream_magic_spells.02401 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes
+				SPELL  = zz_valyria_magic_dream_magic_24
 			}	
 		}
 	}
@@ -2107,7 +2107,7 @@ zz_valyria_magic_dream_magic_spells.02501 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_25
 			}	
 		}
 	}
@@ -2242,7 +2242,7 @@ zz_valyria_magic_dream_magic_spells.02601 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes
+				SPELL  = zz_valyria_magic_dream_magic_26
 			}	
 		}
 	}
@@ -2302,7 +2302,7 @@ zz_valyria_magic_dream_magic_spells.027 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_27
 			}	
 		}
 	}
@@ -2362,7 +2362,7 @@ zz_valyria_magic_dream_magic_spells.028 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes
+				SPELL  = zz_valyria_magic_dream_magic_28
 			}	
 		}
 	}
@@ -2422,7 +2422,7 @@ zz_valyria_magic_dream_magic_spells.029 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_29
 			}	
 		}
 	}
@@ -2482,7 +2482,7 @@ zz_valyria_magic_dream_magic_spells.030 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes
+				SPELL  = zz_valyria_magic_dream_magic_30
 			}	
 		}
 	}
@@ -2542,7 +2542,7 @@ zz_valyria_magic_dream_magic_spells.031 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes
+				SPELL  = zz_valyria_magic_dream_magic_31
 			}	
 		}
 	}
@@ -2602,7 +2602,7 @@ zz_valyria_magic_dream_magic_spells.032 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes
+				SPELL  = zz_valyria_magic_dream_magic_32
 			}	
 		}
 	}
@@ -2639,7 +2639,7 @@ zz_valyria_magic_dream_magic_spells.033 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging
+				SPELL  = zz_valyria_magic_dream_magic_33
 			}	
 		}
 	}
@@ -2659,7 +2659,7 @@ zz_valyria_magic_dream_magic_spells.033 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging
+				SPELL  = zz_valyria_magic_dream_magic_33
 			}	
 		}
 	}
@@ -2679,7 +2679,7 @@ zz_valyria_magic_dream_magic_spells.033 = {
 			} 
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging
+				SPELL  = zz_valyria_magic_dream_magic_33
 			}	
 		}
 	}
@@ -2752,7 +2752,7 @@ zz_valyria_magic_dream_magic_spells.034 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation
+				SPELL  = zz_valyria_magic_dream_magic_34
 			}
 		}
 
@@ -2827,7 +2827,7 @@ zz_valyria_magic_dream_magic_spells.035 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation
+				SPELL  = zz_valyria_magic_dream_magic_35
 			}
 		}
 
@@ -2944,7 +2944,7 @@ zz_valyria_magic_dream_magic_spells.03601 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county
+				SPELL  = zz_valyria_magic_dream_magic_36
 			}
 		}
 	}
@@ -3058,7 +3058,7 @@ zz_valyria_magic_dream_magic_spells.03701 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county
+				SPELL  = zz_valyria_magic_dream_magic_37
 			}
 		}
 	}
@@ -3099,7 +3099,7 @@ zz_valyria_magic_dream_magic_spells.038 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county
+				SPELL  = zz_valyria_magic_dream_magic_38
 			}
 		}
 	}
@@ -3142,7 +3142,7 @@ zz_valyria_magic_dream_magic_spells.039 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county
+				SPELL  = zz_valyria_magic_dream_magic_39
 			}
 		}
 	}
@@ -3202,7 +3202,7 @@ zz_valyria_magic_dream_magic_spells.040 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own
+				SPELL  = zz_valyria_magic_dream_magic_40
 			}	
 		}
 	}
@@ -3262,7 +3262,7 @@ zz_valyria_magic_dream_magic_spells.041 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted
+				SPELL  = zz_valyria_magic_dream_magic_41
 			}	
 		}
 	}
@@ -3321,7 +3321,7 @@ zz_valyria_magic_dream_magic_spells.042 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known
+				SPELL  = zz_valyria_magic_dream_magic_42
 			}	
 		}
 	}
@@ -3363,7 +3363,7 @@ zz_valyria_magic_dream_magic_spells.043 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county
+				SPELL  = zz_valyria_magic_dream_magic_43
 			}
 		}
 	}
@@ -3405,7 +3405,7 @@ zz_valyria_magic_dream_magic_spells.044 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county
+				SPELL  = zz_valyria_magic_dream_magic_44
 			}
 		}
 	}
@@ -3447,7 +3447,7 @@ zz_valyria_magic_dream_magic_spells.045 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county
+				SPELL  = zz_valyria_magic_dream_magic_45
 			}
 		}
 	}
@@ -3489,7 +3489,7 @@ zz_valyria_magic_dream_magic_spells.046 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county
+				SPELL  = zz_valyria_magic_dream_magic_46
 			}
 		}
 	}
@@ -3549,11 +3549,72 @@ zz_valyria_magic_dream_magic_spells.047 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm
+				SPELL  = zz_valyria_magic_dream_magic_47
 			}
 		}
 	}
 	option = {
-		name = zz_valyria_magic_fire_magic_spells.047.opt.z
+		name =   zz_valyria_magic_dream_magic_spells.047.opt.z
+	}
+}
+
+zz_valyria_magic_dream_magic_spells.048 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_dream_magic_spells.048.t
+	desc = zz_valyria_magic_dream_magic_spells.048.desc
+	theme = university 
+	override_background = {
+		reference = zz_dream_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_dream_magic_spells.048.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = dream_magic
+				SPELL = zz_valyria_magic_dream_magic_48
+			}
+		}
+		
+	}
+	
+	option = {
+		name = zz_valyria_magic_dream_magic_spells.048.opt.z
+	}
+}
+zz_valyria_magic_dream_magic_spells.049 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_dream_magic_spells.049.t
+	desc = zz_valyria_magic_dream_magic_spells.049.desc
+	theme = university 
+	override_background = {
+		reference = zz_dream_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_dream_magic_spells.049.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = dream_magic
+				SPELL = zz_valyria_magic_dream_magic_49
+			}
+		}
+		
+	}
+	
+	option = {
+		name = zz_valyria_magic_dream_magic_spells.049.opt.z
 	}
 }

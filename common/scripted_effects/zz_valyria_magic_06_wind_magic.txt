@@ -1,11 +1,11 @@
-﻿zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind_effect = { 
+﻿zz_valyria_magic_air_magic_01_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind.t
-		desc = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind.desc
+		title = zz_valyria_magic_air_magic_01.toast.t
+		desc = zz_valyria_magic_air_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_01_mysteries_of_the_slicing_wind.tt
+		custom_tooltip = zz_valyria_magic_air_magic_01.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	scope:recipient = {
@@ -28,29 +28,29 @@
 }
 
 
-zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds_effect = { 
+zz_valyria_magic_air_magic_02_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds.tt 
-		desc = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds.desc
+		title = zz_valyria_magic_air_magic_02.toast.tt 
+		desc = zz_valyria_magic_air_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds.tt
+		custom_tooltip = zz_valyria_magic_air_magic_02.toast.tt
 	}
 	scope:target = {
-		change_maa_troops_count = zz_valyria_magic_air_magic_02_mysteries_of_the_tempestuous_winds_value 
+		change_maa_troops_count = zz_valyria_magic_air_magic_02_value 
 	}
 }
 
 
-zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_effect = {
+zz_valyria_magic_air_magic_03_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind.t
-		desc = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind.desc
+		title = zz_valyria_magic_air_magic_03.toast.t
+		desc = zz_valyria_magic_air_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind.tt
+		custom_tooltip = zz_valyria_magic_air_magic_03.toast.tt
 	}
 	if = {
 		limit = {
@@ -67,7 +67,7 @@ zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_modifier
+			MODIFIER = zz_valyria_magic_air_magic_03_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -85,17 +85,17 @@ zz_valyria_magic_air_magic_03_mysteries_of_the_wall_of_the_wind_effect = {
 		}
 	}
 }
-zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane_effect = { 
+zz_valyria_magic_air_magic_04_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane.tt 
-		desc = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane.desc
+		title = zz_valyria_magic_air_magic_04.toast.tt 
+		desc = zz_valyria_magic_air_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane.tt
+		custom_tooltip = zz_valyria_magic_air_magic_04.toast.tt
 	}
 	while = {
-		count = zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane_value
+		count = zz_valyria_magic_air_magic_04_value
 		scope:target = {
 			every_army_in_location = {
 				limit = { 
@@ -110,14 +110,14 @@ zz_valyria_magic_air_magic_04_mysteries_of_the_hurricane_effect = {
 	}
 }
 
-zz_valyria_magic_air_magic_05_mysteries_of_initiative_effect = {
+zz_valyria_magic_air_magic_05_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_05_mysteries_of_initiative.t
-		desc = zz_valyria_magic_air_magic_05_mysteries_of_initiative.desc
+		title = zz_valyria_magic_air_magic_05.toast.t
+		desc = zz_valyria_magic_air_magic_05.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_air_magic_05_mysteries_of_initiative.tt
+		custom_tooltip = zz_valyria_magic_air_magic_05.toast.tt
 	}
 	if = {
 		limit = {
@@ -134,7 +134,7 @@ zz_valyria_magic_air_magic_05_mysteries_of_initiative_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_air_magic_05_mysteries_of_initiative_modifier
+			MODIFIER = zz_valyria_magic_air_magic_05_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -153,28 +153,28 @@ zz_valyria_magic_air_magic_05_mysteries_of_initiative_effect = {
 	}
 }
 
-zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath_effect = {
+zz_valyria_magic_air_magic_06_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath.t
-		desc = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath.desc
+		title = zz_valyria_magic_air_magic_06.toast.t
+		desc = zz_valyria_magic_air_magic_06.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath.tt
+		custom_tooltip = zz_valyria_magic_air_magic_06.toast.tt
 	}
 	scope:target = {
-		deplete_army_by_percentage = zz_valyria_magic_air_magic_06_mysteries_of_the_heavens_wrath_value
+		deplete_army_by_percentage = zz_valyria_magic_air_magic_06_value
 	}
 }
 
-zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_effect = {
+zz_valyria_magic_air_magic_07_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens.t
-		desc = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens.desc
+		title = zz_valyria_magic_air_magic_07.toast.t
+		desc = zz_valyria_magic_air_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens.tt
+		custom_tooltip = zz_valyria_magic_air_magic_07.toast.tt
 	}
 	if = {
 		limit = {
@@ -191,7 +191,7 @@ zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_modifier
+			MODIFIER = zz_valyria_magic_air_magic_07_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -210,14 +210,14 @@ zz_valyria_magic_air_magic_07_mysteries_of_the_chariot_of_the_heavens_effect = {
 	}
 }
 
-zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_effect = { 
+zz_valyria_magic_air_magic_08_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike.t
-		desc = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike.desc
+		title = zz_valyria_magic_air_magic_08.toast.t
+		desc = zz_valyria_magic_air_magic_08.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike.tt
+		custom_tooltip = zz_valyria_magic_air_magic_08.toast.tt
 	}
 	scope:recipient = {
 		every_knight = {
@@ -228,13 +228,13 @@ zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_effect = {
 			random_list = {
 				50 = {
 					modifier = {
-						add = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_01
+						add = zz_valyria_magic_air_magic_08_value_01
 					}
 					maimed_in_battle_effect = yes
 					random_list = {
 						50 = {
 							modifier = {
-								add = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_01
+								add = zz_valyria_magic_air_magic_08_value_01
 							}
 							death = {
 								death_reason = death_air_magic
@@ -259,9 +259,9 @@ zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_effect = {
 			random_list = { 
 				50 = { 
 					modifier = {
-						add = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_01
+						add = zz_valyria_magic_air_magic_08_value_01
 					}
-					change_maa_troops_count = zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_value_02 
+					change_maa_troops_count = zz_valyria_magic_air_magic_08_value_02 
 				}
 				50 = { 
 
@@ -274,14 +274,14 @@ zz_valyria_magic_air_magic_08_mysteries_of_the_lighning_strike_effect = {
 }
 
 
-zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods_effect = { 
+zz_valyria_magic_air_magic_09_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods.tt 
-		desc = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods.desc
+		title = zz_valyria_magic_air_magic_09.toast.tt 
+		desc = zz_valyria_magic_air_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods.tt
+		custom_tooltip = zz_valyria_magic_air_magic_09.toast.tt
 	}
 	scope:target = {
 		agot_ruinise_title_effect = {
@@ -293,19 +293,19 @@ zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods_effect = {
 					army_owner = scope:actor
 				}
 			}
-			deplete_army_by_percentage = zz_valyria_magic_air_magic_09_mysteries_of_hammer_of_the_gods_value
+			deplete_army_by_percentage = zz_valyria_magic_air_magic_09_value
 		}
 	}
 }
 
-zz_valyria_magic_air_magic_10_mysteries_of_south_wind_effect = {
+zz_valyria_magic_air_magic_10_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_10_mysteries_of_south_wind.t
-		desc = zz_valyria_magic_air_magic_10_mysteries_of_south_wind.desc
+		title = zz_valyria_magic_air_magic_10.toast.t
+		desc = zz_valyria_magic_air_magic_10.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_air_magic_10_mysteries_of_south_wind.tt
+		custom_tooltip = zz_valyria_magic_air_magic_10.toast.tt
 	}
 	if = {
 		limit = {
@@ -322,7 +322,7 @@ zz_valyria_magic_air_magic_10_mysteries_of_south_wind_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER =zz_valyria_magic_air_magic_10_mysteries_of_south_wind_modifier
+			MODIFIER =zz_valyria_magic_air_magic_10_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}
@@ -341,14 +341,14 @@ zz_valyria_magic_air_magic_10_mysteries_of_south_wind_effect = {
 	}
 }
 
-zz_valyria_magic_air_magic_11_mysteries_of_north_wind_effect = {
+zz_valyria_magic_air_magic_11_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_air_magic_11_mysteries_of_north_wind.t
-		desc = zz_valyria_magic_air_magic_11_mysteries_of_north_wind.desc
+		title = zz_valyria_magic_air_magic_11.toast.t
+		desc = zz_valyria_magic_air_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_air_magic_11_mysteries_of_north_wind.tt
+		custom_tooltip = zz_valyria_magic_air_magic_11.toast.tt
 	}
 	if = {
 		limit = {
@@ -365,7 +365,93 @@ zz_valyria_magic_air_magic_11_mysteries_of_north_wind_effect = {
 
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER =zz_valyria_magic_air_magic_11_mysteries_of_north_wind_modifier
+			MODIFIER =zz_valyria_magic_air_magic_11_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 2
+		}
+			
+
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier  = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_air_magic_12_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_air_magic_12.toast.t
+		desc = zz_valyria_magic_air_magic_12.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_air_magic_12.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+
+	scope:recipient = {
+		zz_valyria_magic_apply_character_modifier_effect = { 
+			MODIFIER =zz_valyria_magic_air_magic_12_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 2
+		}
+			
+
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier  = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_air_magic_13_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_air_magic_13.toast.t
+		desc = zz_valyria_magic_air_magic_13.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_air_magic_13.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+
+	scope:recipient = {
+		zz_valyria_magic_apply_character_modifier_effect = { 
+			MODIFIER =zz_valyria_magic_air_magic_13_modifier
 			DURATION = 1
 			BOOSTED_DURATION = 2
 		}

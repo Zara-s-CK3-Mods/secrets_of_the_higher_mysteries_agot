@@ -12,14 +12,14 @@
 
 
 # Dream Magic 
-zz_valyria_magic_dream_magic_01_mysteries_mental_domination_effect = { 
+zz_valyria_magic_dream_magic_01_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_01_mysteries_mental_domination.t
-		desc = zz_valyria_magic_dream_magic_01_mysteries_mental_domination.desc
+		title = zz_valyria_magic_dream_magic_01.toast.t
+		desc = zz_valyria_magic_dream_magic_01.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_01_mysteries_mental_domination.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_01.toast.tt
 	}
 	if = {
 		limit = {
@@ -69,26 +69,26 @@ zz_valyria_magic_dream_magic_01_mysteries_mental_domination_effect = {
 			scope:option_02 ?= yes
 		}
 		scope:recipient = {
-			custom_tooltip = zz_valyria_magic_dream_magic_01_mysteries_mental_domination.tt
+			custom_tooltip = zz_valyria_magic_dream_magic_01.toast.tt
 			set_culture_same_as = scope:actor
 			set_character_faith = scope:actor.faith
 		}
 	}
 	else = {
 		scope:recipient = {
-			custom_tooltip = zz_valyria_magic_dream_magic_01_mysteries_mental_domination.tt
+			custom_tooltip = zz_valyria_magic_dream_magic_01.toast.tt
 		}
 	}
 }
 
-zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
+zz_valyria_magic_dream_magic_02_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies.t
-		desc = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies.desc
+		title = zz_valyria_magic_dream_magic_02.toast.t
+		desc = zz_valyria_magic_dream_magic_02.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_02.toast.tt
 	}
 	if = {
 		limit = {
@@ -111,7 +111,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				limit = { has_trait = lifestyle_blademaster }
 				add_trait_xp = {
 					trait = lifestyle_blademaster
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = lifestyle_blademaster }
@@ -126,7 +126,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				limit = { has_trait = lifestyle_mystic }
 				add_trait_xp = {
 					trait = lifestyle_mystic
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = lifestyle_mystic }
@@ -141,7 +141,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				limit = { has_trait = lifestyle_reveler }
 				add_trait_xp = {
 					trait = lifestyle_reveler
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = lifestyle_reveler }
@@ -157,7 +157,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				add_trait_xp = {
 					trait = lifestyle_hunter
 					track = hunter
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = lifestyle_hunter }
@@ -172,7 +172,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				limit = { has_trait = lifestyle_physician }
 				add_trait_xp = {
 					trait = lifestyle_physician
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = lifestyle_physician }
@@ -219,7 +219,7 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 				limit = { has_trait = knight_errant }
 				add_trait_xp = {
 					trait = knight_errant
-					value = zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_value
+					value = zz_valyria_magic_dream_magic_02_value
 				}
 			}
 			else = { add_trait = knight_errant }
@@ -239,14 +239,14 @@ zz_valyria_magic_dream_magic_02_mysteries_of_dreaming_destinies_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_03_mysteries_of_dreams_effect = { 
+zz_valyria_magic_dream_magic_03_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_03_mysteries_of_dreams.t 
-		desc = zz_valyria_magic_dream_magic_03_mysteries_of_dreams.desc
+		title = zz_valyria_magic_dream_magic_03.toast.t 
+		desc = zz_valyria_magic_dream_magic_03.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_03_mysteries_of_dreams.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_03.toast.tt
 
 	}
 	if = {
@@ -265,49 +265,49 @@ zz_valyria_magic_dream_magic_03_mysteries_of_dreams_effect = {
 		limit = {
 			scope:option_01 ?= yes
 		}
-		scope:recipient = { add_learning_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_learning_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_02 ?= yes
 		}
-		scope:recipient = { add_diplomacy_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_diplomacy_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_03 ?= yes
 		}
-		scope:recipient = { add_stewardship_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_stewardship_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_04 ?= yes
 		}
-		scope:recipient = { add_intrigue_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_intrigue_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_05 ?= yes
 		}
-		scope:recipient = { add_martial_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_martial_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_06 ?= yes
 		}
-		scope:recipient = { add_wanderer_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_wanderer_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_07 ?= yes
 		}
-		scope:recipient = { add_nht_prowess_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_nht_prowess_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	if = {
 		limit = {
 			scope:option_08 ?= yes
 		}
-		scope:recipient = { add_nht_leadership_lifestyle_xp = zz_valyria_magic_dream_magic_03_mysteries_of_dreams_value } 
+		scope:recipient = { add_nht_leadership_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
 	}
 	
 	scope:recipient = {		
@@ -324,14 +324,14 @@ zz_valyria_magic_dream_magic_03_mysteries_of_dreams_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_04_mysteries_of_secrets_effect = { 
+zz_valyria_magic_dream_magic_04_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_04_mysteries_of_secrets.t
-		desc = zz_valyria_magic_dream_magic_04_mysteries_of_secrets.desc
+		title = zz_valyria_magic_dream_magic_04.toast.t
+		desc = zz_valyria_magic_dream_magic_04.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_04_mysteries_of_secrets.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_04.toast.tt
 	}
 	if = {
 		limit = {
@@ -369,14 +369,14 @@ zz_valyria_magic_dream_magic_04_mysteries_of_secrets_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_effect = {
+zz_valyria_magic_dream_magic_05_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion.t
-		desc = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion.desc
+		title = zz_valyria_magic_dream_magic_05.toast.t
+		desc = zz_valyria_magic_dream_magic_05.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_05.toast.tt
 	}
 	if = {
 		limit = {
@@ -391,7 +391,7 @@ zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_effect = {
 		}
 	}
 	scope:recipient = {
-		stress_impact ={ base = zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_value}  
+		stress_impact ={ base = zz_valyria_magic_dream_magic_05_value}  
 		if = { 
 			limit = { 
 				has_trait = scope:trait
@@ -418,7 +418,7 @@ zz_valyria_magic_dream_magic_05_mysteries_of_personality_distortion_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 	if = {
 		limit = {
 			NOT = {
@@ -428,18 +428,18 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify
 	}	
 	change_trait_rank = {
 		trait =  $EDUCATION$
-		rank = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_01_value
+		rank = zz_valyria_magic_dream_magic_06_01_value
 	}
 }
 
-zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = { 
+zz_valyria_magic_dream_magic_06_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation.t
-		desc = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation.desc
+		title = zz_valyria_magic_dream_magic_06.toast.t
+		desc = zz_valyria_magic_dream_magic_06.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_06.toast.tt
 	}
 	if = {
 		limit = {
@@ -455,7 +455,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}	
 	if = {
@@ -464,7 +464,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 		}
 		scope:recipient = {
 			remove_any_education_traits_effect = yes 
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_learning 
 			}
 		}
@@ -475,7 +475,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 		}
 		scope:recipient = {
 			remove_any_education_traits_effect = yes 
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_stewardship
 			}
 		}
@@ -486,7 +486,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 		}
 		scope:recipient = {
 			remove_any_education_traits_effect = yes 
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_diplomacy
 			}
 		}
@@ -497,7 +497,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 		}
 		scope:recipient = {
 			remove_any_education_traits_effect = yes 
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_intrigue
 			}
 		}
@@ -508,7 +508,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 		}
 		scope:recipient = {
 			remove_any_education_traits_effect = yes 
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_martial
 			}
 		}
@@ -518,7 +518,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 			scope:trait ?= trait:education_martial_prowess_1
 		}
 		scope:recipient = {
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_martial_prowess
 			}
 		}
@@ -528,7 +528,7 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 			scope:trait ?= trait:education_republican_knowledge_1
 		}
 		scope:recipient = {
-			zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect_modify_education_trait_effect = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
 				EDUCATION = education_republican_knowledge
 			}
 		}
@@ -550,14 +550,14 @@ zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_effect = {
 
 
 
-zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_effect = {
+zz_valyria_magic_dream_magic_07_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination.t
-		desc = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination.desc
+		title = zz_valyria_magic_dream_magic_07.toast.t
+		desc = zz_valyria_magic_dream_magic_07.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_07.toast.tt
 	}
 	if = {
 		limit = {
@@ -573,7 +573,7 @@ zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_effect = {
 	}
 	scope:recipient = { 
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_modifier
+			MODIFIER = zz_valyria_magic_dream_magic_07_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 5
 		}
@@ -592,14 +592,14 @@ zz_valyria_magic_dream_magic_07_mysteries_of_dreaming_fascination_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_effect = { 
+zz_valyria_magic_dream_magic_08_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream.t
-		desc = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream.desc
+		title = zz_valyria_magic_dream_magic_08.toast.t
+		desc = zz_valyria_magic_dream_magic_08.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_08.toast.tt
 	}
 	zz_valyria_magic_duel_stress_effect = yes 
 	if = {
@@ -612,7 +612,7 @@ zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_effect = {
 				target = scope:recipient
 				75 = {
 					modifier = {
-						add = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+						add = zzz_valyria_magic_dream_magic_08_value
 					}
 					add_dread = medium_dread_gain
 					scope:recipient = {
@@ -634,7 +634,7 @@ zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_effect = {
 								add_tyranny = minor_tyranny_gain
 							}
 						}
-						custom_tooltip = zz_valyria_magic_water_magic_01_mysteries_of_the_crushing_waters.tyranny
+						custom_tooltip = zz_valyria_magic_water_magic_01.toast.tyranny
 					}
 				}
 				25 = {
@@ -653,7 +653,7 @@ zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_effect = {
 				target = scope:recipient
 				75 = {
 					modifier = {
-						add = zzz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_value
+						add = zzz_valyria_magic_dream_magic_08_value
 					}
 					scope:actor = { 
 						add_dread = major_dread_gain
@@ -736,14 +736,14 @@ zz_valyria_magic_dream_magic_08_mysteries_of_murderous_dream_effect = {
 	}	
 }
 
-zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying_effect = { 
+zz_valyria_magic_dream_magic_09_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying.t
-		desc = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying.desc
+		title = zz_valyria_magic_dream_magic_09.toast.t
+		desc = zz_valyria_magic_dream_magic_09.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_09.toast.tt
 		if = {
 			limit = {
 				NOT = {
@@ -805,14 +805,14 @@ zz_valyria_magic_dream_magic_09_mysteries_of_minor_scrying_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_effect = {
+zz_valyria_magic_dream_magic_10_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.t
-		desc = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.desc
+		title = zz_valyria_magic_dream_magic_10.toast.t
+		desc = zz_valyria_magic_dream_magic_10.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_10.toast.tt
 	}
 	if = {
 		limit = {
@@ -851,14 +851,14 @@ zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_effect = {
+zz_valyria_magic_dream_magic_11_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.t
-		desc = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.desc
+		title = zz_valyria_magic_dream_magic_11.toast.t
+		desc = zz_valyria_magic_dream_magic_11.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_11.toast.tt
 	}
 	if = {
 		limit = {
@@ -874,7 +874,7 @@ zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_01_value
+			base = zz_valyria_magic_dream_magic_11_01_value
 		}  
 	}			
 	scope:scheme = {
@@ -882,14 +882,14 @@ zz_valyria_magic_dream_magic_11_mysteries_scheme_perception_own_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_effect = {
+zz_valyria_magic_dream_magic_12_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.t
-		desc = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.desc
+		title = zz_valyria_magic_dream_magic_12.toast.t
+		desc = zz_valyria_magic_dream_magic_12.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_12.toast.tt
 	}
 	if = {
 		limit = {
@@ -905,7 +905,7 @@ zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
@@ -913,14 +913,14 @@ zz_valyria_magic_dream_magic_12_mysteries_scheme_perception_targeted_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own_effect = {
+zz_valyria_magic_dream_magic_13_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.t
-		desc = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.desc
+		title = zz_valyria_magic_dream_magic_13.toast.t
+		desc = zz_valyria_magic_dream_magic_13.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_13.toast.tt
 	}
 	if = {
 		limit = {
@@ -936,7 +936,7 @@ zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
@@ -944,14 +944,14 @@ zz_valyria_magic_dream_magic_13_mysteries_secret_perception_own_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted_effect = {
+zz_valyria_magic_dream_magic_14_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.t
-		desc = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.desc
+		title = zz_valyria_magic_dream_magic_14.toast.t
+		desc = zz_valyria_magic_dream_magic_14.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_14.toast.tt
 	}
 	if = {
 		limit = {
@@ -967,7 +967,7 @@ zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
@@ -975,14 +975,14 @@ zz_valyria_magic_dream_magic_14_mysteries_secret_perception_targeted_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known_effect = {
+zz_valyria_magic_dream_magic_15_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.t
-		desc = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.desc
+		title = zz_valyria_magic_dream_magic_15.toast.t
+		desc = zz_valyria_magic_dream_magic_15.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_15.toast.tt
 	}
 	if = {
 		limit = {
@@ -998,21 +998,21 @@ zz_valyria_magic_dream_magic_15_mysteries_secret_perception_known_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		reveal_to = scope:actor
 	}
 }
-zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own_effect = {
+zz_valyria_magic_dream_magic_16_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.t
-		desc = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.desc
+		title = zz_valyria_magic_dream_magic_16.toast.t
+		desc = zz_valyria_magic_dream_magic_16.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_16.toast.tt
 	}
 	if = {
 		limit = {
@@ -1028,21 +1028,21 @@ zz_valyria_magic_dream_magic_16_mysteries_secret_binding_own_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		disable_exposure_by = scope:target
 	}
 }
-zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted_effect = {
+zz_valyria_magic_dream_magic_17_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.t
-		desc = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.desc
+		title = zz_valyria_magic_dream_magic_17.toast.t
+		desc = zz_valyria_magic_dream_magic_17.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_17.toast.tt
 	}
 	if = {
 		limit = {
@@ -1058,21 +1058,21 @@ zz_valyria_magic_dream_magic_17_mysteries_secret_binding_targeted_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		disable_exposure_by = scope:target
 	}
 }
-zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known_effect = {
+zz_valyria_magic_dream_magic_18_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.t
-		desc = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.desc
+		title = zz_valyria_magic_dream_magic_18.toast.t
+		desc = zz_valyria_magic_dream_magic_18.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_18.toast.tt
 	}
 	if = {
 		limit = {
@@ -1088,7 +1088,7 @@ zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
@@ -1097,14 +1097,14 @@ zz_valyria_magic_dream_magic_18_mysteries_secret_binding_known_effect = {
 }
 
 
-zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_19_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_19.toast.t
+		desc = zz_valyria_magic_dream_magic_19.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_19.toast.tt
 	}
 	if = {
 		limit = {
@@ -1120,22 +1120,22 @@ zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		add_scheme_breach = zz_valyria_magic_dream_magic_19_mysteries_breach_hostile_schemes_value
+		add_scheme_breach = zz_valyria_magic_dream_magic_19_value
 	}
 }
 
-zz_valyria_magic_dream_magic_20_mysteries_breach_schemes_effect = {
+zz_valyria_magic_dream_magic_20_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes.t
-		desc = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes.desc
+		title = zz_valyria_magic_dream_magic_20.toast.t
+		desc = zz_valyria_magic_dream_magic_20.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_20.toast.tt
 	}
 	if = {
 		limit = {
@@ -1151,22 +1151,22 @@ zz_valyria_magic_dream_magic_20_mysteries_breach_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		add_scheme_breach = zz_valyria_magic_dream_magic_20_mysteries_breach_schemes_value
+		add_scheme_breach = zz_valyria_magic_dream_magic_20_value
 	}
 }
 
-zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_21_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_21.toast.t
+		desc = zz_valyria_magic_dream_magic_21.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_21.toast.tt
 	}
 	if = {
 		limit = {
@@ -1182,21 +1182,21 @@ zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		change_opportunities = zz_valyria_magic_dream_magic_21_mysteries_empower_hostile_schemes_value
+		change_opportunities = zz_valyria_magic_dream_magic_21_value
 	}
 }
-zz_valyria_magic_dream_magic_22_mysteries_empower_schemes_effect = {
+zz_valyria_magic_dream_magic_22_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes.t
-		desc = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes.desc
+		title = zz_valyria_magic_dream_magic_22.toast.t
+		desc = zz_valyria_magic_dream_magic_22.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_22_mysteries_empower_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_22.toast.tt
 	}
 	if = {
 		limit = {
@@ -1212,22 +1212,22 @@ zz_valyria_magic_dream_magic_22_mysteries_empower_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		change_opportunities =zz_valyria_magic_dream_magic_22_mysteries_empower_schemes_value
+		change_opportunities =zz_valyria_magic_dream_magic_22_value
 	}
 }
 
-zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_23_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_23.toast.t
+		desc = zz_valyria_magic_dream_magic_23.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_23.toast.tt
 	}
 	if = {
 		limit = {
@@ -1243,7 +1243,7 @@ zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_sc
 	}
 	scope:target = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:target = {
@@ -1251,14 +1251,14 @@ zz_valyria_magic_dream_magic_23_mysteries_manipulate_participation_of_hostile_sc
 	}
 }
 
-zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes_effect = {
+zz_valyria_magic_dream_magic_24_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes.t
-		desc = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes.desc
+		title = zz_valyria_magic_dream_magic_24.toast.t
+		desc = zz_valyria_magic_dream_magic_24.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_24.toast.tt
 	}
 	if = {
 		limit = {
@@ -1274,7 +1274,7 @@ zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes_ef
 	}
 	scope:target = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:target = {
@@ -1282,14 +1282,14 @@ zz_valyria_magic_dream_magic_24_mysteries_manipulate_participation_of_schemes_ef
 	}
 }
 
-zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_25_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_25.toast.t
+		desc = zz_valyria_magic_dream_magic_25.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_25.toast.tt
 	}
 	if = {
 		limit = {
@@ -1305,21 +1305,21 @@ zz_valyria_magic_dream_magic_25_mysteries_reveal_participation_of_hostile_scheme
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
 		expose_scheme_agent = scope:target
 	}
 }
-zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes_effect = {
+zz_valyria_magic_dream_magic_26_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes.t
-		desc = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes.desc
+		title = zz_valyria_magic_dream_magic_26.toast.t
+		desc = zz_valyria_magic_dream_magic_26.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_26.toast.tt
 	}
 	if = {
 		limit = {
@@ -1335,7 +1335,7 @@ zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes_effect
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
@@ -1343,14 +1343,14 @@ zz_valyria_magic_dream_magic_26_mysteries_reveal_participation_of_schemes_effect
 	}
 }
 
-zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_27_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_27.toast.t
+		desc = zz_valyria_magic_dream_magic_27.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_27.toast.tt
 	}
 	if = {
 		limit = {
@@ -1366,7 +1366,7 @@ zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
@@ -1376,14 +1376,14 @@ zz_valyria_magic_dream_magic_27_mysteries_delay_hostile_schemes_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_28_mysteries_delay_schemes_effect = {
+zz_valyria_magic_dream_magic_28_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes.t
-		desc = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes.desc
+		title = zz_valyria_magic_dream_magic_28.toast.t
+		desc = zz_valyria_magic_dream_magic_28.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_28_mysteries_delay_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_28.toast.tt
 	}
 	if = {
 		limit = {
@@ -1399,7 +1399,7 @@ zz_valyria_magic_dream_magic_28_mysteries_delay_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
@@ -1409,14 +1409,14 @@ zz_valyria_magic_dream_magic_28_mysteries_delay_schemes_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_29_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_29.toast.t
+		desc = zz_valyria_magic_dream_magic_29.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_29.toast.tt
 	}
 	if = {
 		limit = {
@@ -1432,22 +1432,22 @@ zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		change_opportunities = zz_valyria_magic_dream_magic_29_mysteries_weaken_hostile_schemes_value
+		change_opportunities = zz_valyria_magic_dream_magic_29_value
 	}
 }
 
-zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_effect = {
+zz_valyria_magic_dream_magic_30_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes.t
-		desc = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes.desc
+		title = zz_valyria_magic_dream_magic_30.toast.t
+		desc = zz_valyria_magic_dream_magic_30.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_30.toast.tt
 	}
 	if = {
 		limit = {
@@ -1463,23 +1463,23 @@ zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
-		change_opportunities = zz_valyria_magic_dream_magic_30_mysteries_weaken_schemes_value
+		change_opportunities = zz_valyria_magic_dream_magic_30_value
 	}
 }
 
 
-zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes_effect = {
+zz_valyria_magic_dream_magic_31_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes.t
-		desc = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes.desc
+		title = zz_valyria_magic_dream_magic_31.toast.t
+		desc = zz_valyria_magic_dream_magic_31.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_31.toast.tt
 	}
 	if = {
 		limit = {
@@ -1495,38 +1495,7 @@ zz_valyria_magic_dream_magic_31_mysteries_disrupt_hostile_schemes_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
-		}  
-	}			
-	scope:scheme = {
-		reset_scheme_progress = yes
-	}
-}
-
-zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes_effect = {
-	send_interface_message = {
-		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes.t
-		desc = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes.desc
-		left_icon = scope:secondary_recipient
-		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes.tt
-	}
-	if = {
-		limit = {
-			NOT = {
-				scope:actor = scope:recipient
-			}
-		}
-		stress_impact = {
-			compassionate = medium_stress_impact_loss
-			sadistic = minor_stress_gain
-			callous = minor_stress_gain
-		}
-	}
-	scope:recipient = { 
-		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:scheme = {
@@ -1534,15 +1503,46 @@ zz_valyria_magic_dream_magic_32_mysteries_disrupt_schemes_effect = {
 	}
 }
 
-
-zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_effect = {
+zz_valyria_magic_dream_magic_32_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging.t
-		desc = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging.desc
+		title = zz_valyria_magic_dream_magic_32.toast.t
+		desc = zz_valyria_magic_dream_magic_32.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_32.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		reset_scheme_progress = yes
+	}
+}
+
+
+zz_valyria_magic_dream_magic_33_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_33.toast.t
+		desc = zz_valyria_magic_dream_magic_33.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_33.toast.tt
 	}
 	if = {
 		limit = {
@@ -1564,7 +1564,7 @@ zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_effect = {
 			spawn_army = {
 				men_at_arms = { 
 					type = zz_valyria_ravens
-					stacks = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value
+					stacks = zz_valyria_magic_dream_magic_33_value
 				}
 				location = scope:recipient.location
 				uses_supply = no
@@ -1586,14 +1586,14 @@ zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_effect = {
 			spawn_army = {
 				men_at_arms = { 
 					type = zz_valyria_direwolves
-					stacks = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value
+					stacks = zz_valyria_magic_dream_magic_33_value
 				}
 				location = scope:recipient.location
 				uses_supply = no
 				name = "zz_valyria_direwolf_host"
 			}
 			stress_impact ={ 
-				base = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value
+				base = zz_valyria_magic_dream_magic_33_value
 			}  
 		}	
 	}
@@ -1612,7 +1612,7 @@ zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_effect = {
 			spawn_army = {
 				men_at_arms = { 
 					type = zz_valyria_bears
-					stacks = zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_value
+					stacks = zz_valyria_magic_dream_magic_33_value
 				}
 				location = scope:recipient.location
 				uses_supply = no
@@ -1622,14 +1622,14 @@ zz_valyria_magic_dream_magic_33_mysteries_of_skinchanging_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation_effect = {
+zz_valyria_magic_dream_magic_34_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation.t
-		desc = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation.desc
+		title = zz_valyria_magic_dream_magic_34.toast.t
+		desc = zz_valyria_magic_dream_magic_34.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_34.toast.tt
 	}
 	if = {
 		limit = {
@@ -1660,14 +1660,14 @@ zz_valyria_magic_dream_magic_34_mysteries_of_cultural_reformation_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation_effect = {
+zz_valyria_magic_dream_magic_35_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation.t
-		desc = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation.desc
+		title = zz_valyria_magic_dream_magic_35.toast.t
+		desc = zz_valyria_magic_dream_magic_35.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_35.toast.tt
 	}
 	if = {
 		limit = {
@@ -1698,14 +1698,14 @@ zz_valyria_magic_dream_magic_35_mysteries_of_religious_reformation_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county_effect = {
+zz_valyria_magic_dream_magic_36_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county.t
-		desc = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county.desc
+		title = zz_valyria_magic_dream_magic_36.toast.t
+		desc = zz_valyria_magic_dream_magic_36.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_36.toast.tt
 	}
 	if = {
 		limit = {
@@ -1736,14 +1736,14 @@ zz_valyria_magic_dream_magic_36_mysteries_of_cultural_reformation_county_effect 
 	}
 }
 
-zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county_effect = {
+zz_valyria_magic_dream_magic_37_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county.t
-		desc = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county.desc
+		title = zz_valyria_magic_dream_magic_37.toast.t
+		desc = zz_valyria_magic_dream_magic_37.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_37.toast.tt
 	}
 	if = {
 		limit = {
@@ -1774,14 +1774,14 @@ zz_valyria_magic_dream_magic_37_mysteries_of_religious_reformation_county_effect
 	}
 }
 
-zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_effect = {
+zz_valyria_magic_dream_magic_38_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.t
-		desc = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.desc
+		title = zz_valyria_magic_dream_magic_38.toast.t
+		desc = zz_valyria_magic_dream_magic_38.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_38.toast.tt
 	}
 	if = {
 		limit = {
@@ -1797,7 +1797,7 @@ zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_effect = {
 	}		
 	scope:target = {
 		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_modifier
+			MODIFIER = zz_valyria_magic_dream_magic_38_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 4
 		}
@@ -1816,14 +1816,14 @@ zz_valyria_magic_dream_magic_38_mysteries_of_soothing_dreams_county_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_effect = {
+zz_valyria_magic_dream_magic_39_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.t
-		desc = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.desc
+		title = zz_valyria_magic_dream_magic_39.toast.t
+		desc = zz_valyria_magic_dream_magic_39.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_39.toast.tt
 	}
 	if = {
 		limit = {
@@ -1839,7 +1839,7 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_effect = {
 	}		
 	scope:target = {
 		zz_valyria_magic_apply_county_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_modifier
+			MODIFIER = zz_valyria_magic_dream_magic_39_modifier
 			DURATION = 2
 			BOOSTED_DURATION = 4
 		}
@@ -1858,14 +1858,14 @@ zz_valyria_magic_dream_magic_39_mysteries_of_nightmares_county_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_effect = {
+zz_valyria_magic_dream_magic_40_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.t
-		desc = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.desc
+		title = zz_valyria_magic_dream_magic_40.toast.t
+		desc = zz_valyria_magic_dream_magic_40.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_40.toast.tt
 	}
 	if = {
 		limit = {
@@ -1881,21 +1881,21 @@ zz_valyria_magic_dream_magic_40_mysteries_secret_oblation_own_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_effect = {
+zz_valyria_magic_dream_magic_41_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.t
-		desc = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.desc
+		title = zz_valyria_magic_dream_magic_41.toast.t
+		desc = zz_valyria_magic_dream_magic_41.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_41.toast.tt
 	}
 	if = {
 		limit = {
@@ -1911,21 +1911,21 @@ zz_valyria_magic_dream_magic_41_mysteries_secret_oblation_targeted_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_effect = {
+zz_valyria_magic_dream_magic_42_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.t
-		desc = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.desc
+		title = zz_valyria_magic_dream_magic_42.toast.t
+		desc = zz_valyria_magic_dream_magic_42.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_42.toast.tt
 	}
 	if = {
 		limit = {
@@ -1941,21 +1941,21 @@ zz_valyria_magic_dream_magic_42_mysteries_secret_oblation_known_effect = {
 	}
 	scope:recipient = { 
 		stress_impact ={ 
-			base = zz_valyria_magic_dream_magic_06_mysteries_of_education_reformation_value
+			base = zz_valyria_magic_dream_magic_06_value
 		}  
 	}			
 	scope:secret = {
 		remove_secret = yes
 	}
 }
-zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_effect = {
+zz_valyria_magic_dream_magic_43_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.t
-		desc = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.desc
+		title = zz_valyria_magic_dream_magic_43.toast.t
+		desc = zz_valyria_magic_dream_magic_43.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_43.toast.tt
 	}
 	if = {
 		limit = {
@@ -1970,7 +1970,7 @@ zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_effect = {
 		}
 	}		
 	scope:target = {
-		change_county_control = zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_value
+		change_county_control = zz_valyria_magic_dream_magic_43_value
 	}
 	scope:recipient = {		
 		if = {
@@ -1985,14 +1985,14 @@ zz_valyria_magic_dream_magic_43_mysteries_of_ordered_dreams_county_effect = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_effect = {
+zz_valyria_magic_dream_magic_44_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.t
-		desc = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.desc
+		title = zz_valyria_magic_dream_magic_44.toast.t
+		desc = zz_valyria_magic_dream_magic_44.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_44.toast.tt
 	}
 	if = {
 		limit = {
@@ -2007,7 +2007,7 @@ zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_effect = {
 		}
 	}		
 	scope:target = {
-		change_county_control = zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_value
+		change_county_control = zz_valyria_magic_dream_magic_44_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2022,14 +2022,14 @@ zz_valyria_magic_dream_magic_44_mysteries_of_disordered_dreams_county_effect = {
 		}
 	}
 }
-zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_effect = {
+zz_valyria_magic_dream_magic_45_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.t
-		desc = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.desc
+		title = zz_valyria_magic_dream_magic_45.toast.t
+		desc = zz_valyria_magic_dream_magic_45.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_45.toast.tt
 	}
 	if = {
 		limit = {
@@ -2044,7 +2044,7 @@ zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_effect = 
 		}
 	}		
 	scope:target = {
-		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_value
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_45_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2059,14 +2059,14 @@ zz_valyria_magic_dream_magic_45_mysteries_of_dreams_of_progress_county_effect = 
 		}
 	}
 }
-zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effect = {
+zz_valyria_magic_dream_magic_46_effect = {
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.t
-		desc = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.desc
+		title = zz_valyria_magic_dream_magic_46.toast.t
+		desc = zz_valyria_magic_dream_magic_46.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_46.toast.tt
 	}
 	if = {
 		limit = {
@@ -2081,7 +2081,7 @@ zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effe
 		}
 	}		
 	scope:target = {
-		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_value
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_46_value
 	}
 	scope:recipient = {		
 		if = {
@@ -2097,14 +2097,14 @@ zz_valyria_magic_dream_magic_46_mysteries_of_dreams_of_progress_lost_county_effe
 	}
 }
 
-zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_effect = { 
+zz_valyria_magic_dream_magic_47_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.t
-		desc = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.desc
+		title = zz_valyria_magic_dream_magic_47.toast.t
+		desc = zz_valyria_magic_dream_magic_47.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient					
-		custom_tooltip = zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_47.toast.tt
 	}
 	scope:target = {
 		deplete_army_by_percentage = 1
@@ -2118,14 +2118,14 @@ zz_valyria_magic_dream_magic_47_mysteries_of_cataclysm_effect = {
 	}
 }
 
-zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection_effect = { 
+zz_valyria_magic_dream_magic_48_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.t
-		desc = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.desc
+		title = zz_valyria_magic_dream_magic_48.toast.t
+		desc = zz_valyria_magic_dream_magic_48.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protection.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_48.toast.tt
 	}
 	if = {
 		limit = {
@@ -2145,7 +2145,7 @@ zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protecti
 				value = scope:secondary_recipient 
 			}
 		create_story = {
-			type = zz_valyria_magic_dream_magic_04_story
+			type = zz_valyria_magic_dream_magic_48_story
 			save_scope_as = story
 		}
 	} 
@@ -2162,14 +2162,14 @@ zz_valyria_magic_dream_magic_48_mysteries_of_the_prophecies_of_maternal_protecti
 		}
 	}
 }
-zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection_effect = { 
+zz_valyria_magic_dream_magic_49_effect = { 
 	send_interface_message = {
 		type = send_interface_message_as_feed_spell_outcome
-		title = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.t
-		desc = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.desc
+		title = zz_valyria_magic_dream_magic_49.toast.t
+		desc = zz_valyria_magic_dream_magic_49.toast.desc
 		left_icon = scope:secondary_recipient
 		right_icon = scope:recipient
-		custom_tooltip = zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection.tt
+		custom_tooltip = zz_valyria_magic_dream_magic_49.toast.tt
 	}
 	if = {
 		limit = {
@@ -2189,7 +2189,7 @@ zz_valyria_magic_dream_magic_49_mysteries_of_the_prophecies_of_infant_protection
 				value = scope:secondary_recipient 
 			}
 		create_story = {
-			type = zz_valyria_magic_dream_magic_04_story
+			type = zz_valyria_magic_dream_magic_49_story
 			save_scope_as = story
 		}
 	} 

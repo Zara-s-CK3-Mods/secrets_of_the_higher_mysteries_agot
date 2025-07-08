@@ -2648,7 +2648,7 @@ birth.3001 = {
 
 	trigger = {
 		NOT = {
-			has_character_flag = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_flag
+			has_character_flag = zz_valyria_magic_blood_magic_21_flag
 		}
 		is_pregnant = yes
 	}
@@ -2769,7 +2769,7 @@ birth.3011 = {
 
 	trigger = {
 		NOT = {
-			has_character_flag = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_flag
+			has_character_flag = zz_valyria_magic_blood_magic_20_flag
 		}
 		has_character_flag = birth_mother_will_die
 	}
@@ -2920,10 +2920,10 @@ birth.3021 = {
 
 	trigger = {
 		NOT  = {
-			has_character_flag = zz_valyria_magic_blood_magic_20_mysteries_of_maternal_protection_flag
+			has_character_flag = zz_valyria_magic_blood_magic_20_flag
 		}
 		NOT = {
-			has_character_flag = zz_valyria_magic_blood_magic_21_mysteries_of_babe_protection_flag
+			has_character_flag = zz_valyria_magic_blood_magic_21_flag
 		}
 		is_pregnant = yes
 	}

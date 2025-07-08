@@ -24,7 +24,7 @@ zz_valyria_magic_fire_magic_spells.001 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame
+				SPELL  = zz_valyria_magic_fire_magic_01
 			}
 		}
 	}
@@ -37,7 +37,7 @@ zz_valyria_magic_fire_magic_spells.001 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_01_mysteries_of_striking_flame
+				SPELL  = zz_valyria_magic_fire_magic_01
 			}
 		}
 	}
@@ -98,7 +98,7 @@ zz_valyria_magic_fire_magic_spells.002 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame
+				SPELL  = zz_valyria_magic_fire_magic_02
 			}
 		}
 	}
@@ -158,7 +158,7 @@ zz_valyria_magic_fire_magic_spells.003 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_02_mysteries_of_the_blasting_flame
+				SPELL  = zz_valyria_magic_fire_magic_02
 			}
 		}
 	}
@@ -186,7 +186,7 @@ zz_valyria_magic_fire_magic_spells.004 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_04_mysteries_of_flaming_purification
+				SPELL  = zz_valyria_magic_fire_magic_04
 			}
 		}
 
@@ -215,7 +215,7 @@ zz_valyria_magic_fire_magic_spells.005 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_05_mysteries_of_flaming_blades
+				SPELL  = zz_valyria_magic_fire_magic_05
 			}
 		}
 
@@ -246,7 +246,7 @@ zz_valyria_magic_fire_magic_spells.006 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_06_mysteries_of_the_secret_fire
+				SPELL  = zz_valyria_magic_fire_magic_06
 			}	
 		}
 
@@ -276,7 +276,7 @@ zz_valyria_magic_fire_magic_spells.007 = {
 			
 		zz_valyria_magic_cast_effect = { 
 			SKILL = fire_magic
-			SPELL  = zz_valyria_magic_fire_magic_07_mysteries_of_the_revealing_fire
+			SPELL  = zz_valyria_magic_fire_magic_07
 		}	
 		}
 	}
@@ -305,7 +305,7 @@ zz_valyria_magic_fire_magic_spells.008 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_08_mysteries_of_siege
+				SPELL  = zz_valyria_magic_fire_magic_08
 			}
 		}
 
@@ -373,7 +373,7 @@ zz_valyria_magic_fire_magic_spells.009 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_09_mysteries_of_fireball
+				SPELL  = zz_valyria_magic_fire_magic_09
 			}	
 		}
 	}
@@ -403,7 +403,7 @@ zz_valyria_magic_fire_magic_spells.010 = {
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_10_mysteries_of_dragons_breath
+				SPELL  = zz_valyria_magic_fire_magic_10
 			}
 		}
 
@@ -597,11 +597,70 @@ zz_valyria_magic_fire_magic_spells.0112 = {
 			}
 			zz_valyria_magic_cast_effect = { 
 				SKILL = fire_magic
-				SPELL  = zz_valyria_magic_fire_magic_11_mysteries_of_fire_volley
+				SPELL  = zz_valyria_magic_fire_magic_11
 			}	
 		}
 	}
 	option = {
 		name = zz_valyria_magic_fire_magic_spells.011.opt.z
+	}
+}
+zz_valyria_magic_fire_magic_spells.012 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_fire_magic_spells.012.t
+	desc = zz_valyria_magic_fire_magic_spells.012.desc
+	theme = university 
+	override_background = {
+		reference = zz_fire_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_fire_magic_spells.012.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = fire_magic
+				SPELL  = zz_valyria_magic_fire_magic_12
+			}
+		}
+
+	}
+	option = {
+		name = zz_valyria_magic_fire_magic_spells.012.opt.z
+	}
+}
+
+zz_valyria_magic_fire_magic_spells.013 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_fire_magic_spells.013.t
+	desc = zz_valyria_magic_fire_magic_spells.013.desc
+	theme = university 
+	override_background = {
+		reference = zz_fire_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_fire_magic_spells.013.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = fire_magic
+				SPELL  = zz_valyria_magic_fire_magic_13
+			}
+		}
+
+	}
+	option = {
+		name = zz_valyria_magic_fire_magic_spells.013.opt.z
 	}
 }

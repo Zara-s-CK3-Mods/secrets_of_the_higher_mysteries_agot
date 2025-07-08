@@ -10,11 +10,11 @@
         
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_value
+			value = zz_valyria_magic_blood_magic_07_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_07_mysteries_of_enchanted_blood_value
+			value = zz_valyria_magic_blood_magic_07_value
 		}
 		set_variable = {
 			name = mystery_caster
@@ -122,7 +122,7 @@ zz_valyria_magic_blood_magic_09_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_09_mysteries_of_draconic_enhancement_value
+			value = zz_valyria_magic_blood_magic_09_value
 		}
 		set_variable = {
 			name = mystery_duration
@@ -208,11 +208,11 @@ zz_valyria_magic_blood_magic_24_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_value
+			value = zz_valyria_magic_blood_magic_24_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_24_mysteries_of_enchanted_blood_learning_value
+			value = zz_valyria_magic_blood_magic_24_value
 		}
 	}
 
@@ -269,11 +269,11 @@ zz_valyria_magic_blood_magic_25_story = { #Used for the Diplo progress event
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_value
+			value = zz_valyria_magic_blood_magic_25_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_25_mysteries_of_enchanted_blood_diplomacy_value
+			value = zz_valyria_magic_blood_magic_25_value
 		}
 	}
 
@@ -330,11 +330,11 @@ zz_valyria_magic_blood_magic_26_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_value
+			value = zz_valyria_magic_blood_magic_26_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_26_mysteries_of_enchanted_blood_stewardship_value
+			value = zz_valyria_magic_blood_magic_26_value
 		}
 	}
 
@@ -391,11 +391,11 @@ zz_valyria_magic_blood_magic_27_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_value
+			value = zz_valyria_magic_blood_magic_27_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_27_mysteries_of_enchanted_blood_intrigue_value
+			value = zz_valyria_magic_blood_magic_27_value
 		}
 	}
 
@@ -451,11 +451,11 @@ zz_valyria_magic_blood_magic_28_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_value
+			value = zz_valyria_magic_blood_magic_28_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_28_mysteries_of_enchanted_blood_martial_value
+			value = zz_valyria_magic_blood_magic_28_value
 		}
 		set_variable = {
 			name = mystery_caster
@@ -515,11 +515,11 @@ zz_valyria_magic_blood_magic_29_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess_value
+			value = zz_valyria_magic_blood_magic_29_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_blood_magic_29_mysteries_of_enchanted_blood_prowess_value
+			value = zz_valyria_magic_blood_magic_29_value
 		}
 		set_variable = {
 			name = mystery_caster
@@ -581,11 +581,11 @@ zz_valyria_magic_dream_magic_04_story = { #Used for the Scholarship progress eve
         
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_dream_magic_04_mysteries_of_secrets_value
+			value = zz_valyria_magic_dream_magic_04_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_dream_magic_04_mysteries_of_secrets_value
+			value = zz_valyria_magic_dream_magic_04_value
 		}
 		set_variable = {
 			name = mystery_caster
@@ -981,11 +981,11 @@ zz_valyria_magic_dream_magic_10_story = { #Used for the Scholarship progress eve
 		}
         set_variable = {
 			name = mystery_potency
-			value = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_value
+			value = zz_valyria_magic_dream_magic_10_value
 		}
 		set_variable = {
 			name = mystery_duration
-			value = zz_valyria_magic_dream_magic_10_mysteries_dreams_of_mystic_power_duration
+			value = zz_valyria_magic_dream_magic_10_duration
 		}
 		set_variable = {
 			name = mystery_caster
@@ -1012,6 +1012,169 @@ zz_valyria_magic_dream_magic_10_story = { #Used for the Scholarship progress eve
                 change_variable = {
                     name = mystery_duration
                     subtract = 1
+                }
+            }
+        }
+        triggered_effect = {
+            trigger = {
+                scope:story.var:mystery_duration < 1
+            }
+            effect = {
+                end_story = yes
+            }
+        }
+
+	}
+}
+
+zz_valyria_magic_dream_magic_48_story = { #Used for the Scholarship progress event
+
+	on_setup = {
+        story_owner = {
+            var:caster = {
+			    save_scope_as = secondary_recipient
+		    }
+		    remove_variable = caster
+		}
+        set_variable = {
+			name = mystery_potency
+			value = zz_valyria_magic_dream_magic_48_value
+		}
+		set_variable = {
+			name = mystery_duration
+			value = zz_valyria_magic_dream_magic_48_value
+		}
+		set_variable = {
+			name = mystery_caster
+			value = scope:secondary_recipient
+		}
+	}
+
+	on_end = {
+		story_owner = {
+		}
+	}
+
+	on_owner_death = {
+		end_story = yes
+	}
+
+	effect_group = {
+		months = {2 3}
+        triggered_effect = {
+            trigger = {
+                scope:story.var:mystery_duration > 0
+				story_owner = {
+					is_pregnant = yes 
+					NOT = {
+						has_character_flag = zz_valyria_magic_blood_magic_20_flag
+					}
+				}
+            }
+            effect = {
+                change_variable = {
+                    name = mystery_duration
+                    subtract = 1
+                }
+                story_owner = {
+					add_character_flag = {flag = zz_valyria_magic_blood_magic_20_flag years = 2}
+					remove_character_flag = birth_mother_will_die
+					scope:story.var:mystery_caster = {
+						save_scope_as = caster
+					}
+					scope:caster = {
+						send_interface_message = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_48.buff.toast.t
+							desc = zz_valyria_magic_dream_magic_48.buff.toast.desc
+							left_icon = scope:caster
+							right_icon = scope:story_owner
+							custom_tooltip = zz_valyria_magic_dream_magic_48.buff.toast.tt
+						}
+					}
+                }
+            }
+        }
+        triggered_effect = {
+            trigger = {
+                scope:story.var:mystery_duration < 1
+            }
+            effect = {
+                end_story = yes
+            }
+        }
+
+	}
+}
+
+zz_valyria_magic_dream_magic_49_story = { #Used for the Scholarship progress event
+
+	on_setup = {
+        story_owner = {
+            var:caster = {
+			    save_scope_as = secondary_recipient
+		    }
+		    remove_variable = caster
+		}
+        set_variable = {
+			name = mystery_potency
+			value = zz_valyria_magic_dream_magic_49_value
+		}
+		set_variable = {
+			name = mystery_duration
+			value = zz_valyria_magic_dream_magic_49_value
+		}
+		set_variable = {
+			name = mystery_caster
+			value = scope:secondary_recipient
+		}
+	}
+
+	on_end = {
+		story_owner = {
+		}
+	}
+
+	on_owner_death = {
+		end_story = yes
+	}
+
+	effect_group = {
+		months = {2 3}
+        triggered_effect = {
+            trigger = {
+                scope:story.var:mystery_duration > 0
+				story_owner = {
+					is_pregnant = yes 
+					NOT = {
+						has_character_flag = zz_valyria_magic_blood_magic_21_flag
+					}
+				}
+            }
+            effect = {
+                change_variable = {
+                    name = mystery_duration
+                    subtract = 1
+                }
+				var:mystery_caster ?= {
+					save_scope_as = caster
+				}
+                story_owner = {
+					add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 2}
+					remove_character_flag = agot_birth_child_will_be_stillborn
+					remove_character_flag = birth_will_be_scaly
+					remove_character_flag = birth_mother_will_die
+					
+					scope:caster = {
+						send_interface_message = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_49.buff.toast.t
+							desc = zz_valyria_magic_dream_magic_49.buff.toast.desc
+							left_icon = scope:caster
+							right_icon = scope:story_owner
+							custom_tooltip = zz_valyria_magic_dream_magic_49.buff.toast.tt
+						}
+					}
                 }
             }
         }
