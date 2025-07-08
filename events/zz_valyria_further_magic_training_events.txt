@@ -200,9 +200,8 @@ zz_valyria_magic_further_education.1000 = {
 	title = zz_valyria_magic_further_education.1000.t
 	desc = zz_valyria_magic_further_education.1000.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}{
+	left_portrait = root
+
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -330,9 +329,7 @@ zz_valyria_magic_further_education.1001 = {
 	title = zz_valyria_magic_further_education.1001.t
 	desc = zz_valyria_magic_further_education.1001.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -367,9 +364,7 @@ zz_valyria_magic_further_education.1002 = {
 	title = zz_valyria_magic_further_education.1002.t
 	desc = zz_valyria_magic_further_education.1002.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root	
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -495,9 +490,7 @@ zz_valyria_magic_further_education.1011 = {
 	title = zz_valyria_magic_further_education.1011.t
 	desc = zz_valyria_magic_further_education.1011.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -517,9 +510,7 @@ zz_valyria_magic_further_education.1012 = {
 	title = zz_valyria_magic_further_education.1012.t
 	desc = zz_valyria_magic_further_education.1012.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -638,9 +629,7 @@ zz_valyria_magic_further_education.1021 = {
 	title = zz_valyria_magic_further_education.1021.t
 	desc = zz_valyria_magic_further_education.1021.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
@@ -660,9 +649,7 @@ zz_valyria_magic_further_education.1022 = {
 	title = zz_valyria_magic_further_education.1022.t
 	desc = zz_valyria_magic_further_education.1022.desc
 	theme = dragon
-	left_portrait = scope:owner
-	right_portrait = {
-	}
+	left_portrait = root
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"

@@ -1840,10 +1840,7 @@ types DomicileWindowTypes {
 		}
 
 		domicile_building_empty_slot_button = {
-			visible = "[
-			And( 
-				And( 
-					And( DomicileWindow.IsEditMode, Not( GetVariableSystem.Exists( 'hide_ui' ) ) ), DomicileBuildingSlot.IsFree), Not( DomicileBuildingSlot.IsUnderConstruction ) ) ]"
+			visible = "[And( And( And( DomicileWindow.IsEditMode, Not( GetVariableSystem.Exists( 'hide_ui' ) ) ), DomicileBuildingSlot.IsFree), Not( DomicileBuildingSlot.IsUnderConstruction ) ) ]"
 			parentanchor = center
 			position = { -30 -30 }
 			enabled = "[DomicileBuildingSlot.IsUnlocked]"
