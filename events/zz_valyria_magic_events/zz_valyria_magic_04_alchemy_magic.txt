@@ -134,11 +134,7 @@ zz_valyria_magic_alchemy_magic_spells.004 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_04
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 5000
-				}
-			}
+			remove_short_term_gold = 5000
 		}
 	}
 
@@ -507,11 +503,7 @@ zz_valyria_magic_alchemy_magic_spells.012 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_12
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 7500
-				}
-			}
+			remove_short_term_gold = 7500
 		}
 	}
 	option = {
@@ -540,11 +532,7 @@ zz_valyria_magic_alchemy_magic_spells.013 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_13
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 2500
-				}
-			}
+			remove_short_term_gold = 10000
 		}
 	}
 	option = {
@@ -573,11 +561,7 @@ zz_valyria_magic_alchemy_magic_spells.014 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_14
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 10000
-				}
-			}
+			remove_short_term_gold = 10000
 		}
 	}
 
@@ -607,11 +591,7 @@ zz_valyria_magic_alchemy_magic_spells.015 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_15
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 2500
-				}
-			}
+			remove_short_term_gold = 2500
 		}
 	}
 	option = {
@@ -641,11 +621,7 @@ zz_valyria_magic_alchemy_magic_spells.016 = {
 				SKILL = alchemy_magic
 				SPELL  = zz_valyria_magic_alchemy_magic_16
 			}
-			remove_short_term_gold = {
-				gold = {
-					value = 10000
-				}
-			}
+			remove_short_term_gold = 10000
 		}
 		
 	}

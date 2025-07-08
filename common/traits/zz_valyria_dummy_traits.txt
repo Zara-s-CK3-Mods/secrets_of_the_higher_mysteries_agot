@@ -6,8 +6,6 @@ zz_valyria_crafting_vs_sword_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_crafting_dragonbone_bow_01 = {
 	name = zz_valyria_crafting_dragonbone_bow_01.name
@@ -15,8 +13,6 @@ zz_valyria_crafting_dragonbone_bow_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_crafting_vs_armour_01 = {
 	name = zz_valyria_crafting_vs_armour_01.name
@@ -24,8 +20,6 @@ zz_valyria_crafting_vs_armour_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_crafting_magic_ring_01 = {
 	name = zz_valyria_crafting_magic_ring_01.name
@@ -33,8 +27,6 @@ zz_valyria_crafting_magic_ring_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 
 zz_valyria_crafting_dragon_horn_01 = {
@@ -43,8 +35,6 @@ zz_valyria_crafting_dragon_horn_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_crafting_glass_candle_01 = {
 	name = zz_valyria_crafting_glass_candle_01.name
@@ -52,8 +42,6 @@ zz_valyria_crafting_glass_candle_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_template
-	birth = 0
-	random_creation = 0.0
 }
 
 
@@ -65,8 +53,6 @@ zz_valyria_magic_none_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_magic_mana_gain_modifier_01_stacking = {
 	name = zz_valyria_magic_mana_gain_modifier_01_stacking.name
@@ -74,8 +60,7 @@ zz_valyria_magic_mana_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_magic_xp_gain_modifier_01_stacking = {
@@ -84,8 +69,6 @@ zz_valyria_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking = {
 	name = zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking.name
@@ -93,8 +76,6 @@ zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
 }
 zz_valyria_blood_magic_xp_gain_modifier_01_stacking = {
 	name = zz_valyria_blood_magic_xp_gain_modifier_01_stacking.name
@@ -102,8 +83,6 @@ zz_valyria_blood_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
 }
 
 zz_valyria_shadow_magic_xp_gain_modifier_01_stacking = {
@@ -112,8 +91,7 @@ zz_valyria_shadow_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking = {
@@ -122,8 +100,7 @@ zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_dream_magic_xp_gain_modifier_01_stacking = {
@@ -132,8 +109,7 @@ zz_valyria_dream_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_fire_magic_xp_gain_modifier_01_stacking = {
 	name = zz_valyria_fire_magic_xp_gain_modifier_01_stacking.name
@@ -141,8 +117,7 @@ zz_valyria_fire_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_air_magic_xp_gain_modifier_01_stacking = {
 	name = zz_valyria_air_magic_xp_gain_modifier_01_stacking.name
@@ -150,8 +125,7 @@ zz_valyria_air_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_water_magic_xp_gain_modifier_01_stacking = {
 	name = zz_valyria_water_magic_xp_gain_modifier_01_stacking.name
@@ -159,8 +133,7 @@ zz_valyria_water_magic_xp_gain_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_xp_gain_passive_modifier = {
 	name = zz_valyria_magic_xp_gain_passive_modifier.name
@@ -168,8 +141,7 @@ zz_valyria_magic_xp_gain_passive_modifier = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_learning_modifier_01_stacking = {
 	name = zz_valyria_magic_learning_modifier_01_stacking.name
@@ -177,8 +149,7 @@ zz_valyria_magic_learning_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_diplomacy_modifier_01_stacking = {
 	name = zz_valyria_magic_diplomacy_modifier_01_stacking.name
@@ -186,8 +157,7 @@ zz_valyria_magic_diplomacy_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_stewardship_modifier_01_stacking = {
 	name = zz_valyria_magic_stewardship_modifier_01_stacking.name
@@ -195,8 +165,7 @@ zz_valyria_magic_stewardship_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_martial_modifier_01_stacking = {
 	name = zz_valyria_magic_martial_modifier_01_stacking.name
@@ -204,8 +173,7 @@ zz_valyria_magic_martial_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_intrigue_modifier_01_stacking = {
 	name = zz_valyria_magic_intrigue_modifier_01_stacking.name
@@ -213,8 +181,7 @@ zz_valyria_magic_intrigue_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_magic_prowess_modifier_01_stacking = {
 	name = zz_valyria_magic_prowess_modifier_01_stacking.name
@@ -222,8 +189,7 @@ zz_valyria_magic_prowess_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 
@@ -233,8 +199,7 @@ zz_valyria_magic_diplomacy_range_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_magic_tax_mult_modifier_01_stacking = {
@@ -243,8 +208,7 @@ zz_valyria_magic_tax_mult_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_magic_gold_income_modifier_01_stacking = {
@@ -253,8 +217,7 @@ zz_valyria_magic_gold_income_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 zz_valyria_magic_income_mult_modifier_01_stacking = {
@@ -263,8 +226,7 @@ zz_valyria_magic_income_mult_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_item_modifier
-	birth = 0
-	random_creation = 0.0
+
 }
 
 
@@ -273,8 +235,7 @@ holding_type_01 = {
 	desc = holding_type_01.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_building
 }
 
@@ -283,8 +244,7 @@ holding_type_02 = {
 	desc = holding_type_02.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_building
 }
 
@@ -293,8 +253,7 @@ holding_type_03 = {
 	desc = holding_type_03.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_building
 }
 
@@ -304,8 +263,7 @@ province_modifier_type_01 = {
 	desc = province_modifier_type_01.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 province_modifier_type_02 = {
@@ -313,8 +271,7 @@ province_modifier_type_02 = {
 	desc = province_modifier_type_02.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 province_modifier_type_03 = {
@@ -322,8 +279,7 @@ province_modifier_type_03 = {
 	desc = province_modifier_type_03.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 province_modifier_type_04 = {
@@ -331,8 +287,7 @@ province_modifier_type_04 = {
 	desc = province_modifier_type_04.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 province_modifier_type_05 = {
@@ -340,8 +295,7 @@ province_modifier_type_05 = {
 	desc = province_modifier_type_05.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 province_modifier_type_06 = {
@@ -349,8 +303,7 @@ province_modifier_type_06 = {
 	desc = province_modifier_type_06.desc
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
-	birth = 0
-	random_creation = 0.0
+
 	flag = zz_province_modifier
 }
 
@@ -362,8 +315,7 @@ zz_valyria_magic_vs_base_modifier_01_stacking = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = artifact_scaling_effect
-	birth = 0
-	random_creation = 0.0
+
 }
 
 ### sword types 
@@ -374,8 +326,7 @@ zz_valyria_sword_type_01 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_02 = {
 	name = zz_valyria_sword_type_02.name
@@ -383,8 +334,7 @@ zz_valyria_sword_type_02 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_03 = {
 	name = zz_valyria_sword_type_03.name
@@ -392,448 +342,392 @@ zz_valyria_sword_type_03 = {
 	shown_in_ruler_designer = no
 	shown_in_encyclopedia = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_04 = {
 	name = zz_valyria_sword_type_04.name
 	desc = zz_valyria_sword_type_04.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_05 = {
 	name = zz_valyria_sword_type_05.name
 	desc = zz_valyria_sword_type_05.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_06 = {
 	name = zz_valyria_sword_type_06.name
 	desc = zz_valyria_sword_type_06.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_07 = {
 	name = zz_valyria_sword_type_07.name
 	desc = zz_valyria_sword_type_07.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_08 = {
 	name = zz_valyria_sword_type_08.name
 	desc = zz_valyria_sword_type_08.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_09 = {
 	name = zz_valyria_sword_type_09.name
 	desc = zz_valyria_sword_type_09.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_10 = {
 	name = zz_valyria_sword_type_10.name
 	desc = zz_valyria_sword_type_10.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_11 = {
 	name = zz_valyria_sword_type_11.name
 	desc = zz_valyria_sword_type_11.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_12 = {
 	name = zz_valyria_sword_type_12.name
 	desc = zz_valyria_sword_type_12.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_13 = {
 	name = zz_valyria_sword_type_13.name
 	desc = zz_valyria_sword_type_13.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_14 = {
 	name = zz_valyria_sword_type_14.name
 	desc = zz_valyria_sword_type_14.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_15 = {
 	name = zz_valyria_sword_type_15.name
 	desc = zz_valyria_sword_type_15.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_16 = {
 	name = zz_valyria_sword_type_16.name
 	desc = zz_valyria_sword_type_16.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_17 = {
 	name = zz_valyria_sword_type_17.name
 	desc = zz_valyria_sword_type_17.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_18 = {
 	name = zz_valyria_sword_type_18.name
 	desc = zz_valyria_sword_type_18.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_19 = {
 	name = zz_valyria_sword_type_19.name
 	desc = zz_valyria_sword_type_19.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_20 = {
 	name = zz_valyria_sword_type_20.name
 	desc = zz_valyria_sword_type_20.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_21 = {
 	name = zz_valyria_sword_type_21.name
 	desc = zz_valyria_sword_type_21.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_22 = {
 	name = zz_valyria_sword_type_22.name
 	desc = zz_valyria_sword_type_22.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_23 = {
 	name = zz_valyria_sword_type_23.name
 	desc = zz_valyria_sword_type_23.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_24 = {
 	name = zz_valyria_sword_type_24.name
 	desc = zz_valyria_sword_type_24.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_25 = {
 	name = zz_valyria_sword_type_25.name
 	desc = zz_valyria_sword_type_25.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_26 = {
 	name = zz_valyria_sword_type_26.name
 	desc = zz_valyria_sword_type_26.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_27 = {
 	name = zz_valyria_sword_type_27.name
 	desc = zz_valyria_sword_type_27.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_28 = {
 	name = zz_valyria_sword_type_28.name
 	desc = zz_valyria_sword_type_28.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_29 = {
 	name = zz_valyria_sword_type_29.name
 	desc = zz_valyria_sword_type_29.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_30 = {
 	name = zz_valyria_sword_type_30.name
 	desc = zz_valyria_sword_type_30.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_31 = {
 	name = zz_valyria_sword_type_31.name
 	desc = zz_valyria_sword_type_31.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_32 = {
 	name = zz_valyria_sword_type_32.name
 	desc = zz_valyria_sword_type_32.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_33 = {
 	name = zz_valyria_sword_type_33.name
 	desc = zz_valyria_sword_type_33.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_34 = {
 	name = zz_valyria_sword_type_34.name
 	desc = zz_valyria_sword_type_34.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_35 = {
 	name = zz_valyria_sword_type_35.name
 	desc = zz_valyria_sword_type_35.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_36 = {
 	name = zz_valyria_sword_type_36.name
 	desc = zz_valyria_sword_type_36.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_37 = {
 	name = zz_valyria_sword_type_37.name
 	desc = zz_valyria_sword_type_37.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_38 = {
 	name = zz_valyria_sword_type_38.name
 	desc = zz_valyria_sword_type_38.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_39 = {
 	name = zz_valyria_sword_type_39.name
 	desc = zz_valyria_sword_type_39.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_40 = {
 	name = zz_valyria_sword_type_40.name
 	desc = zz_valyria_sword_type_40.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_41 = {
 	name = zz_valyria_sword_type_41.name
 	desc = zz_valyria_sword_type_41.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_42 = {
 	name = zz_valyria_sword_type_42.name
 	desc = zz_valyria_sword_type_42.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_43 = {
 	name = zz_valyria_sword_type_43.name
 	desc = zz_valyria_sword_type_43.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_44 = {
 	name = zz_valyria_sword_type_44.name
 	desc = zz_valyria_sword_type_44.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_45 = {
 	name = zz_valyria_sword_type_45.name
 	desc = zz_valyria_sword_type_45.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_46 = {
 	name = zz_valyria_sword_type_46.name
 	desc = zz_valyria_sword_type_46.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_47 = {
 	name = zz_valyria_sword_type_47.name
 	desc = zz_valyria_sword_type_47.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_48 = {
 	name = zz_valyria_sword_type_48.name
 	desc = zz_valyria_sword_type_48.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_49 = {
 	name = zz_valyria_sword_type_49.name
 	desc = zz_valyria_sword_type_49.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_50 = {
 	name = zz_valyria_sword_type_50.name
 	desc = zz_valyria_sword_type_50.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_51 = {
 	name = zz_valyria_sword_type_51.name
 	desc = zz_valyria_sword_type_51.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_52 = {
 	name = zz_valyria_sword_type_52.name
 	desc = zz_valyria_sword_type_52.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_53 = {
 	name = zz_valyria_sword_type_53.name
 	desc = zz_valyria_sword_type_53.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_54 = {
 	name = zz_valyria_sword_type_54.name
 	desc = zz_valyria_sword_type_54.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_55 = {
 	name = zz_valyria_sword_type_55.name
 	desc = zz_valyria_sword_type_55.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_56 = {
 	name = zz_valyria_sword_type_56.name
 	desc = zz_valyria_sword_type_56.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_57 = {
 	name = zz_valyria_sword_type_57.name
 	desc = zz_valyria_sword_type_57.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_sword_type_58 = {
 	name = zz_valyria_sword_type_58.name
 	desc = zz_valyria_sword_type_58.desc
 	shown_in_ruler_designer = no
 	flag = zz_sword_type
-	birth = 0
-	random_creation = 0.0
+
 }
 
 ### Ring Types 
@@ -843,78 +737,68 @@ zz_valyria_ring_type_01 = {
 	desc = zz_valyria_ring_type_01.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_02 = {
 	name = zz_valyria_ring_type_02.name
 	desc = zz_valyria_ring_type_02.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_03 = {
 	name = zz_valyria_ring_type_03.name
 	desc = zz_valyria_ring_type_03.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_04 = {
 	name = zz_valyria_ring_type_04.name
 	desc = zz_valyria_ring_type_04.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_05 = {
 	name = zz_valyria_ring_type_05.name
 	desc = zz_valyria_ring_type_05.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_06 = {
 	name = zz_valyria_ring_type_06.name
 	desc = zz_valyria_ring_type_06.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_07 = {
 	name = zz_valyria_ring_type_07.name
 	desc = zz_valyria_ring_type_07.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_08 = {
 	name = zz_valyria_ring_type_08.name
 	desc = zz_valyria_ring_type_08.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_09 = {
 	name = zz_valyria_ring_type_09.name
 	desc = zz_valyria_ring_type_09.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }
 zz_valyria_ring_type_10 = {
 	name = zz_valyria_ring_type_10.name
 	desc = zz_valyria_ring_type_10.desc
 	shown_in_ruler_designer = no
 	flag = zz_ring_type
-	birth = 0
-	random_creation = 0.0
+
 }

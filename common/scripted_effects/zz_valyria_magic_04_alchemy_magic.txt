@@ -637,7 +637,7 @@ zz_valyria_magic_alchemy_magic_12_effect = {
 	}
 	scope:recipient = {
 		zz_valyria_magic_apply_character_modifier_effect = { 
-			MODIFIER = zz_valyria_magic_alchemy_magic_04_option_02_modifer
+			MODIFIER = zz_valyria_magic_alchemy_magic_04_option_02_modifier
 			DURATION = -1
 			BOOSTED_DURATION = -1
 		}

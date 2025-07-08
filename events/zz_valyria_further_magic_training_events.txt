@@ -202,7 +202,7 @@ zz_valyria_magic_further_education.1000 = {
 	theme = dragon
 	left_portrait = scope:owner
 	right_portrait = {
-	}
+	}{
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"

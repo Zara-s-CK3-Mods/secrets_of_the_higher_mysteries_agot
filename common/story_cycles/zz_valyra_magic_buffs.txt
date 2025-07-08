@@ -6,6 +6,10 @@
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         
         set_variable = {
@@ -119,6 +123,10 @@ zz_valyria_magic_blood_magic_09_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -179,7 +187,7 @@ zz_valyria_magic_blood_magic_09_story = { #Used for the Scholarship progress eve
                             title = zz_blood_magic_draconic_enchantment
 							desc = zz_blood_magic_draconic_enchantment.desc
                             left_icon = scope:rider
-                            right_icon = story_owner
+                            right_icon = scope:story_owner
                         }
                     }
                 }
@@ -205,6 +213,10 @@ zz_valyria_magic_blood_magic_24_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -266,6 +278,10 @@ zz_valyria_magic_blood_magic_25_story = { #Used for the Diplo progress event
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -327,6 +343,10 @@ zz_valyria_magic_blood_magic_26_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -388,6 +408,10 @@ zz_valyria_magic_blood_magic_27_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -448,6 +472,10 @@ zz_valyria_magic_blood_magic_28_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -512,6 +540,10 @@ zz_valyria_magic_blood_magic_29_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -577,6 +609,10 @@ zz_valyria_magic_dream_magic_04_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         
         set_variable = {
@@ -978,6 +1014,10 @@ zz_valyria_magic_dream_magic_10_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -1035,6 +1075,10 @@ zz_valyria_magic_dream_magic_48_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency
@@ -1115,6 +1159,10 @@ zz_valyria_magic_dream_magic_49_story = { #Used for the Scholarship progress eve
 			    save_scope_as = secondary_recipient
 		    }
 		    remove_variable = caster
+			var:actor = {
+			    save_scope_as = actor
+		    }
+		    remove_variable = actor
 		}
         set_variable = {
 			name = mystery_potency

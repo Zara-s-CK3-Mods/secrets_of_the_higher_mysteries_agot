@@ -721,15 +721,7 @@ zz_valyria_magic_blood_magic_29_value = {
 	}
 }
 
-zz_valyria_magic_blood_magic_10_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_blood_magic_base_value
-			min = 1
-		}
-	}
-}
+
 ### Shadow Magic 
 zz_valyria_magic_shadow_magic_base_value = { 
 	scope:secondary_recipient = { 
@@ -1104,17 +1096,6 @@ zz_valyria_magic_dream_magic_33_value = {
 	multiply = -1
 }
 
-zz_valyria_magic_dream_magic_30_value = {
-	value = 0
-	add = { 
-		scope:secondary_recipient = { 
-			value = zz_valyria_magic_dream_magic_base_value
-			divide = 10
-			min = 1
-		}
-	}
-	multiply = -1
-}
 zz_valyria_magic_dream_magic_38_value = {
 	value = 0
 	add = { 
@@ -2171,17 +2152,19 @@ zz_valyrian_learning = {
 	value = 5
 	add = {
 		culture_head = { 
-			every_house_member = {
-				limit = {
-					has_trait = zz_magister	
-				}
-				add = 1
-			}
 			if = {
 				limit = {
 					has_trait = starwalker
 				}	
 				add = 15
+			}
+			house ?= {
+				every_house_member = {
+					limit = {
+						has_trait = zz_magister	
+					}
+					add = 1
+				}
 			}
 		}
 	}

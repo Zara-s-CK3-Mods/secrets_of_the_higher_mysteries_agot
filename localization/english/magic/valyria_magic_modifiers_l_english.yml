@@ -41,11 +41,11 @@
 
   zz_valyria_magic_alchemy_magic_04_option_01_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Knight Limit"
 
-  zz_valyria_magic_alchemy_magic_04_option_02_modifer_02:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Knight Effectiveness"
-  zz_valyria_magic_alchemy_magic_04_option_03_modifer_03:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - MAA Cap"
-  zz_valyria_magic_alchemy_magic_04_option_04_modifer_04:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - MAA Size"
-  zz_valyria_magic_alchemy_magic_04_option_05_modifer_05:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Title MAA Cap"
-  zz_valyria_magic_alchemy_magic_04_option_06_modifer_06:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Title MAA Size"
+  zz_valyria_magic_alchemy_magic_04_option_02_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Knight Effectiveness"
+  zz_valyria_magic_alchemy_magic_04_option_03_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - MAA Cap"
+  zz_valyria_magic_alchemy_magic_04_option_04_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - MAA Size"
+  zz_valyria_magic_alchemy_magic_04_option_05_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Title MAA Cap"
+  zz_valyria_magic_alchemy_magic_04_option_06_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_04_name$ - Title MAA Size"
 
 
   zz_valyria_magic_alchemy_magic_05_option_01_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_05_name$ - Domain Limit"

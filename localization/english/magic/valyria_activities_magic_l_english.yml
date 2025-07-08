@@ -356,7 +356,7 @@ magic_education_failure:0 "You must start again!"
 
 zz_valyria_magic_education.0010:0 "Arrival"
 zz_valyria_magic_education.0010.t:0 "Arrival"
-zz_valyria_magic_education.0010.desc: "You have arrived at [province.GetName].\n It is time to begin your study and meditation on the arcane arts.\n Through your dilligence, you expect to learn either the secrets to further your use of the mystical skills, and perhaps to acquire new [zz_mystery_plural] with which to enchant the world around you."
+zz_valyria_magic_education.0010.desc: "You have arrived at [PROVINCE.GetName].\n It is time to begin your study and meditation on the arcane arts.\n Through your dilligence, you expect to learn either the secrets to further your use of the mystical skills, and perhaps to acquire new [zz_mystery_plural] with which to enchant the world around you."
 
 
 
@@ -439,7 +439,7 @@ zz_valyria_magic_education.1200.z.tt:0 ""
 
 ### Learn Random Spell/Valyrian Studies
 zz_valyria_magic_education.2100.t:0 "Scroll of Random Secrets!"
-zz_valyria_magic_education.2100.desc:0 "You have found a hitherto hidden scroll among the resources of magical learning in [province.GetName]. You must choose whether you will seek to learn this [zz_mystery], or instead focus on developing your studies."
+zz_valyria_magic_education.2100.desc:0 "You have found a hitherto hidden scroll among the resources of magical learning in [PROVINCE.GetName]. You must choose whether you will seek to learn this [zz_mystery], or instead focus on developing your studies."
 zz_valyria_magic_education.2100.a:0 "The knowledge of new [zz_mystery_plural] is your priority"
 zz_valyria_magic_education.2100.a.tt:0 ""
 zz_valyria_magic_education.2100.a.crit_success:0 ""
@@ -515,7 +515,7 @@ zz_valyria_magic_further_education.1000.b:0 "To the archives!"
 zz_valyria_magic_further_education.1000.c:0 "I shall not do this."
 
 zz_valyria_magic_further_education.1001.t:0 "$zz_valyria_magic_further_education.t$ Useful Valyrian Lore"
-zz_valyria_magic_further_education.1001.desc:0 "You have come across mentions of the powers that govern the heavens and the way they transcend their physical localities and penetrate into the realm of the terrestial. These entities are governed by their greater grasp on the underlying forces that hold together existence. By touching these forces it is possible with suitable conceptual aids to manifest great and mighty powers and penetrate the physical plane. I have sought to commune with these powers, and I have an idea of a method of recitation that may just prove crucial.
+zz_valyria_magic_further_education.1001.desc:0 "You have come across mentions of the powers that govern the heavens and the way they transcend their physical localities and penetrate into the realm of the terrestial. These entities are governed by their greater grasp on the underlying forces that hold together existence. By touching these forces it is possible with suitable conceptual aids to manifest great and mighty powers and penetrate the physical plane. I have sought to commune with these powers, and I have an idea of a method of recitation that may just prove crucial."
 zz_valyria_magic_further_education.1001.a: "Perfect!"
 
 zz_valyria_magic_further_education.1002.t:0 "$zz_valyria_magic_further_education.t$ Useless Valyrian Lore"

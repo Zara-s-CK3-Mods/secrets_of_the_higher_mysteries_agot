@@ -2927,6 +2927,7 @@ health =
 fertility = 
 mother = 
 father = 
+
 real_father = (should only be set if the real father is not the same as father=)
 employer = will end up in this court, will become a pool character unless specified or father/mother is landed
 location = pool province; mutually exclusive with employer

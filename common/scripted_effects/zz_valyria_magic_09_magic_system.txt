@@ -4,8 +4,8 @@
 
 
 zz_valyria_make_zz_valyria_make_mages_list = {
-	remove_variable ?= zz_mage
-	clear_variable_list ?= mages_list
+	remove_variable = zz_mage
+	clear_variable_list = mages_list
 	if = { 
 		limit = {
 			has_trait = zz_magister
@@ -66,7 +66,7 @@ zz_valyria_make_zz_valyria_make_mages_list = {
 	}
 	set_variable = {
 		name = zz_mage
-		value ?= scope:zz_mage
+		value = scope:zz_mage
 	}	
 }
 
@@ -80,8 +80,8 @@ zz_setup_scroll_learning_lists = {
 }
 
 zz_valyria_make_realm_mage_list = {
-	remove_variable ?= zz_magic_caster
-	clear_variable_list ?= mage_list
+	remove_variable = zz_magic_caster
+	clear_variable_list = mage_list
 	scope:story_owner = {
 		if = { 
 			limit = {
@@ -146,8 +146,8 @@ zz_valyria_make_realm_mage_list = {
 	}
 }
 zz_valyria_make_mage_list = {
-	remove_variable ?= zz_magic_caster
-	clear_variable_list ?= mage_list
+	remove_variable = zz_magic_caster
+	clear_variable_list = mage_list
 	if = { 
 		limit = {
 			has_trait = zz_magister
@@ -222,21 +222,21 @@ zz_valyria_make_mage_list = {
 		}
 		set_variable = {
 			name = zz_magic_caster
-			value ?= scope:zz_magic_caster
+			value = scope:zz_magic_caster
 		}	
 	}
 }
 
 zz_valyria_make_spell_list = {
-	remove_variable ?= zz_valyria_mystery
-	clear_variable_list ?= zz_valyria_spell_list
-	clear_variable_list ?= zz_valyria_spell_blood_list
-	clear_variable_list ?= zz_valyria_spell_shadow_list
-	clear_variable_list ?= zz_valyria_spell_dream_list
-	clear_variable_list ?= zz_valyria_spell_alchemy_list
-	clear_variable_list ?= zz_valyria_spell_fire_list
-	clear_variable_list ?= zz_valyria_spell_air_list
-	clear_variable_list ?= zz_valyria_spell_water_list
+	remove_variable = zz_valyria_mystery
+	clear_variable_list = zz_valyria_spell_list
+	clear_variable_list = zz_valyria_spell_blood_list
+	clear_variable_list = zz_valyria_spell_shadow_list
+	clear_variable_list = zz_valyria_spell_dream_list
+	clear_variable_list = zz_valyria_spell_alchemy_list
+	clear_variable_list = zz_valyria_spell_fire_list
+	clear_variable_list = zz_valyria_spell_air_list
+	clear_variable_list = zz_valyria_spell_water_list
 	
 	scope:$MAGIC_CASTER$ = {
 		every_memory = {
@@ -397,9 +397,9 @@ zz_valyria_make_item_caster_list = {
 				}
 			}
 		}
-		remove_variable ?= zz_item_caster
+		remove_variable = zz_item_caster
 	}
-	clear_variable_list ?= item_caster_list
+	clear_variable_list = item_caster_list
 	
 	if = { 
 		limit = {
@@ -460,7 +460,7 @@ zz_valyria_make_item_caster_list = {
 			}
 			set_variable = {
 				name = zz_item_caster
-				value ?= scope:zz_item_caster
+				value = scope:zz_item_caster
 			}
 		}
 	}
@@ -468,8 +468,8 @@ zz_valyria_make_item_caster_list = {
 
 zz_valyria_make_scroll_learner_list = {
 	
-	remove_variable ?= zz_valyria_scroll_learner
-	clear_variable_list ?= zz_valyria_scroll_learner_list
+	remove_variable = zz_valyria_scroll_learner
+	clear_variable_list = zz_valyria_scroll_learner_list
 	
 	scope:$MAGIC_USER$ = {
 		
@@ -557,7 +557,7 @@ zz_valyria_make_scroll_learner_list = {
 			}
 			set_variable = {
 				name = zz_valyria_scroll_learner
-				value ?= scope:zz_valyria_scroll_learner
+				value = scope:zz_valyria_scroll_learner
 			}
 		}
 		
@@ -571,9 +571,9 @@ zz_valyria_make_scroll_learner_not_mage_list = {
 				has_trait = zz_magister
 			}
 		}
-		remove_variable ?= zz_valyria_scroll_learner
+		remove_variable = zz_valyria_scroll_learner
 	}
-	clear_variable_list ?= zz_valyria_scroll_learner_not_mage_list
+	clear_variable_list = zz_valyria_scroll_learner_not_mage_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -673,7 +673,7 @@ zz_valyria_make_scroll_learner_not_mage_list = {
 			}
 			set_variable = {
 				name = zz_valyria_scroll_learner
-				value ?= scope:zz_valyria_scroll_learner
+				value = scope:zz_valyria_scroll_learner
 			}
 		}
 	}
@@ -687,9 +687,9 @@ zz_valyria_make_scroll_learner_mage_list = {
 				}
 			}
 		}
-		remove_variable ?= zz_valyria_scroll_learner
+		remove_variable = zz_valyria_scroll_learner
 	}
-	clear_variable_list ?= zz_valyria_scroll_learner_mage_list
+	clear_variable_list = zz_valyria_scroll_learner_mage_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -788,15 +788,15 @@ zz_valyria_make_scroll_learner_mage_list = {
 			}
 			set_variable = {
 				name = zz_valyria_scroll_learner
-				value ?= scope:zz_valyria_scroll_learner
+				value = scope:zz_valyria_scroll_learner
 			}
 		}
 	}
 }
 
 zz_valyria_make_scroll_list = {
-	remove_variable ?= zz_valyria_scroll
-	clear_variable_list ?= zz_valyria_scroll_list
+	remove_variable = zz_valyria_scroll
+	clear_variable_list = zz_valyria_scroll_list
 	
 	scope:$ITEM_CASTER$ ?= {
 		every_character_artifact= {
@@ -822,7 +822,7 @@ zz_valyria_make_scroll_list = {
 
 zz_valyria_make_magic_master_list = {
 	remove_variable = zz_magic_master
-	clear_variable_list ?= magic_master_list
+	clear_variable_list = magic_master_list
 	if = { 
 		limit = {
 			has_trait = zz_magister
@@ -945,14 +945,14 @@ zz_valyria_make_magic_master_list = {
 		}
 		set_variable = {
 			name = zz_magic_master
-			value ?= scope:zz_magic_master
+			value = scope:zz_magic_master
 		}
 	}
 }
 
 zz_valyria_make_magic_learner_list = {
 	remove_variable = zz_valyria_magic_learner
-	clear_variable_list ?= magic_learner_list
+	clear_variable_list = magic_learner_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -1077,15 +1077,15 @@ zz_valyria_make_magic_learner_list = {
 			}
 			set_variable = {
 				name = zz_valyria_magic_learner
-				value ?= scope:zz_valyria_magic_learner
+				value = scope:zz_valyria_magic_learner
 			}
 		}
 	}
 }
 
 zz_valyria_make_magic_mystery_master_list = {
-	remove_variable ?= zz_magic_mystery_master
-	clear_variable_list ?= magic_mystery_master_list
+	remove_variable = zz_magic_mystery_master
+	clear_variable_list = magic_mystery_master_list
 	if = { 
 		limit = {
 			has_trait = zz_magister
@@ -1154,13 +1154,13 @@ zz_valyria_make_magic_mystery_master_list = {
 	}
 	set_variable = {
 		name = zz_magic_mystery_master
-		value ?= scope:zz_magic_mystery_master
+		value = scope:zz_magic_mystery_master
 	}	
 }
 
 zz_valyria_make_master_spell_list = {
-	remove_variable ?= zz_valyria_teach_mystery
-	clear_variable_list ?= zz_valyria_teach_mystery_list
+	remove_variable = zz_valyria_teach_mystery
+	clear_variable_list = zz_valyria_teach_mystery_list
 	
 	scope:$MAGIC_TEACHER$ ?= {
 		every_memory = {
@@ -1183,8 +1183,8 @@ zz_valyria_make_master_spell_list = {
 	}
 }
 zz_valyria_make_magic_mystery_learner_list = {
-	remove_variable ?= zz_valyria_mystery_magic_learner
-	clear_variable_list ?= magic_mystery_learner_list
+	remove_variable = zz_valyria_mystery_magic_learner
+	clear_variable_list = magic_mystery_learner_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -1258,13 +1258,13 @@ zz_valyria_make_magic_mystery_learner_list = {
 		}
 		set_variable = {
 			name = zz_valyria_mystery_magic_learner
-			value ?= scope:zz_valyria_mystery_magic_learner
+			value = scope:zz_valyria_mystery_magic_learner
 		}
 	}
 }
 zz_valyria_make_magic_mystery_learner_not_mage_list = {
-	remove_variable ?= zz_valyria_mystery_magic_learner
-	clear_variable_list ?= magic_mystery_learner_not_mage_list
+	remove_variable = zz_valyria_mystery_magic_learner
+	clear_variable_list = magic_mystery_learner_not_mage_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -1343,13 +1343,13 @@ zz_valyria_make_magic_mystery_learner_not_mage_list = {
 		}
 		set_variable = {
 			name = zz_valyria_mystery_magic_learner
-			value ?= scope:zz_valyria_mystery_magic_learner
+			value = scope:zz_valyria_mystery_magic_learner
 		}
 	}
 }
 zz_valyria_make_magic_mystery_learner_mage_list = {
-	remove_variable ?= zz_valyria_mystery_magic_learner
-	clear_variable_list ?= magic_mystery_learner_mage_list
+	remove_variable = zz_valyria_mystery_magic_learner
+	clear_variable_list = magic_mystery_learner_mage_list
 	
 	scope:$MAGIC_USER$ = {
 		if = { 
@@ -1429,14 +1429,14 @@ zz_valyria_make_magic_mystery_learner_mage_list = {
 		}
 		set_variable = {
 			name = zz_valyria_mystery_magic_learner
-			value ?= scope:zz_valyria_mystery_magic_learner
+			value = scope:zz_valyria_mystery_magic_learner
 		}
 	}
 }
 
 zz_valyria_make_scroll_maker_list = {
-	remove_variable ?= zz_scroll_maker
-	clear_variable_list ?= scroll_maker_list
+	remove_variable = zz_scroll_maker
+	clear_variable_list = scroll_maker_list
 	if = { 
 		limit = {
 			has_trait = zz_magister
@@ -1500,7 +1500,7 @@ zz_valyria_make_scroll_maker_list = {
 		limit = {
 			NOT = {
 				any_in_list = {
-					list = scroll_maker_list
+					variable = scroll_maker_list
 					scope:zz_scroll_maker ?= this 
 				}
 			}
@@ -1512,7 +1512,7 @@ zz_valyria_make_scroll_maker_list = {
 		}
 		set_variable = {
 			name = zz_scroll_maker
-			value ?= scope:zz_scroll_maker
+			value = scope:zz_scroll_maker
 		}	
 	}
 	
@@ -1520,8 +1520,8 @@ zz_valyria_make_scroll_maker_list = {
 
 
 zz_valyria_make_scroll_maker_spell_list = {
-	remove_variable ?= zz_valyria_mystery
-	clear_variable_list ?= zz_valyria_spell_list 
+	remove_variable = zz_valyria_mystery
+	clear_variable_list = zz_valyria_spell_list 
 	
 	scope:$SCROLL_MAKER$ ?= {
 		every_memory = {

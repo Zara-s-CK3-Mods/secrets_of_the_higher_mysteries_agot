@@ -303,7 +303,7 @@ zz_valyria_magic_alchemy_magic_04_option_01_modifier = {
 		display_mode = scaled
 	}
 }
-zz_valyria_magic_alchemy_magic_04_option_02_modifer = {
+zz_valyria_magic_alchemy_magic_04_option_02_modifier = {
 	icon = magic_positive
 	knight_effectiveness_mult = 0.01
 	stacking = yes
@@ -534,7 +534,7 @@ zz_valyria_magic_air_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_air_magic_13_modifier = {
+zz_valyria_magic_air_magic_14_modifier = {
 	icon = magic_positive
 	fort_level = 2
 	stacking = yes
@@ -545,7 +545,7 @@ zz_valyria_magic_air_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_air_magic_13_modifier = {
+zz_valyria_magic_air_magic_15_modifier = {
 	icon = magic_positive
 	fort_level = -1
 	stacking = yes

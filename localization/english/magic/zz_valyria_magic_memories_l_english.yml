@@ -1,19 +1,5 @@
 ﻿l_english:  
-  completed_colonisation: "[GetActivityType('activity_valyria_colonisation').GetName] Completed"
-  completed_colonisation.memory_desc: "I completed my [GetActivityType('activity_valyria_colonisation').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_colonisation.memory_desc_second_perspective: "You completed your [GetActivityType('activity_valyria_colonisation').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_colonisation.memory_desc_third_perspective: "[owner.GetTitledFirstName|U] completed [owner.GetHerHis] [GetActivityType('activity_valyria_colonisation').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_colonisation_desc:0 "$completed_colonisation.memory_desc$"
-  completed_colonisation_desc_second_perspective:0 "$completed_colonisation.memory_desc_second_perspective$"
-  completed_colonisation_desc_third_perspective:0 "$completed_colonisation.memory_desc_third_perspective$"
-
-  completed_settlement: "[GetActivityType('activity_valyria_settle_ruins').GetName] Completed"
-  completed_settlement.memory_desc: "I completed my [GetActivityType('activity_valyria_settle_ruins').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_settlement.memory_desc_second_perspective: "You completed your [GetActivityType('activity_valyria_settle_ruins').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_settlement.memory_desc_third_perspective: "[owner.GetTitledFirstName|U] completed [owner.GetHerHis] [GetActivityType('activity_valyria_settle_ruins').GetName] at [ROOT.Var('education_destination').GetProvince.GetName]"
-  completed_settlement_desc:0 "$completed_settlement.memory_desc$"
-  completed_settlement_desc_second_perspective:0 "$completed_settlement.memory_desc_second_perspective$"
-  completed_settlement_desc_third_perspective:0 "$completed_settlement.memory_desc_third_perspective$"
+ 
 
   zz_mem_loc:0 "at [ROOT.Var('learning_location').GetProvince.GetName]"
   zz_mem_01:0  "I learned the [zz_mystery]"
@@ -23,16 +9,6 @@
   zz_mem_05:0 "you learned the secrets constructing"
   zz_mem_06:0 "[owner.GetTitledFirstName|U] learned the secrets constructing"
 
-
-  zz_valyria_secrets_blackstone_01: "$zz_mem_04$ $zz_valyria_blackstone_01$"
-  zz_valyria_secrets_blackstone_01.memory_desc: "$zz_mem_04$  $zz_valyria_blackstone_01$ $zz_mem_loc$"
-  zz_valyria_secrets_blackstone_01.memory_desc_second_perspective: "$zz_mem_5$  $zz_valyria_blackstone_01$ $zz_mem_loc$"
-  zz_valyria_secrets_blackstone_01.memory_desc_third_perspective: "$zz_mem_6$ $zz_valyria_blackstone_01$ $zz_mem_loc$"
-
-  zz_valyria_secrets_blackstone_02: "$zz_mem_04$ $zz_valyria_blackstone_02$"
-  zz_valyria_secrets_blackstone_02.memory_desc: "$zz_mem_04$  $zz_valyria_blackstone_02$ $zz_mem_loc$"
-  zz_valyria_secrets_blackstone_02.memory_desc_second_perspective: "$zz_mem_5$  $zz_valyria_blackstone_02$ $zz_mem_loc$"
-  zz_valyria_secrets_blackstone_02.memory_desc_third_perspective: "$zz_mem_6$ $zz_valyria_blackstone_02$ $zz_mem_loc$"
 
 
   zz_valyria_magic_knowledge: "Knowlege of the Higher Mysteries"

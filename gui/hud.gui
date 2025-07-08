@@ -509,7 +509,7 @@ widget = {
 					name = "tab_tax_jurisdiction"
 					datacontext = "[GetPlayer]"
 					enabled = "[Character.HasTaxSlots]"
-					visible = "[Or( GetPlayer.GetGovernment.IsType( 'clan_government' ), Character.HasTaxSlots ) )]"
+					visible = "[Or( GetPlayer.GetGovernment.IsType( 'clan_government' ), Character.HasTaxSlots ) ]"
 
 					blockoverride "maintab_button"
 					{
@@ -2685,7 +2685,7 @@ widget = {
 		datacontext = "[GetPlayer]"
 		datacontext = "[Character.GetInvolvedActivity]"
 
-		visible = "[And( Not( IsPauseMenuShown ), And( And( IsDefaultGUIMode, Character.IsValid ), Not( GetVariableSystem.Exists( 'hide_bottom_left_HUD') ) ) ) )]"
+		visible = "[And( Not( IsPauseMenuShown ), And( And( IsDefaultGUIMode, Character.IsValid ), Not( GetVariableSystem.Exists( 'hide_bottom_left_HUD') ) ) ) ]"
 		visible_at_creation = no
 		parentanchor = bottom|left
 		position = { 260 -120 }
@@ -2724,7 +2724,7 @@ widget = {
 			datacontext = "[Character.GetTravelPlan]"
 
 			visible_at_creation = no
-			visible = "[And( Character.IsTraveling, Or( Not( Activity.IsValid ), Activity.IsComplete ) ) )]"
+			visible = "[And( Character.IsTraveling, Or( Not( Activity.IsValid ), Activity.IsComplete ) ) ]"
 
 			size = { 60 60 }
 

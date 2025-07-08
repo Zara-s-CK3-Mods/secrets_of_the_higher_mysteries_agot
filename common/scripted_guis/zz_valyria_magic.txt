@@ -102,6 +102,9 @@ zz_valyria_magic_casting_scroll_casting = {
 zz_valyria_magic_casting_scroll_casting_click = {
 	scope = character
 	effect = {
+		var:zz_magic_user = {
+			save_scope_as = zz_magic_user
+		}
 		set_variable = {
 			name = cast_type
 			value = flag:scroll
@@ -309,30 +312,5 @@ zz_valyria_magic_cast_ui = {
 			save_scope_as = recipient
 		}
 		zz_valyria_magic_cast_ui_effect = yes
-	}
-}
-
-mages_tab = {
-	is_shown = {
-		has_trait = zz_magister
-		#always = no
-		primary_title = { has_variable = mages_council }
-		has_game_rule = debug_mode_on
-	}
-}
-
-zz_valyria_dragon_lords_tab = {
-	is_shown = {
-		#always = no
-		primary_title = { has_variable = dragonlords }
-		has_game_rule = debug_mode_on
-	}
-}
-
-zz_valyria_dragon_knights_tab = {
-	is_shown = {
-		primary_title = { has_variable = dragonknight }
-		#always = no
-		#has_game_rule = debug_mode_on
 	}
 }

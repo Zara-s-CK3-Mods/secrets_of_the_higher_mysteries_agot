@@ -1,4 +1,6 @@
-﻿send_interface_message_as_feed_spell_learning = {
+﻿@toast_soundeffect_neutral = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_neutral"
+
+send_interface_message_as_feed_spell_learning = {
 	display = feed
 	title = event_message_title
 	desc = event_message_effect

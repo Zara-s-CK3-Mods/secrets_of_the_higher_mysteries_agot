@@ -1697,7 +1697,6 @@ zz_valyria_create_magic_ring_effect = {
 	create_artifact = {
 		name = zz_valyria_artifact_mages_ring_name_dummy
 		description = placeholder
-		description = placeholder
 		visuals = zz_valyria_ring
 		type = archmaester_ring
 		creator = scope:zz_item_crafter

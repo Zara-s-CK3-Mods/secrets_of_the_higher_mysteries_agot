@@ -19,7 +19,7 @@ zz_magic_duel_success_medium = {
 		}
 		add = {
 			switch = {
-				trigger ?= var:magic_type
+				trigger = var:magic_type
 				flag:dream = {
 					value = zzz_valyria_magic_dream_magic_08_value
 					multiply = 1.75
@@ -63,7 +63,7 @@ zz_magic_duel_success_high = {
 		}
 		add = {
 			switch = {
-				trigger ?= var:magic_type
+				trigger = var:magic_type
 				flag:dream = {
 					value = zzz_valyria_magic_dream_magic_08_value
 					multiply = 2
@@ -107,7 +107,7 @@ zz_magic_duel_success_very_high = {
 		}
 		add = {
 			switch = {
-				trigger ?= var:magic_type
+				trigger = var:magic_type
 				flag:dream = {
 					value = zzz_valyria_magic_dream_magic_08_value
 					multiply = 2.5

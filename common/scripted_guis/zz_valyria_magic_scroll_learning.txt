@@ -149,6 +149,9 @@ zz_valyria_magic_manangement_window_magic_learning_tab = {
 		var:zz_magic_ui ?= flag:scroll_learning
 	}
 	effect = {
+		var:zz_magic_user = {
+			save_scope_as = zz_magic_user
+		}
 		if = { 
 			limit = {
 				zz_valyria_is_scroll_holder = yes 
@@ -526,11 +529,7 @@ zz_valyria_magic_learning_type_mystery_teach = {
 		}
 	}
 	effect = {
-		remove_short_term_gold = {
-			gold = {
-				value = 1000
-			}
-		}
+		remove_short_term_gold = 1000
 		save_scope_as = actor
 		var:zz_magic_user = {
 			save_scope_as = zz_magic_user
@@ -598,8 +597,12 @@ zz_valyria_magic_learning_type_scroll_click = {
 				zz_valyria_is_scroll_holder = yes 
 			} 
 			zz_setup_scroll_learning_lists = yes 
+			set_variable = {
+				name = learning_type
+				value = flag:scroll
+			}
 		}
-		else_if = {
+		else = {
 			if = {
 				limit = {
 					zz_valyria_is_mage = yes 
@@ -619,10 +622,6 @@ zz_valyria_magic_learning_type_scroll_click = {
 					value = flag:mystery
 				}
 			}
-		}
-		set_variable = {
-			name = learning_type
-			value = flag:scroll
 		}
 	}
 }
@@ -1089,7 +1088,7 @@ zz_valyria_scroll_make = {
 			save_scope_as = zz_scroll_maker
 		}
 		remove_short_term_gold = {
-			gold = {
+			value = {
 				value = 0 
 				add = root.zz_valyria_scroll_cost
 				multiply = 0.5
