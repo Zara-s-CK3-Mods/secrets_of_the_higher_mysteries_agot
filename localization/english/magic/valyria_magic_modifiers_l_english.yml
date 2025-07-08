@@ -30,10 +30,10 @@
   zz_valyria_magic_shadow_magic_13_modifier:0 "[shadow_magic] - $zz_valyria_magic_shadow_magic_13_name$"
 
 
-  zz_valyria_magic_dream_magic_07_modifier:0 "[dream_magic] - $zz_valyria_magic_alchemy_magic_07_name$"
-  zz_valyria_magic_dream_magic_10_modifier:0 "[dream_magic] - $zz_valyria_magic_alchemy_magic_10_name$"
-  zz_valyria_magic_dream_magic_38_modifier:0 "[dream_magic] - $zz_valyria_magic_alchemy_magic_38_name$"
-  zz_valyria_magic_dream_magic_39_modifier:0 "[dream_magic] - $zz_valyria_magic_alchemy_magic_39_name$"
+  zz_valyria_magic_dream_magic_07_modifier:0 "[dream_magic] - $zz_valyria_magic_dream_magic_07_name$"
+  zz_valyria_magic_dream_magic_10_modifier:0 "[dream_magic] - $zz_valyria_magic_dream_magic_10_name$"
+  zz_valyria_magic_dream_magic_38_modifier:0 "[dream_magic] - $zz_valyria_magic_dream_magic_38_name$"
+  zz_valyria_magic_dream_magic_39_modifier:0 "[dream_magic] - $zz_valyria_magic_dream_magic_39_name$"
 
   zz_valyria_magic_alchemy_magic_01_modifier:0 "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_01_name$"
 

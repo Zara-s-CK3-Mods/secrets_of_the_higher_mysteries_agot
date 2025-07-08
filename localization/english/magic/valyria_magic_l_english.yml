@@ -186,7 +186,7 @@
 
   zz_valyria_magic_blood_magic_05_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
   zz_valyria_magic_blood_magic_05_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_05_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.desc$"
+  zz_valyria_magic_blood_magic_05_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.toast.desc$"
 
   zz_valyria_magic_blood_magic.0003.t:0 "Name the Simulacrum"
   zz_valyria_magic_blood_magic.0003.desc:0 "It is time to give a name to the creation of blood magic that stands before you. You can let them bear the name of their genetic ancestor, or indeed give to them a new and fitting name."
@@ -206,7 +206,7 @@
 
   zz_valyria_magic_blood_magic_06_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
   zz_valyria_magic_blood_magic_06_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_06_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.desc$"
+  zz_valyria_magic_blood_magic_06_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_07.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
@@ -236,7 +236,7 @@
 
   zz_valyria_magic_blood_magic_08_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
   zz_valyria_magic_blood_magic_08_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_08_f.toast.tt:0 "$zz_valyria_magic_blood_magic_08_f.desc$"
+  zz_valyria_magic_blood_magic_08_f.toast.tt:0 "$zz_valyria_magic_blood_magic_08_f.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_edg$\n\nThe use of the arcane forces of [blood_magic|E] to encourage growth in a dragon. The chosen Dragon shall gain a boosted growth each year dependent on the [blood_magic|E] skill of your chosen blood mage."
@@ -268,7 +268,7 @@
 
   zz_valyria_magic_blood_magic_10_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_10_name$"
   zz_valyria_magic_blood_magic_10_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_10_f.toast.tt:0 "$zz_valyria_magic_blood_magic_10_f.desc$"
+  zz_valyria_magic_blood_magic_10_f.toast.tt:0 "$zz_valyria_magic_blood_magic_10_f.toast.desc$"
 
   zz_valyria_magic_blood_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with life, and extend their natural span for a period of time."
   ##Spell Options
@@ -364,7 +364,7 @@
 
   zz_valyria_magic_blood_magic_17_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
   zz_valyria_magic_blood_magic_17_f.toast.desc:0 "$zz_toast_01$ [blood_magic], but [recipient.GetFirstName] resist's the effect."
-  zz_valyria_magic_blood_magic_17_f.toast.tt:0 "$zz_valyria_magic_blood_magic_17_f.desc$"
+  zz_valyria_magic_blood_magic_17_f.toast.tt:0 "$zz_valyria_magic_blood_magic_17_f.toast.desc$"
 
   # Tyranny 
   zz_valyria_magic_blood_magic_17.tyranny:0 "Blood Magic increases Tyranny"
@@ -384,7 +384,7 @@
 
   zz_valyria_magic_blood_magic_18_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
   zz_valyria_magic_blood_magic_18_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_18_f.toast.tt:0 "$zz_valyria_magic_blood_magic_18_f.desc$"
+  zz_valyria_magic_blood_magic_18_f.toast.tt:0 "$zz_valyria_magic_blood_magic_18_f.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_19.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ccs$\n\nThe use of the arcane forces of [blood_magic|E] to influence the sex of an unborn child."
@@ -402,7 +402,7 @@
 
   zz_valyria_magic_blood_magic_19_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
   zz_valyria_magic_blood_magic_19_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_19_f.toast.tt:0 "$zz_valyria_magic_blood_magic_19_f.desc$"
+  zz_valyria_magic_blood_magic_19_f.toast.tt:0 "$zz_valyria_magic_blood_magic_19_f.toast.desc$"
 
 
   ## Interaction
@@ -420,7 +420,7 @@
 
   zz_valyria_magic_blood_magic_20_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
   zz_valyria_magic_blood_magic_20_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_20_f.toast.tt:0 "$zz_valyria_magic_blood_magic_20_f.desc$"
+  zz_valyria_magic_blood_magic_20_f.toast.tt:0 "$zz_valyria_magic_blood_magic_20_f.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_21.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_puc$\n\nThe use of the arcane forces of [blood_magic|E] to protect an unborn child from the risks of child birth."
@@ -437,7 +437,7 @@
 
   zz_valyria_magic_blood_magic_21_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
   zz_valyria_magic_blood_magic_21_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_21_f.toast.tt:0 "$zz_valyria_magic_blood_magic_21_f.desc$"
+  zz_valyria_magic_blood_magic_21_f.toast.tt:0 "$zz_valyria_magic_blood_magic_21_f.toast.desc$"
 
 
   ## Interaction
@@ -455,7 +455,7 @@
 
   zz_valyria_magic_blood_magic_22_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
   zz_valyria_magic_blood_magic_22_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
-  zz_valyria_magic_blood_magic_22_f.toast.tt:0 "$zz_valyria_magic_blood_magic_22_f.desc$"
+  zz_valyria_magic_blood_magic_22_f.toast.tt:0 "$zz_valyria_magic_blood_magic_22_f.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_blood_magic_23.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen with youthful vigour."
@@ -1298,7 +1298,7 @@
   zz_valyria_magic_dream_magic_42.toast.tt:0 "$zz_valyria_magic_dream_magic_42.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_dream_magic_43.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_cccon\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and bring forth order and stability, hope and stability."
+  zz_valyria_magic_dream_magic_43.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_tcc$\n$zz_cccon$\n\nThrough the use of [dream_magic|E], it is possible to enter the minds of an inhabitant of a county, and bring forth order and stability, hope and stability."
   ## Spell Options
   #event
   zz_valyria_magic_dream_magic_spells.043.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_43_name$"
@@ -1379,7 +1379,7 @@
 
   zz_valyria_magic_dream_magic_48.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_48_name$"
   zz_valyria_magic_dream_magic_48.buff.toast.desc:0 ""
-  zz_valyria_magic_dream_magic_48.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_48.buff.toast.desc:0$"
+  zz_valyria_magic_dream_magic_48.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_48.buff.toast.desc$"
 
   ## Interaction
   zz_valyria_magic_dream_magic_49.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_cd$\n\nThrough the use of [dream_magic|E], it is possible to call from nightmares a singular cataclysm and bring ruin to an an army."
@@ -1396,7 +1396,7 @@
 
   zz_valyria_magic_dream_magic_49.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_49_name$"
   zz_valyria_magic_dream_magic_49.buff.toast.desc:0 ""
-  zz_valyria_magic_dream_magic_49.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_49.buff.toast.desc:0$"
+  zz_valyria_magic_dream_magic_49.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_49.buff.toast.desc$"
 
   ## Interaction
   #actor_secondary_
@@ -1574,23 +1574,23 @@
 
 
   ## Interaction
-  zz_valyria_magic_alchemy_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to enchant the forces of war. You may empower the combat power of knights a character can employ
+  zz_valyria_magic_alchemy_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to enchant the forces of war. You may empower the combat power of knights a character can employ."
 
   ##event
-  zz_valyria_magic_alchemy_magic_spells.012.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_012$"
+  zz_valyria_magic_alchemy_magic_spells.012.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_12$"
   zz_valyria_magic_alchemy_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic_spells.012.opt.a:0 "Yes, Empower Knightly Armaments!"
   zz_valyria_magic_alchemy_magic_spells.012.opt.z:0 "No, do not cast!"
 
   ## Spell Toast
-  zz_valyria_magic_alchemy_magic_12.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_012$"
+  zz_valyria_magic_alchemy_magic_12.toast.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_12$"
   zz_valyria_magic_alchemy_magic_12.toast.desc:0 "$zz_toast_01$ [alchemy_magic|E], $zz_toast_02$ granting improved armaments to the forces of [recipient.GetFirstName]."
   zz_valyria_magic_alchemy_magic_12.toast.tt:0 "$zz_valyria_magic_alchemy_magic_12.toast.desc$"
 
 
 
   ## Interaction
-  zz_valyria_magic_alchemy_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to enchant the forces of war. You may increase the number of MAA regiments a character can recruit.
+  zz_valyria_magic_alchemy_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThrough the secret arts of [alchemy_magic|E] it is possible to enchant the forces of war. You may increase the number of MAA regiments a character can recruit."
 
   ##event
   zz_valyria_magic_alchemy_magic_spells.013.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_13_name$"
@@ -1761,7 +1761,7 @@
   zz_valyria_magic_fire_magic_07.toast.tt:0 "$zz_valyria_magic_fire_magic_07.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_fire_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to empower the weapons of an army to do more damage when taking part in sieges.
+  zz_valyria_magic_fire_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to empower the weapons of an army to do more damage when taking part in sieges."
 
   ##event
   zz_valyria_magic_fire_magic_spells.008.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_08_name$"
@@ -1775,7 +1775,7 @@
 
 
   ## Interaction
-  zz_valyria_magic_fire_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_sd$\n\nThrough the arts of [fire_magic|E] it is possible to unleash pure flame upon the elite soldiers of your enemy..
+  zz_valyria_magic_fire_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_sd$\n\nThrough the arts of [fire_magic|E] it is possible to unleash pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic_spells.009.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_09_name$"
@@ -1790,7 +1790,7 @@
 
 
   ## Interaction
-  zz_valyria_magic_fire_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to empower the forces commanded by a character with the essence of dragon fire, granting them substantial advantage on the field of battle.
+  zz_valyria_magic_fire_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to empower the forces commanded by a character with the essence of dragon fire, granting them substantial advantage on the field of battle."
 
   ##event
   zz_valyria_magic_fire_magic_spells.010.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_10_name$"
@@ -1805,7 +1805,7 @@
 
 
   ## Interaction
-  zz_valyria_magic_fire_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy..
+  zz_valyria_magic_fire_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic_spells.011.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_11_name$"
@@ -1819,7 +1819,7 @@
 
 
   ## Interaction
-  zz_valyria_magic_fire_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy..
+  zz_valyria_magic_fire_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic_spells.012.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_12_name$"
@@ -1833,7 +1833,7 @@
 
 
   ## Interaction
-  zz_valyria_magic_fire_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy..
+  zz_valyria_magic_fire_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic_spells.013.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_13_name$"
@@ -1950,7 +1950,7 @@
   zz_valyria_magic_air_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_sd$\n\nThrough the secret arts of [air_magic|E] it is possible to strike at an enemy army with the terrifying forces of the heavens."
   ##event
   zz_valyria_magic_air_magic_spells.008.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_08_name$"
-  zz_valyria_magic_air_magic_spells.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. It is possible to call the very fury of the heaves to rest above oneof the armies of [recipient.GetName]. You bring forth the storm, and let the lightning bolts strike down towards the target enemy, dealing massive damage.
+  zz_valyria_magic_air_magic_spells.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. It is possible to call the very fury of the heaves to rest above oneof the armies of [recipient.GetName]. You bring forth the storm, and let the lightning bolts strike down towards the target enemy, dealing massive damage."
   zz_valyria_magic_air_magic_spells.008.opt.a:0 "Yes, what good is honour to the dead?"
   zz_valyria_magic_air_magic_spells.008.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -1962,7 +1962,7 @@
   zz_valyria_magic_air_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_cd$\n\nThrough the secret arts of [air_magic|E] it is possible to strike at an enemy army with the terrifying forces of the heavens."
   ##event
   zz_valyria_magic_air_magic_spells.009.t:0 "[air_magic|E] - $zz_valyria_magic_air_magic_09_name$"
-  zz_valyria_magic_air_magic_spells.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. It is possible to call from the skies a mighty blast from the sky, striking one of the provinces of [recipient.GetName]. This horrid mystery brings nothing but destruction, obliterating entire armies, and leaving the province a shattered ruin.
+  zz_valyria_magic_air_magic_spells.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAmong the streets of Asshai the aeromancers make their trade. but thr manipulation of the air is more than a simple conjurer's trick. To call upon the airs is to have the power to have a blade, or to rip the air from a man's lungs. It is possible to call from the skies a mighty blast from the sky, striking one of the provinces of [recipient.GetName]. This horrid mystery brings nothing but destruction, obliterating entire armies, and leaving the province a shattered ruin."
   zz_valyria_magic_air_magic_spells.009.opt.a:0 "Yes, what good is honour to the dead?"
   zz_valyria_magic_air_magic_spells.009.opt.z:0 "No, do not cast!"
   ## Spell Toast

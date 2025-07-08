@@ -2,7 +2,7 @@
 	name = Zaret # Canon, AKA: Zaret The Mage, a lord
 	dynasty = dynn_Setenon
 	dna = Setenon_01
-
+	sexuality = heterosexual
 	martial = 15
 	diplomacy = 20
 	intrigue = 20

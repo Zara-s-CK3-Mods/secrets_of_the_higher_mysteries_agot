@@ -1786,25 +1786,32 @@ zz_miscast_critical_effect = {
 	}
 }
 zz_valyria_spell_failure_effect = { 
-	send_interface_message = {
-		type = send_interface_message_as_popup_spell_miscast
-		title = spell_failure
-		desc = spell_failure_txt
-		left_icon = scope:secondary_recipient
-		right_icon = scope:recipient
-		custom_tooltip = spell_failure_txt
-		random_list = {
-			50 = {
+	random_list = {
+		50 = {
+			send_interface_message = {
+				type = send_interface_message_as_popup_spell_miscast
+				title = spell_failure
+				desc = spell_failure_txt
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = spell_failure_txt
 				custom_tooltip = {
 					text = miscast_wound
 					scope:secondary_recipient  = {
 						increase_wounds_effect = { REASON = fire_magic }
 						zz_miscast_critical_effect = yes
 					}
-					
 				}
 			}
-			30 = {
+		}
+		30 = {
+			send_interface_message = {
+				type = send_interface_message_as_popup_spell_miscast
+				title = spell_failure
+				desc = spell_failure_txt
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = spell_failure_txt
 				custom_tooltip = {
 					text = miscast_mutation
 					scope:secondary_recipient  = {
@@ -1939,73 +1946,90 @@ zz_valyria_spell_failure_effect = {
 						}	
 					}
 				}
-			} 
-			20 = {
-				
-				modifier = {
-					add = 100	
-					scope:secondary_recipient  = {
-						has_trait = starwalker
-					}
-					
+			}
+		} 
+		20 = {		
+			modifier = {
+				scope:secondary_recipient  = {
+					has_trait = starwalker
 				}
-				modifier = {
-					add = 20
-					scope:secondary_recipient  = {
-						has_trait = born_beneath_the_comet
+				add = { 
+					value = {
+						value = "has_trait_xp(starwalker|chosen_of_the_heavens)" 
+						multiply = 16	
 					}
-					
 				}
-				modifier = {
-					add = 15
-					scope:secondary_recipient  = {
-						has_trait = born_beneath_the_comet
-					}
-					has_trait = magic_blood_good_3
-					
-				}
-				modifier = {
-					add = 10
-					scope:secondary_recipient  = {
-						has_trait = magic_blood_good_2
-					}
-					
-				}
-				modifier = {
-					add = 5
-					scope:secondary_recipient  = {
-						has_trait = magic_blood_good_1
-					}
-					
-				}
-				modifier = {
-					scope:secondary_recipient  = {
-						has_trait = magic_blood_bad_1
-					}
-					add = -5
-				}
-				modifier = {
-					add = -10
-					scope:secondary_recipient  = {
-						has_trait = magic_blood_bad_2
-					}
-					
-				}
-				modifier = {
-					add = -15
-					scope:secondary_recipient  = {
-						has_trait = magic_blood_bad_3
-					}
-					
+			}
+			modifier = {
+				add = 100	
+				scope:secondary_recipient  = {
+					has_trait = starwalker
 				}
 				
+			}
+			modifier = {
+				add = 20
+				scope:secondary_recipient  = {
+					has_trait = born_beneath_the_comet
+				}
+				
+			}
+			modifier = {
+				add = 15
+				scope:secondary_recipient  = {
+					has_trait = born_beneath_the_comet
+				}
+				has_trait = magic_blood_good_3
+				
+			}
+			modifier = {
+				add = 10
+				scope:secondary_recipient  = {
+					has_trait = magic_blood_good_2
+				}
+				
+			}
+			modifier = {
+				add = 5
+				scope:secondary_recipient  = {
+					has_trait = magic_blood_good_1
+				}
+				
+			}
+			modifier = {
+				scope:secondary_recipient  = {
+					has_trait = magic_blood_bad_1
+				}
+				add = -5
+			}
+			modifier = {
+				add = -10
+				scope:secondary_recipient  = {
+					has_trait = magic_blood_bad_2
+				}
+				
+			}
+			modifier = {
+				add = -15
+				scope:secondary_recipient  = {
+					has_trait = magic_blood_bad_3
+				}
+				
+			}
+			send_interface_message = {
+				type = send_interface_message_as_popup_spell_miscast
+				title = spell_failure
+				desc = spell_failure_txt
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = spell_failure_txt
 				custom_tooltip = {
 					text = miscast_nothing
 				}
 			}
 		}
-		
 	}
+	
 }
 
 zz_valyria_magic_apply_province_modifier_effect = {

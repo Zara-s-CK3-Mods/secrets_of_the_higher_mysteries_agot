@@ -463,7 +463,7 @@ zz_valyria_magic_education.2100.z.tt:0 ""
 
 
 zz_valyria_magic_education.2200.t:0 "Scroll of Mystic Secrets!"
-zz_valyria_magic_education.2200.desc:0 "You have found a hitherto hidden scroll among the resources of magical learning in [province.GetName]. You must choose whether you will seek to learn this [zz_mystery], or instead focus on developing your studies."
+zz_valyria_magic_education.2200.desc:0 "You have found a hitherto hidden scroll among the resources of magical learning in [PROVINCE.GetName]. You must choose whether you will seek to learn this [zz_mystery], or instead focus on developing your studies."
 zz_valyria_magic_education.2200.a:0 "The knowledge of new [zz_mystery_plural] is your priority"
 zz_valyria_magic_education.2200.a.crit_success:0 ""
 zz_valyria_magic_education.2200.a.success:0 "My Studies Progress"
