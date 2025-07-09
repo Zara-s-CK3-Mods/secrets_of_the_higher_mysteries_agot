@@ -13,8 +13,10 @@
 
   ### Court Taks 
   zz_valyria_court_mage_drops_of_power_ritual:0 " [drops_of_power|E] Ritual"
-
+  zz_valyria_court_mages_court_position_drops_of_power_ritual_desc:0 "A potent conjuring of power, all mages in your court gain [drops_of_power|E]."
   zz_valyria_court_mages_court_position_drops_of_power_ritual_tt:0 "A potent conjuring of power, all mages in your court gain [drops_of_power|E]."
+
+
 
   court_mage_drops_of_power_ritual_cooldown: "This task cannot be initiated until #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( liege.MakeScope, 'drops_of_power_ritual_cooldown') )]#!"
 
@@ -24,6 +26,15 @@
 
   zz_craft_scroll_effect:0 "Your [GetCourtPositionType('zz_valyria_court_mages_court_position').GetName()] [artificer.GetFirstName] has scribed a scroll."
   zz_valyria_court_mages_court_position_improve_self:0 "Study Magic"
+  zz_valyria_court_mages_court_position_improve_self_desc: "This character is focusing on improving their skills as a physician."
+  zz_valyria_court_mages_court_position_improve_self_tt: "Every month this character has a chance of gaining [GetTrait('zz_magister').GetName( root_scope )|U1] [trait_level_track_xp|E] or [learning_i][learning_skill|E]"
+  zz_valyria_court_mages_court_position_improve_self_fallback_tt: "Every month this character has a chance of gaining [GetTrait('zz_magister').GetName( GetNullCharacter )|U1] [trait_level_track_xp|E] or [learning_i][learning_skill|E]"
+  zz_valyria_court_mages_court_position_improve_others: "Teach Court"
+  zz_valyria_court_mages_court_position_improve_others_desc: "This character is tasked with assisting the rest of the court."
+  zz_valyria_court_mages_court_position_improve_others_fallback_tt: "[liege|E], liege's [heir|E], or other [court_position|E] holders at [court|E] may gain [diplomacy_i][stewardship_i][learning_i][martial_i][skills|E] or [traits|E] every month"
+  zz_valyria_court_mages_court_position_teach_kids: "Educate Children"
+  zz_valyria_court_mages_court_position_teach_kids_desc: "This character is going above and beyond in their duty to educate the children of the court."
+  zz_valyria_court_mages_court_position_teach_kids_desc_tt: "[children|E] at [court|E] have a chance to have one of their [diplomacy_i][stewardship_i][learning_i][martial_i][skills|E] increased by #p +1#! or #p +2#! every year"
 
   ### Champions of the Fourteen
   zz_valyria_champion_of_the_fourteen:0 "Champions of the Fourteen"

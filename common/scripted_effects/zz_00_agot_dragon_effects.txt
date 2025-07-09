@@ -1,0 +1,290 @@
+﻿agot_apply_dragon_aging_effect = {
+	$DRAGON$ = {
+		save_scope_as = dragon
+		if = {
+			limit = {
+				age < 11
+				NOT = { has_trait = dragon_destined } # destined get their initial maturing via story cycle in the 1st year
+			}
+			add_prowess_skill = 3
+			change_dragon_size = {
+				VALUE = 3
+			}
+		}
+		else_if = {
+			limit = {
+				age < 15
+				NOT = { has_trait = dragon_destined }
+			}
+			add_prowess_skill = 2
+			change_dragon_size = {
+				VALUE = 2
+			}
+		}
+		else = { # Maturing done
+			if = {
+				limit = { has_character_flag = in_dragonpit }
+				#Natural Pit check
+				if = {
+					limit = {
+						var:pitted_dragon_location ?= title:c_dragonstone
+					}
+					# Growth is not as impinged compared to manmade pits, volcano magic
+					random_list = {
+						5 = {}
+						55 = {
+							add_prowess_skill = 1
+							change_dragon_size = {
+								VALUE = 1
+							}
+						}
+						15 = {
+							add_prowess_skill = 2
+							change_dragon_size = {
+								VALUE = 2
+							}
+						}
+					}
+				}
+				else = {
+					random_list = {
+						30 = {} # Older dragons in a dragonpit do not grow as well
+						60 = {
+							add_prowess_skill = 1
+							change_dragon_size = {
+								VALUE = 1
+							}
+						}
+						10 = {
+							add_prowess_skill = 2
+							change_dragon_size = {
+								VALUE = 2
+							}
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					liege_or_court_owner ?= { 
+							has_trait = zz_magister
+						}
+					}
+				random_list = {
+					80 = {
+						add_prowess_skill = 2
+						change_dragon_size = {
+							VALUE = 2							
+						}
+					}
+					20 = {
+						add_prowess_skill = 5
+						change_dragon_size = {
+							VALUE = 5
+						}
+					}
+				}
+			}
+			else = {
+				random_list = {
+					10 = {}
+					70 = {
+						add_prowess_skill = 1
+						change_dragon_size = {
+							VALUE = 1
+						}
+					}
+					20 = {
+						add_prowess_skill = 2
+						change_dragon_size = {
+							VALUE = 2
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+agot_back_apply_dragon_aging_effect = { # Only apply this once on character creation, doing it later will massively inflate values
+	set_variable = {
+		name = dragon_age_counter
+		value = 0
+	}
+	while = {
+		count = age
+		limit = {
+			age > var:dragon_age_counter
+		}
+		# Destined dragons get 40 prowess and 40 size after first year
+		if = {
+			limit = {
+				var:dragon_age_counter = 1
+				has_trait = dragon_destined
+			}
+			add_prowess_skill = 40
+			change_dragon_size_direct = {
+				VALUE = 40
+			}
+			set_variable = { # To block story cycle application
+				name = dragon_destined_count
+				value = 99
+			}
+		}
+		# Normal growth calculations
+		if = {
+			limit = {
+				var:dragon_age_counter < 11
+				NOT = { has_trait = dragon_destined }
+			}
+			add_prowess_skill = 3
+			change_dragon_size_direct = {
+				VALUE = 3
+			}
+		}
+		else_if = {
+			limit = {
+				var:dragon_age_counter < 15
+				NOT = { has_trait = dragon_destined }
+			}
+			add_prowess_skill = 2
+			change_dragon_size_direct = {
+				VALUE = 2
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_character_flag = in_dragonpit
+				}
+				random_list = {
+					20 = {}
+					80 = {
+						add_prowess_skill = 1
+						change_dragon_size_direct = {
+							VALUE = 1
+						}
+					}
+				}
+			}
+			else = {
+				add_prowess_skill = 1
+				change_dragon_size_direct = {
+					VALUE = 1
+				}
+			}
+		}
+		change_variable = {
+			name = dragon_age_counter
+			add = 1
+		}
+	}
+	remove_variable = dragon_age_counter
+}
+
+agot_growing_dragon_cannibal_trait_chance = {
+	# Chance of cannibal dragon if at least 14 dragons
+	save_scope_as = growing_dragon
+	if = {
+		limit = {
+			scope:growing_dragon = {
+				NOT = { has_trait = dragon_cannibal }
+				NOT = { has_trait = dragon_restrained }
+				NOT = { has_trait = dragon_friendly }
+				OR = {
+					has_trait = dragon_aggressive
+					has_trait = dragon_voracious
+					has_trait = dragon_bloodthirsty
+				}
+				NOR = {
+					has_trait = immortal 
+					has_trait = zz_draconic_longevity
+					liege_or_court_owner ?= { 
+						has_trait = zz_magister
+					}
+				}
+			}
+			any_in_global_list = {
+				variable = living_dragons
+				count >= lower_cannibal_dragon_value
+			}
+			trigger_if = {
+				limit = {
+					any_in_global_list = {
+						variable = living_dragons
+						count < upper_cannibal_dragon_value
+					}
+				}
+				any_in_global_list = {
+					variable = living_dragons
+					count < 1
+					has_trait = dragon_cannibal
+				}
+			}
+			trigger_else = {
+				any_in_global_list = {
+					variable = living_dragons
+					count < global_dragon_cannibal_limit
+					has_trait = dragon_cannibal
+				}
+			}
+			any_in_global_list = { # And there is a valid target
+				variable = living_dragons
+				NOT = { this = scope:growing_dragon } # Not the would-be cannibal
+				has_character_flag = owned_dragon # Is owned or tamed
+				location = scope:growing_dragon.location # In the same location
+				NOT = { has_trait = dragon_cannibal } # No cascading cannibalism
+				dragon_combat_effectiveness <= scope:growing_dragon.dragon_combat_effectiveness # Not stronger than the dragon
+			}
+		}
+		random_list = {
+			80 = {
+				modifier = {
+					add = -30
+					has_trait = dragon_voracious
+				}
+				modifier = {
+					add = -20
+					has_trait = dragon_bloodthirsty
+				}
+				modifier = {
+					add = -10
+					has_trait = dragon_aggressive
+				}
+			}
+			20 = {
+				modifier = {
+					add = -15
+					has_trait = dragon_supporting
+				}
+				modifier = {
+					add = -15
+					has_trait = dragon_calculating
+				}
+				modifier = {
+					factor = 0.3
+					any_in_global_list = {
+						variable = living_dragons
+						has_trait = dragon_cannibal
+					}
+				}
+				random_in_global_list = {
+					variable = living_dragons
+					limit = {
+						has_character_flag = owned_dragon # Is owned or tamed
+						location = scope:growing_dragon.location # In the same location
+						NOT = { has_trait = dragon_cannibal } # No cascading cannibalism
+						dragon_combat_effectiveness <= scope:growing_dragon.dragon_combat_effectiveness # Not stronger than the dragon
+					}
+					save_scope_as = growing_dragon_victim
+				}
+				court_owner = {
+					trigger_event = {
+						id = agot_dragon_personality.0015
+						days = { 20 300 }
+					}
+				}
+			}
+		}
+	}
+}

@@ -839,6 +839,27 @@ zz_valyria_magic_shadow_magic_13_value = {
 		}
 	}	
 }
+zz_valyria_magic_shadow_magic_14_value = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value  = zz_valyria_magic_shadow_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+} 
+
+zz_valyria_magic_shadow_magic_15_value = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value  = zz_valyria_magic_shadow_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+} 
 ### Dream Magic!
 zz_valyria_magic_dream_magic_base_value = { 
 	scope:secondary_recipient = { 
@@ -1612,6 +1633,26 @@ zz_valyria_magic_fire_magic_13_value = {
 		}
 	}
 }
+zz_valyria_magic_fire_magic_14_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_fire_magic_15_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
 
 	
 ### Air Magic 
@@ -1786,6 +1827,26 @@ zz_valyria_magic_air_magic_13_value = {
 		}
 	}
 }
+zz_valyria_magic_air_magic_14_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_air_magic_15_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
 
 
 ### Water Magic 
@@ -1937,6 +1998,26 @@ zz_valyria_magic_water_magic_13_value = {
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_water_magic_base_value
 			divide = 7
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_14_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_15_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 5
 			min = 1
 		}
 	}
