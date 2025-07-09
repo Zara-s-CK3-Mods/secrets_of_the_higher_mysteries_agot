@@ -366,6 +366,20 @@ zz_valyria_magic_dream_magic_spells.005 = {
 				}
 			}
 		}
+		trait:gallivanter = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = selected_trait }
+					}
+					set_variable = { name = selected_trait value = prev }
+				}
+			}
+		}
 		trait:hashishiyah = {
 			root = {
 				add_to_variable_list = {

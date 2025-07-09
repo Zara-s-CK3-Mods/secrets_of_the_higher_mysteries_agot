@@ -186,2039 +186,2039 @@ zz_valyria_magic_dream_magic_02_effect = {
 			if = {
 				limit = { has_trait = lifestyle_herbalist }
 				#add_trait_xp = {
-					#	trait = lifestyle_herbalist
-					#	value = 30
-					#}
-				}
-				else = { add_trait = lifestyle_herbalist }#
-				add_trait = lifestyle_herbalist 
+				#	trait = lifestyle_herbalist
+				#	value = 30
+				#}
 			}
-		}		
-		if  = { 
+			else = { add_trait = lifestyle_herbalist }#
+			add_trait = lifestyle_herbalist 
+		}
+	}		
+	if  = { 
+		limit = {
+			scope:trait ?= trait:lifestyle_gardener
+		}
+		scope:recipient = {
+			if = {
+			limit = { has_trait = lifestyle_gardener }
+			#	add_trait_xp = {
+			#		trait = lifestyle_gardener
+			#		value = 30
+			#	}
+			}
+			else = { add_trait = lifestyle_gardener }
+
+		}
+	}		
+	if  = { 
+		limit = {
+			scope:trait ?= trait:knight_errant
+		}
+		scope:recipient = {
+			if = {
+				limit = { has_trait = knight_errant }
+				add_trait_xp = {
+					trait = knight_errant
+					value = zz_valyria_magic_dream_magic_02_value
+				}
+			}
+			else = { add_trait = knight_errant }
+		}
+	}	
+	scope:recipient = {		
+		if = {
 			limit = {
-				scope:trait ?= trait:lifestyle_gardener
+				NOT = { scope:actor = scope:recipient }
 			}
-			scope:recipient = {
-				if = {
-					limit = { has_trait = lifestyle_gardener }
-					#	add_trait_xp = {
-						#		trait = lifestyle_gardener
-						#		value = 30
-						#	}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_03_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_03.toast.t 
+		desc = zz_valyria_magic_dream_magic_03.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_03.toast.tt
+
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	if = {
+		limit = {
+			scope:option_01 ?= yes
+		}
+		scope:recipient = { add_learning_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_02 ?= yes
+		}
+		scope:recipient = { add_diplomacy_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_03 ?= yes
+		}
+		scope:recipient = { add_stewardship_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_04 ?= yes
+		}
+		scope:recipient = { add_intrigue_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_05 ?= yes
+		}
+		scope:recipient = { add_martial_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_06 ?= yes
+		}
+		scope:recipient = { add_wanderer_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_07 ?= yes
+		}
+		scope:recipient = { add_nht_prowess_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	if = {
+		limit = {
+			scope:option_08 ?= yes
+		}
+		scope:recipient = { add_nht_leadership_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
+	}
+	
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_04_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_04.toast.t
+		desc = zz_valyria_magic_dream_magic_04.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_04.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+		set_variable = {
+			name = actor 
+			value = scope:actor 
+		}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_04_story
+			save_scope_as = story
+		}
+	} 
+	scope:recipient = {	
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_05_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_05.toast.t
+		desc = zz_valyria_magic_dream_magic_05.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_05.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = {
+		stress_impact ={ base = zz_valyria_magic_dream_magic_05_value}  
+		if = { 
+			limit = { 
+				has_trait = scope:trait
+			}
+			remove_trait_force_tooltip = scope:trait
+		}
+		else = {
+			add_trait_force_tooltip = scope:trait
+		}
+	}
+
+
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+	if = {
+		limit = {
+			NOT = {
+				has_trait = $EDUCATION$ 
+			}
+		}
+	}	
+	change_trait_rank = {
+		trait =  $EDUCATION$
+		rank = zz_valyria_magic_dream_magic_06_01_value
+	}
+}
+
+zz_valyria_magic_dream_magic_06_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_06.toast.t
+		desc = zz_valyria_magic_dream_magic_06.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_06.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_learning_1
+		}
+		scope:recipient = {
+			remove_any_education_traits_effect = yes 
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_learning 
+			}
+		}
+	}		
+	if = {
+		limit = {
+			scope:trait ?= trait:education_stewardship_1
+		}
+		scope:recipient = {
+			remove_any_education_traits_effect = yes 
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_stewardship
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_diplomacy_1
+		}
+		scope:recipient = {
+			remove_any_education_traits_effect = yes 
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_diplomacy
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_intrigue_1
+		}
+		scope:recipient = {
+			remove_any_education_traits_effect = yes 
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_intrigue
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_martial_1
+		}
+		scope:recipient = {
+			remove_any_education_traits_effect = yes 
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_martial
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_martial_prowess_1
+		}
+		scope:recipient = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_martial_prowess
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:trait ?= trait:education_republican_knowledge_1
+		}
+		scope:recipient = {
+			zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
+				EDUCATION = education_republican_knowledge
+			}
+		}
+	}	
+	
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+
+
+zz_valyria_magic_dream_magic_07_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_07.toast.t
+		desc = zz_valyria_magic_dream_magic_07.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_07.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		zz_valyria_magic_apply_character_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_07_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 5
+		}
+	}			
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_08_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_08.toast.t
+		desc = zz_valyria_magic_dream_magic_08.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient					
+		custom_tooltip = zz_valyria_magic_dream_magic_08.toast.tt
+	}
+	zz_valyria_magic_duel_stress_effect = yes 
+	if = {
+		limit = {
+			scope:option_01 = yes
+		}
+		scope:secondary_recipient = {
+			duel = {
+				skill = learning 
+				target = scope:recipient
+				75 = {
+					modifier = {
+						add = zzz_valyria_magic_dream_magic_08_value
 					}
-					else = { add_trait = lifestyle_gardener }
-					
-				}
-			}		
-			if  = { 
-				limit = {
-					scope:trait ?= trait:knight_errant
-				}
-				scope:recipient = {
-					if = {
-						limit = { has_trait = knight_errant }
-						add_trait_xp = {
-							trait = knight_errant
-							value = zz_valyria_magic_dream_magic_02_value
+					add_dread = medium_dread_gain
+					scope:recipient = {
+						show_as_tooltip = {
+							agot_increase_wounds_effect = { REASON = dream_magic RANK = 2 }
+							add_stress = massive_stress_gain
+							add_trait_force_tooltip = incapable
 						}
-					}
-					else = { add_trait = knight_errant }
-				}
-			}	
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_03_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_03.toast.t 
-				desc = zz_valyria_magic_dream_magic_03.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_03.toast.tt
-				
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			if = {
-				limit = {
-					scope:option_01 ?= yes
-				}
-				scope:recipient = { add_learning_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_02 ?= yes
-				}
-				scope:recipient = { add_diplomacy_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_03 ?= yes
-				}
-				scope:recipient = { add_stewardship_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_04 ?= yes
-				}
-				scope:recipient = { add_intrigue_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_05 ?= yes
-				}
-				scope:recipient = { add_martial_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_06 ?= yes
-				}
-				scope:recipient = { add_wanderer_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_07 ?= yes
-				}
-				scope:recipient = { add_nht_prowess_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			if = {
-				limit = {
-					scope:option_08 ?= yes
-				}
-				scope:recipient = { add_nht_leadership_lifestyle_xp = zz_valyria_magic_dream_magic_03_value } 
-			}
-			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_04_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_04.toast.t
-				desc = zz_valyria_magic_dream_magic_04.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_04.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				set_variable = {
-					name = caster 
-					value = scope:secondary_recipient 
-				}
-				set_variable = {
-					name = actor 
-					value = scope:actor 
-				}
-				create_story = {
-					type = zz_valyria_magic_dream_magic_04_story
-					save_scope_as = story
-				}
-			} 
-			scope:recipient = {	
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_05_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_05.toast.t
-				desc = zz_valyria_magic_dream_magic_05.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_05.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = {
-				stress_impact ={ base = zz_valyria_magic_dream_magic_05_value}  
-				if = { 
-					limit = { 
-						has_trait = scope:trait
-					}
-					remove_trait_force_tooltip = scope:trait
-				}
-				else = {
-					add_trait_force_tooltip = scope:trait
-				}
-			}
-			
-			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-			if = {
-				limit = {
-					NOT = {
-						has_trait = $EDUCATION$ 
-					}
-				}
-			}	
-			change_trait_rank = {
-				trait =  $EDUCATION$
-				rank = zz_valyria_magic_dream_magic_06_01_value
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_06_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_06.toast.t
-				desc = zz_valyria_magic_dream_magic_06.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_06.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_learning_1
-				}
-				scope:recipient = {
-					remove_any_education_traits_effect = yes 
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_learning 
-					}
-				}
-			}		
-			if = {
-				limit = {
-					scope:trait ?= trait:education_stewardship_1
-				}
-				scope:recipient = {
-					remove_any_education_traits_effect = yes 
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_stewardship
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_diplomacy_1
-				}
-				scope:recipient = {
-					remove_any_education_traits_effect = yes 
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_diplomacy
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_intrigue_1
-				}
-				scope:recipient = {
-					remove_any_education_traits_effect = yes 
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_intrigue
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_martial_1
-				}
-				scope:recipient = {
-					remove_any_education_traits_effect = yes 
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_martial
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_martial_prowess_1
-				}
-				scope:recipient = {
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_martial_prowess
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:trait ?= trait:education_republican_knowledge_1
-				}
-				scope:recipient = {
-					zz_valyria_magic_dream_magic_06_effect_modify_education_trait_effect = {
-						EDUCATION = education_republican_knowledge
-					}
-				}
-			}	
-			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		
-		
-		zz_valyria_magic_dream_magic_07_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_07.toast.t
-				desc = zz_valyria_magic_dream_magic_07.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_07.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				zz_valyria_magic_apply_character_modifier_effect = { 
-					MODIFIER = zz_valyria_magic_dream_magic_07_modifier
-					DURATION = 2
-					BOOSTED_DURATION = 5
-				}
-			}			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
-			}
-		}
-		
-		zz_valyria_magic_dream_magic_08_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_08.toast.t
-				desc = zz_valyria_magic_dream_magic_08.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient					
-				custom_tooltip = zz_valyria_magic_dream_magic_08.toast.tt
-			}
-			zz_valyria_magic_duel_stress_effect = yes 
-			if = {
-				limit = {
-					scope:option_01 = yes
-				}
-				scope:secondary_recipient = {
-					duel = {
-						skill = learning 
-						target = scope:recipient
-						75 = {
-							modifier = {
-								add = zzz_valyria_magic_dream_magic_08_value
-							}
-							add_dread = medium_dread_gain
-							scope:recipient = {
-								show_as_tooltip = {
-									agot_increase_wounds_effect = { REASON = dream_magic RANK = 2 }
-									add_stress = massive_stress_gain
-									add_trait_force_tooltip = incapable
-								}
-								agot_increase_wounds_effect = { REASON = dream_magic RANK = 2 }
-								scope:actor = {
-									if = {
-										limit = {
-											NOR = {
-												has_imprisonment_reason = scope:recipient
-												has_banish_reason = scope:recipient
-												has_execute_reason = scope:recipient
-											}
-										}
-										add_tyranny = minor_tyranny_gain
-									}
-								}
-								custom_tooltip = zz_valyria_magic_water_magic_01.toast.tyranny
-							}
-						}
-						25 = {
-							
-						}
-					}
-				}
-			}	
-			if = {
-				limit = {
-					scope:option_02 = yes
-				}
-				scope:secondary_recipient = {
-					duel = {
-						skill = learning 
-						target = scope:recipient
-						75 = {
-							modifier = {
-								add = zzz_valyria_magic_dream_magic_08_value
-							}
-							scope:actor = { 
-								add_dread = major_dread_gain
-								if = {
-									limit = {
+						agot_increase_wounds_effect = { REASON = dream_magic RANK = 2 }
+						scope:actor = {
+							if = {
+								limit = {
+									NOR = {
+										has_imprisonment_reason = scope:recipient
+										has_banish_reason = scope:recipient
 										has_execute_reason = scope:recipient
 									}
-									custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
 								}
-								else = {
-									add_tyranny = execution_tyranny_gain
-									add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
-									if = {
-										limit = {
-											NOT = {	has_trait = murderer	}
-										}
-										add_trait = murderer
-									}
-									hidden_effect = {
-										if = {
-											limit = {
-												exists = scope:recipient.primary_heir
-												scope:recipient.primary_heir = {
-													any_close_family_member = {
-														this = scope:recipient
-													}
-													NOR = {
-														has_relation_rival = scope:actor
-														has_relation_nemesis = scope:actor
-														has_trait = craven
-														has_trait = forgiving
-													}
-												}
-											}
-											set_relation_rival = scope:recipient.primary_heir
-										}
-										else_if = {
-											limit = {
-												scope:recipient.age<16
-												exists = scope:recipient.father
-												scope:recipient.father = {
-													is_alive = yes
-													is_landed = yes
-													is_ruler = yes
-													NOR = {
-														has_relation_rival = scope:actor
-														has_relation_nemesis = scope:actor
-														has_trait = craven
-														has_trait = forgiving
-													}
-												}
-											}
-											set_relation_rival = scope:recipient.father
-										}
-									}
-								}
+								add_tyranny = minor_tyranny_gain
 							}
-							if  = { 
+						}
+						custom_tooltip = zz_valyria_magic_water_magic_01.toast.tyranny
+					}
+				}
+				25 = {
+					
+				}
+			}
+		}
+	}	
+	if = {
+		limit = {
+			scope:option_02 = yes
+		}
+		scope:secondary_recipient = {
+			duel = {
+				skill = learning 
+				target = scope:recipient
+				75 = {
+					modifier = {
+						add = zzz_valyria_magic_dream_magic_08_value
+					}
+					scope:actor = { 
+						add_dread = major_dread_gain
+						if = {
+							limit = {
+								has_execute_reason = scope:recipient
+							}
+							custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
+						}
+						else = {
+							add_tyranny = execution_tyranny_gain
+							add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:recipient }
+							if = {
 								limit = {
-									scope:recipient = { 
-										NOT = {
-											is_at_war_with = scope:actor
-										}	
+									NOT = {	has_trait = murderer	}
+								}
+								add_trait = murderer
+							}
+							hidden_effect = {
+								if = {
+									limit = {
+										exists = scope:recipient.primary_heir
+										scope:recipient.primary_heir = {
+											any_close_family_member = {
+												this = scope:recipient
+											}
+											NOR = {
+												has_relation_rival = scope:actor
+												has_relation_nemesis = scope:actor
+												has_trait = craven
+												has_trait = forgiving
+											}
+										}
 									}
+									set_relation_rival = scope:recipient.primary_heir
 								}
-								execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
-							}
-							scope:recipient = {
-								death = {
-									death_reason = death_dream_magic
-									killer = scope:secondary_recipient
-								}
-							}
-						}
-						25 = {
-							
-						}
-					}
-				}
-			}	
-		}
-		
-		zz_valyria_magic_dream_magic_09_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_09.toast.t
-				desc = zz_valyria_magic_dream_magic_09.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_09.toast.tt
-				if = {
-					limit = {
-						NOT = {
-							scope:actor = scope:recipient
-						}
-					}
-					stress_impact = {
-						compassionate = medium_stress_impact_loss
-						sadistic = minor_stress_gain
-						callous = minor_stress_gain
-					}
-				}
-				scope:recipient = { 
-					zz_dragon_dreams = yes
-					random_list = {
-						1= {	
-							add_diplomacy_skill = 1	
-						}
-						1= {	
-							add_martial_skill = 1	
-						}
-						1= {	
-							add_stewardship_skill = 1	
-						}
-						1= {	
-							add_intrigue_skill = 1	
-						}
-						1= {	
-							add_learning_skill = 1	
-						}
-						1= {	
-							add_prowess_skill = 1	
-						}
-						1 = {
-							trigger = {
-								NOT = {
-									has_character_modifier = bp1_1000_focus_on_work_modifier
+								else_if = {
+									limit = {
+										scope:recipient.age<16
+										exists = scope:recipient.father
+										scope:recipient.father = {
+											is_alive = yes
+											is_landed = yes
+											is_ruler = yes
+											NOR = {
+												has_relation_rival = scope:actor
+												has_relation_nemesis = scope:actor
+												has_trait = craven
+												has_trait = forgiving
+											}
+										}
+									}
+									set_relation_rival = scope:recipient.father
 								}
 							}
-							add_character_modifier = {
-								modifier = bp1_1000_focus_on_work_modifier
-								years = 2
-							}
 						}
 					}
-				} 
-				scope:recipient = {		
-					if = {
+					if  = { 
 						limit = {
-							NOT = { scope:actor = scope:recipient }
+							scope:recipient = { 
+								NOT = {
+									is_at_war_with = scope:actor
+								}	
+							}
 						}
-						add_opinion = {
-							modifier = grateful_opinion
-							target = scope:actor
-							opinion = 70
+						execute_opinion_effect = { VICTIM = scope:recipient EXECUTIONER = scope:secondary_recipient }
+					}
+					scope:recipient = {
+						death = {
+							death_reason = death_dream_magic
+							killer = scope:secondary_recipient
 						}
 					}
+				}
+				25 = {
+
 				}
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_10_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_10.toast.t
-				desc = zz_valyria_magic_dream_magic_10.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_10.toast.tt
+	}	
+}
+
+zz_valyria_magic_dream_magic_09_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_09.toast.t
+		desc = zz_valyria_magic_dream_magic_09.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_09.toast.tt
+		if = {
+			limit = {
+				NOT = {
+					scope:actor = scope:recipient
+				}
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
+			stress_impact = {
+				compassionate = medium_stress_impact_loss
+				sadistic = minor_stress_gain
+				callous = minor_stress_gain
+			}
+		}
+		scope:recipient = { 
+			zz_dragon_dreams = yes
+			random_list = {
+				1= {	
+					add_diplomacy_skill = 1	
+				}
+				1= {	
+					add_martial_skill = 1	
+				}
+				1= {	
+					add_stewardship_skill = 1	
+				}
+				1= {	
+					add_intrigue_skill = 1	
+				}
+				1= {	
+					add_learning_skill = 1	
+				}
+				1= {	
+					add_prowess_skill = 1	
+				}
+				1 = {
+					trigger = {
+						NOT = {
+							has_character_modifier = bp1_1000_focus_on_work_modifier
+						}
+					}
+					add_character_modifier = {
+						modifier = bp1_1000_focus_on_work_modifier
+						years = 2
 					}
 				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
+			}
+		} 
+		scope:recipient = {		
+			if = {
+				limit = {
+					NOT = { scope:actor = scope:recipient }
+				}
+				add_opinion = {
+					modifier = grateful_opinion
+					target = scope:actor
+					opinion = 70
 				}
 			}
-			scope:recipient = {	
-				set_variable = {
-					name = caster 
-					value = scope:secondary_recipient 
-				}
-				set_variable = {
-					name = actor 
-					value = scope:actor 
-				}
-				create_story = {
-					type = zz_valyria_magic_dream_magic_10_story
-					save_scope_as = story
-				}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_10_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_10.toast.t
+		desc = zz_valyria_magic_dream_magic_10.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_10.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = {	
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+		set_variable = {
+			name = actor 
+			value = scope:actor 
+		}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_10_story
+			save_scope_as = story
+		}
+	}
 			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_11_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_11.toast.t
-				desc = zz_valyria_magic_dream_magic_11.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_11.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_11_01_value
-				}  
-			}			
-			scope:scheme = {
-				expose_scheme = yes 
+	}
+}
+
+zz_valyria_magic_dream_magic_11_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_11.toast.t
+		desc = zz_valyria_magic_dream_magic_11.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_11.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_12_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_12.toast.t
-				desc = zz_valyria_magic_dream_magic_12.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_12.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				expose_scheme = yes
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_11_01_value
+		}  
+	}			
+	scope:scheme = {
+		expose_scheme = yes 
+	}
+}
+
+zz_valyria_magic_dream_magic_12_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_12.toast.t
+		desc = zz_valyria_magic_dream_magic_12.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_12.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_13_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_13.toast.t
-				desc = zz_valyria_magic_dream_magic_13.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_13.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				reveal_to = scope:actor
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		expose_scheme = yes
+	}
+}
+
+zz_valyria_magic_dream_magic_13_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_13.toast.t
+		desc = zz_valyria_magic_dream_magic_13.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_13.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_14_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_14.toast.t
-				desc = zz_valyria_magic_dream_magic_14.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_14.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				reveal_to = scope:actor
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		reveal_to = scope:actor
+	}
+}
+
+zz_valyria_magic_dream_magic_14_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_14.toast.t
+		desc = zz_valyria_magic_dream_magic_14.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_14.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_15_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_15.toast.t
-				desc = zz_valyria_magic_dream_magic_15.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_15.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				reveal_to = scope:actor
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		reveal_to = scope:actor
+	}
+}
+
+zz_valyria_magic_dream_magic_15_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_15.toast.t
+		desc = zz_valyria_magic_dream_magic_15.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_15.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_16_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_16.toast.t
-				desc = zz_valyria_magic_dream_magic_16.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_16.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				disable_exposure_by = scope:target
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		reveal_to = scope:actor
+	}
+}
+zz_valyria_magic_dream_magic_16_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_16.toast.t
+		desc = zz_valyria_magic_dream_magic_16.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_16.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_17_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_17.toast.t
-				desc = zz_valyria_magic_dream_magic_17.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_17.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				disable_exposure_by = scope:target
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		disable_exposure_by = scope:target
+	}
+}
+zz_valyria_magic_dream_magic_17_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_17.toast.t
+		desc = zz_valyria_magic_dream_magic_17.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_17.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_18_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_18.toast.t
-				desc = zz_valyria_magic_dream_magic_18.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_18.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				disable_exposure_by = scope:target
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		disable_exposure_by = scope:target
+	}
+}
+zz_valyria_magic_dream_magic_18_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_18.toast.t
+		desc = zz_valyria_magic_dream_magic_18.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_18.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		
-		zz_valyria_magic_dream_magic_19_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_19.toast.t
-				desc = zz_valyria_magic_dream_magic_19.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_19.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				add_scheme_breach = zz_valyria_magic_dream_magic_19_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		disable_exposure_by = scope:target
+	}
+}
+
+
+zz_valyria_magic_dream_magic_19_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_19.toast.t
+		desc = zz_valyria_magic_dream_magic_19.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_19.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_20_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_20.toast.t
-				desc = zz_valyria_magic_dream_magic_20.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_20.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				add_scheme_breach = zz_valyria_magic_dream_magic_20_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		add_scheme_breach = zz_valyria_magic_dream_magic_19_value
+	}
+}
+
+zz_valyria_magic_dream_magic_20_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_20.toast.t
+		desc = zz_valyria_magic_dream_magic_20.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_20.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_21_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_21.toast.t
-				desc = zz_valyria_magic_dream_magic_21.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_21.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				change_opportunities = zz_valyria_magic_dream_magic_21_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		add_scheme_breach = zz_valyria_magic_dream_magic_20_value
+	}
+}
+
+zz_valyria_magic_dream_magic_21_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_21.toast.t
+		desc = zz_valyria_magic_dream_magic_21.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_21.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_22_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_22.toast.t
-				desc = zz_valyria_magic_dream_magic_22.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_22.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				change_opportunities =zz_valyria_magic_dream_magic_22_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		change_opportunities = zz_valyria_magic_dream_magic_21_value
+	}
+}
+zz_valyria_magic_dream_magic_22_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_22.toast.t
+		desc = zz_valyria_magic_dream_magic_22.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_22.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_23_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_23.toast.t
-				desc = zz_valyria_magic_dream_magic_23.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_23.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:target = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:target = {
-				forbid_from_scheme = scope:scheme
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		change_opportunities =zz_valyria_magic_dream_magic_22_value
+	}
+}
+
+zz_valyria_magic_dream_magic_23_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_23.toast.t
+		desc = zz_valyria_magic_dream_magic_23.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_23.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_24_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_24.toast.t
-				desc = zz_valyria_magic_dream_magic_24.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_24.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:target = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:target = {
-				forbid_from_scheme = scope:scheme
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:target = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:target = {
+		forbid_from_scheme = scope:scheme
+	}
+}
+
+zz_valyria_magic_dream_magic_24_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_24.toast.t
+		desc = zz_valyria_magic_dream_magic_24.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_24.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_25_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_25.toast.t
-				desc = zz_valyria_magic_dream_magic_25.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_25.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				expose_scheme_agent = scope:target
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:target = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:target = {
+		forbid_from_scheme = scope:scheme
+	}
+}
+
+zz_valyria_magic_dream_magic_25_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_25.toast.t
+		desc = zz_valyria_magic_dream_magic_25.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_25.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_26_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_26.toast.t
-				desc = zz_valyria_magic_dream_magic_26.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_26.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				expose_scheme_agent = scope:target
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		expose_scheme_agent = scope:target
+	}
+}
+zz_valyria_magic_dream_magic_26_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_26.toast.t
+		desc = zz_valyria_magic_dream_magic_26.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_26.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_27_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_27.toast.t
-				desc = zz_valyria_magic_dream_magic_27.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_27.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				scheme_freeze = {
-					days = 30
-				}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		expose_scheme_agent = scope:target
+	}
+}
+
+zz_valyria_magic_dream_magic_27_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_27.toast.t
+		desc = zz_valyria_magic_dream_magic_27.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_27.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_28_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_28.toast.t
-				desc = zz_valyria_magic_dream_magic_28.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_28.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				scheme_freeze = {
-					days = 30
-				}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		scheme_freeze = {
+			days = 30
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_28_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_28.toast.t
+		desc = zz_valyria_magic_dream_magic_28.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_28.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_29_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_29.toast.t
-				desc = zz_valyria_magic_dream_magic_29.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_29.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				change_opportunities = zz_valyria_magic_dream_magic_29_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		scheme_freeze = {
+			days = 30
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_29_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_29.toast.t
+		desc = zz_valyria_magic_dream_magic_29.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_29.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_30_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_30.toast.t
-				desc = zz_valyria_magic_dream_magic_30.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_30.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				change_opportunities = zz_valyria_magic_dream_magic_30_value
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		change_opportunities = zz_valyria_magic_dream_magic_29_value
+	}
+}
+
+zz_valyria_magic_dream_magic_30_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_30.toast.t
+		desc = zz_valyria_magic_dream_magic_30.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_30.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		
-		zz_valyria_magic_dream_magic_31_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_31.toast.t
-				desc = zz_valyria_magic_dream_magic_31.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_31.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				reset_scheme_progress = yes
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		change_opportunities = zz_valyria_magic_dream_magic_30_value
+	}
+}
+
+
+zz_valyria_magic_dream_magic_31_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_31.toast.t
+		desc = zz_valyria_magic_dream_magic_31.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_31.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_32_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_32.toast.t
-				desc = zz_valyria_magic_dream_magic_32.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_32.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:scheme = {
-				reset_scheme_progress = yes
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		reset_scheme_progress = yes
+	}
+}
+
+zz_valyria_magic_dream_magic_32_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_32.toast.t
+		desc = zz_valyria_magic_dream_magic_32.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_32.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		
-		zz_valyria_magic_dream_magic_33_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_33.toast.t
-				desc = zz_valyria_magic_dream_magic_33.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_33.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			if = { 
-				limit = {
-					scope:option_01 ?= yes
-				}
-				scope:recipient = { 
-					spawn_army = {
-						men_at_arms = { 
-							type = zz_valyria_ravens
-							stacks = zz_valyria_magic_dream_magic_33_value
-						}
-						location = scope:recipient.location
-						uses_supply = no
-						name = "zz_valyria_raven_host"
-					}
-				}	
-			}
-			if = { 
-				limit = {
-					scope:option_02 ?= yes
-				}
-				set_variable = {
-					name = zz_manacost 
-					value = 12
-				}
-				
-				zz_valyria_mana_spend = yes
-				scope:recipient = { 
-					spawn_army = {
-						men_at_arms = { 
-							type = zz_valyria_direwolves
-							stacks = zz_valyria_magic_dream_magic_33_value
-						}
-						location = scope:recipient.location
-						uses_supply = no
-						name = "zz_valyria_direwolf_host"
-					}
-					stress_impact ={ 
-						base = zz_valyria_magic_dream_magic_33_value
-					}  
-				}	
-			}
-			if = { 
-				limit = {
-					scope:option_03 ?= yes
-				}
-				scope:secondary_recipient = {
-					set_variable = {
-						name = zz_manacost 
-						value = 42
-					}
-					zz_valyria_mana_spend = yes
-				}
-				scope:recipient = { 
-					spawn_army = {
-						men_at_arms = { 
-							type = zz_valyria_bears
-							stacks = zz_valyria_magic_dream_magic_33_value
-						}
-						location = scope:recipient.location
-						uses_supply = no
-						name = "zz_valyria_bear_host"
-					}
-				}	
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:scheme = {
+		reset_scheme_progress = yes
+	}
+}
+
+
+zz_valyria_magic_dream_magic_33_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_33.toast.t
+		desc = zz_valyria_magic_dream_magic_33.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_33.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_34_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_34.toast.t
-				desc = zz_valyria_magic_dream_magic_34.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_34.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	if = { 
+		limit = {
+			scope:option_01 ?= yes
+		}
+		scope:recipient = { 
+			spawn_army = {
+				men_at_arms = { 
+					type = zz_valyria_ravens
+					stacks = zz_valyria_magic_dream_magic_33_value
+				}
+				location = scope:recipient.location
+				uses_supply = no
+				name = "zz_valyria_raven_host"
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
+		}	
+	}
+	if = { 
+		limit = {
+			scope:option_02 ?= yes
+		}
+		set_variable = {
+			name = zz_manacost 
+			value = 12
+		}
+
+		zz_valyria_mana_spend = yes
+		scope:recipient = { 
+			spawn_army = {
+				men_at_arms = { 
+					type = zz_valyria_direwolves
+					stacks = zz_valyria_magic_dream_magic_33_value
 				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
+				location = scope:recipient.location
+				uses_supply = no
+				name = "zz_valyria_direwolf_host"
 			}
-			scope:recipient = { 
-				set_culture = scope:culture
-			}			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
+			stress_impact ={ 
+				base = zz_valyria_magic_dream_magic_33_value
+			}  
+		}	
+	}
+	if = { 
+		limit = {
+			scope:option_03 ?= yes
+		}
+		scope:secondary_recipient = {
+			set_variable = {
+				name = zz_manacost 
+				value = 42
+			}
+			zz_valyria_mana_spend = yes
+		}
+		scope:recipient = { 
+			spawn_army = {
+				men_at_arms = { 
+					type = zz_valyria_bears
+					stacks = zz_valyria_magic_dream_magic_33_value
 				}
+				location = scope:recipient.location
+				uses_supply = no
+				name = "zz_valyria_bear_host"
+			}
+		}	
+	}
+}
+
+zz_valyria_magic_dream_magic_34_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_34.toast.t
+		desc = zz_valyria_magic_dream_magic_34.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_34.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_35_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_35.toast.t
-				desc = zz_valyria_magic_dream_magic_35.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_35.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_culture = scope:culture
+	}			
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				set_character_faith = scope:religion
-			}			
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_36_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_36.toast.t
-				desc = zz_valyria_magic_dream_magic_36.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_36.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				set_county_culture = scope:culture
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+	}
+}
+
+zz_valyria_magic_dream_magic_35_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_35.toast.t
+		desc = zz_valyria_magic_dream_magic_35.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_35.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_37_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_37.toast.t
-				desc = zz_valyria_magic_dream_magic_37.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_37.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_character_faith = scope:religion
+	}			
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}	
-			scope:target = {
-				set_county_faith = scope:religion
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_38_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_38.toast.t
-				desc = zz_valyria_magic_dream_magic_38.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_38.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				zz_valyria_magic_apply_county_modifier_effect = { 
-					MODIFIER = zz_valyria_magic_dream_magic_38_modifier
-					DURATION = 2
-					BOOSTED_DURATION = 4
-				}
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+	}
+}
+
+zz_valyria_magic_dream_magic_36_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_36.toast.t
+		desc = zz_valyria_magic_dream_magic_36.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_36.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_39_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_39.toast.t
-				desc = zz_valyria_magic_dream_magic_39.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_39.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		set_county_culture = scope:culture
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				zz_valyria_magic_apply_county_modifier_effect = { 
-					MODIFIER = zz_valyria_magic_dream_magic_39_modifier
-					DURATION = 2
-					BOOSTED_DURATION = 4
-				}
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_40_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_40.toast.t
-				desc = zz_valyria_magic_dream_magic_40.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_40.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				remove_secret = yes
+	}
+}
+
+zz_valyria_magic_dream_magic_37_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_37.toast.t
+		desc = zz_valyria_magic_dream_magic_37.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_37.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_41_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_41.toast.t
-				desc = zz_valyria_magic_dream_magic_41.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_41.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}	
+	scope:target = {
+		set_county_faith = scope:religion
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				remove_secret = yes
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		zz_valyria_magic_dream_magic_42_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_42.toast.t
-				desc = zz_valyria_magic_dream_magic_42.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_42.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				stress_impact ={ 
-					base = zz_valyria_magic_dream_magic_06_value
-				}  
-			}			
-			scope:secret = {
-				remove_secret = yes
+	}
+}
+
+zz_valyria_magic_dream_magic_38_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_38.toast.t
+		desc = zz_valyria_magic_dream_magic_38.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_38.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_43_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_43.toast.t
-				desc = zz_valyria_magic_dream_magic_43.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_43.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_38_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				change_county_control = zz_valyria_magic_dream_magic_43_value
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		zz_valyria_magic_dream_magic_44_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_44.toast.t
-				desc = zz_valyria_magic_dream_magic_44.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_44.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				change_county_control = zz_valyria_magic_dream_magic_44_value
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+	}
+}
+
+zz_valyria_magic_dream_magic_39_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_39.toast.t
+		desc = zz_valyria_magic_dream_magic_39.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_39.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_45_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_45.toast.t
-				desc = zz_valyria_magic_dream_magic_45.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_45.toast.tt
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		zz_valyria_magic_apply_county_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_dream_magic_39_modifier
+			DURATION = 2
+			BOOSTED_DURATION = 4
+		}
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
 			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				change_development_progress_with_overflow = zz_valyria_magic_dream_magic_45_value
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
 			}
 		}
-		zz_valyria_magic_dream_magic_46_effect = {
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_46.toast.t
-				desc = zz_valyria_magic_dream_magic_46.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_46.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}		
-			scope:target = {
-				change_development_progress_with_overflow = zz_valyria_magic_dream_magic_46_value
-			}
-			scope:recipient = {		
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+	}
+}
+
+zz_valyria_magic_dream_magic_40_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_40.toast.t
+		desc = zz_valyria_magic_dream_magic_40.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_40.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_47_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_47.toast.t
-				desc = zz_valyria_magic_dream_magic_47.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient					
-				custom_tooltip = zz_valyria_magic_dream_magic_47.toast.tt
-			}
-			scope:target = {
-				deplete_army_by_percentage = 1
-				location = {
-					destroy_random_building_variable_effect = yes 
-					destroy_random_building_variable_effect = yes 
-					destroy_random_building_variable_effect = yes 
-					destroy_random_building_variable_effect = yes 
-					destroy_random_building_variable_effect = yes 
-				}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}
+zz_valyria_magic_dream_magic_41_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_41.toast.t
+		desc = zz_valyria_magic_dream_magic_41.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_41.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		
-		zz_valyria_magic_dream_magic_48_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_48.toast.t
-				desc = zz_valyria_magic_dream_magic_48.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_48.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				set_variable = {
-					name = caster 
-					value = scope:secondary_recipient 
-				}
-				set_variable = {
-					name = actor 
-					value = scope:actor 
-				}
-				create_story = {
-					type = zz_valyria_magic_dream_magic_48_story
-					save_scope_as = story
-				}
-			} 
-			scope:recipient = {	
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}
+zz_valyria_magic_dream_magic_42_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_42.toast.t
+		desc = zz_valyria_magic_dream_magic_42.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_42.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
-		zz_valyria_magic_dream_magic_49_effect = { 
-			send_interface_message = {
-				type = send_interface_message_as_feed_spell_outcome
-				title = zz_valyria_magic_dream_magic_49.toast.t
-				desc = zz_valyria_magic_dream_magic_49.toast.desc
-				left_icon = scope:secondary_recipient
-				right_icon = scope:recipient
-				custom_tooltip = zz_valyria_magic_dream_magic_49.toast.tt
-			}
-			if = {
-				limit = {
-					NOT = {
-						scope:actor = scope:recipient
-					}
-				}
-				stress_impact = {
-					compassionate = medium_stress_impact_loss
-					sadistic = minor_stress_gain
-					callous = minor_stress_gain
-				}
-			}
-			scope:recipient = { 
-				set_variable = {
-					name = caster 
-					value = scope:secondary_recipient 
-				}
-				set_variable = {
-					name = actor 
-					value = scope:actor 
-				}
-				create_story = {
-					type = zz_valyria_magic_dream_magic_49_story
-					save_scope_as = story
-				}
-			} 
-			scope:recipient = {	
-				if = {
-					limit = {
-						NOT = { scope:actor = scope:recipient }
-					}
-					add_opinion = {
-						modifier = grateful_opinion
-						target = scope:actor
-						opinion = 70
-					}
-				}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		stress_impact ={ 
+			base = zz_valyria_magic_dream_magic_06_value
+		}  
+	}			
+	scope:secret = {
+		remove_secret = yes
+	}
+}
+zz_valyria_magic_dream_magic_43_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_43.toast.t
+		desc = zz_valyria_magic_dream_magic_43.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_43.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
 			}
 		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		change_county_control = zz_valyria_magic_dream_magic_43_value
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_44_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_44.toast.t
+		desc = zz_valyria_magic_dream_magic_44.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_44.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		change_county_control = zz_valyria_magic_dream_magic_44_value
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_45_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_45.toast.t
+		desc = zz_valyria_magic_dream_magic_45.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_45.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_45_value
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_46_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_46.toast.t
+		desc = zz_valyria_magic_dream_magic_46.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_46.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}		
+	scope:target = {
+		change_development_progress_with_overflow = zz_valyria_magic_dream_magic_46_value
+	}
+	scope:recipient = {		
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_47_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_47.toast.t
+		desc = zz_valyria_magic_dream_magic_47.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient					
+		custom_tooltip = zz_valyria_magic_dream_magic_47.toast.tt
+	}
+	scope:target = {
+		deplete_army_by_percentage = 1
+		location = {
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+			destroy_random_building_variable_effect = yes 
+		}
+	}
+}
+
+zz_valyria_magic_dream_magic_48_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_48.toast.t
+		desc = zz_valyria_magic_dream_magic_48.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_48.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+		set_variable = {
+			name = actor 
+			value = scope:actor 
+		}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_48_story
+			save_scope_as = story
+		}
+	} 
+	scope:recipient = {	
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}
+zz_valyria_magic_dream_magic_49_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dream_magic_49.toast.t
+		desc = zz_valyria_magic_dream_magic_49.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dream_magic_49.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+	scope:recipient = { 
+		set_variable = {
+				name = caster 
+				value = scope:secondary_recipient 
+			}
+			set_variable = {
+			name = actor 
+			value = scope:actor 
+		}
+		create_story = {
+			type = zz_valyria_magic_dream_magic_49_story
+			save_scope_as = story
+		}
+	} 
+	scope:recipient = {	
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}

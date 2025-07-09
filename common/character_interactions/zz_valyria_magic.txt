@@ -1452,6 +1452,13 @@ zz_valyria_magic_02.interaction = {
 			}
 			if = {
 				limit = {
+					scope:incapacitate = yes
+				}
+				
+				add_trait = incapble
+			}
+			if = {
+				limit = {
 					scope:commit_suicide = yes
 				}
 				
@@ -1478,6 +1485,7 @@ zz_valyria_magic_02.interaction = {
 					}
 				}
 			}
+			
 		}
 	}
 	auto_accept = yes
@@ -1535,12 +1543,12 @@ zz_valyria_magic_02.interaction = {
 		}
 	}
 	send_option = {
-		flag = become_lover
-		localization = zz_become_lover
-	}
-	send_option = {
 		flag = become_friend
 		localization = zz_become_friend
+	}
+	send_option = {
+		flag = become_lover
+		localization = zz_become_lover
 	}
 	send_option = {
 		flag = become_soulmate
@@ -1549,6 +1557,10 @@ zz_valyria_magic_02.interaction = {
 	send_option = {
 		flag = become_ally
 		localization = zz_become_ally
+	}
+	send_option = {
+		flag = incapacitate
+		localization = zz_incapacitate
 	}
 	send_option = {
 		flag = commit_suicide
