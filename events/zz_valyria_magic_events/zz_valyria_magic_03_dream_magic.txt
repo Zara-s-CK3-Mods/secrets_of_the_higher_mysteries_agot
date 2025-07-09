@@ -366,6 +366,20 @@ zz_valyria_magic_dream_magic_spells.005 = {
 				}
 			}
 		}
+		trait:zz_loyal_functionary = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = selected_trait }
+					}
+					set_variable = { name = selected_trait value = prev }
+				}
+			}
+		}
 		trait:gallivanter = {
 			root = {
 				add_to_variable_list = {
@@ -563,6 +577,21 @@ zz_valyria_magic_dream_magic_spells.005 = {
 			}
 		}
 		trait:athletic = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = selected_trait }
+					}
+					set_variable = { name = selected_trait value = prev }
+				}
+			}
+		}
+		every_trait_in_category = {
+			category = commander
 			root = {
 				add_to_variable_list = {
 					name = possible_traits
@@ -2796,9 +2825,22 @@ zz_valyria_magic_dream_magic_spells.035 = {
 		remove_variable = selected_religion
 		root = {
 			faith = {
-				add_to_variable_list = {
-					name = possible_religions
-					target = prev
+				root = {
+					add_to_variable_list = {
+						name = possible_religions
+						target = prev
+					}
+				}
+				
+			}
+		}
+		scope:secondary_recipient = {
+			faith = {
+				root = {
+					add_to_variable_list = {
+						name = possible_religions
+						target = prev
+					}
 				}
 			}
 		}
@@ -2871,10 +2913,13 @@ zz_valyria_magic_dream_magic_spells.036 = {
 		remove_variable = selected_culture
 		root = {
 			culture = {
-				add_to_variable_list = {
-					name = possible_culture
-					target = prev
+				root = {
+					add_to_variable_list = {
+						name = possible_culture
+						target = prev
+					}
 				}
+				
 			}
 		}
 		every_culture_global = {
@@ -2983,10 +3028,13 @@ zz_valyria_magic_dream_magic_spells.037 = {
 		remove_variable = selected_religion
 		root = {
 			faith = {
-				add_to_variable_list = {
-					name = possible_religions
-					target = prev
+				ROOT = {
+					add_to_variable_list = {
+						name = possible_religions
+						target = prev
+					}
 				}
+				
 			}
 		}
 		every_religion_global = {
