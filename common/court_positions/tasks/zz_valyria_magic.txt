@@ -291,13 +291,20 @@ zz_valyria_court_mages_court_position_improve_others = {
 
 	employee_modifier = {
 		general_opinion = 5
+		stress_gain_mult = 0.25
+		child_opinion = 5
 	}
 
 	on_start = {
+		set_variable = court_tutor_teach_kids
 		custom_tooltip = court_tutor_improve_others_fallback_tt
 	}
 
 	on_monthly = {
+		zz_valyria_gain_spell_experience = {
+			XPGAIN = 1
+			XPTRACK = secrets_of_the_higher_mysteries
+		}
 		random = {
 			chance = {
 				value = 1
@@ -594,7 +601,9 @@ zz_valyria_court_mages_court_position_improve_others = {
 			}
 		}
 	}
-
+	on_end = {
+		remove_variable = court_tutor_teach_kids
+	}
 	ai_will_do = {
 		value = 0 # Never used by AI
 	}
