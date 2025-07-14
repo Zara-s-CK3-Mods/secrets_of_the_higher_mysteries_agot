@@ -857,7 +857,8 @@ commander_wild_dragon_joined_battle = {
 			}
 		}
 
-		any_living_dragon = {
+		any_in_global_list = {
+			variable = living_dragons
 			location.county ?= root.location.county
 			dragon_size >= dragon_taming_minimum_size
 			NOT = { has_character_flag = owned_dragon }
@@ -877,7 +878,8 @@ commander_wild_dragon_joined_battle = {
 		base = 0
 
 		modifier = {
-			any_living_dragon = {
+			any_in_global_list = {
+				variable = living_dragons
 				location.county ?= root.location.county
 				dragon_size >= dragon_taming_minimum_size
 				NOT = { has_character_flag = owned_dragon }
@@ -925,7 +927,8 @@ commander_wild_dragon_joined_battle = {
 
 	effect = {
 		location = { save_scope_as = battle_location }
-		random_living_dragon = {
+		random_in_global_list = {
+			variable = living_dragons
 			limit = {
 				location.county ?= root.location.county
 				dragon_size >= dragon_taming_minimum_size

@@ -4595,7 +4595,8 @@ agot_dragon_combat.1004 = {
 						}
 						modifier = { # Isn't above the limit
 							factor = 0
-							any_living_dragon = {
+							any_in_global_list = {
+								variable = living_dragons
 								count < global_dragon_cannibal_limit
 								has_trait = dragon_cannibal
 							}

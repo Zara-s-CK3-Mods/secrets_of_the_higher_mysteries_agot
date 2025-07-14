@@ -1806,8 +1806,8 @@ zz_valyria_magic_dream_magic_38_effect = {
 	scope:target = {
 		zz_valyria_magic_apply_county_modifier_effect = { 
 			MODIFIER = zz_valyria_magic_dream_magic_38_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
+			DURATION = 24
+			BOOSTED_DURATION = 48
 		}
 	}
 	scope:recipient = {		
@@ -1848,8 +1848,8 @@ zz_valyria_magic_dream_magic_39_effect = {
 	scope:target = {
 		zz_valyria_magic_apply_county_modifier_effect = { 
 			MODIFIER = zz_valyria_magic_dream_magic_39_modifier
-			DURATION = 2
-			BOOSTED_DURATION = 4
+			DURATION = 24
+			BOOSTED_DURATION = 48
 		}
 	}
 	scope:recipient = {		

@@ -471,3 +471,38 @@ zz_valyria_magic_water_magic_13_effect = {
 		}
 	}
 }
+
+zz_valyria_magic_water_magic_14_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_water_magic_14.toast.t
+		desc = zz_valyria_magic_water_magic_14.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:target
+		custom_tooltip = zz_valyria_magic_water_magic_14.toast.tt
+	}
+	scope:target = {
+		zz_valyria_magic_apply_province_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_water_magic_14_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_15_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_water_magic_15.toast.t
+		desc = zz_valyria_magic_water_magic_15.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:target
+		custom_tooltip = zz_valyria_magic_water_magic_15.toast.tt
+	}
+	scope:target = {
+		zz_valyria_magic_apply_province_modifier_effect = { 
+			MODIFIER = zz_valyria_magic_water_magic_15_modifier
+			DURATION = 1
+			BOOSTED_DURATION = 1
+		}
+	}
+}

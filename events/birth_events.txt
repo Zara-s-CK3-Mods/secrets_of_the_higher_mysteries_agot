@@ -504,7 +504,8 @@ birth.0001 = {
 					any_living_mage = { 
 						has_trait = starwalker
 					}
-					any_living_dragon = { 
+					any_in_global_list = {
+						variable = living_dragons
 						exists = yes 
 					}
 				}

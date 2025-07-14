@@ -2043,13 +2043,13 @@ zz_valyria_magic_apply_province_modifier_effect = {
 		}
 		add_province_modifier = {
 			modifier = $MODIFIER$
-			years = $BOOSTED_DURATION$
+			months = $BOOSTED_DURATION$
 		}		
 	}
 	else = { 
 		add_province_modifier = {
 			modifier = $MODIFIER$
-			years = $DURATION$
+			months = $DURATION$
 		}		
 	}
 }
@@ -2065,13 +2065,13 @@ zz_valyria_magic_apply_county_modifier_effect = {
 		}
 		add_county_modifier = {
 			modifier = $MODIFIER$
-			years = $BOOSTED_DURATION$
+			months = $BOOSTED_DURATION$
 		}		
 	}
 	else = { 
 		add_county_modifier = {
 			modifier = $MODIFIER$
-			years = $DURATION$
+			months = $DURATION$
 		}		
 	}
 }

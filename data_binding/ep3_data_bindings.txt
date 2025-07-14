@@ -3,7 +3,7 @@
 	definition = "IsLandlessAdventurer(TargetCharacter)"
 	#AGOT Modified
 	# replace_with = "TargetCharacter.GetGovernment.IsType( 'landless_adventurer_government' )"
-	replace_with = "Or(  Or(TargetCharacter.GetGovernment.IsType('landless_adventurer_government'), TargetCharacter.GetGovernment.IsType('first_ranger_government')) , TargetCharacter.GetGovernment.IsType('maegi_government') )"
+	replace_with = "Or(TargetCharacter.GetGovernment.IsType('landless_adventurer_government'), TargetCharacter.GetGovernment.IsType('first_ranger_government'))"
 }
 
 macro = {

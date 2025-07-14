@@ -77,8 +77,8 @@ zz_valyria_magic_alchemy_magic_01_effect = {
 	scope:target = {
 		zz_valyria_magic_apply_province_modifier_effect = { 
 			MODIFIER = zz_valyria_magic_alchemy_magic_01_modifier
-			DURATION = 10
-			BOOSTED_DURATION = 20
+			DURATION = 120
+			BOOSTED_DURATION = 240
 		}
 	}
 }
@@ -95,8 +95,8 @@ zz_valyria_magic_alchemy_magic_02_effect = {
 	scope:target = {
 		zz_valyria_magic_apply_province_modifier_effect = { 
 			MODIFIER = zz_valyria_magic_alchemy_magic_02_modifier
-			DURATION = 10
-			BOOSTED_DURATION = 20
+			DURATION = 120
+			BOOSTED_DURATION = 240
 		}
 	}
 }
