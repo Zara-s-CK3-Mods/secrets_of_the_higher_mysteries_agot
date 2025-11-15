@@ -918,7 +918,7 @@ zz_valyria_magic_school_study_magic = {
 		not = {
 			var:zz_magic_caster = {
 				any_scheme = {
-					scheme_type = further_magical_education_scheme
+					type = further_magical_education_scheme
 				}
  			}
 		}
@@ -926,7 +926,7 @@ zz_valyria_magic_school_study_magic = {
 	is_shown = {
 		var:zz_magic_caster = {
 			any_scheme = {
-				scheme_type = further_magical_education_scheme
+				type = further_magical_education_scheme
 			}
 		}
 	}
