@@ -4622,6 +4622,254 @@ agot_dragon_combat.1004 = {
 	}
 }
 
+# More Dragon Duels
+agot_dragon_combat.1010 = {
+	type = character_event
+	title = agot_dragon_combat.1010.t
+	desc = {
+		triggered_desc = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_commander } }
+			desc = agot_dragon_combat.1010.desc.commander
+		}
+		triggered_desc = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_knight } }
+			desc = agot_dragon_combat.1010.desc.knight
+		}
+		triggered_desc = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_lord } }
+			desc = agot_dragon_combat.1010.desc.lord
+		}
+		triggered_desc = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_courtier } }
+			desc = agot_dragon_combat.1010.desc.courtier
+		}
+	}
+	theme = dragon
+	left_portrait = {
+		character = scope:dragonrider_in_battle
+		animation = war_defender
+	}
+	right_portrait = {
+		character = scope:enemy_dragonrider
+		animation = war_attacker
+	}
+	override_background = {
+		reference = agot_open_sky
+	}
+	trigger = { # Everyone is still alive
+		scope:dragon_in_battle = { is_alive = yes }
+		scope:dragonrider_in_battle = { is_alive = yes }
+		scope:enemy_dragonrider = { is_alive = yes }
+		scope:enemy_dragonrider.var:current_dragon = { is_alive = yes }
+	}
+
+	#Attack
+	option = {
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_commander } }
+			text = agot_dragon_combat.1010.a.commander
+		}
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_knight } }
+			text = agot_dragon_combat.1010.a.knight
+		}
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_lord } }
+			text = agot_dragon_combat.1010.a.lord
+		}
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_courtier } }
+			text = agot_dragon_combat.1010.a.courtier
+		}
+		if = {
+			limit = {
+				this = scope:dragonrider_in_battle
+				OR = {
+					scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_commander }
+					scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_lord }
+				}
+			}
+			custom_tooltip = agot_dragon_combat.1010.a.tt
+			trigger_event = agot_dragon_combat.0001
+		}
+		else = {
+			custom_tooltip = agot_dragon_combat.1010.a.tt.not_me
+			scope:dragonrider_in_battle = { trigger_event = agot_dragon_combat.0001 }
+		}
+	}
+
+	#No
+	option = {
+		trigger = { is_ai = no }
+		name = {
+			trigger = {
+				OR = {
+					scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_commander }
+					scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_knight }
+				}
+			}
+			text = agot_dragon_combat.1010.b
+		}
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_lord } }
+			text = agot_dragon_combat.1010.b.lord
+		}
+		name = {
+			trigger = { scope:dragonrider_in_battle = { has_character_flag = dragon_duel_rider_courtier } }
+			text = agot_dragon_combat.1010.b.courtier
+		}
+	}
+
+	after = {
+		scope:dragonrider_in_battle = {
+			if = {
+				limit = { has_character_flag = dragon_duel_rider_commander }
+				remove_character_flag = dragon_duel_rider_commander
+			}
+			else_if = {
+				limit = { has_character_flag = dragon_duel_rider_knight }
+				remove_character_flag = dragon_duel_rider_knight
+			}
+			else_if = {
+				limit = { has_character_flag = dragon_duel_rider_lord }
+				remove_character_flag = dragon_duel_rider_lord
+			}
+			else_if = {
+				limit = { has_character_flag = dragon_duel_rider_courtier }
+				remove_character_flag = dragon_duel_rider_courtier
+			}
+		}
+	}
+}
+
+agot_dragon_combat.1011 = {
+	hidden = yes
+
+	immediate = {
+		save_scope_as = agot_dragonrider
+		if = {
+			limit = {
+				any_living_dragonrider = {
+					is_alive = yes
+					exists = location
+					any_owned_story = {
+						story_type = agot_dragonrider_forced_duel_story
+						NOT = { is_target_in_variable_list = { name = agot_dragonrider_forced_duel_list target = scope:agot_dragonrider } }
+					}
+				}
+			}
+			every_living_dragonrider = {
+				limit = {
+					is_alive = yes
+					exists = location
+					any_owned_story = {
+						story_type = agot_dragonrider_forced_duel_story
+						NOT = { is_target_in_variable_list = { name = agot_dragonrider_forced_duel_list target = scope:agot_dragonrider } }
+					}
+				}
+				title:b_ruins.holder = { add_to_variable_list = { name = temp_temp_rider_list target = prev } }
+				title:b_ruins.holder = {
+					every_in_list = {
+						variable = temp_temp_rider_list
+
+						every_living_dragonrider = {
+							limit = {
+								any_owned_story = {
+									story_type = agot_dragonrider_forced_duel_story
+									NOT = { is_target_in_variable_list = { name = agot_dragonrider_forced_duel_list target = scope:agot_dragonrider } }
+								}
+							}
+							add_to_variable_list = { name = temp_rider_list target = prev }
+						}
+					}
+					clear_variable_list = temp_temp_rider_list
+				}
+			}
+		}
+	}
+}
+
+agot_dragon_combat.1012 = {
+	hidden = yes
+
+	trigger = {
+		any_living_dragonrider = { count > 1 }
+		any_ruler = {
+			highest_held_title_tier > tier_barony
+			is_at_war = yes
+			any_character_war = {
+				primary_attacker = { save_temporary_scope_as = attacker_t }
+				primary_defender = { save_temporary_scope_as = defender_t }
+				any_living_dragonrider = {
+					agot_dragonrider_is_valid_for_duel = {
+						ATTACKER = scope:attacker_t
+						DEFENDER = scope:defender_t
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_ruler = {
+			limit = {
+				highest_held_title_tier > tier_barony
+				is_at_war = yes
+				any_character_war = {
+					primary_attacker = { save_temporary_scope_as = attacker_t }
+					primary_defender = { save_temporary_scope_as = defender_t }
+					any_living_dragonrider = {
+						agot_dragonrider_is_valid_for_duel = {
+							ATTACKER = scope:attacker_t
+							DEFENDER = scope:defender_t
+						}
+					}
+				}
+			}
+			random_character_war = {
+				limit = {
+					primary_attacker = { save_temporary_scope_as = attacker_t }
+					primary_defender = { save_temporary_scope_as = defender_t }
+					any_living_dragonrider = {
+						agot_dragonrider_is_valid_for_duel = {
+							ATTACKER = scope:attacker_t
+							DEFENDER = scope:defender_t
+						}
+					}
+				}
+				save_scope_as = this_war
+				primary_attacker = { save_scope_as = attacker }
+				primary_defender = { save_scope_as = defender }
+
+				every_living_dragonrider = {
+					limit = {
+						agot_dragonrider_is_valid_for_duel = {
+							ATTACKER = scope:attacker
+							DEFENDER = scope:defender
+						}
+					}
+					add_character_flag = {
+						flag = agot_more_dragon_duel
+						months = 1
+					}
+					add_character_flag = {
+						flag = agot_war_just_started
+						months = 1
+					}
+
+					create_story = agot_dragonrider_forced_duel_story
+					random_owned_story = {
+						limit = { story_type = agot_dragonrider_forced_duel_story }
+						set_variable = {
+							name = dragonrider_war
+							value = scope:this_war
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 ##################################################
 # Test Events

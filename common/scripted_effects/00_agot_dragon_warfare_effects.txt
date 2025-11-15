@@ -21,6 +21,70 @@ dragon_combat_modifier_effect = {
 }
 
 # Removes a single dragons base army modifiers
+remove_dragon_base_dragon_army_modifiers = {
+	$DRAGON$ = {
+		save_scope_as = dragon
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_ten_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_10
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_nine_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_9
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_eight_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_8
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_seven_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_7
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_six_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_6
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_five_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_5
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_four_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_4
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_three_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_3
+	}
+	if = {
+		limit = {
+			dragon.dragon_combat_effectiveness > level_two_dragon_combat
+		}
+		remove_character_modifier = base_dragon_army_modifier_2
+	}
+	else = {
+		remove_character_modifier = base_dragon_army_modifier_1
+	}
+}
+
+# Removes all base army modifiers
 remove_base_dragon_army_modifiers = {
 	remove_all_character_modifier_instances = zz_base_dragon_army_modifier
 	remove_all_character_modifier_instances = base_dragon_army_modifier_1
@@ -34,7 +98,6 @@ remove_base_dragon_army_modifiers = {
 	remove_all_character_modifier_instances = base_dragon_army_modifier_9
 	remove_all_character_modifier_instances = base_dragon_army_modifier_10
 }
-
 
 # Give dragonriders the appropriate prowess for their dragon for 10 days
 agot_give_dragon_battle_prowess = {
@@ -1546,5 +1609,148 @@ agot_hire_scorpions_effect = {
 		value = scope:number_of_regiments
 		multiply = scorpions_recruitment_cost
 		divide = 2
+	}
+}
+
+agot_dragon_duel_effect = {
+	scope:agot_target_rider = {
+		save_scope_as = enemy_dragonrider
+		location = { save_scope_as = battle_location }
+	}
+	scope:agot_dragonrider = {
+		save_scope_as = dragonrider_in_battle
+		location = { save_scope_as = home_location }
+
+		# Save the Commanders
+		if = {
+			limit = { scope:enemy_dragonrider = { is_commanding_army = yes } }
+			scope:enemy_dragonrider = { save_scope_as = enemy_commander_in_battle }
+		}
+		else_if = {
+			limit = { exists = scope:enemy_dragonrider.liege_or_court_owner }
+			scope:enemy_dragonrider.liege_or_court_owner = { save_scope_as = enemy_commander_in_battle }
+		}
+
+		if = {
+			limit = { is_commanding_army = yes }
+			save_scope_as = dragon_commander_in_battle
+		}
+		else_if = {
+			limit = { exists = liege_or_court_owner }
+			liege_or_court_owner = { save_scope_as = dragon_commander_in_battle }
+		}
+
+		var:current_dragon = { save_scope_as = dragon_in_battle }
+		scope:enemy_dragonrider.var:current_dragon = { save_scope_as = enemy_dragon_in_battle }
+
+		# You are the commander, go ahead.
+		if = {
+			limit = {
+				trigger_if = {
+					limit = { is_ai = yes }
+					is_commanding_army = yes
+				}
+				is_playable_character = yes
+				is_in_army = yes
+			}
+			add_character_flag = {
+				flag = dragon_duel_rider_commander
+				days = 40
+			}
+			add_character_flag = {
+				flag = agot_more_dragon_duel
+				months = 3
+			}
+
+			scope:enemy_dragonrider = {
+				add_character_flag = {
+					flag = agot_more_dragon_duel
+					months = 3
+				}
+			}
+			trigger_event = agot_dragon_combat.1010
+		}
+		# Ask permission.
+		else_if = {
+			limit = {
+				is_in_army = yes
+			}
+			add_character_flag = {
+				flag = dragon_duel_rider_knight
+				days = 40
+			}
+			add_character_flag = {
+				flag = agot_more_dragon_duel
+				months = 3
+			}
+
+			scope:enemy_dragonrider = {
+				add_character_flag = {
+					flag = agot_more_dragon_duel
+					months = 3
+				}
+			}
+			scope:dragon_commander_in_battle = { trigger_event = agot_dragon_combat.1010 }
+		}
+		# Defend your home.
+		else_if = {
+			limit = {
+				is_commanding_army = no
+				is_in_army = no
+				exists = location
+				exists = scope:enemy_dragonrider.location
+				location.county = scope:enemy_dragonrider.location.county
+				is_playable_character = yes
+				is_landed = yes
+				is_travelling = no
+				NOT = { exists = involved_activity }
+			}
+			add_character_flag = {
+				flag = dragon_duel_rider_lord
+				days = 40
+			}
+			add_character_flag = {
+				flag = agot_more_dragon_duel
+				months = 3
+			}
+
+			scope:enemy_dragonrider = {
+				add_character_flag = {
+					flag = agot_more_dragon_duel
+					months = 3
+				}
+			}
+			trigger_event = agot_dragon_combat.1010
+		}
+		# Defend your home, but first ask permission.
+		else_if = {
+			limit = {
+				is_commanding_army = no
+				is_in_army = no
+				exists = location
+				exists = scope:enemy_dragonrider.location
+				location.county = scope:enemy_dragonrider.location.county
+				is_playable_character = no
+				exists = liege
+				is_travelling = no
+				NOT = { exists = involved_activity }
+			}
+			add_character_flag = {
+				flag = dragon_duel_rider_courtier
+				days = 40
+			}
+			add_character_flag = {
+				flag = agot_more_dragon_duel
+				months = 3
+			}
+
+			scope:enemy_dragonrider = {
+				add_character_flag = {
+					flag = agot_more_dragon_duel
+					months = 3
+				}
+			}
+			liege = { trigger_event = agot_dragon_combat.1010 }
+		}
 	}
 }
