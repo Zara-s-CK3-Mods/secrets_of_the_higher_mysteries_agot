@@ -273,6 +273,19 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 				}
 			}
 		}
+		if = { 
+			limit = {
+				scope:secondary_recipient = {
+					zz_valyria_has_mana_to_cast = {
+						MANACOST = 400
+					}
+				}
+			}
+			trait:zz_valyria_magic_xp_gain_passive_modifier = {
+				remove_list_variable = possible_traits
+			}
+		}
+		
 	}
 
 	widget = {
@@ -281,6 +294,7 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 		}
 		gui = "event_window_trait_selection"
 		container = "custom_widgets_container"
+		
 	}
 	option = {
 		name = zz_valyria_magic_alchemy_magic_spells.006.opt.a
