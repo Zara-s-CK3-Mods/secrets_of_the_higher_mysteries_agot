@@ -6345,7 +6345,9 @@ types HUD
 							expand = {}
 						}
 					}
-
+					zz_valyria_sanctum_drops_of_power_widget = {
+							datacontext = "[GetPlayer.MakeScope]"
+					}
 					widget = {
 						name = "prestige"
 						datacontext = "[InGameTopbar.GetPrestigeItem]"

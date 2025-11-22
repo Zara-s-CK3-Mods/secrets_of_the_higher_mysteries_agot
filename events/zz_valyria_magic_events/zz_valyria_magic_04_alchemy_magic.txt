@@ -282,7 +282,10 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 				}
 			}
 			trait:zz_valyria_magic_xp_gain_passive_modifier = {
-				remove_list_variable = possible_traits
+				remove_list_variable = { 
+					name = possible_traits
+					target = this
+				}
 			}
 		}
 		
@@ -294,7 +297,6 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 		}
 		gui = "event_window_trait_selection"
 		container = "custom_widgets_container"
-		
 	}
 	option = {
 		name = zz_valyria_magic_alchemy_magic_spells.006.opt.a
