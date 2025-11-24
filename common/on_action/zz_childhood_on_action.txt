@@ -118,7 +118,7 @@
 							}
 						}
 						if = {
-							limit = {zz_valyria_court_mages_court_position
+							limit = {
 								aptitude = {
 									court_position = zz_valyria_court_mages_court_position
 									value >= 3

@@ -38,80 +38,82 @@
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-		        scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    random_list = {
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_diplomacy_skill = 1
-                            }
-                        }
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_martial_skill = 1
-                            }
-                        }
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_intrigue_skill = 1
-                            }
-                        }
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_stewardship_skill = 1
-                            }
-                        }
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_learning_skill = 1
-                            }
-                        }
-                        20 = {
-                            send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-                                title = zz_blood_magic_enchanted_blood_random
-                                left_icon = THIS
-                                add_prowess_skill = 1
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                scope:story = {
-                    end_story = yes
-                }
-                
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						random_list = {
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_diplomacy_skill = 1
+								}
+							}
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_martial_skill = 1
+								}
+							}
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_intrigue_skill = 1
+								}
+							}
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_stewardship_skill = 1
+								}
+							}
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_learning_skill = 1
+								}
+							}
+							20 = {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_enchanted_blood_random
+									left_icon = THIS
+									add_prowess_skill = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					scope:story = {
+						end_story = yes
+					}
+					
+				}
+			}
+		}
 	}
 }
 
@@ -149,58 +151,54 @@ zz_valyria_magic_blood_magic_09_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    THIS = { 
-                        save_scope_as = dragon
-                    }
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_draconic_enchantment
-						desc = zz_blood_magic_draconic_enchantment.desc
-                        left_icon = THIS
-                        add_prowess_skill = scope:story.var:mystery_potency 
-                        change_dragon_size = {
-							VALUE = scope:story.var:mystery_potency 							
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						THIS = { 
+							save_scope_as = dragon
 						}
-
-                        add_prowess_skill = 2
-						change_dragon_size = {
-							VALUE = 2							
-						}
-                        
-                    }
-                    var:current_rider ?= { 
-                        save_scope_as = rider 
-                    }
-                    scope:rider ?= {
-                        send_interface_toast = {
+						send_interface_toast = {
 							type = send_interface_message_as_feed_spell_buff_proc
-                            title = zz_blood_magic_draconic_enchantment
+							title = zz_blood_magic_draconic_enchantment
 							desc = zz_blood_magic_draconic_enchantment.desc
-                            left_icon = scope:rider
-                            right_icon = scope:story_owner
-                        }
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+							left_icon = THIS
+							add_prowess_skill = scope:story.var:mystery_potency 
+							change_dragon_size = {
+								VALUE = scope:story.var:mystery_potency 							
+							}
+						}
+						var:current_rider ?= { 
+							save_scope_as = rider 
+						}
+						scope:rider ?= {
+							send_interface_toast = {
+								type = send_interface_message_as_feed_spell_buff_proc
+								title = zz_blood_magic_draconic_enchantment
+								desc = zz_blood_magic_draconic_enchantment.desc
+								left_icon = scope:rider
+								right_icon = scope:story_owner
+							}
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -239,33 +237,35 @@ zz_valyria_magic_blood_magic_24_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_learning
-                        left_icon = THIS
-                        add_learning_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_learning
+							left_icon = THIS
+							add_learning_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -304,33 +304,35 @@ zz_valyria_magic_blood_magic_25_story = { #Used for the Diplo progress event
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_diploamcy
-                        left_icon = THIS
-                        add_diplomacy_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_diploamcy
+							left_icon = THIS
+							add_diplomacy_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -369,33 +371,35 @@ zz_valyria_magic_blood_magic_26_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_stewardship
-                        left_icon = THIS
-                        add_stewardship_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_stewardship
+							left_icon = THIS
+							add_stewardship_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -434,33 +438,35 @@ zz_valyria_magic_blood_magic_27_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_intrigue
-                        left_icon = THIS
-                        add_intrigue_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_intrigue
+							left_icon = THIS
+							add_intrigue_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -502,33 +508,35 @@ zz_valyria_magic_blood_magic_28_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_martial
-                        left_icon = THIS
-                        add_martial_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_martial
+							left_icon = THIS
+							add_martial_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -570,33 +578,35 @@ zz_valyria_magic_blood_magic_29_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_blood_magic_enchanted_blood_prowesss
-                        left_icon = THIS
-                        add_prowess_skill = 1
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					story_owner = {
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_blood_magic_enchanted_blood_prowesss
+							left_icon = THIS
+							add_prowess_skill = 1
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -641,145 +651,43 @@ zz_valyria_magic_dream_magic_04_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		months = 1
-        triggered_effect = {
-            trigger = {
-		        scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-                story_owner = {
-					save_scope_as = dreamer
-					zz_dragon_dreams = yes
-					if = {
-						limit = {
-							zz_magic_any_targeting_scheme = yes 
-						}
-						random_targeting_scheme = {
-							limit = {
-								zz_random_targeting_scheme = yes
-							}
-							if = {
-								limit = { exists = this	}
-								save_scope_as = dreaming_magic_secret_target
-							}
-						}
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
 					}
-					else_if = {
-						limit = {
-							any_spouse = {
-								zz_magic_any_targeting_scheme = yes 
-							}
-						}
-						random_spouse = {
-							limit = {
-								zz_magic_any_targeting_scheme = yes 
-							}
-							random_targeting_scheme = {
-								limit = {
-									zz_random_targeting_scheme = yes
-								}
-								if = {
-									limit = { exists = this	}
-									save_scope_as = dreaming_magic_secret_target
-								}
-							}
-						}
-					}
-					else_if = {
-						limit = {
-							any_close_family_member = {
-								zz_magic_any_targeting_scheme = yes 
-							}
-						}
-						random_close_family_member = {
-							limit = {
-								zz_magic_any_targeting_scheme = yes 
-							}
-							random_targeting_scheme = {
-								limit = {
-									zz_random_targeting_scheme = yes
-								}
-								if = {
-									limit = { exists = this	}
-									save_scope_as = dreaming_magic_secret_target
-								}
-							}
-						}
-					}
-					else = {
-						random_neighboring_and_across_water_realm_same_rank_owner ={
-							limit = {	
-								zz_magic_any_targeting_scheme = yes 
-							}
-							add_to_list = scrying_targets
-						}
-						random_neighboring_and_across_water_realm_same_rank_owner ={
-							limit = {	
-								zz_magic_any_targeting_scheme = yes 
-							}
-							add_to_list = scrying_targets
-						}
-						random_neighboring_and_across_water_top_liege_realm_owner ={
-							limit = {	
-								zz_magic_any_targeting_scheme = yes 
-							}
-							add_to_list = scrying_targets
-						}
-						random_councillor = {
-							limit = {	
-								zz_magic_any_targeting_scheme = yes 
-							}
-							if = {
-								limit = {
-									exists = scope:dreamer.primary_spouse
-									scope:dreamer.primary_spouse = {
-										zz_magic_any_targeting_scheme = yes 
-									}
-								}
-								scope:dreamer.primary_spouse = {
-									add_to_list = scrying_targets
-								}
-							}
-							if = {
-								limit = {
-									exists = scope:dreamer.liege
-									scope:dreamer.liege = {
-										zz_magic_any_targeting_scheme = yes 
-									}
-								}
-								scope:dreamer.liege = {
-									add_to_list = scrying_targets
-								}
-							}			
-						}
-						random_in_list = {
-							list = scrying_targets
-							save_scope_as = scrying_target
-						}
+					story_owner = {
+						save_scope_as = dreamer
+						zz_dragon_dreams = yes
 						if = {
 							limit = {
-								NOT = {	exists = scope:scrying_target	}
+								zz_magic_any_targeting_scheme = yes 
 							}
-							random_living_character = {
+							random_targeting_scheme = {
+								limit = {
+									zz_random_targeting_scheme = yes
+								}
+								if = {
+									limit = { exists = this	}
+									save_scope_as = dreaming_magic_secret_target
+								}
+							}
+						}
+						else_if = {
+							limit = {
+								any_spouse = {
+									zz_magic_any_targeting_scheme = yes 
+								}
+							}
+							random_spouse = {
 								limit = {
 									zz_magic_any_targeting_scheme = yes 
 								}
-								save_scope_as = scrying_target
-							}
-							scope:scrying_target = {
-								random_targeting_scheme = {
-									limit = {
-										zz_random_targeting_scheme = yes
-									}
-									save_scope_as = dreaming_magic_secret_target
-								}
-							}
-						}
-						else = {
-							scope:scrying_target = {
 								random_targeting_scheme = {
 									limit = {
 										zz_random_targeting_scheme = yes
@@ -791,217 +699,321 @@ zz_valyria_magic_dream_magic_04_story = { #Used for the Scholarship progress eve
 								}
 							}
 						}
-					}
-
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_valyria_magic_dream_magic_04_story.t
-						desc = zz_valyria_magic_dream_magic_04_story.desc
-                        left_icon = THIS
-						right_icon = scope:dreaming_magic_secret_target
-                        scope:dreaming_magic_secret_target = {
-							expose_scheme = yes
-						}
-                    }
-					if = {
-						limit = {
-							any_targeting_secret = {
-								exists = this
-								NOT = {	is_known_by = scope:dreamer	}
-							}
-						}
-						random_targeting_secret = {
+						else_if = {
 							limit = {
-								NOT = {	is_known_by = scope:dreamer	}
-							}
-							if = {
-								limit = { exists = this	}
-								save_scope_as = dreaming_magic_secret_target
-							}
-						}
-					}
-					else_if = {
-						limit = {
-							any_spouse = {
-								any_targeting_secret = {
-									exists = this 
-									NOT = {	is_known_by = scope:dreamer	}
+								any_close_family_member = {
+									zz_magic_any_targeting_scheme = yes 
 								}
 							}
-						}
-						random_spouse = {
-							limit = {
-								any_targeting_secret = {
-									exists = this 
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							random_targeting_secret = {
+							random_close_family_member = {
 								limit = {
-									NOT = {	is_known_by = scope:dreamer	}
+									zz_magic_any_targeting_scheme = yes 
+								}
+								random_targeting_scheme = {
+									limit = {
+										zz_random_targeting_scheme = yes
+									}
+									if = {
+										limit = { exists = this	}
+										save_scope_as = dreaming_magic_secret_target
+									}
+								}
+							}
+						}
+						else = {
+							random_neighboring_and_across_water_realm_same_rank_owner ={
+								limit = {	
+									zz_magic_any_targeting_scheme = yes 
+								}
+								add_to_list = scrying_targets
+							}
+							random_neighboring_and_across_water_realm_same_rank_owner ={
+								limit = {	
+									zz_magic_any_targeting_scheme = yes 
+								}
+								add_to_list = scrying_targets
+							}
+							random_neighboring_and_across_water_top_liege_realm_owner ={
+								limit = {	
+									zz_magic_any_targeting_scheme = yes 
+								}
+								add_to_list = scrying_targets
+							}
+							random_councillor = {
+								limit = {	
+									zz_magic_any_targeting_scheme = yes 
 								}
 								if = {
-									limit = { exists = this	}
-									save_scope_as = dreaming_magic_secret_target
-								}
-							}
-						}
-					}
-					else_if = {
-						limit = {
-							any_close_family_member = {
-								any_targeting_secret = {
-									exists = this 
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-						}
-						random_close_family_member = {
-							limit = {
-								any_targeting_secret = {
-									exists = this 
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							random_targeting_secret = {
-								limit = {
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-								if = {
-									limit = { exists = this	}
-									save_scope_as = dreaming_magic_secret_target
-								}
-							}
-						}
-					}
-					else = {
-						random_neighboring_and_across_water_realm_same_rank_owner ={
-							limit = {	
-								has_any_secrets = yes
-								any_secret = {
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							add_to_list = scrying_targets
-						}
-						random_neighboring_and_across_water_realm_same_rank_owner ={
-							limit = {	
-								has_any_secrets = yes
-								any_secret = {
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							add_to_list = scrying_targets
-						}
-						random_neighboring_and_across_water_top_liege_realm_owner ={
-							limit = {	
-								has_any_secrets = yes
-								any_secret = {
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							add_to_list = scrying_targets
-						}
-						random_councillor = {
-							limit = {	
-								has_any_secrets = yes
-								any_secret = {
-									NOT = {	is_known_by = scope:dreamer	}
-								}
-							}
-							if = {
-								limit = {
-									exists = scope:dreamer.primary_spouse
+									limit = {
+										exists = scope:dreamer.primary_spouse
+										scope:dreamer.primary_spouse = {
+											zz_magic_any_targeting_scheme = yes 
+										}
+									}
 									scope:dreamer.primary_spouse = {
-										has_any_secrets = yes
-										any_secret = {
-											NOT = {	is_known_by = scope:dreamer	}
-										}
+										add_to_list = scrying_targets
 									}
 								}
-								scope:dreamer.primary_spouse = {
-									add_to_list = scrying_targets
-								}
+								if = {
+									limit = {
+										exists = scope:dreamer.liege
+										scope:dreamer.liege = {
+											zz_magic_any_targeting_scheme = yes 
+										}
+									}
+									scope:dreamer.liege = {
+										add_to_list = scrying_targets
+									}
+								}			
+							}
+							random_in_list = {
+								list = scrying_targets
+								save_scope_as = scrying_target
 							}
 							if = {
 								limit = {
-									exists = scope:dreamer.liege
-									scope:dreamer.liege = {
-										has_any_secrets = yes
-										any_secret = {
-											NOT = {	is_known_by = scope:dreamer	}
+									NOT = {	exists = scope:scrying_target	}
+								}
+								random_living_character = {
+									limit = {
+										zz_magic_any_targeting_scheme = yes 
+									}
+									save_scope_as = scrying_target
+								}
+								scope:scrying_target = {
+									random_targeting_scheme = {
+										limit = {
+											zz_random_targeting_scheme = yes
+										}
+										save_scope_as = dreaming_magic_secret_target
+									}
+								}
+							}
+							else = {
+								scope:scrying_target = {
+									random_targeting_scheme = {
+										limit = {
+											zz_random_targeting_scheme = yes
+										}
+										if = {
+											limit = { exists = this	}
+											save_scope_as = dreaming_magic_secret_target
 										}
 									}
 								}
-								scope:dreamer.liege = {
-									add_to_list = scrying_targets
-								}
-							}			
+							}
 						}
-						random_in_list = {
-							list = scrying_targets
-							save_scope_as = scrying_target
+
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_04_story.t
+							desc = zz_valyria_magic_dream_magic_04_story.desc
+							left_icon = THIS
+							right_icon = scope:dreaming_magic_secret_target
+							scope:dreaming_magic_secret_target = {
+								expose_scheme = yes
+							}
 						}
 						if = {
 							limit = {
-								NOT = {	exists = scope:scrying_target	}
+								any_targeting_secret = {
+									exists = this
+									NOT = {	is_known_by = scope:dreamer	}
+								}
 							}
-							random_living_character = {
+							random_targeting_secret = {
 								limit = {
+									NOT = {	is_known_by = scope:dreamer	}
+								}
+								if = {
+									limit = { exists = this	}
+									save_scope_as = dreaming_magic_secret_target
+								}
+							}
+						}
+						else_if = {
+							limit = {
+								any_spouse = {
+									any_targeting_secret = {
+										exists = this 
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+							}
+							random_spouse = {
+								limit = {
+									any_targeting_secret = {
+										exists = this 
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+								random_targeting_secret = {
+									limit = {
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+									if = {
+										limit = { exists = this	}
+										save_scope_as = dreaming_magic_secret_target
+									}
+								}
+							}
+						}
+						else_if = {
+							limit = {
+								any_close_family_member = {
+									any_targeting_secret = {
+										exists = this 
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+							}
+							random_close_family_member = {
+								limit = {
+									any_targeting_secret = {
+										exists = this 
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+								random_targeting_secret = {
+									limit = {
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+									if = {
+										limit = { exists = this	}
+										save_scope_as = dreaming_magic_secret_target
+									}
+								}
+							}
+						}
+						else = {
+							random_neighboring_and_across_water_realm_same_rank_owner ={
+								limit = {	
 									has_any_secrets = yes
 									any_secret = {
 										NOT = {	is_known_by = scope:dreamer	}
 									}
 								}
+								add_to_list = scrying_targets
+							}
+							random_neighboring_and_across_water_realm_same_rank_owner ={
+								limit = {	
+									has_any_secrets = yes
+									any_secret = {
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+								add_to_list = scrying_targets
+							}
+							random_neighboring_and_across_water_top_liege_realm_owner ={
+								limit = {	
+									has_any_secrets = yes
+									any_secret = {
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+								add_to_list = scrying_targets
+							}
+							random_councillor = {
+								limit = {	
+									has_any_secrets = yes
+									any_secret = {
+										NOT = {	is_known_by = scope:dreamer	}
+									}
+								}
+								if = {
+									limit = {
+										exists = scope:dreamer.primary_spouse
+										scope:dreamer.primary_spouse = {
+											has_any_secrets = yes
+											any_secret = {
+												NOT = {	is_known_by = scope:dreamer	}
+											}
+										}
+									}
+									scope:dreamer.primary_spouse = {
+										add_to_list = scrying_targets
+									}
+								}
+								if = {
+									limit = {
+										exists = scope:dreamer.liege
+										scope:dreamer.liege = {
+											has_any_secrets = yes
+											any_secret = {
+												NOT = {	is_known_by = scope:dreamer	}
+											}
+										}
+									}
+									scope:dreamer.liege = {
+										add_to_list = scrying_targets
+									}
+								}			
+							}
+							random_in_list = {
+								list = scrying_targets
 								save_scope_as = scrying_target
 							}
-							scope:scrying_target = {
-								random_secret = {
-									limit = {
-										NOT = {	is_known_by = scope:dreamer	}
-									}
-									save_scope_as = dreaming_magic_secret_target
+							if = {
+								limit = {
+									NOT = {	exists = scope:scrying_target	}
 								}
-							}
-						}
-						else = {
-							scope:scrying_target = {
-								random_secret = {
+								random_living_character = {
 									limit = {
-										NOT = {	is_known_by = scope:dreamer	}
+										has_any_secrets = yes
+										any_secret = {
+											NOT = {	is_known_by = scope:dreamer	}
+										}
 									}
-									if = {
-										limit = { exists = this	}
+									save_scope_as = scrying_target
+								}
+								scope:scrying_target = {
+									random_secret = {
+										limit = {
+											NOT = {	is_known_by = scope:dreamer	}
+										}
 										save_scope_as = dreaming_magic_secret_target
 									}
 								}
 							}
+							else = {
+								scope:scrying_target = {
+									random_secret = {
+										limit = {
+											NOT = {	is_known_by = scope:dreamer	}
+										}
+										if = {
+											limit = { exists = this	}
+											save_scope_as = dreaming_magic_secret_target
+										}
+									}
+								}
+							}
+						}
+
+						send_interface_toast = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_04_story.t
+							desc = zz_valyria_magic_dream_magic_04_story.desc
+							left_icon = THIS
+							scope:dreaming_magic_secret_target = {
+								reveal_to = scope:dreamer
+							}
 						}
 					}
-
-                    send_interface_toast = {
-						type = send_interface_message_as_feed_spell_buff_proc
-                        title = zz_valyria_magic_dream_magic_04_story.t
-						desc = zz_valyria_magic_dream_magic_04_story.desc
-                        left_icon = THIS
-                        scope:dreaming_magic_secret_target = {
-							reveal_to = scope:dreamer
-						}
-                    }
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                scope:story = {
-                    end_story = yes
-                }
-                
-            }
-        }
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					scope:story = {
+						end_story = yes
+					}
+					
+				}
+			}
+		}
 	}
 }
 
@@ -1043,25 +1055,27 @@ zz_valyria_magic_dream_magic_10_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		days = 365
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+				}
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -1104,51 +1118,53 @@ zz_valyria_magic_dream_magic_48_story = { #Used for the Scholarship progress eve
 
 	effect_group = {
 		months = {2 3}
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-				story_owner = {
-					is_pregnant = yes 
-					NOT = {
-						has_character_flag = zz_valyria_magic_blood_magic_20_flag
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+					story_owner = {
+						is_pregnant = yes 
+						NOT = {
+							has_character_flag = zz_valyria_magic_blood_magic_20_flag
+						}
 					}
 				}
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-				var:mystery_caster ?= {
-					save_scope_as = caster
-				}
-				scope:caster = {
-					send_interface_message = {
-						type = send_interface_message_as_feed_spell_buff_proc
-						title = zz_valyria_magic_dream_magic_48.buff.toast.t
-						desc = zz_valyria_magic_dream_magic_48.buff.toast.desc
-						left_icon = scope:caster
-						right_icon = scope:story_owner
-						custom_tooltip = zz_valyria_magic_dream_magic_48.buff.toast.tt
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
 					}
-				}
-                story_owner = {
-					add_character_flag = {flag = zz_valyria_magic_blood_magic_20_flag years = 2}
-					remove_character_flag = birth_mother_will_die
-					scope:story.var:mystery_caster = {
+					var:mystery_caster ?= {
 						save_scope_as = caster
 					}
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
+					scope:caster = {
+						send_interface_message = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_48.buff.toast.t
+							desc = zz_valyria_magic_dream_magic_48.buff.toast.desc
+							left_icon = scope:caster
+							right_icon = scope:story_owner
+							custom_tooltip = zz_valyria_magic_dream_magic_48.buff.toast.tt
+						}
+					}
+					story_owner = {
+						add_character_flag = {flag = zz_valyria_magic_blood_magic_20_flag years = 2}
+						remove_character_flag = birth_mother_will_die
+						scope:story.var:mystery_caster = {
+							save_scope_as = caster
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 
 	}
 }
@@ -1190,51 +1206,52 @@ zz_valyria_magic_dream_magic_49_story = {
 
 	effect_group = {
 		months = {2 3}
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration > 0
-				story_owner = {
-					is_pregnant = yes 
-					NOT = {
-						has_character_flag = zz_valyria_magic_blood_magic_21_flag
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration > 0
+					story_owner = {
+						is_pregnant = yes 
+						NOT = {
+							has_character_flag = zz_valyria_magic_blood_magic_21_flag
+						}
 					}
 				}
-            }
-            effect = {
-                change_variable = {
-                    name = mystery_duration
-                    subtract = 1
-                }
-				var:mystery_caster ?= {
-					save_scope_as = caster
-				}
-				
-				scope:caster = {
-					send_interface_message = {
-						type = send_interface_message_as_feed_spell_buff_proc
-						title = zz_valyria_magic_dream_magic_49.buff.toast.t
-						desc = zz_valyria_magic_dream_magic_49.buff.toast.desc
-						left_icon = scope:caster
-						right_icon = scope:story_owner
-						custom_tooltip = zz_valyria_magic_dream_magic_49.buff.toast.tt
+				effect = {
+					change_variable = {
+						name = mystery_duration
+						subtract = 1
+					}
+					var:mystery_caster ?= {
+						save_scope_as = caster
+					}
+					
+					scope:caster = {
+						send_interface_message = {
+							type = send_interface_message_as_feed_spell_buff_proc
+							title = zz_valyria_magic_dream_magic_49.buff.toast.t
+							desc = zz_valyria_magic_dream_magic_49.buff.toast.desc
+							left_icon = scope:caster
+							right_icon = scope:story_owner
+							custom_tooltip = zz_valyria_magic_dream_magic_49.buff.toast.tt
+						}
+					}
+					story_owner = {
+						add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 2}
+						remove_character_flag = agot_birth_child_will_be_stillborn
+						remove_character_flag = birth_will_be_scaly
+						remove_character_flag = birth_mother_will_die
 					}
 				}
-                story_owner = {
-					add_character_flag = {flag = zz_valyria_magic_blood_magic_21_flag years = 2}
-					remove_character_flag = agot_birth_child_will_be_stillborn
-					remove_character_flag = birth_will_be_scaly
-					remove_character_flag = birth_mother_will_die
-                }
-            }
-        }
-        triggered_effect = {
-            trigger = {
-                scope:story.var:mystery_duration < 1
-            }
-            effect = {
-                end_story = yes
-            }
-        }
-
+			}
+			triggered_effect = {
+				trigger = {
+					scope:story.var:mystery_duration < 1
+				}
+				effect = {
+					end_story = yes
+				}
+			}
+		}
 	}
 }
