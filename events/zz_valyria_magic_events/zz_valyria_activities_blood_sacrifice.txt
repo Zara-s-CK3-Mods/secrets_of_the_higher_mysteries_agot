@@ -1,5 +1,5 @@
 ﻿namespace = valyria_blood_sacrifices
-scripted_effect grand_rite_good_outcome = {
+scripted_effect zz_grand_rite_good_outcome = {
 	scope:activity = {
 		every_attending_character = {
 			limit = { NOT = { this = root } }
@@ -13,7 +13,7 @@ scripted_effect grand_rite_good_outcome = {
 	}
 }
 
-scripted_effect grand_rite_poor_outcome = {
+scripted_effect zz_grand_rite_poor_outcome = {
 	scope:activity = {
 		every_attending_character = {
 			limit = { NOT = { this = root } }
@@ -84,7 +84,7 @@ valyria_blood_sacrifices.1 = { #by Mathilda Bjarnehed
 				scope:host = {
 					add_character_flag = chosen_of_the_red_comet
 				}
-				show_as_tooltip = { grand_rite_good_outcome = yes }
+				show_as_tooltip = { zz_grand_rite_good_outcome = yes }
 			}
 			99 = {	
 				desc = valyria_blood_sacrifices.1.a.poor
@@ -98,7 +98,7 @@ valyria_blood_sacrifices.1 = { #by Mathilda Bjarnehed
 					name = grand_rite_ceremony_outcome
 					value = flag:poor_translation
 				}
-				show_as_tooltip = { grand_rite_poor_outcome = yes }
+				show_as_tooltip = { zz_grand_rite_poor_outcome = yes }
 			}
 		}
 	}

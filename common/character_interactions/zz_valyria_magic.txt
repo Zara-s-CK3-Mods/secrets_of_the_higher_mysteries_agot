@@ -1455,7 +1455,7 @@ zz_valyria_magic_02.interaction = {
 					scope:incapacitate = yes
 				}
 				
-				add_trait = incapble
+				add_trait = incapable
 			}
 			if = {
 				limit = {
