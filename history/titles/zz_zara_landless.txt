@@ -16,6 +16,11 @@ d_laamp_Zaret_A = {
 				}
 			}
 			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			if = {
+				limit = { NOT = { has_dlc_feature = roads_to_power } }
+				holder ?= { destroy_title = prev }
+			}
 			destroy_landless_title_no_dlc_effect = { DATE = 7887.1.1  }
 		}
 	}
