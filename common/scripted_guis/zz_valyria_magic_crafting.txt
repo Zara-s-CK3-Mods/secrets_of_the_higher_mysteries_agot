@@ -99,127 +99,423 @@
 					value = scope:zz_item_crafter
 				}
 				clear_variable_list = zz_valyria_item_list
-				trait:zz_valyria_magic_none_modifier_01_stacking = {
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_item_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_selected_item }
-							}
-							set_variable = { name = zz_selected_item value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_none
 				}
-				every_trait = {
-					limit = {
-						has_trait_flag = zz_item_template
-					}
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_item_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_selected_item }
-							}
-							set_variable = { name = zz_selected_item value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_sword
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_bow
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_armour
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_ring
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_glass_candle
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_dragon_horn
 				}
 				clear_variable_list = zz_valyria_modifier_list
-				trait:zz_valyria_magic_none_modifier_01_stacking = {
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_modifier_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_selected_modifier }
-							}
-							set_variable = { name = zz_selected_modifier value = prev }
-						}
-					}
+
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_none
 				}
-				every_trait = {
-					limit = {
-						has_trait_flag = zz_item_modifier
-					}
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_modifier_list
-							target = prev
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_01
 				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_02
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_03
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_04
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_05
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_06
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_07
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_08
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_09
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_10
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_11
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_12
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_13
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_14
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_15
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_16
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_17
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_18
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_19
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_20
+				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_21
+				}
+
 				remove_variable = zz_item_ui
 				clear_variable_list = zz_valyria_sword_list
-				trait:zz_valyria_magic_none_modifier_01_stacking = {
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_sword_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_sword_selection }
-							}
-							set_variable = { name = zz_sword_selection value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_none
 				}
-				every_trait = {
-					limit = {
-						has_trait_flag = zz_sword_type
-					}
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_sword_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_sword_selection }
-							}
-							set_variable = { name = zz_sword_selection value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_01
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_02
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_03
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_04
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_05
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_06
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_07
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_08
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_09
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_10
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_11
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_12
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_13
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_14
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_15
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_16
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_17
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_18
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_19
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_20
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_21
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_22
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_23
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_24
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_25
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_26
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_27
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_28
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_29
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_30
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_31
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_32
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_33
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_34
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_35
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_36
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_37
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_38
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_39
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_40
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_41
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_42
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_43
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_44
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_45
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_46
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_47
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_48
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_49
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_50
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_51
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_52
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_53
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_54
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_55
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_56
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_57
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_58
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_59
+				}
+				add_to_variable_list = {
+					name = zz_valyria_sword_list
+					target = flag:item_sword_60
 				}
 				clear_variable_list = zz_valyria_ring_list
-				trait:zz_valyria_magic_none_modifier_01_stacking = {
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_ring_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_ring_selection }
-							}
-							set_variable = { name = zz_ring_selection value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_none
 				}
-				every_trait = {
-					limit = {
-						has_trait_flag = zz_ring_type
-					}
-					scope:actor = {
-						add_to_variable_list = {
-							name = zz_valyria_ring_list
-							target = prev
-						}
-						if = {
-							limit = {
-								NOT = { has_variable = zz_ring_selection }
-							}
-							set_variable = { name = zz_ring_selection value = prev }
-						}
-					}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_01
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_02
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_03
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_04
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_05
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_06
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_07
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_08
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_09
+				}
+				add_to_variable_list = {
+					name = zz_valyria_ring_list
+					target = flag:item_ring_10
+				}
+				set_variable = { 
+					name = zz_selected_item 
+					value = flag:item_none
+				}
+				set_variable = { 
+					name = zz_selected_modifier
+					value = flag:item_modifier_none
 				}
 			}
 		}
@@ -298,9 +594,13 @@ zz_valyria_magic_item_selection = {
 				value = scope:zz_selected_item
 			}
 			zz_valyria_crafting_calculate_crafting_cost_item_effect = yes 
+			debug_log_scopes = yes
+			debug_log = "Item Selected"
+			debug_log = debug_var
+
 			if = { 
 				limit = {
-					scope:zz_selected_item ?= trait:zz_valyria_crafting_vs_sword_01
+					scope:zz_selected_item = flag:item_sword
 				}
 				remove_variable = zz_sword_selection_sword
 				set_variable = {
@@ -310,7 +610,7 @@ zz_valyria_magic_item_selection = {
 			}
 			else_if = {
 				limit = {
-					scope:zz_selected_item ?= trait:zz_valyria_crafting_magic_ring_01
+					scope:zz_selected_item = flag:item_ring
 				}
 				remove_variable = zz_ring_selection_ring
 				set_variable = {
@@ -321,7 +621,6 @@ zz_valyria_magic_item_selection = {
 		}
 	}
 }
-
 zz_valyria_magic_modifier_selection = {
 	scope = character
 	saved_scopes = {
@@ -458,11 +757,11 @@ zz_valyria_magic_item_craft = {
 		}
 		set_variable = { 
 			name = zz_selected_item 
-			value = trait:zz_valyria_magic_none_modifier_01_stacking
+			value = flag:item_none
 		}
 		set_variable = { 
 			name = zz_selected_modifier
-			value = trait:zz_valyria_magic_none_modifier_01_stacking
+			value = flag:item_modifier_none
 		}
 	}
 }

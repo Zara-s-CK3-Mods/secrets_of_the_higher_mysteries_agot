@@ -567,12 +567,12 @@ disburse_magic_education_reward_effect = {
 				random_list = {
 					50 = {
 						scope:newly_created_artifact = {
-							add_artifact_modifier = zz_valyria_magic_xp_gain_modifier_01_stacking
+							add_artifact_modifier = item_modifier_02
 						}
 					}
 					50 = {
 						scope:newly_created_artifact = {
-							add_artifact_modifier = zz_valyria_magic_mana_gain_modifier_01_stacking
+							add_artifact_modifier = item_modifier_01
 						}
 					}
 				}
@@ -623,12 +623,12 @@ disburse_magic_education_reward_effect = {
 				random_list = {
 					50 = {
 						scope:newly_created_artifact = {
-							add_artifact_modifier = zz_valyria_magic_xp_gain_modifier_01_stacking
+							add_artifact_modifier = item_modifier_02
 						}
 					}
 					50 = {
 						scope:newly_created_artifact = {
-							add_artifact_modifier = zz_valyria_magic_mana_gain_modifier_01_stacking
+							add_artifact_modifier = item_modifier_01
 						}
 					}
 				}

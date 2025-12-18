@@ -1,4 +1,45 @@
-﻿
+﻿zz_valyria_mana_cap = {
+	value = 100 
+	switch = {
+		trigger = trait 
+		magic_blood_bad_3 = {
+			subtract = 75
+		}
+		magic_blood_bad_2 = {
+			subtract = 50
+		}
+		magic_blood_bad_1 = {
+			subtract = 25
+		}
+		magic_blood_good_1 = {
+			add = 50
+		}
+		magic_blood_good_2 = {
+			add = 150
+		}
+		magic_blood_good_3 = {
+			add = 400
+		}
+	}
+	if = {
+		limit = {
+			has_trait = starwalker
+		}
+		add = 1000
+	}
+	if = {
+		limit = {
+			has_trait = born_beneath_the_comet
+		}
+		add = 500
+	}
+	if = { 
+		limit = { 
+			has_trait = starwalker
+		}
+		add = 100000
+	}
+}
 
 
 zz_valyria_very_low_damage_army = {

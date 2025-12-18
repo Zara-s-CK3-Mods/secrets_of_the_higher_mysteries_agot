@@ -1,0 +1,421 @@
+﻿zz_valyria_magic_dragon_magic_01 = { 
+	random_list = { 
+		50 = {
+			modifier = { 
+				add = zz_valyria_magic_dragon_magic_01_value 
+			}
+			send_interface_message = {
+				type = send_interface_message_as_feed_spell_outcome
+				title = zz_valyria_magic_dragon_magic_01.toast.t
+				desc = zz_valyria_magic_dragon_magic_01.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_01.toast.tt
+			}
+			scope:target = {
+				if = {
+					limit = { has_variable = cradled_egg }
+					remove_variable = cradled_egg
+				}
+				if = {
+					limit = { has_variable = cradled_egg_year }
+					remove_variable = cradled_egg_year
+				}
+				remove_variable = dud_egg
+				agot_set_living_egg_description = yes
+				reforge_artifact = {
+					type = miscellaneous
+					modifier = dragon_egg_modifier
+					decaying = no
+					generate_history = no
+				}
+				if = {
+					limit = {
+						artifact_owner = {
+							is_ai = yes
+							NOT = {
+								any_character_artifact = {
+									has_variable = dragon_egg
+									has_variable = cradled_egg
+								}
+							}
+							NOT = {
+								any_relation = {
+									type = agot_dragon
+								}
+							}
+							OR = {
+								has_game_rule = dragons_anyone
+								agot_has_dragonblood_heritage = yes
+							}
+						}
+					}
+					set_variable = cradled_egg
+					set_variable = {
+						name = cradled_egg_year
+						value = {
+							value = current_year
+							add = { 1 10 }
+						}
+					}
+				}
+			}
+			scope:recipient = {		
+				if = {
+					limit = {
+						NOT = { scope:actor = scope:recipient }
+					}
+					add_opinion = {
+						modifier = grateful_opinion
+						target = scope:actor
+						opinion = 70
+					}
+				}
+			}
+		}
+		25 = {
+			send_interface_message = {
+				type = send_interface_message_as_toast_spell_failure
+				title = zz_valyria_magic_dragon_magic_01_f.toast.t
+				desc = zz_valyria_magic_dragon_magic_01_f.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_01_f.toast.tt
+			}
+		}
+	}
+	
+}
+
+zz_valyria_magic_dragon_magic_02_effect = { 
+	random_list = {
+		50 = {
+			modifier = {
+				add = zz_valyria_magic_dragon_magic_02_value
+			}
+			send_interface_message = {
+				type = send_interface_message_as_feed_spell_outcome
+				title = zz_valyria_magic_dragon_magic_02.toast.t
+				desc = zz_valyria_magic_dragon_magic_02.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_02.toast.tt
+			}
+			scope:recipient = {
+				add_character_flag = { flag = zz_valyria_magic_dragon_magic_02_effect_flag years = 1 } 
+				save_scope_as = dragon_parent
+				set_variable = { name = clutches value = 0 }
+				remove_character_flag = recently_laid_eggs
+				#Tamed Dragon, rider family to employer
+				if = {
+					limit = {
+						exists = var:current_rider
+						exists = employer
+						employer = {
+							OR = {
+								is_spouse_of = prev.var:current_rider
+								is_close_family_of = prev.var:current_rider
+								house ?= prev.var:current_rider.house
+							}
+						}
+					}
+					employer = { save_scope_as = egg_receiver }
+				}	
+				#Tamed Dragon, rider not family to employer
+				else_if = {
+					limit = {
+						exists = var:current_rider
+					}
+					var:current_rider = { save_scope_as = egg_receiver }
+				}
+				#Owned Dragon
+				else_if = {
+					limit = {
+						exists = employer
+					}
+					employer = { save_scope_as = egg_receiver }
+				}
+				#Fallback, something went wrong
+				else = {
+					change_variable = { name = clutches add = -1 }
+					remove_character_flag = recently_laid_eggs
+				}
+	
+				scope:egg_receiver ?= {
+					random_list = {
+						1 = {
+							trigger = {
+								NOT = { scope:dragon_parent = { has_trait = dragon_fertile } }
+								agot_dragon_population_low = no
+							}
+							trigger_event = {
+								id = agot_dragon_egg_lay.0001
+								days = { 1 364 }
+							}
+						}
+						9 = {
+							trigger_event = {
+								id = agot_dragon_egg_lay.0002
+								days = { 1 364 }
+							}
+						}
+					}
+				}
+			}
+		}
+		25 = {
+			send_interface_message = {
+				type = send_interface_message_as_toast_spell_failure
+				title = zz_valyria_magic_dragon_magic_02_f.toast.t
+				desc = zz_valyria_magic_dragon_magic_02_f.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_02_f.toast.tt
+			}
+		}
+	}
+	
+}
+
+zz_valyria_magic_dragon_magic_03_effect = { 
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_dragon_magic_03.toast.t
+		desc = zz_valyria_magic_dragon_magic_03.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_dragon_magic_03.toast.tt
+	}
+	scope:recipient = {
+		set_variable = {
+			name = caster 
+			value = scope:secondary_recipient 
+		}
+		set_variable = {
+			name = actor 
+			value = scope:actor 
+		}
+		create_story = {
+			type = zz_valyria_magic_dragon_magic_03_story
+			save_scope_as = story
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_04_effect = { 
+	
+	random_list = { 
+		50 = { 
+			modifier = { 
+				add = zz_valyria_magic_dragon_magic_04_value
+			}
+			send_interface_message = {
+				type = send_interface_message_as_feed_spell_outcome
+				title = zz_valyria_magic_dragon_magic_04.toast.t
+				desc = zz_valyria_magic_dragon_magic_04.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_04.toast.tt
+			}
+			scope:recipient = {
+				custom_description = {
+					text = zz_valyria_magic_dragon_magic_04_desc
+					add_character_flag = { flag = historical_dragonseed } 
+				}
+			}
+
+			scope:recipient = {		
+				if = {
+					limit = {
+						NOT = { scope:actor = scope:recipient }
+					}
+					add_opinion = {
+						modifier = grateful_opinion
+						target = scope:actor
+						opinion = 70
+					}
+				}
+			}
+		}
+		25 = { 
+			send_interface_message = {
+				type = send_interface_message_as_toast_spell_failure
+				title = zz_valyria_magic_dragon_magic_04_f.toast.t
+				desc = zz_valyria_magic_dragon_magic_04_f.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_dragon_magic_04_f.toast.tt
+			}
+			scope:recipient = {
+				add_trait = scaly
+				random_list = {
+					1 = { add_trait = dwarf }
+					1 = { add_trait = hunchbacked }
+					1 = { add_trait = clubfooted }
+					1 = { add_trait = infertile }
+					1 = { add_trait = blind }
+				}
+			}
+		}
+	}
+}
+
+zz_valyria_magic_blood_magic_18_effect = {
+	random_list = { 
+		50 = {
+			modifier = { 
+				add = zz_valyria_magic_blood_magic_18_value 
+			}
+			send_interface_message = {
+				type = send_interface_message_as_feed_spell_outcome
+				title = zz_valyria_magic_blood_magic_18.toast.t
+				desc = zz_valyria_magic_blood_magic_18.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_blood_magic_18.toast.tt
+			}
+			if = {
+				limit = {
+					NOT = {
+						scope:actor = scope:recipient
+					}
+				}
+				stress_impact = {
+					compassionate = medium_stress_impact_loss
+					sadistic = minor_stress_gain
+					callous = minor_stress_gain
+				}
+			}
+			if = {
+				limit = {
+					scope:trait ?= trait:dragon_physique_good_3
+				}
+				scope:recipient = { 
+					zz_valyria_blood_magic_trait_upgrade = { TYPE = dragon_physique }
+				} 
+			}			
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_majestic
+				}
+				scope:recipient = { 
+					if = {
+						limit = { 
+							has_trait = dragon_ugly 
+						}
+						remove_trait = dragon_ugly
+					}
+					else_if ={
+						limit = {
+							NOT = {
+								has_trait = dragon_majestic 
+							}
+						}
+
+						add_trait_force_tooltip = dragon_majestic
+					}
+				} 		
+			}		
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_swift
+				}
+				scope:recipient = { 
+					if = {
+						limit = { 
+							has_trait = dragon_slow 
+						}
+						remove_trait = dragon_slow
+					}
+					else_if ={
+						limit = {
+							NOT = {
+								has_trait = dragon_slow 
+							}
+						}
+						add_trait_force_tooltip = dragon_swift
+					}
+				} 	
+			}
+
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_physique_bad_3
+				}
+				scope:recipient = { 
+					zz_valyria_blood_magic_trait_downgrade = { TYPE = dragon_physique }
+				} 
+			}			
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_slow
+				}
+				scope:recipient = { 
+					if = {
+						limit = { 
+							has_trait = dragon_swift 
+						}
+						remove_trait = dragon_swift
+					}
+					else_if ={
+						limit = {
+							NOT = {
+								has_trait = dragon_slow 
+							}
+						}
+						add_trait_force_tooltip = dragon_slow
+					}
+				} 	
+			}	
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_ugly
+				}
+				scope:recipient = { 
+					if = {
+						limit = { 
+							has_trait = dragon_majestic 
+						}
+						remove_trait = dragon_majestic
+					}
+					else_if = {
+						limit = {
+							NOT = {
+								has_trait = dragon_ugly 
+							}
+						}
+
+						add_trait_force_tooltip = dragon_ugly
+					}
+				} 		
+			}	
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_spindly
+				}
+				scope:recipient = { 
+					zz_valyria_dream_magic_personality_manipulation = {TRAIT =  dragon_spindly}  
+				} 	
+			}
+			else_if = {
+				limit = {
+					scope:trait ?= trait:dragon_fertile
+				}
+				scope:recipient = { 
+					zz_valyria_dream_magic_personality_manipulation = {TRAIT =  dragon_fertile}  
+				} 	
+			}
+			
+		}
+		25 = {
+			send_interface_message = {
+				type = send_interface_message_as_toast_spell_failure
+				title = zz_valyria_magic_blood_magic_18_f.toast.t
+				desc = zz_valyria_magic_blood_magic_18_f.toast.desc
+				left_icon = scope:secondary_recipient
+				right_icon = scope:recipient
+				custom_tooltip = zz_valyria_magic_blood_magic_18_f.toast.tt
+			}
+		}
+	}
+}

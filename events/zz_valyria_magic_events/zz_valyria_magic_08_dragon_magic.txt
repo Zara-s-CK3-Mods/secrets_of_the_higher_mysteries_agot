@@ -1,0 +1,285 @@
+﻿namespace = zz_valyria_magic_dragon_magic_spells
+
+zz_valyria_magic_dragon_magic_spells.001 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_dragon_magic_spells.001.t
+	desc = zz_valyria_magic_dragon_magic_spells.001.desc
+	theme = university 
+	override_background = {
+		reference = zz_dragon_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	immediate = {
+		zz_valyria_dead_dragon_egg_list = yes
+
+	}
+
+	widget = {
+		is_shown = {
+			is_ai = no
+		}
+		gui = "event_window_artifact_selection_tall"
+		container = "custom_widgets_container"
+	}
+	option = {
+		name = zz_valyria_magic_dragon_magic_spells.001.opt.a
+		trigger = {
+			scope:recipient = {
+				any_character_artifact = {
+					has_variable = dragon_egg
+					has_variable = dud_egg 
+					NOT = { has_variable = cradled_egg }
+					NOT = { has_variable = pitted_egg }
+				}
+			}
+		}
+		hidden_effect = {
+			var:zz_valyria_selected_artifact?= { 
+				save_scope_as = target
+			}
+			zz_valyria_magic_cast_effect = { 
+				SKILL = dragon_magic
+				SPELL = zz_valyria_magic_dragon_magic_01
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_dragon_magic_spells.001.opt.z
+	}
+}
+
+zz_valyria_magic_dragon_magic_spells.002 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_dragon_magic_spells.002.t
+	desc = zz_valyria_magic_dragon_magic_spells.002.desc
+	theme = university 
+	override_background = {
+		reference = zz_dragon_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_dragon_magic_spells.002.opt.a
+		trigger = {
+			scope:recipient = {
+				has_trait = dragon
+				is_female = yes
+				NOT = { 
+					has_character_flag = zz_valyria_magic_dragon_magic_08_effect_flag
+				}
+			}
+		}
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = dragon_magic
+				SPELL = zz_valyria_magic_dragon_magic_02
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_dragon_magic_spells.002.opt.z
+	}
+}
+
+zz_valyria_magic_blood_magic_spells.009 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_blood_magic_spells.009.t
+	desc = zz_valyria_magic_blood_magic_spells.009.desc
+	theme = university 
+	override_background = {
+		reference = zz_blood_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.009.opt.a
+		trigger = {
+			scope:recipient = {
+				has_trait = dragon
+			}
+		}
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = blood_magic
+				SPELL = zz_valyria_magic_blood_magic_09
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.009.opt.z
+	}
+}
+zz_valyria_magic_blood_magic_spells.010 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_blood_magic_spells.010.t
+	desc = zz_valyria_magic_blood_magic_spells.010.desc
+	theme = university 
+	override_background = {
+		reference = zz_blood_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.010.opt.a
+		trigger = {
+			scope:recipient = {
+				NOT = {
+					agot_is_dragonblood_character = yes
+				}
+				NOT = {
+					has_trait = dragon
+				}
+			}
+		}
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = blood_magic
+				SPELL = zz_valyria_magic_blood_magic_10
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.010.opt.z
+	}
+}
+
+zz_valyria_magic_blood_magic_spells.018 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_blood_magic_spells.018.t
+	desc = zz_valyria_magic_blood_magic_spells.018.desc
+	theme = university 
+	override_background = {
+		reference = zz_blood_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	immediate = {
+		clear_variable_list = possible_traits
+		remove_variable = selected_trait
+		trait:dragon_physique_good_3 = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = selected_trait }
+					}
+					set_variable = { name = selected_trait value = prev }
+				}
+			}
+		}
+		trait:dragon_majestic = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+		trait:dragon_swift = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+		trait:dragon_physique_bad_3 = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+		trait:dragon_slow = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+
+		trait:dragon_ugly = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+		trait:dragon_spindly = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+		trait:dragon_fertile = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
+
+		
+		
+	}
+
+	widget = {
+		is_shown = {
+		}
+		gui = "event_window_trait_selection"
+		container = "custom_widgets_container"
+	}
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.018.opt.a
+		trigger = { 
+		}
+		hidden_effect = {
+			var:selected_trait ?= {
+				save_scope_as = trait 
+			}
+	
+			zz_valyria_magic_cast_effect = { 
+				SKILL = blood_magic
+				SPELL = zz_valyria_magic_blood_magic_18
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_blood_magic_spells.018.opt.z
+	}
+}

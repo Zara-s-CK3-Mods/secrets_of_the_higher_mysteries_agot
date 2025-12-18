@@ -6,7 +6,7 @@
 		if = { 
 			limit = { 
 				root = {
-					scope:modifier = trait:zz_valyria_magic_xp_gain_passive_modifier
+					scope:modifier = flag:item_modifier_11
 				}
 			}
 			scope:secondary_recipient = {
@@ -20,7 +20,7 @@
 		if = { 
 			limit = { 
 				root = {
-					scope:modifier = trait:zz_valyria_magic_diplomacy_range_modifier_01_stacking
+					scope:modifier = flag:item_modifier_18
 				}
 			}
 			scope:secondary_recipient = {
@@ -37,7 +37,7 @@
 				if = { 
 					limit = { 
 						root = {
-							scope:modifier = trait:zz_valyria_magic_xp_gain_passive_modifier
+							scope:modifier = flag:item_modifier_11
 						}
 					}
 					if = {
@@ -53,6 +53,28 @@
 						set_variable = {
 							name = item_mana_gain
 							value = 0.25
+						}
+					}
+				}
+				else_if = { 
+					limit = { 
+						root = {
+							scope:modifier = flag:item_modifier_01
+						}
+					}
+					if = {
+						limit = {
+							exists = var:item_mana_gain_mult
+						}
+						change_variable = {
+							name = item_mana_gain_mult
+							add = 0.01
+						}
+					}
+					else = {
+						set_variable = {
+							name = item_mana_gain_mult
+							value = 0.01
 						}
 					}
 				}
@@ -253,67 +275,70 @@ zz_valyria_magic_alchemy_magic_06_effect = {
 		custom_tooltip = zz_valyria_magic_alchemy_magic_06.toast.tt
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_mana_gain_modifier_01_stacking
+		MODIFIER = item_modifier_01
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_02
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_03
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_blood_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_04
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_shadow_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_05
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_dream_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_06
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_07
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_fire_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_08
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_air_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_09
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_water_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_10
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_passive_modifier
+		MODIFIER = item_modifier_11
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_learning_modifier_01_stacking
+		MODIFIER = item_modifier_12
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_modifier_01_stacking
+		MODIFIER = item_modifier_13
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_stewardship_modifier_01_stacking
+		MODIFIER = item_modifier_14
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_martial_modifier_01_stacking
+		MODIFIER = item_modifier_15
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_intrigue_modifier_01_stacking
+		MODIFIER = item_modifier_16
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_prowess_modifier_01_stacking
+		MODIFIER = item_modifier_17
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_range_modifier_01_stacking
+		MODIFIER = item_modifier_18
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_tax_mult_modifier_01_stacking
+		MODIFIER = item_modifier_19
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_gold_income_modifier_01_stacking
+		MODIFIER = item_modifier_20
 	}
 	zz_enchant_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_income_mult_modifier_01_stacking
+		MODIFIER = item_modifier_21
+	}
+	zz_enchant_apply_modifier_effect = {
+		MODIFIER = item_modifier_22
 	}
 }
 

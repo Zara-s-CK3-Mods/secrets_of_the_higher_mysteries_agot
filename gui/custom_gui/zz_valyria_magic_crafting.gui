@@ -90,7 +90,7 @@ types zz_valyria_magic_crafting {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 5 } }
@@ -141,7 +141,7 @@ types zz_valyria_magic_crafting {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 														}
 														spacer = { size = { 00 15 } }
 													}
@@ -180,22 +180,22 @@ types zz_valyria_magic_crafting {
 										item = {
 											button_standard = {
 												parentanchor = top|left
-												datacontext = "[Scope.Trait]"
+												datacontext = "[GetScriptedGui('zz_valyria_magic_item_selection')]"
 												minimumsize = { 300 38 }
 												text_single = {
 													minimumsize = { 100 38 }
 													margin = { 15 15 }
-													text = "[Trait.GetNameNoTooltip( GetPlayer )]"
+													text = "[Scope.GetFlagName]"
 													alwaystransparent = yes
 													resizeparent = yes
 													align = center|nobaseline
 													default_format = "#low"
 												}
 												datacontext = "[GetScriptedGui('zz_valyria_magic_item_selection')]"
-												onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', Trait.MakeScope ).End)]"
-												down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', Trait.MakeScope ).End)]"
-												enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', Trait.MakeScope ).End)]"
-												tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', Trait.MakeScope ).End)]"
+												onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_item', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												tooltip = "[Localize(Concatenate(Scope.GetFlagKey, '_desc' ))]"
 											}	
 										}
 									}
@@ -207,7 +207,7 @@ types zz_valyria_magic_crafting {
 							vbox = {
 								text_single = {
 									align = left
-									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_item').Trait.GetNameNoTooltip( GetPlayer )]"
+									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_item').GetFlagName]"
 								}
 							}
 							vbox = {
@@ -220,7 +220,7 @@ types zz_valyria_magic_crafting {
 									max_width = 300
 									min_width = 300
 									autoresize = yes
-									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_item').Trait.GetDescription(GetPlayer)]"
+									text = "[Localize(Concatenate(GetPlayer.MakeScope.Var('zz_selected_item').GetFlagKey, '_desc' ))]"
 								}
 							}
 							expand = {}
@@ -250,22 +250,21 @@ types zz_valyria_magic_crafting {
 										item = {
 											button_standard = {
 												parentanchor = top|left
-												datacontext = "[Scope.Trait]"
 												minimumsize = { 300 38 }
 												text_single = {
 													minimumsize = { 100 38 }
 													margin = { 15 15 }
-													text = "[Trait.GetNameNoTooltip( GetPlayer )]"
+													text = "[Scope.GetFlagName]"
 													alwaystransparent = yes
 													resizeparent = yes
 													align = center|nobaseline
 													default_format = "#low"
 												}
 												datacontext = "[GetScriptedGui('zz_valyria_magic_modifier_selection')]"
-												onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', Trait.MakeScope ).End)]"
-												down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', Trait.MakeScope ).End)]"
-												enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', Trait.MakeScope ).End)]"
-												tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', Trait.MakeScope ).End)]"
+												onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
+												tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_selected_modifier', MakeScopeFlag(Scope.GetFlagKey) ).End)]"
 											}	
 										}
 									}
@@ -277,7 +276,7 @@ types zz_valyria_magic_crafting {
 							vbox = {
 								text_single = {
 									align = left
-									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_modifier').Trait.GetNameNoTooltip( GetPlayer )]"
+									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_modifier').GetFlagName]"
 								}
 							}
 							vbox = {
@@ -290,7 +289,7 @@ types zz_valyria_magic_crafting {
 									max_width = 300
 									min_width = 300
 									autoresize = yes
-									raw_text = "[GetPlayer.MakeScope.Var('zz_selected_modifier').Trait.GetDescription(GetPlayer)]"
+									text = "[Localize(Concatenate(GetPlayer.MakeScope.Var('zz_selected_modifier').GetFlagKey, '_desc' ))]"
 								}
 							}
 							expand = {}
@@ -504,16 +503,15 @@ types zz_valyria_magic_crafting {
 									parentanchor = top|left
 									size = { 250 120 }
 									align = left
-									datacontext = "[Scope.Trait]"
-	
-									onclick = "[GetScriptedGui('zz_sword_selection').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_sword_selection_sword', Trait.MakeScope ).End )]"
+
+									onclick = "[GetScriptedGui('zz_sword_selection').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_sword_selection_sword', MakeScopeFlag(Scope.GetFlagKey) ).End )]"
 									vbox = {
 										layoutpolicy_horizontal = expanding
 										layoutpolicy_vertical = expanding
 										margin_right = 4
 										spacing = 5
 										text_single = {
-											text = "[Trait.GetNameNoTooltip( GetPlayer )]"
+											text = "[Scope.GetFlagName]"
 										}
 									}
 								}								 
@@ -530,7 +528,7 @@ types zz_valyria_magic_crafting {
 		movable = no
 		layer = top
 		parentanchor = top|hcenter
-		position = { -800 20 }
+		position = { -500 20 }
 		
 		size = { 300 90% }
 
@@ -584,16 +582,14 @@ types zz_valyria_magic_crafting {
 									parentanchor = top|left
 									size = { 250 120 }
 									align = left
-									datacontext = "[Scope.Trait]"
-	
-									onclick = "[GetScriptedGui('zz_ring_selection').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_ring_selection_ring', Trait.MakeScope ).End )]"
+									onclick = "[GetScriptedGui('zz_ring_selection').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_ring_selection_ring', MakeScopeFlag(Scope.GetFlagKey) ).End )]"
 									vbox = {
 										layoutpolicy_horizontal = expanding
 										layoutpolicy_vertical = expanding
 										margin_right = 4
 										spacing = 5
 										text_single = {
-											text = "[Trait.GetNameNoTooltip( GetPlayer )]"
+											text = "[Scope.GetFlagName]"
 										}
 									}
 								}								 

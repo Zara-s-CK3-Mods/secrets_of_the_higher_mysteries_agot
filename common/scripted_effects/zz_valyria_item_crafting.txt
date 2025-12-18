@@ -10,7 +10,7 @@ zz_valyria_create_vs_sword_effect = {
 	set_artifact_rarity_illustrious = yes
 	if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_01
+			scope:zz_sword_selection_sword = flag:item_sword_01
 		}
 		create_artifact = {
 			name = vs_valyrian_armingsword_silver_name
@@ -46,7 +46,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_02
+			scope:zz_sword_selection_sword = flag:item_sword_02
 		}
 		create_artifact = {
 			name = vs_valyrian_armingsword_gold_name
@@ -82,7 +82,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_03
+			scope:zz_sword_selection_sword = flag:item_sword_03
 		}
 		create_artifact = {
 			name = vs_valyrian_longsword_gold_name
@@ -118,7 +118,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_04
+			scope:zz_sword_selection_sword = flag:item_sword_04
 		}
 		create_artifact = {
 			name = vs_valyrian_longsword_silver_name
@@ -154,7 +154,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_05
+			scope:zz_sword_selection_sword = flag:item_sword_05
 		}
 		create_artifact = {
 			name = vs_blackfyre_name
@@ -182,7 +182,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_06
+			scope:zz_sword_selection_sword = flag:item_sword_06
 		}
 		create_artifact = {
 			name = vs_dark_sister_name
@@ -210,7 +210,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_07
+			scope:zz_sword_selection_sword = flag:item_sword_07
 		}
 		create_artifact = {
 			name = vs_brightroar_name
@@ -238,7 +238,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_08
+			scope:zz_sword_selection_sword = flag:item_sword_08
 		}
 		create_artifact = {
 			name = vs_dawn_name
@@ -266,7 +266,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_09
+			scope:zz_sword_selection_sword = flag:item_sword_09
 		}
 		create_artifact = {
 			name = vs_cloudbreak_name
@@ -294,7 +294,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_10
+			scope:zz_sword_selection_sword = flag:item_sword_10
 		}
 		create_artifact = {
 			name = vs_adders_fang_name
@@ -322,7 +322,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_11
+			scope:zz_sword_selection_sword = flag:item_sword_11
 		}
 		create_artifact = {
 			name = vs_dancer_name
@@ -350,7 +350,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_12
+			scope:zz_sword_selection_sword = flag:item_sword_12
 		}
 		create_artifact = {
 			name = vs_dark_moon_name
@@ -378,7 +378,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_13
+			scope:zz_sword_selection_sword = flag:item_sword_13
 		}
 		create_artifact = {
 			name = vs_darktalon_name
@@ -406,7 +406,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_14
+			scope:zz_sword_selection_sword = flag:item_sword_14
 		}
 		create_artifact = {
 			name = vs_disputant_name
@@ -434,7 +434,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_15
+			scope:zz_sword_selection_sword = flag:item_sword_15
 		}
 		create_artifact = {
 			name = vs_defiance_name
@@ -462,7 +462,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_16
+			scope:zz_sword_selection_sword = flag:item_sword_16
 		}
 		create_artifact = {
 			name = vs_iron_will_name
@@ -490,7 +490,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_17
+			scope:zz_sword_selection_sword = flag:item_sword_17
 		}
 		create_artifact = {
 			name = vs_heartsbane_name
@@ -518,7 +518,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_18
+			scope:zz_sword_selection_sword = flag:item_sword_18
 		}
 		create_artifact = {
 			name = vs_ice_name
@@ -546,7 +546,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_19
+			scope:zz_sword_selection_sword = flag:item_sword_19
 		}
 		create_artifact = {
 			name = vs_lady_forlorn_name
@@ -574,7 +574,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_20
+			scope:zz_sword_selection_sword = flag:item_sword_20
 		}
 		create_artifact = {
 			name = vs_lamentation_name
@@ -602,7 +602,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_21
+			scope:zz_sword_selection_sword = flag:item_sword_21
 		}
 		create_artifact = {
 			name = vs_longclaw_name
@@ -630,7 +630,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_22
+			scope:zz_sword_selection_sword = flag:item_sword_22
 		}
 		create_artifact = {
 			name = vs_nightfall_name
@@ -658,7 +658,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_23
+			scope:zz_sword_selection_sword = flag:item_sword_23
 		}
 		create_artifact = {
 			name = vs_orphan_maker_name
@@ -686,7 +686,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_24
+			scope:zz_sword_selection_sword = flag:item_sword_24
 		}
 		create_artifact = {
 			name = vs_pincer_name
@@ -714,7 +714,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_25
+			scope:zz_sword_selection_sword = flag:item_sword_25
 		}
 		create_artifact = {
 			name = vs_pride_name
@@ -742,7 +742,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_26
+			scope:zz_sword_selection_sword = flag:item_sword_26
 		}
 		create_artifact = {
 			name = vs_red_rain_name
@@ -770,7 +770,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_27
+			scope:zz_sword_selection_sword = flag:item_sword_27
 		}
 		create_artifact = {
 			name = vs_remige_name
@@ -798,7 +798,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_28
+			scope:zz_sword_selection_sword = flag:item_sword_28
 		}
 		create_artifact = {
 			name = vs_seafoam_name
@@ -826,7 +826,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_29
+			scope:zz_sword_selection_sword = flag:item_sword_29
 		}
 		create_artifact = {
 			name = vs_skinpeeler_name
@@ -854,7 +854,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_30
+			scope:zz_sword_selection_sword = flag:item_sword_30
 		}
 		create_artifact = {
 			name = vs_skullcleaver_name
@@ -882,7 +882,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_31
+			scope:zz_sword_selection_sword = flag:item_sword_31
 		}
 		create_artifact = {
 			name = vs_stalwart_name
@@ -910,7 +910,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_32
+			scope:zz_sword_selection_sword = flag:item_sword_32
 		}
 		create_artifact = {
 			name = vs_supremacy_name
@@ -938,7 +938,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_33
+			scope:zz_sword_selection_sword = flag:item_sword_33
 		}
 		create_artifact = {
 			name = vs_swordfish_name
@@ -966,7 +966,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_34
+			scope:zz_sword_selection_sword = flag:item_sword_34
 		}
 		create_artifact = {
 			name = vs_tranquility_name
@@ -994,7 +994,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_35
+			scope:zz_sword_selection_sword = flag:item_sword_35
 		}
 		create_artifact = {
 			name = vs_vigilance_name
@@ -1022,7 +1022,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_36
+			scope:zz_sword_selection_sword = flag:item_sword_36
 		}
 		create_artifact = {
 			name = vs_widestripe_name
@@ -1050,7 +1050,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_37
+			scope:zz_sword_selection_sword = flag:item_sword_37
 		}
 		create_artifact = {
 			name = vs_widows_wail_name
@@ -1078,7 +1078,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_38
+			scope:zz_sword_selection_sword = flag:item_sword_38
 		}
 		create_artifact = {
 			name = vs_wyrmfang_name
@@ -1106,7 +1106,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_39
+			scope:zz_sword_selection_sword = flag:item_sword_39
 		}
 		create_artifact = {
 			name = vs_evergold_name
@@ -1134,7 +1134,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_40
+			scope:zz_sword_selection_sword = flag:item_sword_40
 		}
 		create_artifact = {
 			name = vs_truth_name
@@ -1162,7 +1162,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_41
+			scope:zz_sword_selection_sword = flag:item_sword_41
 		}
 		create_artifact = {
 			name = kingsguard_sword_name
@@ -1190,7 +1190,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_42
+			scope:zz_sword_selection_sword = flag:item_sword_42
 		}
 		create_artifact = {
 			name = vs_black_death_name
@@ -1218,7 +1218,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_43
+			scope:zz_sword_selection_sword = flag:item_sword_43
 		}
 		create_artifact = {
 			name = vs_mothers_grief_name
@@ -1246,7 +1246,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_44
+			scope:zz_sword_selection_sword = flag:item_sword_44
 		}
 		create_artifact = {
 			name = vs_talon_name
@@ -1274,7 +1274,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_45
+			scope:zz_sword_selection_sword = flag:item_sword_45
 		}
 		create_artifact = {
 			name = vs_glory_name
@@ -1302,7 +1302,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_46
+			scope:zz_sword_selection_sword = flag:item_sword_46
 		}
 		create_artifact = {
 			name = vs_stormy_nights_name
@@ -1330,7 +1330,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_47
+			scope:zz_sword_selection_sword = flag:item_sword_47
 		}
 		create_artifact = {
 			name = vs_strangers_touch_name
@@ -1358,7 +1358,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_48
+			scope:zz_sword_selection_sword = flag:item_sword_48
 		}
 		create_artifact = {
 			name = vs_dragonbane_name
@@ -1386,7 +1386,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_49
+			scope:zz_sword_selection_sword = flag:item_sword_49
 		}
 		create_artifact = {
 			name = vs_andal_armingsword_gold_name
@@ -1414,7 +1414,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_50
+			scope:zz_sword_selection_sword = flag:item_sword_50
 		}
 		create_artifact = {
 			name = vs_andal_armingsword_silver_name
@@ -1442,7 +1442,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_51
+			scope:zz_sword_selection_sword = flag:item_sword_51
 		}
 		create_artifact = {
 			name = vs_andal_longsword_gold_name
@@ -1470,7 +1470,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_52
+			scope:zz_sword_selection_sword = flag:item_sword_52
 		}
 		create_artifact = {
 			name = vs_andal_longsword_silver_name
@@ -1498,7 +1498,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_53
+			scope:zz_sword_selection_sword = flag:item_sword_53
 		}
 		create_artifact = {
 			name = vs_firstman_armingsword_gold_name
@@ -1526,7 +1526,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_54
+			scope:zz_sword_selection_sword = flag:item_sword_54
 		}
 		create_artifact = {
 			name = vs_firstman_armingsword_silver_name
@@ -1554,7 +1554,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_55
+			scope:zz_sword_selection_sword = flag:item_sword_55
 		}
 		create_artifact = {
 			name = vs_firstman_armingsword_bronze_name
@@ -1582,7 +1582,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_56
+			scope:zz_sword_selection_sword = flag:item_sword_56
 		}
 		create_artifact = {
 			name = vs_firstman_longsword_gold_name
@@ -1610,7 +1610,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_57
+			scope:zz_sword_selection_sword = flag:item_sword_57
 		}
 		create_artifact = {
 			name = vs_firstman_longsword_silver_name
@@ -1638,7 +1638,7 @@ zz_valyria_create_vs_sword_effect = {
 	}
 	else_if = { 
 		limit = { 
-			scope:zz_sword_selection_sword = trait:zz_valyria_sword_type_58
+			scope:zz_sword_selection_sword = flag:item_sword_58
 		}
 		create_artifact = {
 			name = vs_firstman_longsword_bronze_name
@@ -1676,10 +1676,15 @@ zz_valyria_create_vs_sword_effect = {
 			clear_artifact_modifiers = yes
 		}
 	}
+	set_variable = {
+		name = newly_created_artifact
+		value = scope:newly_created_artifact
+	}
 	zz_craft_item_apply_item_effect = {
 		MODIFIER = zz_valyria_magic_vs_base_modifier_01_stacking
 	}
-	zz_apply_item_magic_modifiers_effect = yes 
+	
+	
 	trigger_event = zz_valyria_item_crafting_rename.2
 }
 
@@ -1698,7 +1703,7 @@ zz_valyria_create_magic_ring_effect = {
 		name = zz_valyria_artifact_mages_ring_name_dummy
 		description = placeholder
 		visuals = zz_valyria_ring
-		type = archmaester_ring
+		type = ring
 		creator = scope:zz_item_crafter
 		history = {
 			location = scope:zz_item_crafter.location
@@ -1713,13 +1718,16 @@ zz_valyria_create_magic_ring_effect = {
 			type = created
 		}
 		template = zz_valyria_mages_ring_artifact_template
-		modifier = zz_valyria_magic_xp_gain_passive_modifier
+		modifier = item_modifier_11
 		save_scope_as = newly_created_artifact
 		wealth = scope:wealth
 		quality = scope:quality
 		decaying = no
 	}
-
+	set_variable = {
+		name = newly_created_artifact
+		value = scope:newly_created_artifact
+	}
 	scope:newly_created_artifact = {
 		clear_artifact_modifiers = yes
 		set_variable = {
@@ -1738,6 +1746,7 @@ zz_valyria_create_magic_ring_effect = {
 		}
 		equip_artifact_to_owner_replace = yes
 	}
+	
 	if = { 
 		limit = {
 			exists = scope:ring_modifier 
@@ -1747,7 +1756,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier ?= flag:drops_of_power
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_magic_mana_gain_modifier_01_stacking
+				MODIFIER = item_modifier_01
 			}
 		}
 		if = { 
@@ -1755,7 +1764,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:all_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_02
 			}
 		}
 		if = { 
@@ -1763,7 +1772,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:higher_mysteries
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_03
 			}
 		}
 		if = { 
@@ -1771,7 +1780,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:blood_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_blood_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_04
 			}
 		}
 		if = { 
@@ -1779,7 +1788,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:shadow_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_shadow_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_05
 			}
 		}
 		if = { 
@@ -1787,7 +1796,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:dream_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_dream_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_06
 			}
 		}
 		if = { 
@@ -1795,7 +1804,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:alchemy_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_07
 			}
 		}
 		if = { 
@@ -1803,7 +1812,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:fire_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_fire_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_08
 			}
 		}
 		if = { 
@@ -1811,7 +1820,7 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:air_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_air_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_09
 			}
 		}
 		if = { 
@@ -1819,33 +1828,31 @@ zz_valyria_create_magic_ring_effect = {
 				scope:ring_modifier = flag:water_magic
 			}
 			zz_craft_item_apply_item_effect = {
-				MODIFIER = zz_valyria_water_magic_xp_gain_modifier_01_stacking
+				MODIFIER = item_modifier_10
 			}
 		}
 	}
-	zz_apply_item_magic_modifiers_effect = yes 
 	trigger_event = zz_valyria_item_crafting_rename.2
-	
 }
 
 zz_craft_item_apply_item_effect = {
 	set_variable = { 
 		name = zz_item_effect 
-		value = trait:$MODIFIER$
+		value = flag:$MODIFIER$
 	}
 	if = {
 		limit = {
 			root = {
-				var:zz_item_effect = trait:$MODIFIER$
+				var:zz_item_effect = flag:$MODIFIER$
 			}
 		}
-		scope:newly_created_artifact = {
+		var:newly_created_artifact = {
 			while = {
 				count = root.zz_valyria_magic_alchemy_magic_crafting_value
 				if = { 
 					limit = { 
 						root = {
-							var:zz_item_effect = trait:zz_valyria_magic_xp_gain_passive_modifier
+							var:zz_item_effect = flag:item_modifier_11
 						}
 					}
 					if = {
@@ -1873,7 +1880,7 @@ zz_craft_item_apply_item_effect = {
 zz_item_calculate_cost_effect = {
 	if = {
 		limit = {
-			var:zz_selected_item = trait:$ITEM$
+			var:zz_selected_item ?= flag:$ITEM$
 		}
 		set_variable = {
 			name = zz_current_cost_item
@@ -1884,7 +1891,7 @@ zz_item_calculate_cost_effect = {
 zz_modifier_calculate_effect = {
 	if = {
 		limit = {
-			var:zz_selected_modifier = trait:$MODIFIER$
+			var:zz_selected_modifier ?= flag:$MODIFIER$
 		}
 		set_variable = {
 			name = zz_current_cost_modifier
@@ -1894,90 +1901,111 @@ zz_modifier_calculate_effect = {
 }
 
 
-zz_item_craft_zz_valyria_crafting_vs_sword_01 = {
+zz_item_craft_item_sword = {
 	zz_valyria_create_vs_sword_effect = {OWNER = root} 
+	zz_apply_item_magic_modifiers_effect = yes 
 	
 }
-zz_item_craft_zz_valyria_crafting_dragonbone_bow_01 = {
-	agot_create_artifact_dragonbone_longbow_effect = { OWNER = ROOT }
+zz_item_craft_item_bow = {
+	create_artifact_bow_effect = { 
+		OWNER = root
+		CREATOR = root
+		SET_BOW_TYPE = flag:artifact_bow_type_composite 
+	}
+	set_variable = {
+		name = newly_created_artifact
+		value = scope:newly_created_artifact
+	}
+	zz_apply_item_magic_modifiers_effect = yes 
 }
 
-zz_item_craft_zz_valyria_crafting_vs_armour_01 = {
-	agot_create_artifact_valyrian_steel_armor_effect = { OWNER = root } 
+zz_item_craft_item_armour = {
+	create_artifact_armor_effect = {
+		OWNER = root
+		CREATOR = root
+		SET_ARMOR_TYPE = flag:no
+	}
+	set_variable = {
+		name = newly_created_artifact
+		value = scope:newly_created_artifact
+	}
+	zz_apply_item_magic_modifiers_effect = yes 
 }
 
-zz_item_craft_zz_valyria_crafting_magic_ring_01 = {
+zz_item_craft_item_ring = {
+	debug_log = "craft ring"
 	if = { 
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_09
+			var:zz_ring_selection_ring = flag:item_ring_01
 		}
+		debug_log = "make ring of power"
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = drops_of_power   }
+		
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_01
+			var:zz_ring_selection_ring = flag:item_ring_02
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = blood_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_02
+			var:zz_ring_selection_ring = flag:item_ring_03
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = shadow_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_03
+			var:zz_ring_selection_ring = flag:item_ring_04
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = dream_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_04
+			var:zz_ring_selection_ring = flag:item_ring_05
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = alchemy_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_05
+			var:zz_ring_selection_ring = flag:item_ring_06
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = fire_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_06
+			var:zz_ring_selection_ring = flag:item_ring_07
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = air_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_07
+			var:zz_ring_selection_ring = flag:item_ring_08
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = water_magic   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_08
+			var:zz_ring_selection_ring = flag:item_ring_09
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = higher_mysteries   }
 	}
 	else_if = {
 		limit = {
-			var:zz_ring_selection_ring = trait:zz_valyria_ring_type_10
+			var:zz_ring_selection_ring = flag:item_ring_10
 		}
 		zz_valyria_create_magic_ring_effect ={ OWNER = root RING_MODIFIER = all_magic   }
 	}
+	zz_apply_item_magic_modifiers_effect = yes 
 	
 }
 
 
-
-
-zz_item_craft_zz_valyria_crafting_dragon_horn_01 = {
+zz_item_craft_dragon_horn = {
 	agot_create_artifact_dragon_horn_effect = { OWNER = root DRAGON = root }
 }
 
-zz_item_craft_zz_valyria_crafting_glass_candle_01 = {
+zz_item_craft_glass_candle = {
 	agot_create_random_glass_candle_effect = { OWNER =  root  }
 }
 
@@ -1989,7 +2017,7 @@ zz_item_craft_zz_valyria_crafting_glass_candle_01 = {
 zz_craft_item_effect = {
 	if = {
 		limit = {
-			var:zz_selected_item = trait:$ITEM$
+			var:zz_selected_item = flag:$ITEM$
 		}
 		random_list = { 
 			65 = { 
@@ -2009,16 +2037,16 @@ zz_craft_item_apply_modifier_effect = {
 	if = {
 		limit = {
 			root = {
-				var:zz_selected_modifier = trait:$MODIFIER$
+				var:zz_selected_modifier = flag:$MODIFIER$
 			}
 		}
-		scope:newly_created_artifact = {
+		var:newly_created_artifact = {
 			while = {
 				count = root.zz_valyria_magic_alchemy_magic_crafting_value
 				if = { 
 					limit = { 
 						root = {
-							var:zz_selected_modifier = trait:zz_valyria_magic_xp_gain_passive_modifier
+							var:zz_selected_modifier = flag:item_modifier_11
 						}
 					}
 					if = {
@@ -2037,131 +2065,158 @@ zz_craft_item_apply_modifier_effect = {
 						}
 					}
 				}
+				else_if = { 
+					limit = { 
+						root = {
+							var:zz_selected_modifier = flag:item_modifier_01
+						}
+					}
+					if = {
+						limit = {
+							exists = var:item_mana_gain_mult
+						}
+						change_variable = {
+							name = item_mana_gain_mult
+							add = 0.01
+						}
+					}
+					else = {
+						set_variable = {
+							name = item_mana_gain_mult
+							value = 0.01
+						}
+					}
+				}
 				add_artifact_modifier = $MODIFIER$
 			}
 		}
 	}
 }
 
+
+
+
 zz_valyria_crafting_calculate_crafting_cost_item_effect = {
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_vs_sword_01
+		ITEM = item_none
+		COST = zz_no_modifer_cost
+	}
+	
+	zz_item_calculate_cost_effect = {
+		ITEM = item_sword
 		COST = zz_item_vs_sword_cost
 	}
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_dragonbone_bow_01
+		ITEM = item_bow
 		COST = zz_item_dragonbone_bow_cost
 	}
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_vs_armour_01
+		ITEM = item_armour
 		COST = zz_item_vs_armour_cost
 	}
 
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_magic_ring_01
+		ITEM = item_ring
 		COST = zz_item_vs_ring_cost
-	}
-
+	}	
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_glass_candle_01
+		ITEM = item_glass_candle
 		COST = zz_item_glass_candle_cost
 	}
 	zz_item_calculate_cost_effect = {
-		ITEM = zz_valyria_crafting_dragon_horn_01
+		ITEM = item_dragon_horn
 		COST = zz_item_dragon_horn_cost
 	}
-
-	
 }
 
 zz_valyria_crafting_calculate_crafting_cost_modifier_effect = {
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_none_modifier_01_stacking
+		MODIFIER = item_modifier_01
 		COST = zz_no_modifer_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_mana_gain_modifier_01_stacking
+		MODIFIER = item_modifier_02
 		COST = zz_modifier_dop_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_03
 		COST = zz_modifier_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_04
 		COST = zz_modifier_higher_mysteries_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_blood_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_04
 		COST = zz_modifier_blood_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_shadow_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_05
 		COST = zz_modifier_shadow_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_dream_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_06
 		COST = zz_modifier_dream_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_07
 		COST = zz_modifier_alchemy_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_fire_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_08
 		COST = zz_modifier_fire_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_air_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_09
 		COST = zz_modifier_air_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_water_magic_xp_gain_modifier_01_stacking
+		MODIFIER = item_modifier_10
 		COST = zz_modifier_water_magic_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_passive_modifier
+		MODIFIER = item_modifier_11
 		COST = zz_modifier_passive_dop_xp_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_learning_modifier_01_stacking
+		MODIFIER = item_modifier_12
 		COST = zz_modifier_learning_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_modifier_01_stacking
+		MODIFIER = item_modifier_13
 		COST = zz_modifier_diplomacy_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_stewardship_modifier_01_stacking
+		MODIFIER = item_modifier_14
 		COST = zz_modifier_stewardship_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_martial_modifier_01_stacking
+		MODIFIER = item_modifier_15
 		COST = zz_modifier_martial_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_intrigue_modifier_01_stacking
+		MODIFIER = item_modifier_16
 		COST = zz_modifier_intrigue_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_prowess_modifier_01_stacking
+		MODIFIER = item_modifier_17
 		COST = zz_modifier_prowess_add_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_range_modifier_01_stacking
+		MODIFIER = item_modifier_18
 		COST = zz_modifier_diplomacy_range_mult_cost
 	}
 
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_tax_mult_modifier_01_stacking
+		MODIFIER = item_modifier_19
 		COST = zz_modifier_diplomacy_range_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_gold_income_modifier_01_stacking
+		MODIFIER = item_modifier_20
 		COST = zz_modifier_diplomacy_range_mult_cost
 	}
 	zz_modifier_calculate_effect = {
-		MODIFIER = zz_valyria_magic_income_mult_modifier_01_stacking
+		MODIFIER = item_modifier_21
 		COST = zz_modifier_diplomacy_range_mult_cost
 	}
 }
@@ -2169,55 +2224,52 @@ zz_valyria_crafting_calculate_crafting_cost_modifier_effect = {
 zz_valyria_crafting_item_construct_effect = {
 	if = {
 		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_vs_sword_01
+			var:zz_selected_item = flag:item_sword
 		}
 		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_vs_sword_01
+			ITEM = item_sword
 		} 
 	}
 
 	else_if = {
 		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_dragonbone_bow_01
+			var:zz_selected_item = flag:item_bow
 		}
 		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_dragonbone_bow_01
+			ITEM = item_bow
+		}
+	}
+	else_if = {
+		limit = {
+			var:zz_selected_item = flag:item_armour
+		}
+		zz_craft_item_effect = {
+			ITEM = item_armour
+		}
+	}
+	else_if = {
+		limit = {
+			var:zz_selected_item = flag:item_ring
+		}
+		zz_craft_item_effect = {
+			ITEM = item_ring
+		}
+	}
+	else_if = {
+		limit = {
+			var:zz_selected_item = flag:item_glass_candle
+		}
+		zz_craft_item_effect = {
+			ITEM = item_glass_candle
 		}
 		zz_apply_item_magic_modifiers_effect = yes 
 	}
 	else_if = {
 		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_vs_armour_01
+			var:zz_selected_item = flag:item_dragon_horn
 		}
 		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_vs_armour_01
-		}
-		zz_apply_item_magic_modifiers_effect = yes 
-	}
-	else_if = {
-		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_magic_ring_01
-		}
-		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_magic_ring_01
-		}
-		zz_apply_item_magic_modifiers_effect = yes 
-	}
-	else_if = {
-		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_glass_candle_01
-		}
-		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_glass_candle_01
-		}
-		zz_apply_item_magic_modifiers_effect = yes 
-	}
-	else_if = {
-		limit = {
-			var:zz_selected_item = trait:zz_valyria_crafting_dragon_horn_01
-		}
-		zz_craft_item_effect = {
-			ITEM = zz_valyria_crafting_dragon_horn_01
+			ITEM = item_dragon_horn
 		}
 		zz_apply_item_magic_modifiers_effect = yes 
 	}
@@ -2234,71 +2286,116 @@ zz_valyria_crafting_item_construct_effect = {
 
 
 zz_apply_item_magic_modifiers_effect = {
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_mana_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_modifier_01_stacking
-	}
-		zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_higher_mysteries_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_blood_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_shadow_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_dream_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_alchemy_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_fire_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_air_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_water_magic_xp_gain_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_xp_gain_passive_modifier
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_learning_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_stewardship_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_martial_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_intrigue_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_prowess_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_diplomacy_range_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_tax_mult_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_gold_income_modifier_01_stacking
-	}
-	zz_craft_item_apply_modifier_effect = {
-		MODIFIER = zz_valyria_magic_income_mult_modifier_01_stacking
+	switch = {
+		trigger = var:zz_selected_modifier 
+		flag:item_modifier_01 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_01
+			}
+		}
+		flag:item_modifier_02 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_02
+			}
+		}
+		flag:item_modifier_03 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_03
+			}
+		}
+		flag:item_modifier_04 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_04
+			}
+		}
+		flag:item_modifier_05 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_05
+			}
+		}
+		flag:item_modifier_06 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_06
+			}
+		}
+		flag:item_modifier_07 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_07
+			}
+		}
+		flag:item_modifier_08 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_08
+			}
+		}
+		flag:item_modifier_09 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_09
+			}
+		}
+		flag:item_modifier_10 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_10
+			}
+		}
+		flag:item_modifier_11 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_11
+			}
+		}
+		flag:item_modifier_12 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_12
+			}
+		}
+		flag:item_modifier_13 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_13
+			}
+		}
+		flag:item_modifier_14 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_14
+			}
+		}
+		flag:item_modifier_15 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_15
+			}
+		}
+		flag:item_modifier_16 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_16
+			}
+		}
+		flag:item_modifier_17 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_17
+			}
+		}
+		flag:item_modifier_18 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_18
+			}
+		}
+		flag:item_modifier_19 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_19
+			}
+		}
+		flag:item_modifier_20 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_20
+			}
+		}
+		flag:item_modifier_21 = {
+			zz_craft_item_apply_modifier_effect = {
+				MODIFIER = item_modifier_21
+			}
+		}
+
 	}
 }
-
 
 zz_craft_item_cost_effect = {
 	if = {

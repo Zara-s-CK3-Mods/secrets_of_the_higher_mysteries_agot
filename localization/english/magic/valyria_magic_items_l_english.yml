@@ -1,4 +1,242 @@
 ﻿l_english:  
+
+  item_none:0 "None"
+  item_sword:0 "Valyrian Sword"
+  item_bow:0 "Dragonbone Bow"
+  item_armour:0 "Valyrian Armour"
+  item_ring:0 "Magic Ring"
+  item_glass_candle:0 "Glass Candle"
+  item_dragon_horn:0 "Dragon Horn"
+
+  item_sword_none:0 "None"
+  item_sword_01:0 "Silver Arming Sword (VS)"
+  item_sword_01_desc:0 "A single handed blade, that glistens silver."
+  item_sword_02:0 "Golden Arming Sword (VS)"
+  item_sword_02_desc:0 "A single handed Blade, that glistens in gold"
+  item_sword_03:0 "Golden LongSword (VS)"
+  item_sword_03_desc:0 "A Longsword, that glistens in gold"
+  item_sword_04:0 "Silver LongSword (VS)"
+  item_sword_04_desc:0 "A Longsword, that glistens in Silver"
+  item_sword_05:0 "Blackfyre (VS)"
+  item_sword_05_desc:0 "A copy of the legendary blade Blackfyre"
+  item_sword_06:0 "Darksister (VS)"
+  item_sword_06_desc:0 "A copy of the legendary blade Darksister"
+  item_sword_07:0 "Brightroar (VS)"
+  item_sword_07_desc:0 "A copy of the legendary blade Brightroarer"
+
+  item_sword_08:0 "Dawn (VS)"
+  item_sword_08_desc:0 "A copy of the legendary blade Dawn"
+
+  item_sword_09:0 "Cloudbreak (VS)"
+  item_sword_09_desc:0 "A copy of the blade CloudBreak"
+
+  item_sword_10:0 "Adder's Fang (VS)"
+  item_sword_10_desc:0 "A copy of the blade Adder's Fang"
+
+  item_sword_11:0 "Dancer (VS)"
+  item_sword_11_desc:0 "A copy of the blade Dancer"
+
+  item_sword_12:0 "Dark Moon (VS)"
+  item_sword_12_desc:0 "A copy of the blade Dark Moon"
+
+  item_sword_13:0 "Dark Tallon (VS)"
+  item_sword_13_desc:0 "A copy of the blade Dark Tallon"
+
+  item_sword_14:0 "Disputant (VS)"
+  item_sword_14_desc:0 "A copy of the blade Disputant"
+
+  item_sword_15:0 "Defiance (VS)"
+  item_sword_15_desc:0 "A copy of the blade Defiance"
+
+  item_sword_16:0 "Iron Will (VS)"
+  item_sword_16_desc:0 "A copy of the blade Iron Will"
+
+  item_sword_17:0 "Heartsbane (VS)"
+  item_sword_17_desc:0 "A copy of the blade Heartsbane"
+
+  item_sword_18:0 "Ice (VS)"
+  item_sword_18_desc:0 "A copy of the blade Ice"
+
+  item_sword_19:0 "Lady Forlorne (VS)"
+  item_sword_19_desc:0 "A copy of the blade Lady Forlorne"
+
+  item_sword_20:0 "Lamentation (VS)"
+  item_sword_20_desc:0 "A copy of the blade Lamentation"
+
+  item_sword_21:0 "Longclaw (VS)"
+  item_sword_21_desc:0 "A copy of the blade Longclaw"
+
+  item_sword_22:0 "Nightfall (VS)"
+  item_sword_22_desc:0 "A copy of the blade Nightfall"
+
+  item_sword_23:0 "Orphan Maker (VS)"
+  item_sword_23_desc:0 "A copy of the blade Operhan Maker"
+
+  item_sword_24:0 "Pincer (VS)"
+  item_sword_24_desc:0 "A copy of the blade Pincer"
+
+  item_sword_25:0 "Pride (VS)"
+  item_sword_25_desc:0 "A copy of the blade Pride"
+
+  item_sword_26:0 "Red Rain (VS)"
+  item_sword_26_desc:0 "A copy of the blade Red Rain"
+
+  item_sword_27:0 "Remige (VS)"
+  item_sword_27_desc:0 "A copy of the blade Remige"
+
+  item_sword_28:0 "Seafoam (VS)"
+  item_sword_28_desc:0 "A copy of the blade Seafoam"
+
+  item_sword_29:0 "Skinpeeler (VS)"
+  item_sword_29_desc:0 "A copy of the blade Skinpeeler"
+
+  item_sword_30:0 "Skullcleaver (VS)"
+  item_sword_30_desc:0 "A copy of the blade Skullcleaver"
+
+  item_sword_31:0 "Stalwart (VS)"
+  item_sword_31_desc:0 "A copy of the blade Stalwart"
+
+  item_sword_32:0 "Supremacy (VS)"
+  item_sword_32_desc:0 "A copy of the blade Supremacy"
+
+  item_sword_33:0 "Swordfish (VS)"
+  item_sword_33_desc:0 "A copy of the blade Swordfish"
+
+  item_sword_34:0 "Tranquility (VS)"
+  item_sword_34_desc:0 "A copy of the blade Tranquility"
+
+  item_sword_35:0 "Vigilance (VS)"
+  item_sword_35_desc:0 "A copy of the blade Vigilance"
+
+  item_sword_36:0 "Windstripe (VS)"
+  item_sword_36_desc:0 "A copy of the blade Windstripe"
+
+  item_sword_37:0 "Widow's Wail (VS)"
+  item_sword_37_desc:0 "A copy of the blade Widow's Wail"
+
+  item_sword_38:0 "Wyrmfang (VS)"
+  item_sword_38_desc:0 "A copy of the blade Wyrmfang"
+
+  item_sword_39:0 "Evergold (VS)"
+  item_sword_39_desc:0 "A copy of the blade Evergold"
+
+  item_sword_40:0 "Truth (VS)"
+  item_sword_40_desc:0 "A copy of the blade Truth"
+
+  item_sword_41:0 "Kingsguard Blade (VS)"
+  item_sword_41_desc:0 "A copy of the blade of the Kingsguard"
+
+  item_sword_42:0 "Black Death (VS)"
+  item_sword_42_desc:0 "A copy of the blade Black Death"
+
+  item_sword_43:0 "Mother's Grief (VS)"
+  item_sword_43_desc:0 "A copy of the blade Mother's Grief"
+
+  item_sword_44:0 "Tallon (VS)"
+  item_sword_44_desc:0 "A copy of the blade Tallon"
+
+  item_sword_45:0 "Glory (VS)"
+  item_sword_45_desc:0 "A copy of the blade Glory"
+
+  item_sword_46:0 "Stormy Nights (VS)"
+  item_sword_46_desc:0 "A copy of the blade Stormy Nights"
+
+  item_sword_47:0 "Stranger's Touch (VS)"
+  item_sword_47_desc:0 "A copy of the blade Stranger's Touch"
+
+  item_sword_48:0 "Dragonbane (VS)"
+  item_sword_48_desc:0 "A copy of the blade Dragonbane"
+
+  item_sword_49:0 "Golden Arming Sword (Andal)"
+  item_sword_49_desc:0 "An Andal Arming Sword of Gold"
+
+  item_sword_50:0 "Silver Arming Sword (Andal)"
+  item_sword_50_desc:0 "An Andal Arming Sword of Silver"
+
+  item_sword_51:0 "Golden Long Sword (Andal)"
+  item_sword_51_desc:0 "An Andal Long Sword of Gold"
+
+  item_sword_52:0 "Silver Long Sword (Andal)"
+  item_sword_52_desc:0 "An Andal Longsword of Silver"
+
+  item_sword_53:0 "Golden Arming Sword (Firstmen)"
+  item_sword_53_desc:0 "A Firstman Arming Sword of Gold"
+
+  item_sword_54:0 "Silver Arming Sword (Firstmen)"
+  item_sword_54_desc:0 "A Firstmen Arming Sword of Silver"
+
+  item_sword_55:0 "Bronze Arming Sword (Firstmen)"
+  item_sword_55_desc:0 "A Firstmen Arming Sword of Bronze"
+
+  item_sword_56:0 "Golden Long Sword (Firstmen)"
+  item_sword_56_desc:0 "A Firstmen Long Sword of Gold"
+
+  item_sword_57:0 "Silver Long Sword (Firstmen)"
+  item_sword_57_desc:0 "A Firstmen Long Sword of Silver"
+
+  item_sword_58:0 "Bronze Long Sword (Firstmen)"
+  item_sword_58_desc:0 "A Firstmen Long Sword of Bronze"
+  item_ring_none:0 "None"
+  item_ring_01:0 "Drops of Power Boost"
+  item_ring_02:0 "Blood Magic"
+  item_ring_03:0 "Shadow Magic"
+  item_ring_04:0 "Dream Magic"
+  item_ring_05:0 "Alchemy Magic" 
+  item_ring_06:0 "Fire Magic"
+  item_ring_07:0 "Air Magic"
+  item_ring_08:0 "Water magics"
+  item_ring_09:0 "Higher Mysteries"
+  item_ring_10:0 "All Magic"
+
+  item_modifier_none:0 "None"
+  item_modifier_01:0 "Drops of Power Multiplier"
+  item_modifier_01_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_higher_mysteries_xp_mult_cost')|V0] \n"
+  item_modifier_02:0 "Magic XP Multiplier"
+  item_modifier_02_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_magic_xp_mult_cost')|V0] \n"
+  item_modifier_03:0 "Higher Mysteries XP Multiplier"
+  item_modifier_03_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_higher_mysteries_xp_mult_cost')|V0] \n"
+  item_modifier_04:0 "Blood Magic XP Multiplier"
+  item_modifier_04_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_blood_magic_xp_mult_cost')|V0] \n"
+  item_modifier_05:0 "Shadow Magic XP Multiplier"
+  item_modifier_05_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_shadow_magic_xp_mult_cost')|V0] \n"
+  item_modifier_06:0 "Dream Magic XP Multiplier"
+  item_modifier_06_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_dream_magic_xp_mult_cost')|V0] \n"
+  item_modifier_07:0 "Transmutation Magic XP Multiplier"
+  item_modifier_07_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_alchemy_magic_xp_mult_cost')|V0] \n"
+  item_modifier_08:0 "Pyromancy Magic XP Multiplier"
+  item_modifier_08_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_fire_magic_xp_mult_cost')|V0] \n"
+  item_modifier_09:0 "Aereomancy Magic XP Multiplier"
+  item_modifier_09_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_air_magic_xp_mult_cost')|V0] \n"
+  item_modifier_10:0 "Hydromancy Magic XP Multiplier"
+  item_modifier_10_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_water_magic_xp_mult_cost')|V0] \n"
+  item_modifier_11:0 "Drops of Power Generation"
+  item_modifier_11_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_passive_dop_xp_mult_cost')|V0] \n"
+  item_modifier_12:0 "Learning Boost"
+  item_modifier_12_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_learning_add_cost')|V0] \n"
+  item_modifier_13:0 "Diplomacy Boost"
+  item_modifier_13_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_add_cost')|V0] \n"
+  item_modifier_14:0 "Stewardship Boost"
+  item_modifier_14_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_stewardship_add_cost')|V0] \n"
+  item_modifier_15:0 "Martial Boost"
+  item_modifier_15_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_martial_add_cost')|V0] \n"
+  item_modifier_16:0 "Intrigue Boost"
+  item_modifier_16_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_intrigue_add_cost')|V0] \n"
+  item_modifier_17:0 "Prowess Boost"
+  item_modifier_17_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_prowess_add_cost')|V0] \n"
+  item_modifier_18:0 "Diplomacy Range Boost"
+  item_modifier_18_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+  item_modifier_19:0 "Monthly Tax Income"
+  item_modifier_19_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+
+  item_modifier_20:0 "Monthly Income"
+  item_modifier_20_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+  item_modifier_21:0 "Monthly Income Multiplier"
+  item_modifier_21_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+  item_modifier_22:0 ""
+
+  item_ring_desc:0 "An enchanted ring of magic, carrying within it a great power to change the world."
+
+
   feature_zz_valyria_ring_name_blood:0 "$zz_blood_school$"
   feature_zz_valyria_ring_name_shadow:0 "$zz_shadow_school$"
   feature_zz_valyria_ring_name_dream:0 "$zz_dream_school$"
