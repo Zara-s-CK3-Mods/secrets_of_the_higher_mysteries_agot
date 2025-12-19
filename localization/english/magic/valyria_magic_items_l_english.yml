@@ -1,14 +1,22 @@
 ﻿l_english:  
 
   item_none:0 "None"
+  item_none_desc:0 "No item selected"
   item_sword:0 "Valyrian Sword"
+  item_sword_desc:0 "Craft a Valyrian Sword of your chosen design"
   item_bow:0 "Dragonbone Bow"
+  item_bow_desc:0 "Craft a Dragonbone Bow"
   item_armour:0 "Valyrian Armour"
+  item_armour_desc:0 "Craft a suit of Valyrian Armour"
   item_ring:0 "Magic Ring"
+  item_ring:0 "Craft an Enchanted Ring of your design"
   item_glass_candle:0 "Glass Candle"
+  item_glass_candle_desc:0 "Craft a Glass Candle"
   item_dragon_horn:0 "Dragon Horn"
+  item_dragon_horn_desc:0 "Craft a Dragon Horn"
 
   item_sword_none:0 "None"
+  item_sword_none_desc:0 "Please select a sword variant"
   item_sword_01:0 "Silver Arming Sword (VS)"
   item_sword_01_desc:0 "A single handed blade, that glistens silver."
   item_sword_02:0 "Golden Arming Sword (VS)"
@@ -189,6 +197,7 @@
   item_ring_10:0 "All Magic"
 
   item_modifier_none:0 "None"
+  item_modifier_none_desc:0 "No addiitonal modifier selected"
   item_modifier_01:0 "Drops of Power Multiplier"
   item_modifier_01_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_higher_mysteries_xp_mult_cost')|V0] \n"
   item_modifier_02:0 "Magic XP Multiplier"

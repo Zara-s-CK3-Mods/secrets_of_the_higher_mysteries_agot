@@ -1907,11 +1907,7 @@ zz_item_craft_item_sword = {
 	
 }
 zz_item_craft_item_bow = {
-	create_artifact_bow_effect = { 
-		OWNER = root
-		CREATOR = root
-		SET_BOW_TYPE = flag:artifact_bow_type_composite 
-	}
+	agot_create_artifact_dragonbone_longbow_effect = { OWNER = ROOT }
 	set_variable = {
 		name = newly_created_artifact
 		value = scope:newly_created_artifact
@@ -1920,11 +1916,7 @@ zz_item_craft_item_bow = {
 }
 
 zz_item_craft_item_armour = {
-	create_artifact_armor_effect = {
-		OWNER = root
-		CREATOR = root
-		SET_ARMOR_TYPE = flag:no
-	}
+	agot_create_artifact_valyrian_steel_armor_effect = { OWNER = ROOT }
 	set_variable = {
 		name = newly_created_artifact
 		value = scope:newly_created_artifact

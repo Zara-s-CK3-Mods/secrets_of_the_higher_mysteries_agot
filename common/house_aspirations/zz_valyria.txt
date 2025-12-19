@@ -10,9 +10,6 @@ arcane_mage_lords = {
 			has_trait = zz_magister 
 		}
 	}
-	parameters = {
-		zz_mage_lord = yes
-	}
 	level = {
 		cost = {
 			influence = @admin_level_1_cost
