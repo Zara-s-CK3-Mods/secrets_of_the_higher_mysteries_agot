@@ -1999,13 +1999,11 @@ zz_item_craft_item_ring = {
 	zz_apply_item_magic_modifiers_effect = yes 
 	
 }
-
-
-zz_item_craft_dragon_horn = {
+zz_item_craft_item_dragon_horn = {
 	agot_create_artifact_dragon_horn_effect = { OWNER = root DRAGON = root }
 }
 
-zz_item_craft_glass_candle = {
+zz_item_craft_item_glass_candle = {
 	agot_create_random_glass_candle_effect = { OWNER =  root  }
 }
 

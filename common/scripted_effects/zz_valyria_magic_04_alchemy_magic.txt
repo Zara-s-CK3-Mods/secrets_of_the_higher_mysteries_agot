@@ -1,7 +1,7 @@
 ﻿zz_enchant_apply_modifier_effect = {
 	if = {
 		limit = {
-			scope:modifier = trait:$MODIFIER$
+			scope:modifier = flag:$MODIFIER$
 		}
 		if = { 
 			limit = { 

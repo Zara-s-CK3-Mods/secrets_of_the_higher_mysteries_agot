@@ -246,32 +246,95 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 	right_portrait = scope:recipient
 
 	immediate = {
-		remove_variable = selected_trait
-		clear_variable_list = possible_traits
-		trait:zz_valyria_magic_none_modifier_01_stacking = {
-			root = {
-				add_to_variable_list = {
-					name = possible_traits
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = selected_trait }
-					}
-					set_variable = { name = selected_trait value = prev }
-				}
-			}
+		remove_variable = selected_flag
+		clear_variable_list = possible_flags
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_none
 		}
-		every_trait = {
-			limit = {
-				has_trait_flag = zz_item_modifier
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_01
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_02
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_03
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_04
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_05
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_06
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_07
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_08
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_09
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_10
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_12
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_13
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_14
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_15
 			}
-			root = {
-				add_to_variable_list = {
-					name = possible_traits
-					target = prev
-				}
-			}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_16
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_17
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_18
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_19
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_20
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_21
+		}
+		set_variable = {
+			name = selected_flag
+			value = flag:item_modifier_none
 		}
 		if = { 
 			limit = {
@@ -281,11 +344,9 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 					}
 				}
 			}
-			trait:zz_valyria_magic_xp_gain_passive_modifier = {
-				remove_list_variable = { 
-					name = possible_traits
-					target = this
-				}
+			add_to_variable_list = {
+				name = possible_flags
+				target = flag:item_modifier_11
 			}
 		}
 		
@@ -295,7 +356,7 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 		is_shown = {
 			is_ai = no
 		}
-		gui = "event_window_trait_selection"
+		gui = "event_window_flag_selection"
 		container = "custom_widgets_container"
 	}
 	option = {
@@ -303,7 +364,7 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 		trigger = {
 			trigger_if = {
 				limit = {
-					var:selected_trait ?= trait:zz_valyria_magic_xp_gain_passive_modifier
+					var:selected_flag ?= flag:item_modifier_11
 				}
 				custom_tooltip = {
 					text = zz_mana_gain_extra_cost_400
@@ -316,7 +377,7 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 			}
 		}
 		hidden_effect = {
-			var:selected_trait ?= { 
+			var:selected_flag ?= { 
 				save_scope_as = modifier
 			}
 			zz_valyria_magic_cast_effect = { 

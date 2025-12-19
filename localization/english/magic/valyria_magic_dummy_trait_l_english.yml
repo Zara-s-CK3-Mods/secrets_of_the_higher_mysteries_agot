@@ -174,3 +174,12 @@
 
   zz_valyria_ring_type_10.name:0 "Magic Ring (All Magic)"
   zz_valyria_ring_type_10.desc:0 "$BULLET_WITH_TAB$ Crafting Cost: [EmptyScope.ScriptValue('zz_item_vs_ring_cost')|V0] \nAn enchanted ring, that shall boost your ability to gain XP in all fields of magic."
+
+
+  trait_track_drops_of_power_cap:0 "[drops_of_power|E] Capacity"
+  trait_track_drops_of_power_cap_xp_gain_mult:0 "[GetTrait('zz_magic_dummy_trait').GetTraitTrackByKey( 'drops_of_power_cap' ).GetName]"
+  trait_track_drops_of_power_gain:0 "[drops_of_power|E] Passive Gain"
+  trait_track_drops_of_power_gain_xp_gain_mult:0 "[GetTrait('zz_magic_dummy_trait').GetTraitTrackByKey( 'drops_of_power_gain' ).GetName]"
+  trait_track_drops_of_power_mult:0 "[drops_of_power|E] Multiplier"
+  trait_track_drops_of_power_mult_xp_gain_mult:0 "[GetTrait('zz_magic_dummy_trait').GetTraitTrackByKey( 'drops_of_power_mult' ).GetName]"
+  

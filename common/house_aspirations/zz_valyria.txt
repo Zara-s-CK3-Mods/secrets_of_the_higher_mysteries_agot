@@ -1,13 +1,26 @@
-﻿arcane_mage_lords = {
+﻿@admin_level_1_cost = 250
+@admin_level_2_cost = 1000
+@admin_level_3_cost = 2500
+
+arcane_mage_lords = {
 
 	is_shown = {
 		house_head ?= {
 			government_allows = administrative
-			government_has_flag = government_is_freehold
+			has_trait = zz_magister 
 		}
 	}
-
+	parameters = {
+		zz_mage_lord = yes
+	}
 	level = {
+		cost = {
+			influence = @admin_level_1_cost
+		}
+		parameters = { 
+			aspiration_level_1 = yes
+			zz_mage_lords_1 = yes
+		}
 		powerful_family_top_liege_modifier = {
 			trait_track_drops_of_power_xp_gain_mult = 0.1
 			trait_track_magic_blood_good_2_stores_of_power_01_xp_gain_mult = 0.1
@@ -66,6 +79,52 @@
 			trait_track_stores_of_power_08_xp_gain_mult = 0.1
 			trait_track_stores_of_power_09_xp_gain_mult = 0.1
 			trait_track_stores_of_power_10_xp_gain_mult = 0.1
+		}
+		
+		ai_score = {
+			value = 1
+
+		}
+	}
+	level = {
+		cost = {
+			influence = @admin_level_2_cost
+		}
+		parameters = { 
+			aspiration_level_2 = yes
+			zz_mage_lords_2 = yes
+		}
+		powerful_family_top_liege_modifier = {
+
+		}
+		
+
+		house_head_modifier = {
+		}
+
+		powerful_family_member_modifier = {
+		}
+		
+		ai_score = {
+			value = 1
+
+		}
+	}
+	level = {
+		cost = {
+			influence = @admin_level_3_cost
+		}
+		parameters = { 
+			aspiration_level_3 = yes
+			zz_mage_lords_3 = yes
+		}
+		powerful_family_top_liege_modifier = {
+		}
+
+		house_head_modifier = {
+		}
+
+		powerful_family_member_modifier = {
 		}
 		
 		ai_score = {
