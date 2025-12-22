@@ -417,7 +417,6 @@ health.0102 = {
 		ai_chance = { base = 5 }
 	}
 
-
 	#OK
 	option = {
 		trigger = {
@@ -1129,7 +1128,7 @@ health.1001 = {
 		modifier = {
 			health <= poor_health
 			factor = 1.1
-		}	
+		}
 		# Difficulty and Game Rules make the generic 'Ill' slightly more common
 		modifier = { # Difficulty
 			is_ai = no
@@ -3566,7 +3565,7 @@ health.1010 = {
 		risky_disease_treatment_effect = { PATIENT = root TREATMENT_PICKER = root }
 		ai_chance = { base = 1 }
 	}
-	
+
 	#Mystic treatment
 	option = {
 		trigger = {
@@ -6424,7 +6423,6 @@ health.2101 = {
 }		
 
 #There is no longer an outbreak! (send by story)
-#TODO_CE1 nuke this entirely, reuse flavour TODO
 health.2102 = { #by Mathilda Bjarnehed
 	type = character_event
 	title = health.2102.t

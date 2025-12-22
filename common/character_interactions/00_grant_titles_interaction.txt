@@ -194,7 +194,11 @@ grant_titles_interaction = {
 				text = recipient_needs_to_border_settlement_county
 				scope:target_title = {
 					any_neighboring_county = {
-						holder = scope:recipient
+						save_temporary_scope_as = county
+						OR = {
+							holder = scope:recipient
+							scope:recipient = { any_vassal_or_below = { scope:county.holder = this } }
+						}
 					}
 				}
 			}
@@ -568,69 +572,22 @@ grant_titles_interaction = {
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_empire }
-						#AGOT Modified
-						#add = massive_dynasty_prestige_gain
-						add = prev.massive_dynasty_prestige_gain
+						add = scope:actor.dynasty.massive_dynasty_prestige_gain
 					}
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_kingdom }
-						#AGOT Modified
-						#add = major_dynasty_prestige_gain
-						add = prev.major_dynasty_prestige_gain
+						add = scope:actor.dynasty.major_dynasty_prestige_gain
 					}
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_duchy }
-						#AGOT Modified
-						#add = medium_dynasty_prestige_gain
-						add = prev.medium_dynasty_prestige_gain
+						add = scope:actor.dynasty.medium_dynasty_prestige_gain
 					}
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_county }
-						#AGOT Modified
-						#add = minor_dynasty_prestige_gain
-						add = prev.minor_dynasty_prestige_gain
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				any_in_list = {
-					list = target_titles
-					tier >= tier_county
-				}
-				exists = scope:actor.house
-				exists = scope:recipient.house
-				scope:actor.house = scope:recipient.house
-				scope:actor = {
-					is_close_family_of = scope:recipient
-				}
-			}
-			scope:actor.dynasty = {
-				add_dynasty_prestige = {
-					value = 0
-					every_in_list = {
-						list = target_titles
-						limit = { tier = tier_empire }
-						add = massive_influence_gain
-					}
-					every_in_list = {
-						list = target_titles
-						limit = { tier = tier_kingdom }
-						add = major_influence_gain
-					}
-					every_in_list = {
-						list = target_titles
-						limit = { tier = tier_duchy }
-						add = medium_influence_gain
-					}
-					every_in_list = {
-						list = target_titles
-						limit = { tier = tier_county }
-						add = minor_influence_gain
+						add = scope:actor.dynasty.minor_dynasty_prestige_gain
 					}
 				}
 			}
@@ -1562,7 +1519,11 @@ grant_titles_interaction = {
 					title_province = { has_holding_type = settlement_holding }
 					NOT = {
 						any_neighboring_county = {
-							holder = scope:recipient
+							save_temporary_scope_as = county
+							OR = {
+								holder = scope:recipient
+								scope:recipient = { any_vassal_or_below = { scope:county.holder = this } }
+							}
 						}
 					}
 				}
@@ -1781,6 +1742,7 @@ grant_governorship_interaction = {
 							target_is_de_jure_liege_or_above = scope:target
 							# Or is a neighboring county which de jure duchy is not part of your realm
 							AND = {
+								NOT = { tier = tier_barony }
 								any_title_to_title_neighboring_county = { this = scope:target }
 								scope:target = {
 									tier = tier_county
@@ -1917,6 +1879,13 @@ grant_governorship_interaction = {
 				limit = { is_noble_family_title = yes }
 				custom_tooltip = {
 					text = GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY
+					always = no
+				}
+			}
+			trigger_if = {
+				limit = { exists = var:ceremonial_title }
+				custom_tooltip = {
+					text = GRANT_TITLES_ITEM_CANT_GIVE_CEREMONIAL_TITLE
 					always = no
 				}
 			}
@@ -2064,16 +2033,12 @@ grant_governorship_interaction = {
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_kingdom }
-						#AGOT Modified
-						#add = major_dynasty_prestige_gain
-						add = prev.major_dynasty_prestige_gain
+						add = scope:actor.dynasty.major_dynasty_prestige_gain
 					}
 					every_in_list = {
 						list = target_titles
 						limit = { tier = tier_duchy }
-						#AGOT Modified
-						#add = medium_dynasty_prestige_gain
-						add = prev.medium_dynasty_prestige_gain
+						add = scope:actor.dynasty.medium_dynasty_prestige_gain
 					}
 				}
 			}
@@ -2607,7 +2572,7 @@ grant_governorship_interaction = {
 		# 				}
 		# 				trigger_situation_catalyst = {
 		# 					catalyst = catalyst_hegemon_appointing_low_merit_governor
-		# 					character = root
+		# 					character =  scope:recipient
 		# 				}
 		# 			}
 		# 		}

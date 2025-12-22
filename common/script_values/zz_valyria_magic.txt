@@ -1,7 +1,7 @@
 ﻿zz_valyria_mana_cap = {
 	value = 100 
 	switch = {
-		trigger = trait 
+		trigger = has_trait 
 		magic_blood_bad_3 = {
 			subtract = 75
 		}
@@ -22,6 +22,12 @@
 		}
 	}
 	if = {
+		limit = { 
+			culture = { has_cultural_tradition = tradition_zz_cultural_mage_lords }
+		}
+		add = 100
+	} 
+	if = {
 		limit = {
 			has_trait = starwalker
 		}
@@ -36,8 +42,269 @@
 	if = { 
 		limit = { 
 			has_trait = starwalker
+			has_trait_xp = {
+				trait = starwalker
+				track = chosen_of_the_heavens
+				value >= 100
+			}
 		}
 		add = 100000
+	}
+}
+
+zz_valyria_mana_gain_mult = { 
+	value = 1
+	switch = {
+		trigger = has_trait 
+		magic_blood_bad_3 = {
+			subtract = 0.75
+		}
+		magic_blood_bad_2 = {
+			subtract = 0.50
+		}
+		magic_blood_bad_1 = {
+			subtract = 0.25
+		}
+		magic_blood_good_1 = {
+			add = 0.25
+		}
+		magic_blood_good_2 = {
+			add = 0.5
+		}
+		magic_blood_good_3 = {
+			add = 1
+		}
+	}
+	if = { 
+		limit = { 
+			any_equipped_character_artifact = {
+				has_artifact_modifier =  item_modifier_01
+			}
+		}
+		every_equipped_character_artifact = { 
+			limit = {
+				has_artifact_modifier =  item_modifier_01
+			}
+			add = this.var:item_mana_gain_mult
+		}
+	}
+	if = {
+		limit = {
+			has_court_position = zz_valyria_court_mages_court_position
+		}
+		if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position >= 4
+			}
+			add = 0.2
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 3
+			}
+			add = 0.15
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 2
+			}
+			add = 0.1
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 1
+			}
+			add = 0.05
+		}
+	}
+	every_court_position_holder ?= {
+		type = zz_valyria_court_mages_court_position
+		if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position >= 4
+			}
+			add = 0.5
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 3
+			}
+			add = 0.4
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 2
+			}
+			add = 0.3
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 1
+			}
+			add = 0.2
+		}
+	}
+	if = {
+		limit = { 
+			culture = { has_cultural_tradition = tradition_zz_sorcerous_studies }
+		}
+		add = 0.5
+	} 
+	if = {
+		limit = {
+			has_trait = born_beneath_the_comet
+		}
+		add = 0.25
+	}
+	if = {
+		limit = {
+			has_trait = starwalker
+		}
+		add = 0.25
+		if = { 
+			limit = {
+				has_trait_xp = {
+					trait = starwalker
+					track = chosen_of_the_heavens
+					value >= 50
+				}
+			}
+			add = 0.25
+		}
+		if = { 
+			limit = {
+				has_trait_xp = {
+					trait = starwalker
+					track = chosen_of_the_heavens
+					value >= 75
+				}
+			}
+			add = 0.25
+		}
+		if = { 
+			limit = {
+				has_trait_xp = {
+					trait = starwalker
+					track = chosen_of_the_heavens
+					value >= 100
+				}
+			}
+			add = 0.25
+		}
+	} 
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_1
+			}
+		}
+		add = 0.05
+	}
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_2
+			}
+			
+		}
+		add = 0.10
+	}
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_3
+			}
+			
+		}
+		add = 0.15
+	}
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_1
+			}
+			is_house_head = yes 
+		}
+		add = 0.1
+	}
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_2
+			}
+			is_house_head = yes
+		}
+		add = 0.2
+	}
+	if = {
+		limit = {
+			house ?= {
+				has_house_power_parameter = zz_mage_lords_3
+			}
+			is_house_head = yes 
+		}
+		add = 0.3
+	}
+	every_noble_family = { 
+		limit = {
+			house ?= {
+				OR = {
+					has_house_power_parameter = zz_mage_lord_1
+					has_house_power_parameter = zz_mage_lords_2
+					has_house_power_parameter = zz_mage_lords_3
+				}
+				
+			}
+		}
+		add = 0.10
+	}
+}
+
+zz_valyria_drops_power_passive_gain = { 
+	value = 0 
+	if = {
+		limit = {
+			exists = this 
+		}
+		if = {
+			limit = {
+				dynasty =dynasty:dynn_Ambrosius
+			}
+			add = 1
+		}
+		if = { 
+			limit = { 
+				has_trait = starwalker
+			}
+			add = 1
+		}
+		if = { 
+			limit = { 
+				any_equipped_character_artifact = {
+					has_artifact_modifier = item_modifier_11
+				}
+			}
+			every_equipped_character_artifact = { 
+				limit = {
+					has_artifact_modifier = item_modifier_11
+				}
+				add = this.var:item_mana_gain
+			}
+		}
+		if = { 
+			limit = { 
+				any_owned_story = {
+					story_type = zz_valyria_magic_dream_magic_10_story
+				}
+			}
+			every_owned_story = {
+				limit = {
+					story_type = zz_valyria_magic_dream_magic_10_story
+				}
+				add = this.var:mystery_potency
+			}
+		}
+		multiply = zz_valyria_mana_gain_mult
 	}
 }
 

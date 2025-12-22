@@ -767,7 +767,7 @@ agot_dragon_damage_county_change_effect = {
 
 # Siege effects expect sieging_location and sieging_dragon scopes, and are called in the sieger's scope
 # Siege effect - minor
-agot_dragon_siege_effect_minor = {
+agot_dragon_siege_fort_damage_minor_effect = {
 	scope:sieging_location = {
 		set_variable = {
 			name = dragon_siege_modifier_minor
@@ -816,7 +816,7 @@ agot_dragon_siege_effect_minor = {
 		wrathful = minor_stress_impact_gain
 	}
 }
-agot_remove_dragon_siege_effect_minor = {
+agot_dragon_siege_fort_damage_minor_remove_effect = {
 	scope:sieging_location = {
 		if = {
 			limit = {
@@ -845,14 +845,14 @@ agot_remove_dragon_siege_effect_minor = {
 	}
 }
 # Siege effect - medium
-agot_dragon_siege_effect_medium = {
+agot_dragon_siege_fort_damage_medium_effect = {
 	scope:sieging_location = {
 		set_variable = {
 			name = dragon_siege_modifier_medium
 			value = 1
 			months = 9
 		}
-		agot_remove_dragon_siege_effect_minor = yes
+		agot_dragon_siege_fort_damage_minor_remove_effect = yes
 		if = {
 			limit = { dragon_siege_fort_level > 8 }
 			add_province_modifier = {
@@ -914,7 +914,7 @@ agot_dragon_siege_effect_medium = {
 		compassionate = minor_stress_impact_gain
 	}
 }
-agot_remove_dragon_siege_effect_medium = {
+agot_dragon_siege_fort_damage_medium_remove_effect = {
 	scope:sieging_location = {
 		if = {
 			limit = {
@@ -943,10 +943,10 @@ agot_remove_dragon_siege_effect_medium = {
 	}
 }
 # Siege effect - major
-agot_dragon_siege_effect_major = {
+agot_dragon_siege_fort_damage_major_effect = {
 	scope:sieging_location = {
-		agot_remove_dragon_siege_effect_minor = yes
-		agot_remove_dragon_siege_effect_medium = yes
+		agot_dragon_siege_fort_damage_minor_remove_effect = yes
+		agot_dragon_siege_fort_damage_medium_remove_effect = yes
 		set_variable = {
 			name = dragon_siege_modifier_major
 			value = 1
@@ -1066,7 +1066,7 @@ agot_dragon_siege_effect_major = {
 		}
 		barony = {
 			custom_tooltip = {
-				text = agot_dragon_siege.0001.c.tt
+				text = agot_dragon_siege.0100.c.tt
 				holder = {
 					save_temporary_scope_as = b_holder
 					every_courtier_or_guest = {
@@ -1088,10 +1088,10 @@ agot_dragon_siege_effect_major = {
 							random_list = {
 								50 = {}
 								30 = {
-									trigger_event = agot_dragon_siege.0002
+									trigger_event = agot_dragon_siege.0101
 								}
 								20 = {
-									trigger_event = agot_dragon_siege.0003
+									trigger_event = agot_dragon_siege.0102
 								}
 							}
 						}
@@ -1111,7 +1111,7 @@ agot_dragon_siege_effect_major = {
 								70 = {}
 								30 = {
 									scope:sieging_location.barony.holder = {
-										trigger_event = agot_dragon_siege.0013
+										trigger_event = agot_dragon_siege.0112
 									}
 								}
 							}
@@ -1132,10 +1132,10 @@ agot_dragon_siege_effect_major = {
 						random_list = {
 							50 = {}
 							30 = {
-								trigger_event = agot_dragon_siege.0002
+								trigger_event = agot_dragon_siege.0101
 							}
 							20 = {
-								trigger_event = agot_dragon_siege.0003
+								trigger_event = agot_dragon_siege.0102
 							}
 						}
 					}
@@ -1149,7 +1149,7 @@ agot_dragon_siege_effect_major = {
 		compassionate = medium_stress_impact_gain
 	}
 }
-agot_remove_dragon_siege_effect_major = {
+agot_dragon_siege_fort_damage_massive_remove_effect = {
 	scope:sieging_location = {
 		if = {
 			limit = {
@@ -1202,12 +1202,12 @@ agot_remove_dragon_siege_effect_major = {
 	}
 }
 # Siege effect - massive
-agot_dragon_siege_effect_massive = {
+agot_dragon_siege_fort_damage_massive_effect = {
 	play_music_cue = CK3AGOT_dragon_burn_holding
 	scope:sieging_location = {
-		agot_remove_dragon_siege_effect_minor = yes
-		agot_remove_dragon_siege_effect_medium = yes
-		agot_remove_dragon_siege_effect_major = yes
+		agot_dragon_siege_fort_damage_minor_remove_effect = yes
+		agot_dragon_siege_fort_damage_medium_remove_effect = yes
+		agot_dragon_siege_fort_damage_massive_remove_effect = yes
 		set_variable = {
 			name = dragon_siege_modifier_massive
 			value = 1
@@ -1495,7 +1495,7 @@ agot_dragon_siege_effect_massive = {
 		}
 		barony = {
 			custom_tooltip = {
-				text = agot_dragon_siege.0001.d.tt
+				text = agot_dragon_siege.0100.d.tt
 				holder = {
 					save_temporary_scope_as = b_holder
 					every_courtier_or_guest = {
@@ -1514,7 +1514,7 @@ agot_dragon_siege_effect_massive = {
 									}
 								}
 							}
-							trigger_event = agot_dragon_siege.0003
+							trigger_event = agot_dragon_siege.0102
 						}
 						if = {
 							limit = {
@@ -1527,7 +1527,7 @@ agot_dragon_siege_effect_massive = {
 							}
 							save_scope_as = fleeing_dragon
 							scope:sieging_location.barony.holder = {
-								trigger_event = agot_dragon_siege.0013
+								trigger_event = agot_dragon_siege.0112
 							}
 						}
 					}
@@ -1543,7 +1543,7 @@ agot_dragon_siege_effect_massive = {
 								}
 							}
 						}
-						trigger_event = agot_dragon_siege.0003
+						trigger_event = agot_dragon_siege.0102
 					}
 				}
 			}
