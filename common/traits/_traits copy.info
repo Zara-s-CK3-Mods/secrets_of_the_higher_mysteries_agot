@@ -1,5 +1,4 @@
-﻿
-== Loc/icon ==
+﻿== Loc/icon ==
 By default, the name key is trait_<key>, and the desc key is trait_<key>_desc.
 The default icon path is gfx/interface/icons/traits/<trait>.dds.
 
