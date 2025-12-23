@@ -236,6 +236,36 @@
   zz_valyria_magic_shadow_magic_13.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_shadow_magic_13.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_13_name$ $zz_mem_loc$"
 
+  zz_valyria_magic_shadow_magic_14: "[shadow_magic] - $zz_valyria_magic_shadow_magic_14_name$"
+  zz_valyria_magic_shadow_magic_14.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_14.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_14.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_14_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_shadow_magic_15: "[shadow_magic] - $zz_valyria_magic_shadow_magic_15_name$"
+  zz_valyria_magic_shadow_magic_15.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_15.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_15.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_15_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_shadow_magic_16: "[shadow_magic] - $zz_valyria_magic_shadow_magic_16_name$"
+  zz_valyria_magic_shadow_magic_16.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_16.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_16.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_16_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_shadow_magic_17: "[shadow_magic] - $zz_valyria_magic_shadow_magic_17_name$"
+  zz_valyria_magic_shadow_magic_17.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_17.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_17.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_17_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_shadow_magic_18: "[shadow_magic] - $zz_valyria_magic_shadow_magic_18_name$"
+  zz_valyria_magic_shadow_magic_18.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_18_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_shadow_magic_19: "[shadow_magic] - $zz_valyria_magic_shadow_magic_19_name$"
+  zz_valyria_magic_shadow_magic_19.memory_desc: "$zz_mem_01$ [shadow_magic] - $zz_valyria_magic_shadow_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_19.memory_desc_second_perspective: "$zz_mem_02$ [shadow_magic] - $zz_valyria_magic_shadow_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_shadow_magic_19.memory_desc_third_perspective: "$zz_mem_03$ [shadow_magic] - $zz_valyria_magic_shadow_magic_19_name$ $zz_mem_loc$"
+
   ### [dream_magic] ###
 
   zz_valyria_magic_dream_magic_01: "[dream_magic] - $zz_valyria_magic_dream_magic_01_name$"
@@ -574,7 +604,15 @@
   zz_valyria_magic_alchemy_magic_17.memory_desc_third_perspective: "$zz_mem_03$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_17_name$ $zz_mem_loc$"
 
 
+  zz_valyria_magic_alchemy_magic_18: "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc: "$zz_mem_01$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
 
+  zz_valyria_magic_alchemy_magic_18: "[alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc: "$zz_mem_01$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_alchemy_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [alchemy_magic] - $zz_valyria_magic_alchemy_magic_18_name$ $zz_mem_loc$"
 
 
   ### [fire_magic] ### 
@@ -644,6 +682,36 @@
   zz_valyria_magic_fire_magic_13.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_fire_magic_13.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_13_name$ $zz_mem_loc$"
 
+  zz_valyria_magic_fire_magic_14: "[fire_magic] - $zz_valyria_magic_fire_magic_14_name$"
+  zz_valyria_magic_fire_magic_14.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_14.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_14.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_14_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_fire_magic_15: "[fire_magic] - $zz_valyria_magic_fire_magic_15_name$"
+  zz_valyria_magic_fire_magic_15.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_15.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_15.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_15_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_fire_magic_16: "[fire_magic] - $zz_valyria_magic_fire_magic_16_name$"
+  zz_valyria_magic_fire_magic_16.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_16.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_16.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_16_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_fire_magic_17: "[fire_magic] - $zz_valyria_magic_fire_magic_17_name$"
+  zz_valyria_magic_fire_magic_17.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_17.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_17.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_17_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_fire_magic_18: "[fire_magic] - $zz_valyria_magic_fire_magic_18_name$"
+  zz_valyria_magic_fire_magic_18.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_18_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_fire_magic_19: "[fire_magic] - $zz_valyria_magic_fire_magic_19_name$"
+  zz_valyria_magic_fire_magic_19.memory_desc: "$zz_mem_01$ [fire_magic] - $zz_valyria_magic_fire_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_19.memory_desc_second_perspective: "$zz_mem_02$ [fire_magic] - $zz_valyria_magic_fire_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_fire_magic_19.memory_desc_third_perspective: "$zz_mem_03$ [fire_magic] - $zz_valyria_magic_fire_magic_19_name$ $zz_mem_loc$"
+
 
   ### [air_magic] ### 
 
@@ -711,6 +779,37 @@
   zz_valyria_magic_air_magic_13.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_air_magic_13.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_air_magic_13.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_13_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_14: "[air_magic] - $zz_valyria_magic_air_magic_14_name$"
+  zz_valyria_magic_air_magic_14.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_14.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_14.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_14_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_15: "[air_magic] - $zz_valyria_magic_air_magic_15_name$"
+  zz_valyria_magic_air_magic_15.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_15.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_15.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_15_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_16: "[air_magic] - $zz_valyria_magic_air_magic_16_name$"
+  zz_valyria_magic_air_magic_16.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_16.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_16.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_16_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_17: "[air_magic] - $zz_valyria_magic_air_magic_17_name$"
+  zz_valyria_magic_air_magic_17.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_17.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_17.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_17_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_18: "[air_magic] - $zz_valyria_magic_air_magic_18_name$"
+  zz_valyria_magic_air_magic_18.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_18_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_air_magic_19: "[air_magic] - $zz_valyria_magic_air_magic_19_name$"
+  zz_valyria_magic_air_magic_19.memory_desc: "$zz_mem_01$ [air_magic] - $zz_valyria_magic_air_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_19.memory_desc_second_perspective: "$zz_mem_02$ [air_magic] - $zz_valyria_magic_air_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_air_magic_19.memory_desc_third_perspective: "$zz_mem_03$ [air_magic] - $zz_valyria_magic_air_magic_19_name$ $zz_mem_loc$"
+
 
 
   ### [water_magic] ### 
@@ -780,3 +879,33 @@
   zz_valyria_magic_water_magic_13.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_water_magic_13.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_13_name$ $zz_mem_loc$"
   zz_valyria_magic_water_magic_13.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_13_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_14: "[water_magic] - $zz_valyria_magic_water_magic_14_name$"
+  zz_valyria_magic_water_magic_14.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_14.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_14_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_14.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_14_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_15: "[water_magic] - $zz_valyria_magic_water_magic_15_name$"
+  zz_valyria_magic_water_magic_15.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_15.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_15_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_15.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_15_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_16: "[water_magic] - $zz_valyria_magic_water_magic_16_name$"
+  zz_valyria_magic_water_magic_16.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_16.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_16_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_16.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_16_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_17: "[water_magic] - $zz_valyria_magic_water_magic_17_name$"
+  zz_valyria_magic_water_magic_17.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_17.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_17_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_17.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_17_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_18: "[water_magic] - $zz_valyria_magic_water_magic_18_name$"
+  zz_valyria_magic_water_magic_18.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_18.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_18_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_18.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_18_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_water_magic_19: "[water_magic] - $zz_valyria_magic_water_magic_19_name$"
+  zz_valyria_magic_water_magic_19.memory_desc: "$zz_mem_01$ [water_magic] - $zz_valyria_magic_water_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_19.memory_desc_second_perspective: "$zz_mem_02$ [water_magic] - $zz_valyria_magic_water_magic_19_name$ $zz_mem_loc$"
+  zz_valyria_magic_water_magic_19.memory_desc_third_perspective: "$zz_mem_03$ [water_magic] - $zz_valyria_magic_water_magic_19_name$ $zz_mem_loc$"

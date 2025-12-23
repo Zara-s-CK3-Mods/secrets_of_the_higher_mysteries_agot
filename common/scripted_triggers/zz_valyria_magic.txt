@@ -1700,6 +1700,13 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_11 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_12 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_13 }
+
+
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_01 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_02 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_03 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_04 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_05 }
 } 
 
 zz_magic_list_trigger = {
@@ -1856,4 +1863,10 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_11 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_13 }
+
+	zz_valyria_$TRIGGER_TYPE$_has_dead_dragon_egg_trigger = { SPELL = zz_valyria_magic_dragon_magic_01 }
+	zz_valyria_$TRIGGER_TYPE$_dragon_female_only_trigger = { SPELL = zz_valyria_magic_dragon_magic_02 }
+	zz_valyria_$TRIGGER_TYPE$_dragon_only_trigger = {SPELL = zz_valyria_magic_dragon_magic_03}
+	zz_valyria_$TRIGGER_TYPE$_human_not_dragonblood_trigger = { SPELL = zz_valyria_magic_dragon_magic_04 }
+	zz_valyria_$TRIGGER_TYPE$_dragon_only_trigger = {SPELL = zz_valyria_magic_dragon_magic_05}
 }

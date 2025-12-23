@@ -257,26 +257,18 @@ zz_magister = {
 				character_travel_safety = 1
 			}
 		}
-		drops_of_power = {
-			10 = {
-			}
-			20 = {
-			}
-			30 = {
-			}
-			40 = {
+		dragon_magic = {
+			25 = {
+				trait_track_dragon_bond_xp_gain_mult = 0.05 
 			}
 			50 = {
+				trait_track_dragon_bond_xp_gain_mult = 0.05
 			}
-			60 = {
-			}
-			70 = {
-			}
-			80 = {
-			}
-			90 = {
+			75 = {
+				trait_track_dragon_bond_xp_gain_mult = 0.05
 			}
 			100 = {
+				trait_track_dragon_bond_xp_gain_mult = 0.05
 			}
 		}
 	}

@@ -237,6 +237,7 @@ zz_valyria_make_spell_list = {
 	clear_variable_list = zz_valyria_spell_fire_list
 	clear_variable_list = zz_valyria_spell_air_list
 	clear_variable_list = zz_valyria_spell_water_list
+	clear_variable_list = zz_valyria_spell_dragon_list
 	
 	scope:$MAGIC_CASTER$ = {
 		every_memory = {
@@ -372,6 +373,21 @@ zz_valyria_make_spell_list = {
 			scope:$MAGIC_USER$ = {
 				add_to_variable_list = {
 					name = zz_valyria_spell_water_list
+					target = prev
+				}
+				add_to_variable_list = {
+					name = zz_valyria_spell_list
+					target = prev
+				}
+			}
+		}
+		every_memory = {
+			limit = { 
+				has_memory_category = dragon_magic
+			}
+			scope:$MAGIC_USER$ = {
+				add_to_variable_list = {
+					name = zz_valyria_spell_dragon_list
 					target = prev
 				}
 				add_to_variable_list = {
@@ -3107,6 +3123,31 @@ zz_gain_magic_11_spell = {
 	}
 }
 
+zz_gain_magic_05_spell = { 
+	random_list = {
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_01}}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_01 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_02 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_02 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_03 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_03 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_04 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_04 }
+		}
+		100 = {
+			trigger = {NOT = { zz_valyria_knows_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_05 }}}
+			zz_add_spell  = { SPELL = zz_valyria_magic_$MAGIC$_magic_05 }
+		}
+	}
+}
+
 zz_gain_blood_magic_spell = { 
 	zz_gain_magic_29_spell = {
 		MAGIC = blood
@@ -3148,6 +3189,12 @@ zz_gain_air_magic_spell = {
 zz_gain_water_magic_spell = { 
 	zz_gain_magic_11_spell = {
 		MAGIC = water
+	}
+}
+
+zz_gain_dragon_magic_spell = { 
+	zz_gain_magic_05_spell = {
+		MAGIC = dragon
 	}
 }
 
@@ -3666,6 +3713,33 @@ zz_random_gain_magic_spell = {
 				add = 10000
 			}
 			zz_gain_air_magic_spell = yes
+		}	
+		100 = { 
+			trigger = {
+				NAND = {
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_01
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_02
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_03
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_04
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_05
+					}
+				}
+			}
+			
+			modifier = { 
+				var:current_school_of_magic ?= flag:dragon_magic 
+				add = 10000
+			}
+			zz_gain_dragon_magic_spell = yes
 		}			
 	}
 }
@@ -3971,6 +4045,16 @@ zz_random_scroll_gain_effect = {
 	}
 }
 
+
+zz_scroll_05_effect = {
+	random_list = {
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_01 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_02 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_03 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_04 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_05 }}
+	}
+}
 zz_scroll_11_effect = {
 	random_list = {
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_01 }}
@@ -4143,6 +4227,12 @@ zz_gain_water_magic_scroll = {
 	}	
 }
 
+zz_gain_dragon_magic_scroll = { 
+	zz_scroll_05_effect = { 
+		MAGIC = dragon
+	}	
+}
+
 zz_random_gain_magic_scroll = {
 	random_list = {
 		100 = {
@@ -4194,7 +4284,14 @@ zz_random_gain_magic_scroll = {
 				add = 10000
 			}
 			zz_gain_air_magic_scroll = yes
-		}			
+		}		
+		100 = { 
+			modifier = { 
+				var:current_school_of_magic ?= flag:dragon_magic 
+				add = 10000
+			}
+			zz_gain_dragon_magic_scroll = yes
+		}	
 	}
 }
 

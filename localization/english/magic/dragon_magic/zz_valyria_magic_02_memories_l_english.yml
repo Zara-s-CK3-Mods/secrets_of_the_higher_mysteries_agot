@@ -1,0 +1,46 @@
+﻿l_english:  
+ 
+
+  zz_mem_loc:0 "at [ROOT.Var('learning_location').GetProvince.GetName]"
+  zz_mem_01:0  "I learned the [zz_mystery]"
+  zz_mem_02:0 "you learned the [zz_mystery]"
+  zz_mem_03:0 "[owner.GetTitledFirstName|U] learned the [zz_mystery]"
+  zz_mem_04:0  "I learned the secrets of constructing"
+  zz_mem_05:0 "you learned the secrets constructing"
+  zz_mem_06:0 "[owner.GetTitledFirstName|U] learned the secrets constructing"
+
+
+
+  zz_valyria_magic_knowledge: "Knowlege of the Higher Mysteries"
+  zz_valyria_magic_knowledge.memory_desc: "I gained knowledge of the Higher Mysteries $zz_mem_loc"
+  zz_valyria_magic_knowledge.memory_desc_second_perspective: "You gained knowledge of the Higher Mysteries $zz_mem_loc"
+  zz_valyria_magic_knowledge.memory_desc_third_perspective: "[owner.GetTitledFirstName|U] gained knowledge of the Higher Mysteries $zz_mem_loc"
+
+  ### [dragon_magic] ###
+
+
+  zz_valyria_magic_dragon_magic_01: "[dragon_magic] - $zz_valyria_magic_dragon_magic_01_name$"
+  zz_valyria_magic_dragon_magic_01.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_01_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_01.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_01_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_01.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_01_name$ $zz_mem_loc$"
+
+
+  zz_valyria_magic_dragon_magic_02: "[dragon_magic] - $zz_valyria_magic_dragon_magic_02_name$"
+  zz_valyria_magic_dragon_magic_02.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_02_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_02.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_02_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_02.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_02_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_dragon_magic_03: "[dragon_magic] - $zz_valyria_magic_dragon_magic_03_name$"
+  zz_valyria_magic_dragon_magic_03.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_03_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_03.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_03_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_03.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_03_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_dragon_magic_04: "[dragon_magic] - $zz_valyria_magic_dragon_magic_04_name$"
+  zz_valyria_magic_dragon_magic_04.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_04_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_04.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_04_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_04.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_04_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_dragon_magic_05: "[dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$"
+  zz_valyria_magic_dragon_magic_05.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_05.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_05.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"

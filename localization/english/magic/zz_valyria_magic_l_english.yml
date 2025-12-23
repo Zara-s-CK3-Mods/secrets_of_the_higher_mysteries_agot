@@ -2184,19 +2184,19 @@
     zz_valyria_magic_water_magic_12.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
     zz_valyria_magic_water_magic_12.toast.tt:0 "$zz_valyria_magic_water_magic_12.toast.desc$"
 
-  ## Interaction
-  zz_valyria_magic_water_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n\nThe arts of [water_magic|E] allows for a power over life and death. By calling forth the power of water to heal and clean it is possible to wash away disease and infection, and provide a lasting immunity to such forces.."
-  ##event
-  zz_valyria_magic_water_magic_spells.013.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
-  zz_valyria_magic_water_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe inhabitants of the Rhoyne were masters of binding the source of life to their purposes. They could remove rot, and strike dragons down from the air with spouts of furious water. It is possible to call forth the purifying properties of water, and to have all disease and infection purged from the body of [recipient.GetName]. Sucha  power will leave a lingering immunity to disease. "
-  zz_valyria_magic_water_magic_spells.013.opt.a:0 "Yes, let them be purified!"
-  zz_valyria_magic_water_magic_spells.013.opt.z:0 "No, do not cast!"
-  ## Spell Toast
-  zz_valyria_magic_water_magic_13.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
-  zz_valyria_magic_water_magic_13.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
-  zz_valyria_magic_water_magic_13.toast.tt:0 "$zz_valyria_magic_water_magic_13.toast.desc$"
+    ## Interaction
+    zz_valyria_magic_water_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n\nThe arts of [water_magic|E] allows for a power over life and death. By calling forth the power of water to heal and clean it is possible to wash away disease and infection, and provide a lasting immunity to such forces.."
+    ##event
+    zz_valyria_magic_water_magic_spells.013.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
+    zz_valyria_magic_water_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe inhabitants of the Rhoyne were masters of binding the source of life to their purposes. They could remove rot, and strike dragons down from the air with spouts of furious water. It is possible to call forth the purifying properties of water, and to have all disease and infection purged from the body of [recipient.GetName]. Sucha  power will leave a lingering immunity to disease. "
+    zz_valyria_magic_water_magic_spells.013.opt.a:0 "Yes, let them be purified!"
+    zz_valyria_magic_water_magic_spells.013.opt.z:0 "No, do not cast!"
+    ## Spell Toast
+    zz_valyria_magic_water_magic_13.toast.t:0 "[water_magic|E] - $zz_valyria_magic_water_magic_13_name$"
+    zz_valyria_magic_water_magic_13.toast.desc:0 "$zz_toast_01$ [water_magic|E], $zz_toast_02$ purging [recipient.GetFirstName] of all disease."
+    zz_valyria_magic_water_magic_13.toast.tt:0 "$zz_valyria_magic_water_magic_13.toast.desc$"
 
-  
+    
 
 
   ### Council Positions

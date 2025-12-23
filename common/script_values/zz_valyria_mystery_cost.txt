@@ -539,3 +539,21 @@ zz_valyria_magic_water_magic_14_cost = {
 zz_valyria_magic_water_magic_15_cost = {
 	value = 5
 }
+
+
+zz_valyria_magic_dragon_magic_01_cost = {
+	value = 90
+}
+
+zz_valyria_magic_dragon_magic_02_cost = {
+	value = 10
+}
+zz_valyria_magic_dragon_magic_03_cost = {
+	value = 1
+}
+zz_valyria_magic_dragon_magic_04_cost = {
+	value = 60
+}
+zz_valyria_magic_dragon_magic_05_cost = {
+	value = 100
+}

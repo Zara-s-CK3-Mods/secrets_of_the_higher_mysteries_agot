@@ -172,6 +172,15 @@
 			zz_add_spell = { 
 				SPELL = zz_valyria_magic_water_magic_04
 			}
+			zz_add_spell = { 
+				SPELL = zz_valyria_magic_dragon_magic_01
+			}
+			zz_add_spell = { 
+				SPELL = zz_valyria_magic_dragon_magic_02
+			}
+			zz_add_spell = { 
+				SPELL = zz_valyria_magic_dragon_magic_03
+			}
 		}
 	}
 

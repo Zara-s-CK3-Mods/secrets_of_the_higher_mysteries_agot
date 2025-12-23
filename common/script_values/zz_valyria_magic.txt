@@ -496,6 +496,15 @@ zz_valyria_water_magic_stat_gui = {
 		value = "has_trait_xp(zz_magister|water_magic)" 
 	}
 }
+
+zz_valyria_dragon_magic_stat_gui = {
+	if = {
+		limit = {
+			exists = this 
+		}
+		value = "has_trait_xp(zz_magister|dragon_magic)" 
+	}
+}
 zz_valyria_drops_of_power_stat = {
 	value = 0
 	if = {
@@ -2326,6 +2335,95 @@ zz_valyria_magic_water_magic_15_value = {
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_water_magic_base_value
 			divide = 5
+			min = 1
+		}
+	}
+}
+
+
+zz_valyria_magic_dragon_magic_base_value = { 
+	scope:secondary_recipient = { 
+		if = {
+			limit = {
+				exists = var:casttype
+			}
+			if = {
+				limit = { 
+					var:casttype ?= flag:potion 
+				}
+				value = scope:actor.var:cast_potency
+			}
+			else_if = {
+				limit = {
+					var:casttype ?= flag:scroll
+				}
+				value =  scope:actor.var:cast_potency
+			}
+			else = { 
+				value = "has_trait_xp(zz_magister|dragon_magic)" 
+			}
+		}
+		else = { 
+			value = "has_trait_xp(zz_magister|dragon_magic)" 
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_01_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			min = 1
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_02_value = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_dragon_magic_03_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			divide = 10
+			min = 1
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_03_mysteries_of_draconic_duration_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			divide = 5
+			min = 5
+		}
+	}
+}
+zz_valyria_magic_dragon_magic_04_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			min = 1
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_05_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
 			min = 1
 		}
 	}
