@@ -265,6 +265,13 @@
 											raw_text = "Water Magic - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_water_magic_stat_gui')|0]"
 										}
 									}
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Dragon Magic - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_dragon_magic_stat_gui')|0]"
+										}
+									}
 									spacer = { size = { 00 15 } }
 									flowcontainer = {
 										text_single = {
@@ -369,6 +376,15 @@
 											size = { 100% 100% }
 										}
 										onclick = "[GetVariableSystem.Set( 'magic_page','water_magic' ) ]"
+									}
+									button_normal = {
+										size = { 30 30}
+										icon = {
+											name = "icon_water_magic"
+											texture = "gfx/interface/icons/trait_level_tracks/water_magic.dds"
+											size = { 100% 100% }
+										}
+										onclick = "[GetVariableSystem.Set( 'magic_page','dragon_magic' ) ]"
 									}
 									expand = {}
 								}
@@ -710,6 +726,52 @@
 										addrow =55
 										datacontext = "[GetPlayer.MakeScope]"
 										datamodel = "[Scope.GetList('zz_valyria_spell_water_list')]"
+										
+										item = {
+											button_standard = {
+												parentanchor = top|left
+												datacontext = "[Scope.CharacterMemory]"
+												minimumsize = { 500 38 }
+												text_single = {
+													minimumsize = { 100 38 }
+													margin = { 15 15 }
+													text = "[CharacterMemory.GetName|U]"
+													alwaystransparent = yes
+													resizeparent = yes
+													align = center|nobaseline
+													default_format = "#low"
+												}
+												text_label_center = {
+													parentanchor = top|right
+													margin_right = 30
+													layoutpolicy_horizontal = expanding
+													text = "[CharacterMemory.MakeScope.ScriptValue('mystery_cost')|0]"
+												}
+												datacontext = "[GetScriptedGui('zz_valyria_blood_magic_01')]"
+												onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_valyria_mystery', CharacterMemory.MakeScope ).End)]"
+												down = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_valyria_mystery', CharacterMemory.MakeScope ).End)]"
+												enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_valyria_mystery', CharacterMemory.MakeScope ).End)]"
+												tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'zz_valyria_mystery', CharacterMemory.MakeScope ).End)]"
+											}	
+										}
+									}
+									expand = {}
+								}
+							}
+							scrollbox = {
+								name = "spell_dragon_scrollarea"
+								visible = "[GetVariableSystem.HasValue( 'magic_page','dragon_magic')]"
+								layoutpolicy_vertical = expanding
+								layoutpolicy_horizontal = expanding
+								max_width = 550
+								#max_height = 500
+								blockoverride "scrollbox_content"
+								{
+									fixedgridbox = {
+										addcolumn = 500
+										addrow =55
+										datacontext = "[GetPlayer.MakeScope]"
+										datamodel = "[Scope.GetList('zz_valyria_spell_dragon_list')]"
 										
 										item = {
 											button_standard = {

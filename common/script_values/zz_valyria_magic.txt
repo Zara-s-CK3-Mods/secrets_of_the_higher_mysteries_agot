@@ -507,156 +507,16 @@ zz_valyria_dragon_magic_stat_gui = {
 }
 zz_valyria_drops_of_power_stat = {
 	value = 0
-	if = {
+	if = { 
 		limit = {
-			has_trait = zz_magister
+			has_variable = zz_drops_of_power
 		}
-		add = "has_trait_xp(zz_magister|drops_of_power)" 
-	}
-	if = {
-		limit = {
-			has_trait = magic_blood_good_2
-		}
-		add = "has_trait_xp(magic_blood_good_2|magic_blood_good_2_stores_of_power_01)" 
-		add = "has_trait_xp(magic_blood_good_2|magic_blood_good_2_stores_of_power_02)" 
-	}
-	if = {
-		limit = {
-			has_trait = magic_blood_good_3
-		}
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_01)" 
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_02)" 
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_03)" 
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_04)" 
-	}
-	if = {
-		limit = {
-			has_trait = starwalker
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_01)" 
-		add = "has_trait_xp(starwalker|stores_of_power_02)" 
-		add = "has_trait_xp(starwalker|stores_of_power_03)" 
-		add = "has_trait_xp(starwalker|stores_of_power_04)" 
-		add = "has_trait_xp(starwalker|stores_of_power_05)" 
-		add = "has_trait_xp(starwalker|stores_of_power_06)" 
-		add = "has_trait_xp(starwalker|stores_of_power_07)" 
-		add = "has_trait_xp(starwalker|stores_of_power_08)" 
-		add = "has_trait_xp(starwalker|stores_of_power_09)" 
-		add = "has_trait_xp(starwalker|stores_of_power_10)" 
-		if = { 
-			limit = {
-				has_variable = zz_drops_of_power
-			}
-			add ?= var:zz_drops_of_power
-		}
-	
+		add ?= var:zz_drops_of_power
 	}
 }
 
 zz_valyria_drops_of_power_stat_gui = {
 	value = 0
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(zz_magister|drops_of_power)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_2|magic_blood_good_2_stores_of_power_01)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_2|magic_blood_good_2_stores_of_power_02)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_01)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_02)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_03)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(magic_blood_good_3|magic_blood_good_3_stores_of_power_04)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_01)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_02)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_03)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_04)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_05)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_06)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_07)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_08)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_09)" 
-	}
-	if = {
-		limit = {
-			exists = this 
-		}
-		add = "has_trait_xp(starwalker|stores_of_power_10)" 
-	}
 	if = {
 		limit = {
 			exists = this 
@@ -666,46 +526,7 @@ zz_valyria_drops_of_power_stat_gui = {
 	}
 }
 
-zz_valyria_drops_power_passive_gain = { 
-	value = 0 
-	if = {
-		limit = {
-			exists = this 
-		}
-		if = { 
-			limit = { 
-				has_trait = starwalker
-			}
-			add = 1
-		}
-		if = { 
-			limit = { 
-				any_equipped_character_artifact = {
-					has_artifact_modifier = zz_valyria_magic_xp_gain_passive_modifier
-				}
-			}
-			every_equipped_character_artifact = { 
-				limit = {
-					has_artifact_modifier = zz_valyria_magic_xp_gain_passive_modifier
-				}
-				add = this.var:item_mana_gain
-			}
-		}
-		if = { 
-			limit = { 
-				any_owned_story = {
-					story_type = zz_valyria_magic_dream_magic_10_story
-				}
-			}
-			every_owned_story = {
-				limit = {
-					story_type = zz_valyria_magic_dream_magic_10_story
-				}
-				add = this.var:mystery_potency
-			}
-		}
-	}
-}
+
 
 ### Blood Magic
 zz_valyria_magic_blood_magic_base_value = { 

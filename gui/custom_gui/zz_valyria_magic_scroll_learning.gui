@@ -615,6 +615,12 @@ types magic_scroll_learning {
 										raw_text = "Water Magic - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_water_magic_stat_gui')|0]"
 									}
 								}
+								flowcontainer = {
+									text_single = {
+										align = left
+										raw_text = "Dragon Magic - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_dragon_magic_stat_gui')|0]"
+									}
+								}
 								spacer = { size = { 00 15 } }
 								flowcontainer = {
 									text_single = {
