@@ -1,0 +1,13 @@
+﻿nick_the_archmage = { is_prefix = yes }
+nick_the_necromancer = {}
+nick_the_magus = {}
+nick_the_alchemist = {}
+nick_the_mage = {}
+nick_the_wizard = {}
+nick_the_bloodmage = {}
+nick_the_dreammage = {}
+nick_the_ubramancer = {}
+nick_the_transmuter = {}
+nick_the_pyromancer = {}
+nick_the_aeromancer = {}
+nick_the_aquamancer = {}

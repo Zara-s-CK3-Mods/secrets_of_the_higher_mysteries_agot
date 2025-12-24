@@ -1,6 +1,19 @@
 ﻿l_english:
- rule_zz_valyria_debug_mode:0 "#G Secrets of Higher Mysteries Debug Mode#!"
- 
+  rule_zz_valyria_debug_mode:0 "#G Secrets of Higher Mysteries Debug Mode#!"
+  
 
- nick_the_archmage:0 "the Archmage"
- nick_the_archmage_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for their encylopedic grasp on the mysteries of magic."
+  nick_the_archmage:0 "The Archmage"
+  nick_the_archmage_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for their encylopedic grasp on the mysteries of magic."
+  nick_the_necromancer:0 "the Necromancer"
+  nick_the_necromancer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for their practice of the Dark Arts."
+  nick_the_magus:0 "the Magus"
+  nick_the_magus_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] is known for their skill in magical disciplines."
+  nick_the_alchemist:0 "the Alchemist"
+  nick_the_wizard:0 "the Wizard"
+  nick_the_bloodmage:0 "the Blood Mage"
+  nick_the_dreammage:0 "the Dreammaster"
+  nick_the_ubramancer:0 "the Shadowmancer"
+  nick_the_transmuter:0 "the Transmuter"
+  nick_the_pyromancer:0 "the Pyromancer"
+  nick_the_aeromancer:0 "the Aeromancer"
+  nick_the_aquamancer:0 "the Aquamancer"

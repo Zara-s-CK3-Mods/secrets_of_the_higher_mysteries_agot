@@ -909,6 +909,29 @@ zz_valyria_magic_school_selection_water_magic = {
 	}
 }
 
+zz_valyria_magic_school_selection_dragon_magic = {
+	scope = character
+	saved_scopes = {
+	}
+	is_valid = {
+		not = {
+			var:zz_magic_caster.var:current_school_of_magic ?= flag:dragon_magic
+		}
+	}
+	is_shown = {
+		var:zz_magic_caster.var:current_school_of_magic ?= flag:dragon_magic
+	}
+	effect = {
+		save_scope_as = zz_magic_user 
+		var:zz_magic_caster = {
+			set_variable = {
+				name = current_school_of_magic 
+				value = flag:dragon_magic
+			}
+		}
+	}
+}
+
 zz_valyria_magic_school_study_magic = {
 	scope = character
 	saved_scopes = {

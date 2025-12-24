@@ -3,7 +3,8 @@
 		zz_mages_education
 	}
 }
-
+on_15th_birthday = {
+}
 zz_mages_education = {
 	effect = {
 		save_scope_as = child

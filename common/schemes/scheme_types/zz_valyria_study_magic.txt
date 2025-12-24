@@ -98,7 +98,14 @@
 				value < 100
 			}
 		}
-
+		trigger_if = {
+			limit = {var:current_school_of_magic = flag:dragon_magic}
+			has_trait_xp = {
+				trait = zz_magister
+				track = dragon_magic
+				value < 100
+			}
+		}
 
 	}
 

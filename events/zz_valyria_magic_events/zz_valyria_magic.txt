@@ -247,23 +247,23 @@ zz_valyria_magic.0011 = {
 
 
 	immediate = {
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_06 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_01 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_01
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_08 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_02 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_02
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_09 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_03 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_03
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_10 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_04 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_04
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_blood_magic_18 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_05 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_05
 		}
@@ -2131,6 +2131,66 @@ zz_valyria_magic_management.003 = {
 			}
 			var:zz_valyria_selected_character = {
 				give_nickname = nick_the_dragonknight_historic
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_management.003j
+		if = {
+			limit = {
+				var:zz_valyria_selected_character = {
+					NOT = {
+						has_nickname = nick_the_archmage
+					}
+				}
+			}
+			var:zz_valyria_selected_character = {
+				give_nickname = nick_the_archmage
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_management.003k
+		if = {
+			limit = {
+				var:zz_valyria_selected_character = {
+					NOT = {
+						has_nickname = nick_the_magus
+					}
+				}
+			}
+			var:zz_valyria_selected_character = {
+				give_nickname = nick_the_magus
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_management.003l
+		if = {
+			limit = {
+				var:zz_valyria_selected_character = {
+					NOT = {
+						has_nickname = nick_the_alchemist
+					}
+				}
+			}
+			var:zz_valyria_selected_character = {
+				give_nickname = nick_the_alchemist
+			}
+		}
+	}
+	option = {
+		name = zz_valyria_magic_management.003m
+		if = {
+			limit = {
+				var:zz_valyria_selected_character = {
+					NOT = {
+						has_nickname = nick_the_wizard
+					}
+				}
+			}
+			var:zz_valyria_selected_character = {
+				give_nickname = nick_the_wizard
 			}
 		}
 	}

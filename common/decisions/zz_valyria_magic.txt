@@ -122,12 +122,197 @@ manage_grant_culture_trait_decision = {
 
 	cost = {
 	}
+	widget = {
+		gui = "decision_view_widget_generic_multichoice_with_effects"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "SELECT_ACTION"
+		show_from_start = no
+
+		item = { # Administrative
+			value = go_cultural_trait_cap
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_trait_cap_desc
+			localization = go_trait_cap_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_incest
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_incest_desc
+			localization = go_incest_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_sibling_incest
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_sibling_incest_desc
+			localization = go_sibling_incest_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_two_concubines
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_two_concubines_desc
+			localization = go_two_concubines_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_three_concubines
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_three_concubines_desc
+			localization = go_three_concubines_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_four_concubines
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_four_concubines_desc
+			localization = go_four_concubines_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_five_concubines
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_five_concubines_desc
+			localization = go_five_concubines_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Administrative
+			value = go_cultural_nine_concubines
+			is_shown = {
+			}
+			is_valid = {
+
+			}
+			current_description = go_nine_concubines_desc
+			localization = go_nine_concubines_desc
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+	}
 
 	effect = {
-		custom_tooltip = manage_grant_nickname_decision_effect_tooltip
-
-		culture = {
-			add_culture_tradition = tradition_zz_valyrian_practices
+		if = {
+			limit = { scope:go_cultural_trait_cap = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_valyrian_practices
+			}
 		}
+		else_if = {
+			limit = { scope:go_cultural_incest = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_valyrian_incest
+				remove_culture_tradition = tradition_zz_valyrian_sibling_incest
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_sibling_incest = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_valyrian_sibling_incest
+				remove_culture_tradition = tradition_zz_valyrian_incest
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_two_concubines = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_cultural_polygamy_two_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_three_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_four_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_five_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_nine_wives
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_three_concubines = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_cultural_polygamy_three_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_two_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_four_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_five_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_nine_wives
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_four_concubines = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_cultural_polygamy_four_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_two_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_three_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_five_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_nine_wives
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_five_concubines = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_cultural_polygamy_five_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_two_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_three_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_four_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_nine_wives
+			}
+		}
+		else_if = {
+			limit = { scope:go_cultural_nine_concubines = yes }
+			culture = {
+				add_culture_tradition = tradition_zz_cultural_polygamy_nine_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_two_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_three_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_four_wives
+				remove_culture_tradition = tradition_zz_cultural_polygamy_five_wives
+			}
+		}
+		
 	}
 }
