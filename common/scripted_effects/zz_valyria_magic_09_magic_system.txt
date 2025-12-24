@@ -4703,9 +4703,9 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_12 EVENT = zz_valyria_magic_water_magic_spells.012 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_water_magic_13 EVENT = zz_valyria_magic_water_magic_spells.013 }
 
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_01 EVENT = zz_valyria_magic_water_magic_spells.001 }
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_02 EVENT = zz_valyria_magic_water_magic_spells.002 }
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_03 EVENT = zz_valyria_magic_water_magic_spells.003 }
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_04 EVENT = zz_valyria_magic_water_magic_spells.004 }
-	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_05 EVENT = zz_valyria_magic_water_magic_spells.005 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_01 EVENT = zz_valyria_magic_dragon_magic_spells.001 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_02 EVENT = zz_valyria_magic_dragon_magic_spells.002 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_03 EVENT = zz_valyria_magic_dragon_magic_spells.003 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_04 EVENT = zz_valyria_magic_dragon_magic_spells.004 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_05 EVENT = zz_valyria_magic_dragon_magic_spells.005 }
 }

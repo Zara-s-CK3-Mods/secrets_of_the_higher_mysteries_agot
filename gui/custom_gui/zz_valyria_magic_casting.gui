@@ -380,8 +380,8 @@
 									button_normal = {
 										size = { 30 30}
 										icon = {
-											name = "icon_water_magic"
-											texture = "gfx/interface/icons/trait_level_tracks/water_magic.dds"
+											name = "icon_dragon_magic"
+											texture = "gfx/interface/icons/trait_level_tracks/dragon_magic.dds"
 											size = { 100% 100% }
 										}
 										onclick = "[GetVariableSystem.Set( 'magic_page','dragon_magic' ) ]"

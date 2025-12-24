@@ -36,5 +36,8 @@ water_magic = {
 	texture = "gfx/interface/icons/trait_level_tracks/water_magic.dds"
 }
 
+dragon_magic = {
+	texture = "gfx/interface/icons/trait_level_tracks/dragon_magic.dds"
+}
 
 

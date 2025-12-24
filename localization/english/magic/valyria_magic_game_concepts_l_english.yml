@@ -25,3 +25,6 @@
   game_concept_air_magic_desc:0 "$game_concept_air_magic$ is a [zz_magic_ability|E] measuring the potency of a Character's abilities to use certain [zz_mystery_plural]. Increasing this score will make these [zz_mystery_plural] have a greater effect."
   game_concept_water_magic:0 "Water Magic"
   game_concept_water_magic_desc:0 "$game_concept_water_magic$ is a [zz_magic_ability|E] measuring the potency of a Character's abilities to use certain [zz_mystery_plural]. Increasing this score will make these [zz_mystery_plural] have a greater effect."
+
+  game_concept_dragon_magic:0 "Dragon Magic"
+  game_concept_dragon_magic_desc:0 "$game_concept_dragon_magic$ is a [zz_magic_ability|E] measuring the potency of a Character's abilities to use certain [zz_mystery_plural]. Increasing this score will make these [zz_mystery_plural] have a greater effect."
