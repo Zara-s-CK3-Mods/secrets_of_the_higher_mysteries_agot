@@ -188,7 +188,7 @@
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 5 } }
@@ -884,7 +884,7 @@
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 5 } }
@@ -1129,7 +1129,7 @@
 										spacing = 5
 										portrait_head_small = {}
 										text_single = {
-											text = "[Character.GetNameNoTooltip]"
+											text = "[Character.GetFirstNameBase]"
 										}
 										spacer = { size = { 00 15 } }
 									}
@@ -1215,7 +1215,7 @@
 										spacing = 5
 										portrait_head_small = {}
 										text_single = {
-											text = "[Character.GetNameNoTooltip]"
+											text = "[Character.GetFirstNameBase]"
 										}
 										spacer = { size = { 00 15 } }
 									}

@@ -949,4 +949,36 @@ zzSpellScroll = {
 		}
 		localization_key = zz_valyria_magic_water_magic_13
 	}
+
+
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dragon_magic_01
+		}
+		localization_key = zz_valyria_magic_dragon_magic_01
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dragon_magic_02
+		}
+		localization_key = zz_valyria_magic_dragon_magic_02
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dragon_magic_03
+		}
+		localization_key = zz_valyria_magic_dragon_magic_03
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dragon_magic_04
+		}
+		localization_key = zz_valyria_magic_dragon_magic_04
+	}
+	text = {
+		trigger = {
+			var:spell = flag:zz_valyria_magic_dragon_magic_05
+		}
+		localization_key = zz_valyria_magic_dragon_magic_05
+	}
 }

@@ -257,7 +257,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -556,7 +556,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 5 } }
@@ -760,7 +760,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -796,7 +796,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -867,7 +867,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -903,7 +903,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -957,7 +957,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -989,7 +989,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1112,7 +1112,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -1186,7 +1186,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1230,7 +1230,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1274,7 +1274,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1329,7 +1329,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -1364,7 +1364,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1477,7 +1477,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 25 } }
@@ -1551,7 +1551,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1595,7 +1595,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1639,7 +1639,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1722,7 +1722,7 @@ types magic_scroll_learning {
 														spacing = 5
 														portrait_head_small = {}
 														text_single = {
-															text = "[Character.GetNameNoTooltip]"
+															text = "[Character.GetFirstNameBase]"
 															tooltipwidget = {
 																cooltip_type = {}
 															}
@@ -1757,7 +1757,7 @@ types magic_scroll_learning {
 									portrait_head_small = {}
 									text_single = {
 										align = left
-										text = "[Character.GetNameNoTooltip]"
+										text = "[Character.GetFirstNameBase]"
 									}
 								}
 								spacer = { size = { 00 5 } }
