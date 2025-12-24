@@ -1714,12 +1714,12 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_blood_magic_02 }
 	zz_valyria_$TRIGGER_TYPE$_maa_damaged_trigger = { SPELL = zz_valyria_magic_blood_magic_03 }
 	zz_valyria_$TRIGGER_TYPE$_armies_raised_trigger = { SPELL = zz_valyria_magic_blood_magic_04 }
-	zz_valyria_$TRIGGER_TYPE$_has_dead_dragon_egg_trigger = { SPELL = zz_valyria_magic_blood_magic_05 }
-	zz_valyria_$TRIGGER_TYPE$_has_dead_dragon_egg_trigger = { SPELL = zz_valyria_magic_blood_magic_06 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_blood_magic_05 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_blood_magic_06 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_blood_magic_07 }
-	zz_valyria_$TRIGGER_TYPE$_dragon_female_only_trigger = { SPELL = zz_valyria_magic_blood_magic_08 }
-	zz_valyria_$TRIGGER_TYPE$_dragon_only_trigger = {SPELL = zz_valyria_magic_blood_magic_09}
-	zz_valyria_$TRIGGER_TYPE$_human_not_dragonblood_trigger = { SPELL = zz_valyria_magic_blood_magic_10 }
+	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = { SPELL = zz_valyria_magic_blood_magic_08 }
+	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = {SPELL = zz_valyria_magic_blood_magic_09}
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_blood_magic_10 }
 	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = { SPELL = zz_valyria_magic_blood_magic_11 }
 	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = { SPELL = zz_valyria_magic_blood_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = { SPELL = zz_valyria_magic_blood_magic_13 }
@@ -1727,7 +1727,7 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = { SPELL = zz_valyria_magic_blood_magic_15 }
 	zz_valyria_$TRIGGER_TYPE$_armies_raised_trigger = { SPELL = zz_valyria_magic_blood_magic_16 }
 	zz_valyria_$TRIGGER_TYPE$_cannot_cast_on_caster_cannot_cast_on_self_trigger = { SPELL = zz_valyria_magic_blood_magic_17 }
-	zz_valyria_$TRIGGER_TYPE$_dragon_only_trigger = {SPELL = zz_valyria_magic_blood_magic_18}
+	zz_valyria_$TRIGGER_TYPE$_unlimited_trigger = {SPELL = zz_valyria_magic_blood_magic_18}
 	zz_valyria_$TRIGGER_TYPE$_human_only_is_pregnant_trigger = { SPELL = zz_valyria_magic_blood_magic_19 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_is_pregnant_trigger = { SPELL = zz_valyria_magic_blood_magic_20 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_is_pregnant_trigger = { SPELL = zz_valyria_magic_blood_magic_21 }

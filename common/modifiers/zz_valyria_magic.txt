@@ -1,7 +1,37 @@
 ﻿zz_valyria_magic_drops_power = {
 	icon = magic_positive
 }
-
+zz_valyria_magic_blood_magic_08_modifier = {
+	icon = magic_positive
+	provisions_capacity_mult = 0.01
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_blood_magic_08_value_02
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+zz_valyria_magic_blood_magic_09_modifier = {
+	icon = magic_positive
+	character_travel_speed_mult = 0.01
+	movement_speed = 0.01
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_blood_magic_09_value_02
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+zz_valyria_magic_blood_magic_10_modifier = {
+	icon = magic_positive
+	provisions_use_mult = -0.01
+	stacking = yes
+	scale = {
+		value = zz_valyria_magic_blood_magic_10_value_02
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
 zz_valyria_magic_blood_magic_11_modifier = {
 	icon = magic_positive
 	life_expectancy = 1
@@ -59,6 +89,18 @@ zz_valyria_magic_blood_magic_17_modifier = {
 	life_expectancy = 1
 	stacking = yes	
 }
+
+zz_valyria_magic_blood_magic_18_modifier = {
+	icon = magic_positive
+	army_toughness_mult = 0.01
+	stacking = yes	
+	scale = {
+		value = zz_valyria_magic_blood_magic_18_value_02
+		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
+		display_mode = scaled
+	}
+}
+
 
 zz_valyria_magic_blood_magic_23_modifier = {
 	icon = magic_positive

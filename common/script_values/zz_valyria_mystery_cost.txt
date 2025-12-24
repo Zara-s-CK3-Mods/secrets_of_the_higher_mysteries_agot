@@ -90,7 +90,7 @@ zz_valyria_magic_blood_magic_17_cost = {
 	value = 5
 }
 zz_valyria_magic_blood_magic_18_cost = {
-	value = 100
+	value = 10
 }
 zz_valyria_magic_blood_magic_19_cost = {
 	value = 35

@@ -2,52 +2,6 @@
   zz_valyria_blackstone_01_name:0 "Black Stone Roads"
   zz_valyria_blackstone_02_name:0 "Black Stone Walls"
 
-  ### Mysteries Names 
-  zz_valyria_magic_blood_magic_01_name:0 "[zz_mystery] of Restoration"
-  zz_valyria_magic_blood_magic_02_name:0 "[zz_mystery] of Transmogrification"
-  zz_valyria_magic_blood_magic_03_name:0 "[zz_mystery] of Regeneration"
-  zz_valyria_magic_blood_magic_04_name:0 "[zz_mystery] of Renewal"
-  zz_valyria_magic_blood_magic_05_name:0 "[zz_mystery] of Replication"
-  zz_valyria_magic_blood_magic_06_name:0 "[zz_mystery] of Draconic Rejuvenation"
-  zz_valyria_magic_blood_magic_07_name:0 "[zz_mystery] of Enchanted Blood"
-  zz_valyria_magic_blood_magic_08_name:0 "[zz_mystery] of Clutch Laying"
-  zz_valyria_magic_blood_magic_09_name:0 "[zz_mystery] of Draconic Enhancement"
-  zz_valyria_magic_blood_magic_10_name:0 "[zz_mystery] of Draconic Blood"
-  zz_valyria_magic_blood_magic_11_name:0 "[zz_mystery] of Longevity"
-  zz_valyria_magic_blood_magic_12_name:0 "[zz_mystery] of Vitality"
-  zz_valyria_magic_blood_magic_13_name:0 "[zz_mystery] of Resilience"
-  zz_valyria_magic_blood_magic_14_name:0 "[zz_mystery] of Fortitude"
-  zz_valyria_magic_blood_magic_15_name:0 "[zz_mystery] of Fertility"
-  zz_valyria_magic_blood_magic_16_name:0 "[zz_mystery] of Blood Control"
-  zz_valyria_magic_blood_magic_17_name:0 "[zz_mystery] of Vital Consumption"
-  zz_valyria_magic_blood_magic_18_name:0 "[zz_mystery] of Draconic Genetics"
-  zz_valyria_magic_blood_magic_19_name:0 "[zz_mystery] of Sex Selection"
-  zz_valyria_magic_blood_magic_20_name:0 "[zz_mystery] of Maternal Protection"
-  zz_valyria_magic_blood_magic_21_name:0 "[zz_mystery] of Babe Protection"
-  zz_valyria_magic_blood_magic_22_name:0 "[zz_mystery] of Draconic Consumption"
-  zz_valyria_magic_blood_magic_23_name:0 "[zz_mystery] of Prowess"
-
-  zz_valyria_magic_blood_magic_24_name:0 "[zz_mystery] of Bloodline Learning"
-  zz_valyria_magic_blood_magic_25_name:0 "[zz_mystery] of Bloodline Diplomacy"
-  zz_valyria_magic_blood_magic_26_name:0 "[zz_mystery] of Bloodline Stewardship"
-  zz_valyria_magic_blood_magic_27_name:0 "[zz_mystery] of Bloodline Intrigue"
-  zz_valyria_magic_blood_magic_28_name:0 "[zz_mystery] of Bloodline Martial"
-  zz_valyria_magic_blood_magic_29_name:0 "[zz_mystery] of Bloodline Prowess"
-
-
-### Not Implemented
-
-  zz_valyria_magic_blood_magic_30_name:0 "[zz_mystery] of Genetic Construction"
-  zz_valyria_magic_blood_magic_31_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_32_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_33_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_34_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_35_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_36_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_37_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_38_name:0 "[zz_mystery] of "
-  zz_valyria_magic_blood_magic_39_name:0 "[zz_mystery] of "
-
 
 
   zz_valyria_magic_shadow_magic_01_name:0 "[zz_mystery] of Shadowy Steeds"

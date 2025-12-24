@@ -633,6 +633,25 @@ zz_valyria_magic_blood_magic_08_value = {
 		}
 	}
 }
+zz_valyria_magic_blood_magic_08_value_01 = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_08_value_02 = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			divide = 2
+			min = 1
+		}
+	}
+}
 zz_valyria_magic_blood_magic_09_value = {
 	value = 0
 	add = { 
@@ -643,6 +662,26 @@ zz_valyria_magic_blood_magic_09_value = {
 		}
 	}
 }
+zz_valyria_magic_blood_magic_09_value_01 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_09_value_02 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			divide = 20
+			min = 1
+		}
+	}
+}
+
 
 zz_valyria_magic_blood_magic_09_mysteries_of_draconic_duration_value = {
 	value = 0
@@ -659,6 +698,25 @@ zz_valyria_magic_blood_magic_10_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_10_value_01 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_10_value_02 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			divide = 10
 			min = 1
 		}
 	}
@@ -741,11 +799,21 @@ zz_valyria_magic_blood_magic_17_value = {
 		}
 	}
 } 
-zz_valyria_magic_blood_magic_18_value = {
+zz_valyria_magic_blood_magic_18_value_01 = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_blood_magic_base_value
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_blood_magic_18_value_02 = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_blood_magic_base_value
+			divide = 10
 			min = 1
 		}
 	}

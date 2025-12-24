@@ -1,0 +1,454 @@
+﻿
+
+l_english:
+## Blood Magic
+  zz_valyria_magic_blood_magic.0003.opt.a:0 "Let them be known as ... "
+
+  ##recipient_secondary_
+
+  ## Blood Magic - Mysteries of Restoration
+  zz_valyria_magic_blood_magic_01.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n\nThe use of the arcane forces of [blood_magic|E] to heal and restore a living creature."
+  ## event
+  zz_valyria_magic_blood_magic_spells.001.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_01_name$"
+  zz_valyria_magic_blood_magic_spells.001.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room.\nThere are many powers hidden away within the hidden murks of the lifegiving liquid. Among them, few are as mysterious as the ability to influence the health and wellbeing of a living being. \nNow is the moment to choose, whether you wish to heal [recipient.GetName], or whether you wish to stop this now."
+  zz_valyria_magic_blood_magic_spells.001.opt.a:0 "Yes, Heal Them!"
+  zz_valyria_magic_blood_magic_spells.001.opt.z:0 "No, do not cast!"
+
+  ##Spell Toast
+  zz_valyria_magic_blood_magic_01.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_01_name$"
+  zz_valyria_magic_blood_magic_01.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ healing [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_01.toast.tt:0 "$zz_valyria_magic_blood_magic_01.toast.desc$"
+
+  ## Blood Magic - Mysteries of Transmogrification
+  ## Intereraction
+
+  zz_valyria_magic_blood_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cpt$\n\nThe use of the arcane forces of [blood_magic|E] to alter the physical make up of a chosen subject."
+
+
+  ## event
+  zz_valyria_magic_blood_magic_spells.002.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_02_name$"
+  zz_valyria_magic_blood_magic_spells.002.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nFew powers wielded by the blood mage are more stepped in mystery than the ability to transform the physical characteristics of a living entity. Such powers mark a very real transgression of the barriers between the mortal and the divine. \nNow is the moment to choose, whether you wish to bring about the physical alteration of [recipient.GetName], or whether you wish to stop this now."
+  zz_valyria_magic_blood_magic_spells.002.opt.a:0 "Yes, manipulate selected attribute!"
+  zz_valyria_magic_blood_magic_spells.002.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_02.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_02_name$"
+  zz_valyria_magic_blood_magic_02.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ changing the very flesh of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_02.toast.tt:0 "$zz_valyria_magic_blood_magic_02.toast.desc$"
+
+
+  ## Blood Magic - Mysteries of Regeneration
+  zz_valyria_magic_blood_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_hr$\n$zz_suh$\n\nThe use of the arcane forces of [blood_magic|E] to restore strength to a Men at Arm Company."
+  ## event
+  zz_valyria_magic_blood_magic_spells.003.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_03_name$"
+  zz_valyria_magic_blood_magic_spells.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to bring about healing to one of your personal regiments, or whether you wish to stop this now."
+  zz_valyria_magic_blood_magic_spells.003.opt.a:0 "Yes, Restore my Forces!"
+  zz_valyria_magic_blood_magic_spells.003.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_03.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_03_name$"
+  zz_valyria_magic_blood_magic_03.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ restoring the troop strength of [target.GetFirstName]."
+  zz_valyria_magic_blood_magic_03.toast.tt:0 "$zz_valyria_magic_blood_magic_03.toast.desc$"
+
+
+  ## Blood Magic - Mysteries of Renewal
+
+  zz_valyria_magic_blood_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_hr$\n$zz_lh$\n\nThe use of the arcane forces of [blood_magic|E] to restore strength and power to a whole army."
+
+  ## event
+  zz_valyria_magic_blood_magic_spells.004.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_04_name$"
+  zz_valyria_magic_blood_magic_spells.004.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to bring about healing to one of your armies, or whether you wish to stop this now."
+  zz_valyria_magic_blood_magic_spells.004.opt.a:0 "Yes, Restore my Forces!"
+  zz_valyria_magic_blood_magic_spells.004.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_04.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_04_name$"
+  zz_valyria_magic_blood_magic_04.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ regenerating the health of the army of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_04.toast.tt:0 "$zz_valyria_magic_blood_magic_04.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ccc$\n\nThe use of the arcane forces of [blood_magic|E] to create a replication of a targeted individual. Taking the magical life of a dragon yet unborn, and with a small contribution from a chosen individual it is possible to bring about an impossible magic, the replication of a person, mind, body, and soul."
+  ##Spell Options
+  zz_valyria_magic_blood_magic_05_option_clone:0 "Create a Clone"
+
+  ## event
+  zz_valyria_magic_blood_magic_spells.005.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
+  zz_valyria_magic_blood_magic_spells.005.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to bring about a most strange ritual, making a replication of [recipient.GetName], or whether you wish to stop this now."
+  zz_valyria_magic_blood_magic_spells.005.opt.a:0 "Yes, make a copy!"
+  zz_valyria_magic_blood_magic_spells.005.opt.b:0 "Yes, make a child copy!"
+  zz_valyria_magic_blood_magic_spells.005.opt.c:0 "Yes, make a gender swapped copy!"
+  zz_valyria_magic_blood_magic_spells.005.opt.z:0 "No, do not cast!"
+
+
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_05.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
+  zz_valyria_magic_blood_magic_05.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ creating new life in a simulacrum of [target_char.GetFirstName]."
+  zz_valyria_magic_blood_magic_05.toast.tt:0 "$zz_valyria_magic_blood_magic_05.toast.desc$"
+
+  zz_valyria_magic_blood_magic_05_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_05_name$"
+  zz_valyria_magic_blood_magic_05_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_05_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.toast.desc$"
+
+  zz_valyria_magic_blood_magic.0003.t:0 "Name the Simulacrum"
+  zz_valyria_magic_blood_magic.0003.desc:0 "It is time to give a name to the creation of blood magic that stands before you. You can let them bear the name of their genetic ancestor, or indeed give to them a new and fitting name."
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tci$\n$zz_rdde$\n\nThe use of the arcane forces of [blood_magic|E] to enfuse a living being against disease. Through this spell, it is possible to render someone untouchable to pestilence for several years."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.006.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
+  zz_valyria_magic_blood_magic_spells.006.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to intrude into the realm of life and death, to make man resilient to the forces of pestilence. Do you wish to intrude upon the realm of the Gods?"
+  zz_valyria_magic_blood_magic_spells.006.opt.a:0 "Yes, I am closer to a God than a Man!"
+  zz_valyria_magic_blood_magic_spells.006.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_06.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
+  zz_valyria_magic_blood_magic_06.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering [recipient.GetFirstName] against diseaase for several years."
+  zz_valyria_magic_blood_magic_06.toast.tt:0 "$zz_valyria_magic_blood_magic_06.toast.desc$"
+
+  zz_valyria_magic_blood_magic_06_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_06_name$"
+  zz_valyria_magic_blood_magic_06_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_06_f.toast.tt:0 "$zz_valyria_magic_blood_magic_05_f.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_07.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.007.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
+  zz_valyria_magic_blood_magic_spells.007.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.007.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.007.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_07.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
+  zz_valyria_magic_blood_magic_07.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_07.toast.tt:0 "$zz_valyria_magic_blood_magic_07.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_cl$\n\nThe use of the arcane forces of [blood_magic|E] to empower someone's ability to travel. The chosen subject shall gain permanent boosts to their ability to gather resources for their adventures."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.008.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
+  zz_valyria_magic_blood_magic_spells.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. With magical aid you can enable [recipient.GetName] to store a much greater amount of provisions for their travels. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.008.opt.a:0 "Yes, let them store more!"
+  zz_valyria_magic_blood_magic_spells.008.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_08.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
+  zz_valyria_magic_blood_magic_08.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ letting[recipient.GetFirstName] store many more provisions."
+  zz_valyria_magic_blood_magic_08.toast.tt:0 "$zz_valyria_magic_blood_magic_08.toast.desc$"
+
+  zz_valyria_magic_blood_magic_08_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_08_name$"
+  zz_valyria_magic_blood_magic_08_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_08_f.toast.tt:0 "$zz_valyria_magic_blood_magic_08_f.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_edg$\n\nThe use of the arcane forces of [blood_magic|E] to empower the ability of a chosen characcter to travel rapidly. The chosen subject will move with improved speed as they travel."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.009.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_09_name$"
+  zz_valyria_magic_blood_magic_spells.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. You can enfuse the very body of [recipient.GetName] with magical energies, granting to them an unnatural haste. This shall let them move much more rapdily, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.009.opt.a:0 "Yes, empower their movement!"
+  zz_valyria_magic_blood_magic_spells.009.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_09.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_09_name$"
+  zz_valyria_magic_blood_magic_09.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the speed of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_09.toast.tt:0 "$zz_valyria_magic_blood_magic_09.toast.desc$"
+  zz_valyria_magic_blood_magic_09_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_09_name$"
+  zz_valyria_magic_blood_magic_09_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_09_f.toast.tt:0 "$zz_valyria_magic_blood_magic_09_f.toast.desc$"
+
+  ## Interaction
+
+  zz_valyria_magic_blood_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_gdb$\n\nThe use of the arcane forces of [blood_magic|E] to infuse the chosen character with a much lower desire for sustance. This will let their supplies stretch further and further."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.010.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_10_name$"
+  zz_valyria_magic_blood_magic_spells.010.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The old rituals talk about changing the very nature of men. It is possible to enfuse [recipient.GetName] in such a way that their sustence requires substantially less resources. \nSuch a ritual is unnatural, are you sure you wish to do this?"
+  zz_valyria_magic_blood_magic_spells.010.opt.a:0 "Yes, By the Blood and Fire!"
+  zz_valyria_magic_blood_magic_spells.010.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_10.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_10_name$"
+  zz_valyria_magic_blood_magic_10.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] against hunger."
+  zz_valyria_magic_blood_magic_10.toast.tt:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] against hunger."
+  zz_valyria_magic_blood_magic_10_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_10_name$"
+  zz_valyria_magic_blood_magic_10_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_10_f.toast.tt:0 "$zz_valyria_magic_blood_magic_10_f.toast.desc$"
+
+  zz_valyria_magic_blood_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with life, and extend their natural span for a period of time."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.011.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_11_name$"
+  zz_valyria_magic_blood_magic_spells.011.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. In shadowy Asshai, rumours abound of profane arts that will make a man endure the ages of the world. It might be possible to empower [recipient.GetName] with the raw conceptual stuff of life.. This will let them endure the changing of the ages. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.011.opt.a:0 "Yes, Even death must bow!"
+  zz_valyria_magic_blood_magic_spells.011.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_11.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_11_name$"
+  zz_valyria_magic_blood_magic_11.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with extra years of life."
+  zz_valyria_magic_blood_magic_11.toast.tt:0 "$zz_valyria_magic_blood_magic_11.toast.desc$"
+
+
+
+  zz_valyria_magic_blood_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with vitality, bolstering their health and helping to protect them from misfortunes of health."
+  recipient_secondary_zz_valyria_magic_blood_magic_12.interaction:0 "$zz_cast$"
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.012.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_12_name$"
+  zz_valyria_magic_blood_magic_spells.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. In the darkest corners of Essos, stories are told about the binding of vitality. It might be possible to empower [recipient.GetName] with raw vital essence.. This will help them stave off injury and ailment. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.012.opt.a:0 "Yes, I am Life's Master!"
+  zz_valyria_magic_blood_magic_spells.012.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_12.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_12_name$"
+  zz_valyria_magic_blood_magic_12.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vital energies, bolstering their health."
+  zz_valyria_magic_blood_magic_12.toast.tt:0 "$zz_valyria_magic_blood_magic_12.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with resilience, defending against disease and pestilence."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.013.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_13_name$"
+  zz_valyria_magic_blood_magic_spells.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Within tribal communities there are knowledges of horrid exchanges. Where pestilence and and disease are set back by invocations paid for in blood. It is fitting to  empower [recipient.GetName] with an endurance against the ravages of pestilence. This will help them stave off disease. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.013.opt.a:0 "Yes, let pestilence be undone!"
+  zz_valyria_magic_blood_magic_spells.013.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_13.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_13_name$"
+  zz_valyria_magic_blood_magic_13.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vital energies, bolstering their epidemic resistence."
+  zz_valyria_magic_blood_magic_13.toast.tt:0 "$zz_valyria_magic_blood_magic_13.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen character with fortitude, allowing them to resist negative health penalities."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.014.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_14_name$"
+  zz_valyria_magic_blood_magic_spells.014.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Among the common value of pultices and potions is the ability to endure the effects of ill health. But among old Valyria, such arts were achieved by the blood mages. It is only right that such power is within your hands. You can have [recipient.GetName] enfused with fortiude, letting them shrug off their ailments. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.014.opt.a:0 "Yes, let them endure!"
+  zz_valyria_magic_blood_magic_spells.014.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_14.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_14_name$"
+  zz_valyria_magic_blood_magic_14.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with fortitude, enabling the resistence of health penalties"
+  zz_valyria_magic_blood_magic_14.toast.tt:0 "$zz_valyria_magic_blood_magic_14.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen with fertility."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.015.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_15_name$"
+  zz_valyria_magic_blood_magic_spells.015.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Among the families of old Valyria fears about succession were rife. It is not surprising that they developed these rituals of fertility. You can have [recipient.GetName] enfused with fertility, letting them rest more certain in their prospects of progeny. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.015.opt.a:0 "Yes, let their line be secure!"
+  zz_valyria_magic_blood_magic_spells.015.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_15.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_15_name$"
+  zz_valyria_magic_blood_magic_15.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with procreative energies, boosting their fertility."
+  zz_valyria_magic_blood_magic_15.toast.tt:0 "$zz_valyria_magic_blood_magic_15.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_md$\n\nThe use of the arcane forces of [blood_magic|E] to strike at the armies of your enemy. Let the blood of the opposing armies become a plague within their veins.."
+  ## event
+  zz_valyria_magic_blood_magic_spells.016.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_16_name$"
+  zz_valyria_magic_blood_magic_spells.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. There are dark stories of the ancient magics of Valyria, where the blood in the veins of an army was turned to a sulfurous mixture, that brought about death and agonies. You could unleah such horrors upon an army of  [recipient.GetName] and dispoil their abilities to make war. But surely some higher power will look an askance of such a monstrous weapon?"
+  zz_valyria_magic_blood_magic_spells.016.opt.a:0 "Yes, There is nothing I won't do!"
+  zz_valyria_magic_blood_magic_spells.016.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_16.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_16_name$"
+  zz_valyria_magic_blood_magic_16.toast.desc:0 "$zz_toast_01$ [blood_magic|E], $zz_toast_02$ making the blood of the soldiers of [target.GetFirstName] boil within their veins, causing them to die a hideous death."
+  zz_valyria_magic_blood_magic_16.toast.tt:0 "$zz_valyria_magic_blood_magic_16.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [blood_magic|E] to strike out a chosen victim, seeking to take from them their very vital energies."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.017.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_17_name$"
+  zz_valyria_magic_blood_magic_spells.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. There are dark stories of the ancient magics of Valyria, stories where someone was grasped by the very blood in their veins. Where it became a force by which their life could be stripped from them. You could unleash such a horror upon [recipient.GetName] and leave them a ruined wreck. But surely some higher power will look an askance of such a monstrous weapon?"
+  zz_valyria_magic_blood_magic_spells.017.opt.a:0 "Mmm, let them merely be crippled!"
+  zz_valyria_magic_blood_magic_spells.017.opt.b:0 "Mmm, rip their life from their lips!"
+  zz_valyria_magic_blood_magic_spells.017.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_17.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_17_name$"
+  zz_valyria_magic_blood_magic_17.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ striking forth at [recipient.GetFirstName] seeking to consume their very life"
+  zz_valyria_magic_blood_magic_17.toast.tt:0 "$zz_valyria_magic_blood_magic_17.toast.desc$"
+
+  zz_valyria_magic_blood_magic_17_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_07_name$"
+  zz_valyria_magic_blood_magic_17_f.toast.desc:0 "$zz_toast_01$ [blood_magic], but [recipient.GetFirstName] resist's the effect."
+  zz_valyria_magic_blood_magic_17_f.toast.tt:0 "$zz_valyria_magic_blood_magic_17_f.toast.desc$"
+
+  # Tyranny 
+  zz_valyria_magic_blood_magic_17.tyranny:0 "Blood Magic increases Tyranny"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_18.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_td$\n$zz_cpt$\n\nThe use of the arcane forces of [blood_magic|E] to restructure for a time the genetics of your soldiers."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.018.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
+  zz_valyria_magic_blood_magic_spells.018.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. \nIt is possible to manipulate the genetics of the soldiers of [recipient.GetName]. But will perhaps some power take offense at the manipulation?"
+  zz_valyria_magic_blood_magic_spells.018.opt.a:0 "Yes, twist and shape!"
+  zz_valyria_magic_blood_magic_spells.018.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_18.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
+  zz_valyria_magic_blood_magic_18.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ instilling resistance into the army of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_18.toast.tt:0 "$zz_valyria_magic_blood_magic_18.toast.desc$"
+
+  zz_valyria_magic_blood_magic_18_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_18_name$"
+  zz_valyria_magic_blood_magic_18_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_18_f.toast.tt:0 "$zz_valyria_magic_blood_magic_18_f.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_19.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ccs$\n\nThe use of the arcane forces of [blood_magic|E] to influence the sex of an unborn child."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.019.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
+  zz_valyria_magic_blood_magic_spells.019.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The manipulation of a child unborn was but a cantrip for lost Valyria. It is possible to wield the magics of blood to choose the sex of the child that settles even now in the womb of  [recipient.GetName]. But can is a distinct question from should."
+  zz_valyria_magic_blood_magic_spells.019.opt.a:0 "Yes, let the child be a boy!"
+  zz_valyria_magic_blood_magic_spells.019.opt.b:0 "Yes, let the child be a girl!"
+  zz_valyria_magic_blood_magic_spells.019.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_19.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
+  zz_valyria_magic_blood_magic_19.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ manipulating the sex of the uborn child of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_19.toast.tt:0 "$zz_valyria_magic_blood_magic_19.toast.desc$"
+
+  zz_valyria_magic_blood_magic_19_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
+  zz_valyria_magic_blood_magic_19_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_19_f.toast.tt:0 "$zz_valyria_magic_blood_magic_19_f.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_20.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ppw$\n\nThe use of the arcane forces of [blood_magic|E] to protect a woman from the risks of child birth."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.020.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
+  zz_valyria_magic_blood_magic_spells.020.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The manipulation of a pregnancy was but a cantrip for lost Valyria. It is possible to wield the magics of blood to ensure that [recipient.GetName] remains safe from the risks of her pregnancy. But can is a distinct question from should."
+  zz_valyria_magic_blood_magic_spells.020.opt.a:0 "Yes, keep them safe!"
+  zz_valyria_magic_blood_magic_spells.020.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_20.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
+  zz_valyria_magic_blood_magic_20.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with a protection against death in child birth."
+  zz_valyria_magic_blood_magic_20.toast.tt:0 "$zz_valyria_magic_blood_magic_20.toast.desc$"
+
+  zz_valyria_magic_blood_magic_20_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_20_name$"
+  zz_valyria_magic_blood_magic_20_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_20_f.toast.tt:0 "$zz_valyria_magic_blood_magic_20_f.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_21.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_puc$\n\nThe use of the arcane forces of [blood_magic|E] to protect an unborn child from the risks of child birth."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.021.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
+  zz_valyria_magic_blood_magic_spells.021.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The manipulation of a pregnancy was but a cantrip for lost Valyria. It is possible to wield the magics of blood to try and ensure that the child slumbering in the womb [recipient.GetName] remains safe from the risks of her pregnancy. But can is a distinct question from should."
+  zz_valyria_magic_blood_magic_spells.021.opt.a:0 "Yes, keep them safe!"
+  zz_valyria_magic_blood_magic_spells.021.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_21.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
+  zz_valyria_magic_blood_magic_21.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with a protection for her unborn child."
+  zz_valyria_magic_blood_magic_21.toast.tt:0 "$zz_valyria_magic_blood_magic_21.toast.desc$"
+
+  zz_valyria_magic_blood_magic_21_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_21_name$"
+  zz_valyria_magic_blood_magic_21_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_21_f.toast.tt:0 "$zz_valyria_magic_blood_magic_21_f.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_22.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_clde$\n$zz_cdb$\n$zz_gis$\n\nThe use of the arcane forces of [blood_magic|E] to take from an unborn dragon the forces of life, moderated by the sacrifice of several dragonblooded individuals and infuse them to an individual, granting them an eternal life."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.022.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
+  zz_valyria_magic_blood_magic_spells.022.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The manipulation of a pregnancy was but a cantrip for lost Valyria. It is possible to wield the magics of blood to take the burning life of a dragon not born, and infuse [recipient.GetName] granting to them an eternal span of life."
+  zz_valyria_magic_blood_magic_spells.022.opt.a:0 "Yes, keep them safe!"
+  zz_valyria_magic_blood_magic_spells.022.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_22.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
+  zz_valyria_magic_blood_magic_22.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ blessing [recipient.GetFirstName] with eternal life."
+  zz_valyria_magic_blood_magic_22.toast.tt:0 "$zz_valyria_magic_blood_magic_22.toast.desc$"
+
+  zz_valyria_magic_blood_magic_22_f.toast.t:0 " Failure [blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
+  zz_valyria_magic_blood_magic_22_f.toast.desc:0 "$zz_toast_01$ [blood_magic],$zz_toast_02$ $zz_toast_03$."
+  zz_valyria_magic_blood_magic_22_f.toast.tt:0 "$zz_valyria_magic_blood_magic_22_f.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_23.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen with youthful vigour."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.023.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_23_name$"
+  zz_valyria_magic_blood_magic_spells.023.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Among the families of old Valyria fears about succession were rife. It is not surprising that they developed these rituals of youth. You can have [recipient.GetName] enfused with youthful energy, letting them fight as they did in their youth. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic_spells.023.opt.a:0 "Yes, let their line be secure!"
+  zz_valyria_magic_blood_magic_spells.023.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_23.toast.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_23_name$"
+  zz_valyria_magic_blood_magic_23.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with vitaility, stripping the trappings of age."
+  zz_valyria_magic_blood_magic_23.toast.tt:0 "$zz_valyria_magic_blood_magic_23.toast.desc$"
+
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_24.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.024.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_24_name$"
+  zz_valyria_magic_blood_magic_spells.024.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.024.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.024.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_24.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_24_name$"
+  zz_valyria_magic_blood_magic_24.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_24.toast.tt:0 "$zz_valyria_magic_blood_magic_24.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_25.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.025.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_25_name$"
+  zz_valyria_magic_blood_magic_spells.025.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.025.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.025.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_25.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_25_name$"
+  zz_valyria_magic_blood_magic_25.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_25.toast.tt:0 "$zz_valyria_magic_blood_magic_25.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_26.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.026.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_26_name$"
+  zz_valyria_magic_blood_magic_spells.026.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.026.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.026.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_26.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_26_name$"
+  zz_valyria_magic_blood_magic_26.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_26.toast.tt:0 "$zz_valyria_magic_blood_magic_26.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_27.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.027.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_27_name$"
+  zz_valyria_magic_blood_magic_spells.027.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.027.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.027.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_27.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_27_name$"
+  zz_valyria_magic_blood_magic_27.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_27.toast.tt:0 "$zz_valyria_magic_blood_magic_27.toast.desc$"
+
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_28.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.028.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_28_name$"
+  zz_valyria_magic_blood_magic_spells.028.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.028.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.028.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_28.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_28_name$"
+  zz_valyria_magic_blood_magic_28.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_28.toast.tt:0 "$zz_valyria_magic_blood_magic_28.toast.desc$"
+
+  ## Interaction
+  zz_valyria_magic_blood_magic_29.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  ##Spell Options
+  ## event
+  zz_valyria_magic_blood_magic_spells.029.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_29_name$"
+  zz_valyria_magic_blood_magic_spells.029.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic_spells.029.opt.a:0 "Yes, enrich their blood with magic!"
+  zz_valyria_magic_blood_magic_spells.029.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_blood_magic_29.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_29_name$"
+  zz_valyria_magic_blood_magic_29.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_29.toast.tt:0 "$zz_valyria_magic_blood_magic_29.toast.desc$"
