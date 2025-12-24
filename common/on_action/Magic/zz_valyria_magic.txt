@@ -135,10 +135,9 @@ random_yearly_everyone_pulse = {
 
 zz_valyria_mana_gain_on_actions = {
 	on_actions = {
-		#zz_valyria_mana_gain_dynn_setenon_on_action
-		zz_valyria_mana_gain_red_comet_on_action
-		zz_valyria_mana_gain_items_on_action
-		zz_valyria_mana_modifier_action
+	}
+	effect = {
+		zz_valyria_mana_gain_passive = yes
 	}
 }
 
@@ -174,74 +173,7 @@ zz_valyria_magic_dragon_life_extension_lost = {
 	}
 }
 
-zz_valyria_mana_gain_red_comet_on_action = {
-	trigger = {
-		has_trait = starwalker
-	}
-	effect = {
-		zz_valyria_mana_gain = {
-			MANAGAIN = 1
-		}
-	}
-}
 
-
-zz_valyria_mana_gain_dynn_setenon_on_action = {
-	trigger = {
-		root.dynasty =dynasty:dynn_Setenon
-	}
-	effect = {
-		zz_valyria_mana_gain = {
-			MANAGAIN = 1
-		}
-	}
-}
-
-zz_valyria_mana_gain_items_on_action = {
-	trigger = {
-		any_equipped_character_artifact = {
-			has_artifact_modifier = zz_valyria_magic_xp_gain_passive_modifier
-		}
-	}
-	effect = {
-		set_variable = { name = managain value = 0 days = 1 }
-		every_equipped_character_artifact = {			
-			limit = {
-				has_artifact_modifier = zz_valyria_magic_xp_gain_passive_modifier
-			}
-			save_scope_as = item 
-			root = {
-				change_variable = { name = managain add = scope:item.var:item_mana_gain }
-			}
-			
-		}
-		zz_valyria_mana_gain = {
-			MANAGAIN = var:managain
-		}
-	}
-}
-zz_valyria_mana_modifier_action = {
-	trigger = {
-		any_owned_story = {
-			story_type = zz_valyria_magic_dream_magic_10_story
-		}
-	}
-	effect = {
-		set_variable = { name = managain value = 0 days = 1 }
-		every_owned_story = {
-			limit = {
-				story_type = zz_valyria_magic_dream_magic_10_story
-			}
-			save_scope_as = mystery 
-			root = {
-				change_variable = { name = managain add = scope:mystery.var:mystery_potency }
-			}
-		}
-		zz_valyria_mana_gain = {
-			MANAGAIN = var:managain
-		}
-	}
-}
 
 
 

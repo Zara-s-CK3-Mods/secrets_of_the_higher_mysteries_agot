@@ -268,7 +268,7 @@ zz_valyria_drops_power_passive_gain = {
 		}
 		if = {
 			limit = {
-				dynasty =dynasty:dynn_Ambrosius
+				dynasty ?= dynasty:dynn_Setenon
 			}
 			add = 1
 		}
