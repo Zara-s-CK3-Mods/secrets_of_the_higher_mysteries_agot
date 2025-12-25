@@ -13,9 +13,6 @@
 	religion = valyrian_pan_freehold
 	culture = high_valyrian
 
-	#father = Targaryen_13_A
-	#mother = Targaryen_13_B
-
 	trait = education_learning_5
 	trait = patient
 	trait = diligent
@@ -321,3 +318,275 @@ Dummy_Setenon_07 = {
 	}
 	118.1.2 = { death = yes }
 }
+
+
+Setenon_02 = {
+	name = Aerea # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_41
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+Setenon_03 = {
+	name = Alysanne # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_41
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+Setenon_04 = {
+	name = Saera # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_41
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+
+Setenon_05 = {
+	name = Gael # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_55
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+
+Setenon_06 = {
+	name = Elaena # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_55
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+Setenon_07 = {
+	name = Helaena # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_55
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+Setenon_08 = {
+	name = Aemma # Canon
+	dynasty = dynn_Setenon
+	female = yes
+
+	dna = Targaryen_55
+
+	religion = valyrian_pan_freehold
+	culture = high_valyrian
+
+	
+
+	trait = education_diplomacy_5
+	trait = dragon_dreams
+	trait = zz_valyrian_longevity 
+	trait = disease_resistance_alchemical
+	trait = immortal 
+	trait = intellect_good_3
+	trait = patient
+	trait = diligent
+	trait = humble
+	trait = calm
+	trait = curious
+	trait = immortal
+	trait = magic_blood_good_3
+	trait = lifespan_good_3
+
+	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
+
+	8042.1.1 = {
+		birth = yes
+		employer = Setenon_01
+		set_immortal_age = 16
+		zz_add_spell = { 
+			SPELL = zz_valyria_magic_blood_magic_01
+		}
+	}
+}
+
+
