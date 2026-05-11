@@ -114,16 +114,21 @@
 			zz_add_spell  = { SPELLSCHOOL = dream NUMBER = 053 }
 			zz_add_spell  = { SPELLSCHOOL = dream NUMBER = 054 }
 			zz_add_spell  = { SPELLSCHOOL = dream NUMBER = 055 }
+			zz_add_spell  = { SPELLSCHOOL = dream NUMBER = 056 }
 
 			zz_add_spell  = { SPELLSCHOOL = shadow NUMBER = 014 }
 			zz_add_spell  = { SPELLSCHOOL = shadow NUMBER = 015 }
 
 			zz_add_spell  = { SPELLSCHOOL = alchemy NUMBER = 003 }
+			zz_add_spell  = { SPELLSCHOOL = alchemy NUMBER = 020 }
 
 			zz_add_spell  = { SPELLSCHOOL = fire NUMBER = 001 }
+			zz_add_spell  = { SPELLSCHOOL = fire NUMBER = 004 }
 
+			zz_add_spell  = { SPELLSCHOOL = air NUMBER = 001 }
 			zz_add_spell  = { SPELLSCHOOL = air NUMBER = 004 }
 
+			zz_add_spell  = { SPELLSCHOOL = water NUMBER = 001 }
 			zz_add_spell  = { SPELLSCHOOL = water NUMBER = 004 }
 
 			zz_add_spell  = { SPELLSCHOOL = dragon NUMBER = 001 }

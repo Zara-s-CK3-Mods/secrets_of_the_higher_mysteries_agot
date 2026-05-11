@@ -72,13 +72,11 @@
 						subtract = 1
 					}
 					story_owner = {
-						THIS = { 
-							save_scope_as = dragon
-						}
+						save_scope_as = dragon
 						send_interface_toast = {
 							type = send_interface_message_as_feed_spell_buff_proc
-							title = zz_blood_magic_draconic_enchantment
-							desc = zz_blood_magic_draconic_enchantment.desc
+							title = zz_valyria_magic_dragon_magic_003_story.trigger
+							desc = zz_valyria_magic_dragon_magic_003_story.desc
 							left_icon = scope:dragon
 							add_prowess_skill = scope:story.var:mystery_potency 
 							while = {
@@ -99,10 +97,11 @@
 							scope:rider ?= {
 								send_interface_toast = {
 									type = send_interface_message_as_feed_spell_buff_proc
-									title = zz_blood_magic_draconic_enchantment
-									desc = zz_blood_magic_draconic_enchantment.desc
+									title = zz_valyria_magic_dragon_magic_003_story.trigger
+									desc = zz_valyria_magic_dragon_magic_003_story.desc
 									left_icon = scope:rider
 									right_icon = scope:dragon
+									custom_tooltip = zz_valyria_magic_dragon_magic_003_story.desc
 								}
 							}
 						}

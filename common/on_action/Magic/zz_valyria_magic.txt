@@ -316,6 +316,13 @@ zz_valyria_on_game_start_after_lobby = {
 
 
 			
+		} 
+		if = {
+			limit = {
+				zz_valyria_is_mage = yes 
+			}
+			save_scope_as = zz_magic_user
+			zz_valyria_make_mage_list =  {MAGIC_USER = zz_magic_user}
 		}
 	}
 	events = {

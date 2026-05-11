@@ -1,4 +1,4 @@
-﻿quarterly_playable_pulse = {
+﻿random_yearly_everyone_pulse = {
 	on_actions = {
         zz_valyria_student_relation_quarterly_pulse
     }
@@ -8,14 +8,12 @@
 ####################################
 zz_valyria_student_relation_quarterly_pulse = {
 	trigger = {
-		scope:quarter = 4
 	}
 	on_actions = {
-		#mentor_student_relation_changes
 		zz_valyria_student_relation_completion
 	}
 	random_on_action = {
-		chance_to_happen = 10
+		chance_to_happen = 50
 		10 = zz_valyria_student_relation_learn_spell
 		10 = zz_valyria_student_relation_study_casting
 		20 = zz_valyria_student_relation_study_blood

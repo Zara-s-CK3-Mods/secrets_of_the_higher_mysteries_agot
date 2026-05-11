@@ -1,2 +1,4 @@
 ﻿l_english:
   zz_valyria_magic_dragon_magic_003_story:0 "Blessing - $zz_valyria_magic_dragon_magic.003.name$"
+  zz_valyria_magic_dragon_magic_003_story.trigger:0 "$zz_valyria_magic_dragon_magic_003_story$"
+  zz_valyria_magic_dragon_magic_003_story.desc:0 "A powerful enchantment takes grip, [dragon.GetName] grows in size and power."

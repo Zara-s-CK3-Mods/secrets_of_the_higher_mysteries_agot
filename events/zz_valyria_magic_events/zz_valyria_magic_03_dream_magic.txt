@@ -3236,9 +3236,20 @@ zz_valyria_magic_dream_magic.050 = {
 	}
 	lower_center_portrait = scope:recipient
 	immediate = {
+		zz_valyria_every_cultural_tradition_list = yes
+	}
+	widget = {
+		is_shown = {
+			is_ai = no
+		}
+		gui = "event_window_culture_tradition_selection"
+		container = "custom_widgets_container"
 	}
 	option = {
 		name = zz_valyria_magic_dream_magic.050.opt.a
+		var:selected_culture_tradition = {
+			save_scope_as = selected_culture_tradition
+		}
 		hidden_effect = {
 			zz_valyria_magic_cast_effect = {
 				SKILL = dream_magic

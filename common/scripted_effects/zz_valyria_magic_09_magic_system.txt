@@ -2946,6 +2946,9 @@ zz_add_spell = {
 					}
 				}
 				add_trait_force_tooltip = zz_magister
+				
+				save_scope_as = zz_magic_user
+				zz_valyria_make_mage_list =  {MAGIC_USER = zz_magic_user}
 			}
 		}		
 	}

@@ -2303,7 +2303,7 @@ zz_valyria_magic_dream_magic_050_effect = {
 			}
 			scope:recipient = { 
 				culture = {
-					add_culture_tradition = scope:culturetraditon
+					add_culture_tradition = scope:selected_culture_tradition
 				}
 			}			
 			scope:recipient = {		
